@@ -1,8 +1,3 @@
-Absolutely — here’s a **clean, perfectly formatted GitHub-ready README section** you can paste directly into your repo.
-It fits GitHub Markdown conventions, looks sharp, and reads professionally.
-
----
-
 # 👋 Hi, I’m Phil Hills
 
 **Marketing & AI Automation Specialist — Seattle, WA**
@@ -60,13 +55,6 @@ My work focuses on improving communication and the borrower experience within th
 
 If you're interested in marketing, automation, borrower experience, or AI tools that support licensed loan officers, feel free to connect.
 
----
 
-If you'd like, I can also generate:
-
-✔ a version with badges (GitHub-style flair)
-✔ a mini profile card (left-image/right-text)
-✔ a collapsible “More about me” section
-✔ a version tailored to GitHub Pages (HTML-friendly)
 
 Just tell me!
