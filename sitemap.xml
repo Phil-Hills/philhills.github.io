@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://philhills.com/</loc>
+  </url>
+
+  <url>
+    <loc>https://philhills.com/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://philhills.com/identity.html</loc>
+  </url>
+
+  <url>
+    <loc>https://philhills.com/automation.html</loc>
+  </url>
+
+  <url>
+    <loc>https://philhills.com/deep-dive.html</loc>
+  </url>
+
+  <url>
+    <loc>https://philhills.com/insights/</loc>
+  </url>
+
+  <url>
+    <loc>https://philhills.com/neighborhoods/ballard.html</loc>
+  </url>
+
+  <url>
+    <loc>https://philhills.com/neighborhoods/capitol-hill.html</loc>
+  </url>
+
+  <url>
+    <loc>https://philhills.com/neighborhoods/west-seattle.html</loc>
+  </url>
+
+</urlset>
