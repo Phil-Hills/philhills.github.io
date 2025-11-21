@@ -1,36 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://philhills.com/about.html</loc>
+    <loc>https://philhills.ai/about.html</loc>
   </url>
   <url>
-    <loc>https://philhills.com/automation.html</loc>
+    <loc>https://philhills.ai/automation.html</loc>
   </url>
   <url>
-    <loc>https://philhills.com/contact.html</loc>
+    <loc>https://philhills.ai/contact.html</loc>
   </url>
   <url>
-    <loc>https://philhills.com/deep-dive.html</loc>
+    <loc>https://philhills.ai/index.html</loc>
   </url>
   <url>
-    <loc>https://philhills.com/identity.html</loc>
-  </url>
-  <url>
-    <loc>https://philhills.com/index.html</loc>
-  </url>
-  <url>
-    <loc>https://philhills.com/phil-hills-seattle.html</loc>
-  </url>
-  <url>
-    <loc>https://philhills.com/insights/</loc>
-  </url>
-  <url>
-    <loc>https://philhills.com/neighborhoods/ballard.html</loc>
-  </url>
-  <url>
-    <loc>https://philhills.com/neighborhoods/capitol-hill.html</loc>
-  </url>
-  <url>
-    <loc>https://philhills.com/neighborhoods/west-seattle.html</loc>
+    <loc>https://philhills.ai/insights/</loc>
   </url>
 </urlset>
