@@ -1,60 +1,36 @@
 # 👋 Hi, I’m Phil Hills
 
-**Marketing & AI Automation Specialist — Seattle, WA**
+**AI Programmer & Automation Engineer — Seattle, WA**
 
-Supporting licensed Movement Mortgage loan officers with workflows, communication tools, and digital experience design.
+Building AI-powered tools and systems, with a focus on projects like the Cube Protocol. This repository contains my personal website and portfolio.
 
 ---
 
 ## 🧩 What I Focus On
 
-* Automation workflows for borrower communication
-* AI-assisted content drafting (under human review)
-* Marketing systems and education flows
-* Conversation design
-* Borrower experience mapping
-* Seattle-focused educational content
-
-I work entirely in **marketing, automation, and technology** — not in loan origination.
-
----
-
-## 🚫 What I Don’t Do (Compliance Clarity)
-
-To stay accurate and aligned with regulations:
-
-* I am **not** a mortgage loan originator
-* I do not take applications
-* I do not quote rates, terms, or payments
-* I do not provide mortgage advice
-
-All mortgage-specific guidance is handled exclusively by **licensed Movement Mortgage loan officers**.
+*   AI project development
+*   Exploring decentralized technologies with **Cube Protocol**
+*   Automation workflows and systems
+*   Conversation design and AI-assisted communication
+*   Experience mapping for complex user journeys
 
 ---
 
 ## 🔗 Verified Links
 
 **Website:**
-[https://philhills.com](https://philhills.com)
-
-**Deep Dive:**
-[https://philhills.com/deep-dive.html](https://philhills.com/deep-dive.html)
+[https://philhills.ai](https://philhills.ai)
 
 **LinkedIn:**
 [https://linkedin.com/in/hillphil](https://linkedin.com/in/hillphil)
 
-**Automation Work:**
-[https://philhills.com/automation.html](https://philhills.com/automation.html)
+**GitHub:**
+[https://github.com/philhills](https://github.com/philhills)
 
 ---
 
 ## 🧠 Background
 
-I bring 20+ years of experience in automation, AI, and conversation design.
-My work focuses on improving communication and the borrower experience within the mortgage ecosystem by supporting licensed loan officers behind the scenes.
+I bring 20+ years of experience in automation, AI, and software development. My current work is centered on building and experimenting with AI applications, including contributions to the Cube Protocol and other independent AI projects.
 
-If you're interested in marketing, automation, borrower experience, or AI tools that support licensed loan officers, feel free to connect.
-
-
-
-Just tell me!
+If you're interested in AI, automation, or decentralized tech, feel free to connect.
