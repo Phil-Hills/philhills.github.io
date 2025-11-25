@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cube Protocol — Multi-Agent AI Automation Framework</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Cube Protocol is an AI automation and multi-agent reasoning framework created by Phil Hills to coordinate intelligent workflows." />
+  <link rel="canonical" href="https://philhills.com/cube-protocol.html" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="site-wrapper">
+  <header class="navbar">
+    <div class="nav-inner">
+      <a class="brand" href="/">
+        <div class="brand-logo">PH</div>
+        <div class="brand-text">
+          <span>Phil Hills</span>
+          <span>AI Programmer & Automation Architect · Seattle</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="/about.html">About</a>
+        <a href="/cube-protocol.html">Cube Protocol</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="page-hero">
+      <h1 class="page-title">Cube Protocol</h1>
+      <p class="page-subtitle">
+        An AI automation and multi-agent reasoning framework designed by Phil Hills.
+      </p>
+    </section>
+
+    <section class="page-section">
+      <div class="stack">
+        <div>
+          <h2>Why Cube Protocol?</h2>
+          <p>
+            Traditional LLM messaging is verbose, lossy, and slow. Cube Protocol solves
+            this by introducing a compressed representation layer with explicit semantics,
+            fingerprinting, and multi-channel payloads optimized for agent-to-agent
+            collaboration.
+          </p>
+        </div>
+
+        <div>
+          <h2>Core Components</h2>
+          <ul>
+            <li><strong>Blueprint Encoding:</strong> Structured representation of agent intent and metadata.</li>
+            <li><strong>Multi-Channel Payload:</strong> Parallel compressed vectors for instructions, memory, and context.</li>
+            <li><strong>Packet Fingerprinting:</strong> Integrity checking and source verification.</li>
+            <li><strong>Semantic Compression:</strong> Reduces token usage while preserving meaning.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Example Cube Packet</h2>
+          <pre><code>{
+  "cube_version": "1.0",
+  "intent": "summarize",
+  "payload": {
+    "compressed_vectors": ["v0x91f2", "v0x22c1"],
+    "context_hash": "a82c11d9fe1b"
+  },
+  "fingerprint": "fp_9932_ab12"
+}</code></pre>
+        </div>
+
+        <div>
+          <h2>Implementation</h2>
+          <p>
+            Cube Protocol is implemented across multiple languages including
+            TypeScript, Python, and Rust. Companion libraries handle encoding,
+            decoding, compression, and packet verification.
+          </p>
+        </div>
+
+        <div>
+          <h2>Project Status</h2>
+          <p>
+            Cube Protocol is actively evolving with new compression layers,
+            multi-agent routing logic, and an expanding test suite.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>© <span id="year"></span> Phil Hills. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/cube-protocol.html">Cube Protocol</a>
+        <a href="https://github.com/Phil-Hills" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+</div>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
