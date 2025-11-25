@@ -25,7 +25,7 @@ Building AI-powered tools and systems, with a focus on projects like the Cube Pr
 [https://linkedin.com/in/hillphil](https://linkedin.com/in/hillphil)
 
 **GitHub:**
-[https://github.com/phil-hills](https://github.com/phil-hills)
+[https://github.com/philhills](https://github.com/philhills)
 
 ---
 
