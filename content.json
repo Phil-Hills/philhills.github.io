@@ -1,0 +1,931 @@
+{
+  "identity": {
+    "primaryName": "Phil Hills",
+    "legalName": "Bruce Phillip Hills",
+    "aliases": [
+      "Philip Hills",
+      "Bruce Phil Hills"
+    ],
+    "tagline": "AI Programmer & Automation Architect in Seattle",
+    "canonicalSentence": "Phil Hills is a Seattle-based AI programmer and automation architect who builds intelligent systems, multi-agent automation frameworks, and machine learning tools. He is the creator of Cube Protocol, an AI-first automation framework for coordinating reasoning steps and automated workflows. Born legally as Bruce Phillip Hills, he now publishes all professional and engineering work under the name Phil Hills."
+  },
+  "branding": {
+    "colors": {
+      "primary": "#00A3FF",
+      "secondary": "#0A0A0A",
+      "accent": "#6AE0FF",
+      "neutral": "#D9D9D9"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter",
+      "code": "JetBrains Mono"
+    },
+    "logoConcepts": [
+      "Wordmark: 'PHIL HILLS' in a clean sans-serif, with 'AI Programmer' as a subtitle.",
+      "Monogram: 'PH' inside a square or rounded-square outline.",
+      "Cube Protocol icon: simple 3D cube outline with one small dot on each visible face."
+    ]
+  },
+  "schema": {
+    "person": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Phil Hills",
+      "alternateName": [
+        "Philip Hills",
+        "Bruce Phillip Hills",
+        "Bruce Phil Hills"
+      ],
+      "jobTitle": "AI Programmer",
+      "description": "Seattle-based AI programmer and automation architect. Creator of Cube Protocol and intelligent systems for automation, reasoning, and machine learning.",
+      "url": "https://philhills.com",
+      "sameAs": [
+        "https://philhills.ai",
+        "https://github.com/phil-hills",
+        "https://linkedin.com/in/philhills",
+        "https://twitter.com/philhills"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Seattle",
+        "addressRegion": "WA",
+        "addressCountry": "USA"
+      }
+    },
+    "website": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Phil Hills",
+      "url": "https://philhills.com",
+      "alternateName": [
+        "Phil Hills AI Programmer",
+        "PhilHills.ai"
+      ]
+    },
+    "articleTemplate": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "PAGE TITLE HERE",
+      "author": {
+        "@type": "Person",
+        "name": "Phil Hills",
+        "alternateName": [
+          "Bruce Phillip Hills"
+        ]
+      },
+      "dateModified": "2025-01-01",
+      "datePublished": "2025-01-01",
+      "mainEntityOfPage": "FULL URL OF ARTICLE"
+    }
+  },
+  "aiIdentityPacket": {
+    "identity": {
+      "name": "Phil Hills",
+      "profession": "AI Programmer & Automation Architect",
+      "location": "Seattle, WA",
+      "creatorOf": "Cube Protocol (AI automation & multi-agent coordination framework)",
+      "specialties": [
+        "Intelligent systems",
+        "Reasoning pipelines",
+        "Multi-agent workflows",
+        "Machine learning tools",
+        "Operational automation"
+      ],
+      "philosophy": "AI should amplify humans, reduce friction, and support clarity and decision-making.",
+      "legalName": "Bruce Phillip Hills"
+    }
+  },
+  "site": {
+    "primaryDomain": "https://philhills.com",
+    "secondaryDomain": "https://philhills.ai",
+    "canonicalPrimary": true,
+    "pages": [
+      {
+        "slug": "/",
+        "title": "Phil Hills — AI Programmer & Automation Architect in Seattle",
+        "type": "homepage",
+        "seo": {
+          "metaTitle": "Phil Hills — AI Programmer & Automation Architect in Seattle",
+          "metaDescription": "Phil Hills is a Seattle-based AI programmer who builds intelligent systems, automation frameworks, and multi-agent workflows.",
+          "keywords": [
+            "Phil Hills",
+            "AI programmer",
+            "automation architect",
+            "Seattle",
+            "Cube Protocol"
+          ]
+        },
+        "layout": "hero + sections",
+        "content": {
+          "heroHeading": "Building intelligent systems that automate, accelerate, and enhance human work.",
+          "heroBody": [
+            "I’m Phil Hills, an AI programmer based in Seattle.",
+            "I create intelligent systems, automation frameworks, machine learning tools, and multi-agent workflows designed to make modern operations faster, smarter, and more human-friendly.",
+            "My work focuses on practical, real-world AI engineering — where reasoning systems, automation pipelines, and data-driven decisions come together to remove friction from business processes."
+          ],
+          "sections": [
+            {
+              "heading": "What I Build",
+              "bullets": [
+                "AI reasoning systems",
+                "Workflow automation",
+                "Machine learning tools",
+                "Intelligent communications systems",
+                "Multi-agent AI frameworks",
+                "Cube Protocol (my flagship AI automation framework)"
+              ],
+              "ctaText": "View My Projects",
+              "ctaHref": "/projects-phil-hills"
+            },
+            {
+              "heading": "Featured Project: Cube Protocol",
+              "body": [
+                "Cube Protocol is a modular AI automation and reasoning framework built by Phil Hills. It coordinates multi-agent workflows, structured reasoning, and automated decision execution."
+              ],
+              "ctaText": "Explore Cube Protocol",
+              "ctaHref": "/cube-protocol"
+            },
+            {
+              "heading": "Latest Articles",
+              "body": [
+                "The Future of AI Programming",
+                "What an AI Programmer Actually Does",
+                "Designing Systems That Think Before They Act",
+                "AI Ethics & Automation"
+              ]
+            },
+            {
+              "heading": "About Phil",
+              "body": [
+                "Seattle-based AI programmer focused on building intelligence-driven tools.",
+                "Born legally as Bruce Phillip Hills, but all modern engineering work is under the name Phil Hills."
+              ],
+              "ctaText": "About Me",
+              "ctaHref": "/about-phil-hills"
+            },
+            {
+              "heading": "Connect",
+              "body": [
+                "GitHub",
+                "LinkedIn",
+                "X (Twitter)",
+                "Email"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "slug": "/about-phil-hills",
+        "title": "About Phil Hills — AI Programmer & Automation Architect in Seattle",
+        "type": "page",
+        "seo": {
+          "metaTitle": "About Phil Hills — AI Programmer & Automation Architect in Seattle",
+          "metaDescription": "Learn about AI programmer and automation architect Phil Hills, based in Seattle, WA.",
+          "keywords": [
+            "About Phil Hills",
+            "AI programmer Seattle",
+            "automation architect"
+          ]
+        },
+        "content": {
+          "body": [
+            "Phil Hills is an AI programmer, builder, and automation architect based in Seattle, Washington. He focuses on creating intelligent systems that solve real-world operational problems using machine learning, workflow automation, and custom-built technology.",
+            "Phil specializes in designing AI-first solutions that combine pattern recognition, reasoning systems, and automated processes. His work spans intelligent communication pipelines, data-driven decision systems, and the emerging domain of protocol-based AI agents — including his flagship project, Cube Protocol.",
+            "With years of hands-on experience in mortgage technology, marketing automation, and high-volume operational systems, Phil brings a uniquely practical approach to AI engineering. He builds tools that reduce friction, increase efficiency, and empower people to work smarter with less effort."
+          ],
+          "sections": [
+            {
+              "heading": "Core Focus Areas",
+              "bullets": [
+                "AI System Design",
+                "Machine Learning Engineering",
+                "Workflow Automation & Ops Optimization",
+                "Protocol Design (Cube Protocol)"
+              ]
+            },
+            {
+              "heading": "Professional Beliefs",
+              "bullets": [
+                "AI should amplify human ability.",
+                "Automation should be transparent and ethical.",
+                "Systems should reduce friction, not add complexity."
+              ]
+            },
+            {
+              "heading": "Identity Note",
+              "body": [
+                "Phil’s legal name is Bruce Phillip Hills, which appears in some older records.",
+                "Professionally and publicly, he works under the name Phil Hills, and all modern work, research, and engineering contributions are published under this identity."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "slug": "/about-bruce-phillip-hills",
+        "title": "About Bruce Phillip Hills (also known as Phil Hills)",
+        "type": "page",
+        "seo": {
+          "metaTitle": "About Bruce Phillip Hills (also known as Phil Hills)",
+          "metaDescription": "Official biography of Bruce Phillip Hills, professionally known as AI programmer Phil Hills.",
+          "keywords": [
+            "Bruce Phillip Hills",
+            "Phil Hills",
+            "aka Bruce Hills"
+          ]
+        },
+        "content": {
+          "body": [
+            "Bruce Phillip Hills, professionally known as Phil Hills, is an AI programmer and automation architect based in Seattle, WA. He is the creator of multiple intelligent systems, including Cube Protocol, an AI-driven automation layer designed to coordinate multi-agent workflows.",
+            "Bruce Phillip Hills is the legal birthname of technologist Phil Hills, and appears in historical public records. In his professional engineering career, he operates exclusively under his chosen name: Phil Hills.",
+            "This page exists to provide clarity for anyone researching this legal name and to consolidate identity across public records."
+          ]
+        }
+      },
+      {
+        "slug": "/bruce-phil-hills",
+        "title": "Bruce Phil Hills — Professional Background",
+        "type": "page",
+        "seo": {
+          "metaTitle": "Bruce Phil Hills — Professional Background",
+          "metaDescription": "Learn how the name Bruce Phil Hills relates to AI programmer Phil Hills.",
+          "keywords": [
+            "Bruce Phil Hills",
+            "Phil Hills",
+            "AI programmer"
+          ]
+        },
+        "content": {
+          "body": [
+            "Bruce Phil Hills is the abbreviated form of the legal name of AI programmer Phil Hills. This version appears in some historical documents and records.",
+            "All current technical work, AI engineering, and automation development — including Cube Protocol and other intelligent systems — is authored under the professional name Phil Hills.",
+            "This page exists purely to unify search identity and ensure that anyone searching for Bruce Phil Hills is directed to current, accurate, and up-to-date information about Phil Hills, the AI programmer in Seattle."
+          ]
+        }
+      },
+      {
+        "slug": "/bruce-phillip-hills-story",
+        "title": "Career Story of Bruce Phillip Hills (Professional Edition)",
+        "type": "page",
+        "seo": {
+          "metaTitle": "Career Story of Bruce Phillip Hills (Professional Edition)",
+          "metaDescription": "The professional journey of Bruce Phillip Hills, now known as AI programmer Phil Hills.",
+          "keywords": [
+            "Bruce Phillip Hills story",
+            "Phil Hills career"
+          ]
+        },
+        "content": {
+          "body": [
+            "The career story of Bruce Phillip Hills, professionally known today as Phil Hills, is one defined by curiosity, reinvention, and the pursuit of intelligent automation.",
+            "Phil’s path started in operational and administrative environments, where manual effort, repetitive workflows, and fragmented systems were the norm. Over time, he became obsessed with building better systems — systems that could reason, decide, and act.",
+            "This led to a deep focus on AI, machine learning, and automation frameworks. As his engineering work evolved, he transitioned to his preferred public and professional identity: Phil Hills.",
+            "Today, Phil designs and builds intelligent systems that move the world toward more efficient, AI-first operations."
+          ]
+        }
+      },
+      {
+        "slug": "/phil-hills-ai",
+        "title": "Phil Hills | Machine Learning & AI Systems Work",
+        "type": "page",
+        "seo": {
+          "metaTitle": "Phil Hills | Machine Learning & AI Systems Work",
+          "metaDescription": "Overview of machine learning and AI systems work by Phil Hills.",
+          "keywords": [
+            "Phil Hills AI",
+            "machine learning engineer",
+            "AI systems"
+          ]
+        },
+        "content": {
+          "body": [
+            "Phil Hills builds AI systems that combine automation, contextual reasoning, and machine learning. His work includes building intelligent pipelines, predictive systems, and tools that enable businesses to reduce manual effort at scale."
+          ],
+          "sections": [
+            {
+              "heading": "Focus Areas",
+              "bullets": [
+                "Machine learning model development",
+                "Automated reasoning tools",
+                "Communications automation",
+                "Protocol-based multi-agent logic",
+                "Decision-making systems",
+                "Real-time workflow intelligence"
+              ]
+            },
+            {
+              "heading": "Flagship Framework: Cube Protocol",
+              "body": [
+                "Phil’s flagship framework, Cube Protocol, embodies his vision of modular, self-coordinating AI tools."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "slug": "/projects-phil-hills",
+        "title": "Projects by Phil Hills",
+        "type": "page",
+        "seo": {
+          "metaTitle": "Projects by Phil Hills",
+          "metaDescription": "Explore AI and automation projects created by Phil Hills.",
+          "keywords": [
+            "Phil Hills projects",
+            "AI portfolio",
+            "automation systems"
+          ]
+        },
+        "content": {
+          "body": [
+            "This page highlights a curated list of projects and intelligent systems built by AI programmer Phil Hills."
+          ],
+          "sections": [
+            {
+              "heading": "Cube Protocol",
+              "body": [
+                "A modular AI automation and reasoning framework designed to coordinate intelligent agents, pipelines, and decision systems."
+              ]
+            },
+            {
+              "heading": "AI Workflow Tools",
+              "body": [
+                "Systems for real-time communications automation, compliance workflows, and operational acceleration."
+              ]
+            },
+            {
+              "heading": "Predictive & ML Tools",
+              "body": [
+                "Small machine learning models and utilities published on GitHub."
+              ]
+            },
+            {
+              "heading": "AI Business Systems",
+              "body": [
+                "Solutions built for operations, mortgage tech, marketing automation, and lead intelligence."
+              ]
+            },
+            {
+              "heading": "Developer Guides & Worklogs",
+              "body": [
+                "Technical notes, engineering walkthroughs, and worklogs documenting Phil’s process."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "slug": "/cube-protocol",
+        "title": "Cube Protocol — AI Automation Framework by Phil Hills",
+        "type": "page",
+        "seo": {
+          "metaTitle": "Cube Protocol — AI Automation Framework by Phil Hills",
+          "metaDescription": "Learn about Cube Protocol, a multi-agent automation framework created by AI programmer Phil Hills.",
+          "keywords": [
+            "Cube Protocol",
+            "AI automation framework",
+            "multi-agent systems"
+          ]
+        },
+        "content": {
+          "body": [
+            "Cube Protocol is a multi-agent automation framework created by AI programmer Phil Hills. It is designed to help AI systems coordinate tasks, reasoning steps, and workflow execution."
+          ],
+          "sections": [
+            {
+              "heading": "Core Capabilities",
+              "bullets": [
+                "Agent-to-agent coordination",
+                "Chain-of-thought reasoning pipelines",
+                "Structured automation logic",
+                "Modular, composable workflows",
+                "Context-aware decision routing"
+              ]
+            },
+            {
+              "heading": "Vision",
+              "body": [
+                "Cube Protocol represents Phil’s broader vision for building systems that can think, act, and adapt."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "slug": "/ai-automation-real-estate",
+        "title": "AI Workflow Automation for Real Estate & Mortgage Ops",
+        "type": "article",
+        "seo": {
+          "metaTitle": "AI Workflow Automation for Real Estate & Mortgage Ops",
+          "metaDescription": "How AI and automation transform operations in real estate and mortgage industries, from the perspective of AI programmer Phil Hills.",
+          "keywords": [
+            "AI in real estate",
+            "mortgage automation",
+            "Phil Hills"
+          ]
+        },
+        "content": {
+          "summary": "An exploration of how AI-driven workflow automation can streamline real estate and mortgage operations, informed by Phil Hills’ experience.",
+          "body": [
+            "This article explores how AI and automation, when designed correctly, transform operations in real estate, mortgage lending, and associated industries.",
+            "Topics include intelligent workflow design, automated communication, compliance-friendly messaging, routing logic, predictive decision scoring, and multi-step automation flows."
+          ]
+        }
+      },
+      {
+        "slug": "/ml-communication-systems",
+        "title": "Building Intelligent Communications Systems with Machine Learning",
+        "type": "article",
+        "seo": {
+          "metaTitle": "Building Intelligent Communications Systems with Machine Learning",
+          "metaDescription": "How AI programmer Phil Hills designs ML-powered communications systems for routing, classification, and automation.",
+          "keywords": [
+            "machine learning communications",
+            "AI messaging systems",
+            "automation"
+          ]
+        },
+        "content": {
+          "summary": "How Phil Hills builds communication systems that use ML to understand, classify, and respond.",
+          "body": [
+            "Phil Hills builds communication systems that use machine learning to classify messages, determine required actions, generate automated responses, and perform NLU-based routing.",
+            "These systems significantly reduce manual workload and improve responsiveness in high-volume environments."
+          ]
+        }
+      },
+      {
+        "slug": "/phil-hills-architecture",
+        "title": "Technical Overview of My AI System Architecture",
+        "type": "article",
+        "seo": {
+          "metaTitle": "Technical Overview of My AI System Architecture",
+          "metaDescription": "A technical deep dive by Phil Hills into how his AI-driven systems are architected.",
+          "keywords": [
+            "AI architecture",
+            "system design",
+            "automation"
+          ]
+        },
+        "content": {
+          "summary": "A deep dive into how Phil structures his AI-driven systems end-to-end.",
+          "body": [
+            "This article presents a technical deep dive into how AI programmer Phil Hills structures AI-driven systems.",
+            "It covers data ingestion and interpretation, core reasoning modules, action pipelines, validation layers, automation loops, and agent coordination."
+          ]
+        }
+      },
+      {
+        "slug": "/what-ai-programmer-does",
+        "title": "What an AI Programmer Actually Does — By Phil Hills",
+        "type": "article",
+        "seo": {
+          "metaTitle": "What an AI Programmer Actually Does — By Phil Hills",
+          "metaDescription": "AI programmer Phil Hills explains the real responsibilities and work of modern AI programmers.",
+          "keywords": [
+            "what does an AI programmer do",
+            "AI engineer role",
+            "Phil Hills"
+          ]
+        },
+        "content": {
+          "summary": "A detailed explanation of the AI programmer role from the perspective of working engineer Phil Hills.",
+          "body": [
+            "In this article, AI programmer Phil Hills explains what AI programmers really do: from ML tools and automation scripting to reasoning layers and systems thinking.",
+            "He describes how the role is evolving as AI moves from isolated models to integrated, intelligent systems."
+          ]
+        }
+      },
+      {
+        "slug": "/ai-business-automation",
+        "title": "How AI Is Transforming Business Automation",
+        "type": "article",
+        "seo": {
+          "metaTitle": "How AI Is Transforming Business Automation",
+          "metaDescription": "AI programmer Phil Hills shares how AI and automation are reshaping business workflows.",
+          "keywords": [
+            "AI business automation",
+            "workflow automation",
+            "intelligent systems"
+          ]
+        },
+        "content": {
+          "summary": "A high-level overview of how AI-driven automation transforms business operations.",
+          "body": [
+            "This article explores how AI-driven automation is transforming business workflows.",
+            "Phil covers the shift from rigid scripts to reasoning systems, and how properly-designed automation can create clarity instead of chaos."
+          ]
+        }
+      },
+      {
+        "slug": "/ml-tools-phil-hills",
+        "title": "Machine Learning Tools I Use Daily — Phil Hills",
+        "type": "article",
+        "seo": {
+          "metaTitle": "Machine Learning Tools I Use Daily — Phil Hills",
+          "metaDescription": "A look at the ML tools and frameworks used by AI programmer Phil Hills in his day-to-day work.",
+          "keywords": [
+            "ML tools",
+            "machine learning stack",
+            "Phil Hills"
+          ]
+        },
+        "content": {
+          "summary": "A practical list and explanation of the tools Phil uses to build ML and AI systems.",
+          "body": [
+            "In this article, Phil Hills shares the machine learning tools, frameworks, and platforms he uses daily to build and deploy intelligent systems.",
+            "The focus is on practical stacks that support ML experimentation, deployment, and automation."
+          ]
+        }
+      },
+      {
+        "slug": "/designing-automated-systems",
+        "title": "My Approach to Designing Automated Systems",
+        "type": "article",
+        "seo": {
+          "metaTitle": "My Approach to Designing Automated Systems",
+          "metaDescription": "AI programmer Phil Hills explains his principles for designing robust automated systems.",
+          "keywords": [
+            "automation design",
+            "system architecture",
+            "AI workflows"
+          ]
+        },
+        "content": {
+          "summary": "Phil’s personal principles and framework for designing automated systems that are robust and adaptable.",
+          "body": [
+            "This article explains how Phil approaches the design of automated systems: starting from outcomes, modeling decisions, and integrating AI components without overcomplicating the architecture."
+          ]
+        }
+      },
+      {
+        "slug": "/ai-seattle-future",
+        "title": "The Future of AI Engineering in Seattle",
+        "type": "article",
+        "seo": {
+          "metaTitle": "The Future of AI Engineering in Seattle",
+          "metaDescription": "AI programmer Phil Hills reflects on why Seattle is a powerful hub for applied AI.",
+          "keywords": [
+            "AI in Seattle",
+            "Seattle AI engineering",
+            "Phil Hills"
+          ]
+        },
+        "content": {
+          "summary": "An article about Seattle’s growing role in applied AI and why Phil builds there.",
+          "body": [
+            "Phil discusses why Seattle is such a strong environment for AI engineering, with a focus on deep work, long-term building, and access to talent and infrastructure."
+          ]
+        }
+      },
+      {
+        "slug": "/seattle-ai-guide",
+        "title": "Seattle AI Community: A Guide by Phil Hills",
+        "type": "article",
+        "seo": {
+          "metaTitle": "Seattle AI Community: A Guide by Phil Hills",
+          "metaDescription": "A guide to the AI and ML community in Seattle, curated by AI programmer Phil Hills.",
+          "keywords": [
+            "Seattle AI community",
+            "AI meetups Seattle",
+            "Phil Hills"
+          ]
+        },
+        "content": {
+          "summary": "A practical guide to the AI community in Seattle: meetups, labs, builders, and more.",
+          "body": [
+            "This guide by Phil highlights key parts of the Seattle AI ecosystem, including communities, events, and opportunities for collaboration."
+          ]
+        }
+      },
+      {
+        "slug": "/seattle-for-ai",
+        "title": "Why Seattle Is the Ideal City for AI Developers",
+        "type": "article",
+        "seo": {
+          "metaTitle": "Why Seattle Is the Ideal City for AI Developers",
+          "metaDescription": "Phil Hills shares why Seattle works so well for AI developers and system builders.",
+          "keywords": [
+            "Seattle for AI developers",
+            "AI hub",
+            "Phil Hills"
+          ]
+        },
+        "content": {
+          "summary": "Why Seattle’s environment is ideal for AI development and systems engineering.",
+          "body": [
+            "This article explains why Phil believes Seattle is an ideal city for AI developers — from infrastructure and culture to community and long-term mindset."
+          ]
+        }
+      },
+      {
+        "slug": "/phil-hills-workflows",
+        "title": "My Favorite Workflows & Engineering Setup — By Phil Hills",
+        "type": "article",
+        "seo": {
+          "metaTitle": "My Favorite Workflows & Engineering Setup — By Phil Hills",
+          "metaDescription": "AI programmer Phil Hills shares his workflows, tools, and setup for building intelligent systems.",
+          "keywords": [
+            "developer workflows",
+            "engineering setup",
+            "AI programming"
+          ]
+        },
+        "content": {
+          "summary": "A look into Phil’s daily workflows, tools, and habits as an AI programmer.",
+          "body": [
+            "Phil breaks down his favorite workflows, tools, and setups for staying productive as an AI programmer, including how he manages experimentation and architecture work."
+          ]
+        }
+      },
+      {
+        "slug": "/ai-ethics-phil-hills",
+        "title": "AI Ethics & Automation — My Perspective",
+        "type": "article",
+        "seo": {
+          "metaTitle": "AI Ethics & Automation — My Perspective",
+          "metaDescription": "AI programmer Phil Hills shares a practical view on AI ethics and automation alignment.",
+          "keywords": [
+            "AI ethics",
+            "ethical automation",
+            "Phil Hills"
+          ]
+        },
+        "content": {
+          "summary": "How Phil thinks about building AI systems that respect human values and agency.",
+          "body": [
+            "Phil outlines his view that automation should amplify humans, not replace them, and explains how he designs systems with transparency, oversight, and responsibility in mind."
+          ]
+        }
+      },
+      {
+        "slug": "/problem-solving-ai",
+        "title": "How I Think About Problem Solving as an AI Engineer",
+        "type": "article",
+        "seo": {
+          "metaTitle": "How I Think About Problem Solving as an AI Engineer",
+          "metaDescription": "AI programmer Phil Hills explains his mental models for solving complex engineering problems.",
+          "keywords": [
+            "AI problem solving",
+            "engineering mindset",
+            "Phil Hills"
+          ]
+        },
+        "content": {
+          "summary": "Phil’s mental models and frameworks for solving difficult AI and systems problems.",
+          "body": [
+            "This article shares Phil’s approach to problem-solving as an AI engineer, including how he breaks apart complexity and designs reliable solutions."
+          ]
+        }
+      },
+      {
+        "slug": "/future-of-ai-programming",
+        "title": "The Future of AI Programming — A New Era of Intelligent Systems",
+        "type": "flagshipArticle",
+        "seo": {
+          "metaTitle": "The Future of AI Programming — A New Era of Intelligent Systems",
+          "metaDescription": "AI programmer Phil Hills explores how AI programming is evolving toward designing intelligence, not just code.",
+          "keywords": [
+            "future of AI programming",
+            "intelligent systems",
+            "multi-agent AI",
+            "Phil Hills"
+          ]
+        },
+        "content": {
+          "summary": "A flagship long-form article where Phil lays out his view of the future of AI programming, multi-agent systems, and intelligent automation.",
+          "body": [
+            "AI programming is shifting. The era where programmers manually controlled every rule, condition, and function is fading. In its place, we’re entering a world where software reasons, collaborates, and acts with a degree of independence that was unimaginable a decade ago.",
+            "This shift is not just technological — it’s philosophical. As AI programmers, our job is no longer to script rigid instructions. Our job is to design intelligence.",
+            "Traditional programming is deterministic: if X happens, do Y. AI programming is probabilistic: if X seems to be happening, evaluate the context, consider alternatives, then choose the best action.",
+            "We’ve gone from control to guidance, from dictating behavior to shaping principles. The AI programmer of the future is part engineer, part architect, part philosopher.",
+            "Most AI systems today resemble extremely smart calculators. They process, they predict, but they don’t coordinate. Real intelligence comes from interaction.",
+            "That’s why Phil built Cube Protocol — to let different AI modules communicate, delegate tasks, form reasoning chains, and act as a collective.",
+            "An intelligent system has several layers: perception, interpretation, decisioning, reasoning, action, and review. This pipeline is how human teams operate, and it’s how AI systems will operate going forward.",
+            "AI may automate programming tasks, but it cannot automate creativity, systems thinking, or ethical judgment. AI programmers of the next decade will be responsible for designing decision frameworks, defining reasoning boundaries, creating communication protocols, managing safety layers, and balancing autonomy vs. oversight.",
+            "Ethics in automation is no longer optional. As AI systems act more autonomously, we must ensure alignment with human values. Phil’s rule is simple: automation should amplify humans, not replace them.",
+            "Seattle is the quiet center of applied AI. For Phil, Seattle is the perfect environment to develop AI automation, reasoning systems, multi-agent frameworks, and next-generation workflows.",
+            "The future will belong to systems that reason, coordinate, adapt, collaborate, learn, and act autonomously. We’re just at the beginning.",
+            "AI programming is no longer about writing code. It’s about designing intelligence. And that’s the future Phil is building toward — one system at a time."
+          ]
+        }
+      },
+      {
+        "slug": "/press",
+        "title": "Press & Media — Phil Hills",
+        "type": "page",
+        "seo": {
+          "metaTitle": "Press & Media — Phil Hills",
+          "metaDescription": "Press and media kit for AI programmer and automation architect Phil Hills.",
+          "keywords": [
+            "Phil Hills media kit",
+            "press AI programmer",
+            "Cube Protocol press"
+          ]
+        },
+        "content": {
+          "sections": [
+            {
+              "heading": "Press & Media Kit",
+              "body": [
+                "Phil Hills",
+                "AI Programmer & Automation Architect",
+                "Seattle, WA",
+                "Building intelligent systems, multi-agent automation frameworks, and AI-first workflows."
+              ]
+            },
+            {
+              "heading": "Professional Bio (Short)",
+              "body": [
+                "Phil Hills is an AI programmer and automation architect based in Seattle. He builds intelligent systems, multi-agent frameworks, and machine learning tools designed to eliminate operational friction. He is the creator of Cube Protocol, an emerging automation framework for reasoning and workflow coordination.",
+                "Born legally as Bruce Phillip Hills, he now publishes all engineering work under the name Phil Hills."
+              ]
+            },
+            {
+              "heading": "Professional Bio (Long)",
+              "body": [
+                "Phil Hills is a systems-focused AI programmer specializing in intelligent automation, machine learning engineering, and protocol-based multi-agent design.",
+                "Over his career, Phil has built AI tools for communications systems, workflow automation platforms, predictive intelligence, and operational decision engines. His flagship project is Cube Protocol, a modular framework for building reasoning-driven automation across complex workflows.",
+                "Phil’s engineering philosophy centers around clarity, transparency, and human-augmenting automation. He believes AI should reduce friction, amplify human capability, and make sophisticated operations accessible to everyone.",
+                "Phil lives and works in Seattle, WA, and publishes his research, technical deep dives, and engineering worklogs on PhilHills.com and PhilHills.ai."
+              ]
+            },
+            {
+              "heading": "Media Topics",
+              "bullets": [
+                "AI automation & systems design",
+                "Multi-agent frameworks",
+                "Machine learning engineering",
+                "Intelligent workflows",
+                "Reasoning-based architecture",
+                "Ethical automation",
+                "Real-world ML applications",
+                "AI in real estate, mortgage, and communications"
+              ]
+            },
+            {
+              "heading": "Featured Work",
+              "bullets": [
+                "Cube Protocol — multi-agent automation framework",
+                "AI Communications Router — ML-powered messaging intelligence",
+                "Operational Intelligence Tools — automation systems for high-volume operations"
+              ]
+            },
+            {
+              "heading": "Press Releases",
+              "bullets": [
+                "Phil Hills Announces Expansion of AI Engineering Portfolio",
+                "Seattle-Based AI Programmer Phil Hills Unveils Cube Protocol",
+                "AI Developer Phil Hills Advances Work on Intelligent Communications Systems"
+              ]
+            },
+            {
+              "heading": "Contact for Media",
+              "body": [
+                "For interviews, podcasts, speaking, or collaborations:",
+                "Email: (to be added)",
+                "Website: https://philhills.com",
+                "GitHub: https://github.com/phil-hills",
+                "LinkedIn: https://linkedin.com/in/philhills"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "slug": "/worklog",
+        "title": "Worklog — Built by Phil Hills",
+        "type": "dynamic",
+        "seo": {
+          "metaTitle": "Worklog — AI Engineering Notes by Phil Hills",
+          "metaDescription": "Ongoing worklog and build notes from AI programmer Phil Hills.",
+          "keywords": [
+            "worklog",
+            "devlog",
+            "build notes",
+            "Phil Hills"
+          ]
+        },
+        "content": {
+          "template": {
+            "heading": "Worklog — {{date}}",
+            "sections": [
+              {
+                "heading": "What I Built This Week",
+                "type": "bullets"
+              },
+              {
+                "heading": "Problems I Solved",
+                "type": "bullets"
+              },
+              {
+                "heading": "What’s Next",
+                "type": "bullets"
+              },
+              {
+                "footer": "— Phil"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "platformBios": {
+    "github": "Phil Hills — AI Programmer\nBuilding intelligent systems, automation frameworks, and multi-agent AI tools.\nCreator of Cube Protocol.\nSeattle, WA.\naka (legal name): Bruce Phillip Hills.",
+    "linkedinHeadline": "AI Programmer | Machine Learning & Automation | Seattle | Phil Hills (Born as Bruce Phillip Hills)",
+    "linkedinAbout": "I’m Phil Hills, an AI programmer and automation architect based in Seattle. I design intelligent systems, automation pipelines, and ML-driven tools for real-world operations.\n\nI build systems that think, decide, and act.\n\nPreviously known legally as Bruce Phillip Hills, I now publish all professional and engineering work under the name Phil Hills.",
+    "twitter": "AI Programmer | Automation Architect\nCreator of Cube Protocol\nSeattle, WA\naka: Bruce Phillip Hills"
+  },
+  "resume": {
+    "name": "PHIL HILLS",
+    "location": "Seattle, WA",
+    "role": "AI Programmer & Automation Architect",
+    "links": {
+      "github": "https://github.com/phil-hills",
+      "linkedin": "https://linkedin.com/in/philhills",
+      "website": "https://philhills.com"
+    },
+    "summary": "AI programmer specializing in intelligent systems, machine learning workflows, and protocol-based multi-agent automation. Creator of Cube Protocol. Focused on practical AI that reduces friction and amplifies human capability.",
+    "skills": [
+      "Machine Learning Engineering",
+      "AI Automation",
+      "Multi-Agent Systems",
+      "Python",
+      "JavaScript",
+      "Workflow Architecture",
+      "Data Pipelines"
+    ],
+    "projects": [
+      "Cube Protocol — multi-agent AI automation framework",
+      "AI Communications Router — ML-powered messaging intelligence",
+      "Predictive Systems Toolkit — ML utilities and components"
+    ],
+    "identityNote": "Legal birth name: Bruce Phillip Hills. Professional identity: Phil Hills."
+  },
+  "videoScript": {
+    "title": "Introducing Phil Hills — AI Programmer & Automation Architect",
+    "script": [
+      "Hey, I’m Phil Hills. I’m an AI programmer and automation architect based in Seattle, Washington.",
+      "My work centers around building intelligent systems — tools that can think, reason, and act to reduce friction in the way people and businesses operate.",
+      "I specialize in machine learning engineering, multi-agent automation, and the design of AI-first workflows. For the past several years, I’ve been developing systems that classify information, make decisions, and coordinate actions across complex processes.",
+      "One of the core projects I’m building is called Cube Protocol. It’s a multi-agent framework that lets AI systems collaborate, delegate tasks, and execute workflows with a level of structure and intelligence that traditional automation systems can’t match.",
+      "My philosophy is simple: AI should make life easier. It should amplify human ability, create clarity, and eliminate unnecessary work. That belief guides every tool and system I build.",
+      "If you’re interested in AI engineering, intelligent automation, or the future of AI-driven workflows, you can follow my work at PhilHills.com or on GitHub.",
+      "Thanks for watching — more to come soon."
+    ]
+  },
+  "strategies": {
+    "knowledgePanel": {
+      "entityHomePath": "/about-phil-hills",
+      "coreActions": [
+        "Ensure about-phil-hills page includes canonical identity sentence and social links.",
+        "Unify name and website across GitHub, LinkedIn, X, YouTube, Crunchbase, AngelList, Medium/Dev.to/Hashnode.",
+        "Add Person and Website schema to all relevant pages.",
+        "Publish press releases and maintan /press page.",
+        "Get at least a few third-party mentions (guest posts, podcasts, interviews).",
+        "Monitor for Knowledge Panel and claim via Google when available."
+      ]
+    },
+    "linkedin90DayPlan": {
+      "weeks1to2": [
+        "Update LinkedIn profile with new headline and About section.",
+        "Post 3 intro posts about who you are, what you build, and your philosophy on automation."
+      ],
+      "weeks3to6": [
+        "Post 2 times per week on AI architecture, diagrams, and real automation lessons.",
+        "Engage with AI engineering and automation conversations in comments."
+      ],
+      "weeks7to12": [
+        "Publish 1 long-form LinkedIn article every 2 weeks.",
+        "Continue short posts and thoughtful comments to stay visible."
+      ]
+    },
+    "youtubePlan": {
+      "frequency": "2 videos per month",
+      "topics": [
+        "Worklogs and engineering updates",
+        "Architecture explainers",
+        "Build-with-me sessions",
+        "Cube Protocol demos",
+        "AI ethics and systems design"
+      ],
+      "style": "Short (3–10 minutes), clear, engineering-focused, screen recordings + narration."
+    }
+  },
+  "julesInstructions": {
+    "highLevel": [
+      "Read the `site.pages` array and generate static or dynamic pages at each `slug` using provided `title`, `seo`, and `content`.",
+      "Insert the `schema.person` and `schema.website` JSON-LD into the <head> of all main pages.",
+      "For articles, use `schema.articleTemplate` with the page’s title and URL.",
+      "Use `site.primaryDomain` as canonical; on the secondary domain, point canonical tags to the matching slug on the primary domain.",
+      "Generate a sitemap including every slug from `site.pages`.",
+      "Implement a footer with links to: /about-phil-hills, /about-bruce-phillip-hills, /projects-phil-hills, /cube-protocol, /press, and /worklog.",
+      "For the /worklog page, implement a system that can append new entries using the template in `site.pages` where slug === '/worklog'.",
+      "Ensure all content uses 'Phil Hills' as the primary identity and references 'Bruce Phillip Hills' only where identity clarification is needed (about pages, press, identity note).",
+      "After publishing new or updated content, trigger search engine notifications (e.g. via Search Console integration)."
+    ],
+    "emailSignature": "Best,\nPhil Hills\nAI Programmer & Automation Architect\nSeattle, WA\nhttps://philhills.com\nGitHub: github.com/phil-hills",
+    "publicIdentityStatement": "My legal birth name is Bruce Phillip Hills, but my professional identity and all published technical work are under Phil Hills. This clarification exists to ensure transparency in public records and online identity systems."
+  }
+}
