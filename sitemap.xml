@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://philhills.ai/about.html</loc>
+    <loc>https://philhills.com/</loc>
   </url>
   <url>
-    <loc>https://philhills.ai/automation.html</loc>
+    <loc>https://philhills.com/about.html</loc>
   </url>
   <url>
-    <loc>https://philhills.ai/contact.html</loc>
+    <loc>https://philhills.com/contact.html</loc>
   </url>
   <url>
-    <loc>https://philhills.ai/index.html</loc>
-  </url>
-  <url>
-    <loc>https://philhills.ai/insights/</loc>
-  </url>
-  <url>
-    <loc>https://philhills.ai/insights/posts/2025-11-21-ai-updates.html</loc>
+    <loc>https://philhills.com/cube-protocol.html</loc>
+    <lastmod>2025-11-25</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 </urlset>
