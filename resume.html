@@ -1,78 +1,171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume – Phil Hills</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="assets/css/style.css">
+<meta charset="utf-8">
+
+<title>Resume – Phil Hills</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Resume of Phil Hills — AI Systems Architect specializing in semantic memory, multi-agent orchestration, and structured data protocols.">
+
+<!-- SEO + AI META -->
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="ai-content" content="index, allow-ai-summary">
+<meta name="google-allow-ai-summarization" content="yes">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://philhills.com/resume.html">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Resume – Phil Hills">
+<meta property="og:description" content="AI Systems Architect with expertise in structured memory systems, agentic orchestration, and large-scale AI workflows.">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://philhills.com/resume.html">
+<meta property="og:image" content="https://philhills.com/media/phil.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Inline Styles -->
+<style>
+  body { margin:0; font-family:system-ui,sans-serif; background:#f9fafb; color:#111; line-height:1.6; }
+  header, main, footer { max-width:940px; margin:0 auto; padding:1.5rem 1rem; }
+
+  header {
+    display:flex; justify-content:space-between; align-items:center;
+    border-bottom:1px solid #e5e7eb; padding-top:2rem;
+  }
+
+  .brand { display:flex; align-items:center; gap:.75rem; }
+  .brand-mark {
+    width:38px; height:38px; border:2px solid #111;
+    border-radius:999px;
+    display:flex; align-items:center; justify-content:center;
+    font-weight:700;
+  }
+  .brand-text { display:flex; flex-direction:column; }
+  .brand-text span:last-child { font-size:.85rem; color:#6b7280; }
+
+  nav a {
+    margin-left:1rem; text-decoration:none; color:#111; font-size:.95rem;
+  }
+  nav a:first-child { margin-left:0; }
+  nav a:hover { text-decoration:underline; }
+
+  h1 { font-size:2rem; margin-top:1.5rem; }
+  h2 { font-size:1.35rem; margin-top:2rem; }
+  ul { padding-left:1.2rem; }
+
+  footer {
+    margin-top:3rem;
+    border-top:1px solid #e5e7eb;
+    padding-top:1rem;
+    font-size:.85rem;
+    color:#6b7280;
+  }
+</style>
+
+<!-- JSON-LD: ProfilePage -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ProfilePage",
+  "name":"Resume – Phil Hills",
+  "url":"https://philhills.com/resume.html",
+  "about":{
+    "@type":"Person",
+    "name":"Phil Hills",
+    "jobTitle":"AI Systems Architect"
+  }
+}
+</script>
+
+<!-- JSON-LD: Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    { "@type":"ListItem", "position":1, "name":"Home", "item":"https://philhills.com/" },
+    { "@type":"ListItem", "position":2, "name":"Resume", "item":"https://philhills.com/resume.html" }
+  ]
+}
+</script>
+
 </head>
 
 <body>
 
-<header class="header">
-    <div class="container header-inner">
-        <div class="brand">
-            <div class="brand-mark">PH</div>
-            <div class="brand-text">
-                <div class="brand-name">Phil Hills</div>
-                <div class="brand-tag">AI Systems Architect</div>
-            </div>
-        </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="cube-protocol.html">Cube Protocol</a>
-            <a href="projects.html">Projects</a>
-            <a href="resume.html" class="active">Resume</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+<header>
+  <div class="brand">
+    <div class="brand-mark">PH</div>
+    <div class="brand-text">
+      <span>Phil Hills</span>
+      <span>AI Systems Architect</span>
     </div>
+  </div>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/cube-protocol.html">Cube Protocol</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/resume.html">Resume</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
 </header>
 
-<section class="hero hero-small">
-    <div class="container hero-inner">
-        <h2>Resume</h2>
-        <p>AI Systems Architect & Agentic Protocol Engineer</p>
-    </div>
-</section>
+<main>
+  <h1>Resume</h1>
 
-<section class="container page">
+  <h2>Professional Summary</h2>
+  <p>
+    AI Systems Architect specializing in semantic memory structures, agentic orchestration,
+    reversible data formats, and multi-agent workflow design. I build systems that give
+    AI agents structured context, continuity, and interoperability across tools and domains.
+  </p>
 
-    <h3>Summary</h3>
-    <p>AI Systems Architect & Agentic Protocol Engineer specializing in semantic memory systems, agent orchestration, and structured data protocols for large-scale AI workflows. Experienced in designing protocol-level extensions for AI systems, token-efficient packetization, and supervised cloud-based multi-agent workflows.</p>
+  <h2>Core Skills</h2>
+  <ul>
+    <li>Semantic memory & structured data protocols</li>
+    <li>Multi-agent system design</li>
+    <li>Agentic orchestration & workflow control</li>
+    <li>Protocol engineering & AI packet formats</li>
+    <li>Large-scale data transformation & compression</li>
+    <li>Cloud architectures (GCP)</li>
+  </ul>
 
-    <h3>Core Skills</h3>
-    <ul>
-        <li>Agentic orchestration & multi-agent workflows</li>
-        <li>Semantic memory & 3D data protocols (Cube Protocol)</li>
-        <li>Cloud automation & pipelines (GCP)</li>
-        <li>AI-to-AI packetization & context optimization</li>
-        <li>Large structured datasets & multi-domain integration</li>
-    </ul>
+  <h2>Selected Work</h2>
+  <ul>
+    <li><strong>Cube Protocol</strong> — A reversible 3D memory packet format.</li>
+    <li><strong>Agentic Orchestration Layer</strong> — Supervised multi-agent workflows.</li>
+    <li><strong>AI Packet Bridge</strong> — Token-efficient structured AI-to-AI communication.</li>
+  </ul>
 
-    <h3>Selected Work</h3>
-    <ul>
-        <li><strong>Cube Protocol:</strong> 3D semantic data format for multi-agent communication and memory.</li>
-        <li><strong>Agentic Orchestration Layer:</strong> Supervised multi-agent workflow engine for cloud systems.</li>
-        <li><strong>AI Packet Bridge:</strong> Token-efficient AI-to-AI data exchange framework.</li>
-    </ul>
+  <h2>Roles & Responsibilities</h2>
+  <ul>
+    <li>Architecting semantic data pipelines & AI control layers</li>
+    <li>Designing multi-agent execution flows & protocols</li>
+    <li>Building reproducible AI workflows with reversible state</li>
+    <li>Creating interoperable data formats for cross-model execution</li>
+    <li>Optimizing data for semantic compression & reconstruction</li>
+  </ul>
 
-    <h3>Links</h3>
-    <ul>
-        <li><a href="https://github.com/Phil-Hills" target="_blank">GitHub – Phil-Hills</a></li>
-        <li><a href="https://www.linkedin.com/in/hillphil/" target="_blank">LinkedIn – hillphil</a></li>
-        <li><a href="cube-protocol.html">Cube Protocol – Deep Dive</a></li>
-    </ul>
+  <h2>Technical Focus</h2>
+  <ul>
+    <li>LLM systems</li>
+    <li>Agent-to-agent communication</li>
+    <li>Multi-domain data pipelines</li>
+    <li>Model-tool interoperability</li>
+    <li>Protocol-driven AI design</li>
+  </ul>
 
-</section>
+</main>
 
-<footer>
-    <p>© 2025 Phil Hills.</p>
-</footer>
-
-<script src="assets/js/main.js"></script>
+<footer>© <span id="year"></span> Phil Hills.</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>

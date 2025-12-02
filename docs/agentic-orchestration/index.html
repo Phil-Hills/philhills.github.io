@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Agentic Orchestration Documentation – Phil Hills</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Documentation describing supervised multi-agent workflows, orchestration controllers, structured packets, and AI system behavior.">
+
+<!-- SEO + AI META -->
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="ai-content" content="index, allow-ai-summary">
+<meta name="google-allow-ai-summarization" content="yes">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://philhills.com/docs/agentic-orchestration/">
+
+<!-- OG -->
+<meta property="og:title" content="Agentic Orchestration Documentation – Phil Hills">
+<meta property="og:description" content="Multi-agent pipelines, orchestration rules, memory, structured packets, and workflow coordination.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://philhills.com/docs/agentic-orchestration/">
+<meta property="og:image" content="https://philhills.com/media/phil.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Styles -->
+<style>
+  body { margin:0; font-family:system-ui,sans-serif; background:#f9fafb; color:#111; line-height:1.7; }
+  header, main, footer { max-width:940px; margin:0 auto; padding:1.5rem 1rem; }
+
+  header {
+    display:flex; justify-content:space-between; align-items:center;
+    border-bottom:1px solid #e5e7eb; padding-top:2rem;
+  }
+
+  .brand { display:flex; align-items:center; gap:.75rem; }
+  .brand-mark {
+    width:38px; height:38px; border-radius:999px; border:2px solid #111;
+    display:flex; align-items:center; justify-content:center; font-weight:700;
+  }
+  .brand-text { display:flex; flex-direction:column; }
+  .brand-text span:last-child { font-size:.85rem; color:#6b7280; }
+
+  nav a { margin-left:1rem; text-decoration:none; color:#111; font-size:.95rem; }
+  nav a:first-child { margin-left:0; }
+  nav a:hover { text-decoration:underline; }
+
+  h1 { font-size:2rem; margin-top:1.5rem; }
+  h2 { margin-top:2rem; font-size:1.35rem; }
+  ul { padding-left:1.2rem; }
+
+  footer {
+    margin-top:3rem;
+    border-top:1px solid #e5e7eb;
+    padding-top:1rem;
+    font-size:.85rem;
+    color:#6b7280;
+  }
+</style>
+
+<!-- JSON-LD: TechArticle -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"TechArticle",
+  "headline":"Agentic Orchestration Documentation",
+  "description":"Documentation describing supervised multi-agent workflows, orchestration controllers, structured packets, and AI system behavior.",
+  "author":{
+    "@type":"Person",
+    "name":"Phil Hills",
+    "url":"https://philhills.com/about.html"
+  },
+  "mainEntityOfPage":"https://philhills.com/docs/agentic-orchestration/",
+  "publisher":{
+    "@type":"Organization",
+    "name":"Phil Hills"
+  },
+  "inLanguage":"en"
+}
+</script>
+
+<!-- JSON-LD: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    { "@type":"ListItem", "position":1, "name":"Home", "item":"https://philhills.com/" },
+    { "@type":"ListItem", "position":2, "name":"Docs", "item":"https://philhills.com/docs/" },
+    { "@type":"ListItem", "position":3, "name":"Agentic Orchestration", "item":"https://philhills.com/docs/agentic-orchestration/" }
+  ]
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+  <div class="brand">
+    <div class="brand-mark">PH</div>
+    <div class="brand-text">
+      <span>Phil Hills</span>
+      <span>AI Systems Architect</span>
+    </div>
+  </div>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/docs/">Docs</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Agentic Orchestration</h1>
+  <p>
+    Agentic orchestration defines how multi-agent systems coordinate tasks, share memory,
+    and execute predictable workflows under supervision. This documentation outlines
+    controller logic, agent roles, packet formats, and execution guarantees.
+  </p>
+
+  <h2>Core Components</h2>
+  <ul>
+    <li>Supervising controller (orchestrator)</li>
+    <li>Capability-scoped agents</li>
+    <li>Structured packet exchange</li>
+    <li>Shared reversible memory</li>
+    <li>Execution policies (timeouts, retries, permissions)</li>
+  </ul>
+
+  <h2>Execution Model</h2>
+  <p>
+    Agents do not act independently — they execute within a coordinated, rule-bound system.
+    The orchestrator enforces structure, prevents drift, and ensures deterministic behavior.
+  </p>
+
+  <h2>Packets & Memory</h2>
+  <p>
+    Packet formats (including Cube Protocol) allow consistent handoff of state,
+    request semantics, and outcome descriptors across the agent graph.
+  </p>
+
+  <h2>Use Cases</h2>
+  <ul>
+    <li>Complex workflow automation</li>
+    <li>Cross-tool multi-model reasoning</li>
+    <li>Long-horizon AI processes</li>
+    <li>Safe agent boundary enforcement</li>
+  </ul>
+</main>
+
+<footer>© <span id="year"></span> Phil Hills.</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

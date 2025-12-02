@@ -1,58 +1,36 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Agentic Orchestration Fundamentals – Phil Hills</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A practical breakdown of agentic orchestration: supervised workflows, task routing, memory packets, and structured control systems.">
-  <link rel="canonical" href="https://philhills.com/blog/agentic-orchestration/">
+<meta charset="utf-8">
+<title>Agentic Orchestration Fundamentals – Phil Hills</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A breakdown of real agentic orchestration: supervised workflows, structured packets, and multi-agent coordination.">
+<link rel="canonical" href="https://philhills.com/blog/agentic-orchestration/">
 
-  <!-- OG -->
-  <meta property="og:title" content="Agentic Orchestration Fundamentals – Phil Hills">
-  <meta property="og:description" content="A practical breakdown of agentic orchestration: workflows, task routing, and structured memory packets.">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://philhills.com/blog/agentic-orchestration/">
-
-  <!-- Article Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Agentic Orchestration Fundamentals",
-    "author": {
-      "@type": "Person",
-      "name": "Phil Hills",
-      "url": "https://philhills.com/about.html"
-    },
-    "datePublished": "2025-01-05",
-    "dateModified": "2025-01-05",
-    "mainEntityOfPage": "https://philhills.com/blog/agentic-orchestration/",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Phil Hills"
-    }
-  }
-  </script>
-
-  <style>
-    body { margin:0; font-family:system-ui; background:#f9fafb; color:#111827; line-height:1.6; }
-    header, main, footer { max-width:800px; margin:0 auto; padding:1.5rem 1.25rem; }
-    nav a { margin-right:1rem; color:#111827; text-decoration:none; }
-    nav a:hover { text-decoration:underline; }
-    article h1 { font-size:2rem; }
-    article h2 { margin-top:2rem; }
-    .meta { color:#6b7280; font-size:.9rem; margin-bottom:1.25rem; }
-    footer { color:#6b7280; font-size:.85rem; border-top:1px solid #e5e7eb; margin-top:3rem; padding-top:1rem; }
-  </style>
+<style>
+  body{margin:0;font-family:system-ui;background:#f9fafb;color:#111;line-height:1.65;}
+  header,main,footer{max-width:800px;margin:0 auto;padding:1.5rem 1rem;}
+  header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e5e7eb;padding-top:2rem;}
+  .brand{display:flex;align-items:center;gap:.75rem;}
+  .brand-mark{width:38px;height:38px;border-radius:999px;border:2px solid #111;display:flex;align-items:center;justify-content:center;font-weight:700;}
+  .brand-text{display:flex;flex-direction:column;} .brand-text span:last-child{color:#6b7280;font-size:.85rem;}
+  nav a{margin-left:1rem;text-decoration:none;color:#111;} nav a:first-child{margin-left:0;} nav a:hover{text-decoration:underline;}
+  h1{font-size:2rem;margin-top:1.5rem;} h2{margin-top:2rem;}
+  .meta{font-size:.9rem;color:#6b7280;margin-bottom:1rem;}
+  ul{padding-left:1.2rem;}
+  footer{border-top:1px solid #e5e7eb;margin-top:3rem;padding-top:1rem;font-size:.85rem;color:#6b7280;}
+</style>
 </head>
 
 <body>
 <header>
+  <div class="brand">
+    <div class="brand-mark">PH</div>
+    <div class="brand-text"><span>Phil Hills</span><span>AI Systems Architect</span></div>
+  </div>
   <nav>
-    <a href="/">Home</a>
-    <a href="/about.html">About</a>
-    <a href="/cube-protocol.html">Cube Protocol</a>
-    <a href="/projects.html">Projects</a>
+    <a href="/">Home</a><a href="/about.html">About</a>
+    <a href="/cube-protocol.html">Cube Protocol</a><a href="/projects.html">Projects</a>
     <a href="/author/phil-hills/">Author</a>
   </nav>
 </header>
@@ -65,71 +43,35 @@
     </div>
 
     <p>
-      “Agentic systems” usually refers to a single model pretending to be multiple personas inside one prompt.
-      That’s not orchestration—that’s improv theater.  
+      Most “multi-agent systems” today are just one model playing multiple personas.
+      Real orchestration requires structure, supervision, and state.
     </p>
 
-    <p>
-      Real agentic orchestration is supervised, structured, and stateful. It’s closer to a cloud workflow engine
-      than a role-play prompt.
-    </p>
-
-    <h2>True Agentic Workflows Have Structure</h2>
-    <p>
-      A real orchestrated system includes:
-    </p>
+    <h2>What True Agentic Workflows Include</h2>
     <ul>
-      <li>A supervising controller (the brain outside the brain)</li>
-      <li>Specialized agents, each with defined capabilities</li>
+      <li>A supervising controller</li>
+      <li>Specialized agents with defined capabilities</li>
       <li>A shared memory substrate</li>
-      <li>Execution rules: retry policy, timeouts, permissions</li>
+      <li>Execution rules: retries, timeouts, permissions</li>
     </ul>
 
     <h2>Why Orchestration Is Necessary</h2>
-    <p>
-      A model acting alone can’t:
-    </p>
-    <ul>
-      <li>Coordinate parallel tasks</li>
-      <li>Enforce safety boundaries</li>
-      <li>Maintain a global state</li>
-      <li>Guarantee ordering or structure</li>
-    </ul>
+    <p>Single models cannot coordinate tasks, maintain state, enforce safety, or track global context.</p>
 
-    <p>But a controller can.</p>
-
-    <h2>Packets Make Everything Work</h2>
+    <h2>Structured Packets Change Everything</h2>
     <p>
-      Unstructured prompts cause unstructured failures.
+      My orchestration stack uses structured packets (including Cube Protocol)
+      to ensure deterministic routing, bounded inputs, and traceable execution.
     </p>
 
+    <h2>Reliable Agents Require Good Orchestration</h2>
     <p>
-      My orchestration layer uses structured packets (Cube Protocol or lightweight variants) to ensure:
-    </p>
-
-    <ul>
-      <li>Predictable routing</li>
-      <li>Bounded inputs</li>
-      <li>Agent-to-agent consistency</li>
-      <li>Traceable execution</li>
-    </ul>
-
-    <h2>Good Orchestration Makes Agents Reliable</h2>
-    <p>
-      With proper supervision and structured data, agents stop hallucinating and start behaving like reliable,
-      testable, composable services.
-    </p>
-
-    <p>
-      Orchestration is the difference between “a clever model” and “a dependable system.”
+      With supervision and structured data, agents stop improvising and start acting like services.
     </p>
   </article>
 </main>
 
-<footer>
-  © <span id="year"></span> Phil Hills.
-</footer>
-
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<footer>© <span id="year"></span> Phil Hills.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>

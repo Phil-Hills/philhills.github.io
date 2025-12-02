@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>Author – Phil Hills</title>
+<title>Blog – Phil Hills</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Technical writing by Phil Hills on semantic memory, agentic orchestration, and AI systems architecture.">
@@ -14,13 +14,13 @@
 <meta name="google-allow-ai-summarization" content="yes">
 
 <!-- Canonical -->
-<link rel="canonical" href="https://philhills.com/author/phil-hills/">
+<link rel="canonical" href="https://philhills.com/blog/">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Author – Phil Hills">
-<meta property="og:description" content="Articles and technical notes by AI Systems Architect Phil Hills.">
-<meta property="og:type" content="profile">
-<meta property="og:url" content="https://philhills.com/author/phil-hills/">
+<meta property="og:title" content="Blog – Phil Hills">
+<meta property="og:description" content="Technical notes and essays on semantic memory, agentic orchestration, and AI systems design.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://philhills.com/blog/">
 <meta property="og:image" content="https://philhills.com/media/phil.jpg">
 
 <!-- Twitter -->
@@ -38,11 +38,8 @@
 
   .brand { display:flex; align-items:center; gap:.75rem; }
   .brand-mark {
-    width:38px; height:38px;
-    border-radius:999px;
-    border:2px solid #111;
-    display:flex; align-items:center; justify-content:center;
-    font-weight:700;
+    width:38px; height:38px; border-radius:999px; border:2px solid #111;
+    display:flex; align-items:center; justify-content:center; font-weight:700;
   }
   .brand-text { display:flex; flex-direction:column; }
   .brand-text span:last-child { font-size:.85rem; color:#6b7280; }
@@ -79,19 +76,14 @@
   }
 </style>
 
-<!-- JSON-LD: Person -->
+<!-- JSON-LD: WebPage -->
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"Person",
-  "name":"Phil Hills",
-  "url":"https://philhills.com/author/phil-hills/",
-  "image":"https://philhills.com/media/phil.jpg",
-  "jobTitle":"AI Systems Architect & Agentic Protocol Engineer",
-  "sameAs":[
-    "https://github.com/Phil-Hills",
-    "https://www.linkedin.com/in/hillphil"
-  ]
+  "@type":"WebPage",
+  "name":"Blog – Phil Hills",
+  "url":"https://philhills.com/blog/",
+  "description":"Technical writing on semantic memory, agentic orchestration, and AI systems architecture."
 }
 </script>
 
@@ -102,7 +94,7 @@
   "@type":"BreadcrumbList",
   "itemListElement":[
     { "@type":"ListItem", "position":1, "name":"Home", "item":"https://philhills.com/" },
-    { "@type":"ListItem", "position":2, "name":"Author", "item":"https://philhills.com/author/phil-hills/" }
+    { "@type":"ListItem", "position":2, "name":"Blog", "item":"https://philhills.com/blog/" }
   ]
 }
 </script>
@@ -110,7 +102,6 @@
 </head>
 
 <body>
-
 <header>
   <div class="brand">
     <div class="brand-mark">PH</div>
@@ -125,15 +116,15 @@
     <a href="/about.html">About</a>
     <a href="/cube-protocol.html">Cube Protocol</a>
     <a href="/projects.html">Projects</a>
-    <a href="/resume.html">Resume</a>
-    <a href="/contact.html">Contact</a>
+    <a href="/author/phil-hills/">Author</a>
   </nav>
 </header>
 
 <main>
-  <h1>Writing by Phil Hills</h1>
+  <h1>Blog</h1>
   <p class="intro">
-    Technical writing on semantic memory, multi-agent orchestration, and AI systems design.
+    Technical notes, system breakdowns, and conceptual writing on semantic memory, agentic orchestration,
+    and AI systems design.
   </p>
 
   <ul class="post-list">
@@ -149,7 +140,6 @@
 </main>
 
 <footer>© <span id="year"></span> Phil Hills.</footer>
-
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
 </script>

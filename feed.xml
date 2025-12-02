@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Phil Hills – Blog</title>
+  <link>https://philhills.com</link>
+  <description>AI systems architecture writing by Phil Hills.</description>
+  <language>en-us</language>
+
+  <item>
+    <title>Semantic Memory for Agents</title>
+    <link>https://philhills.com/blog/semantic-memory/</link>
+    <guid>https://philhills.com/blog/semantic-memory/</guid>
+    <pubDate>Thu, 02 Jan 2025 12:00:00 GMT</pubDate>
+    <description>Why semantic memory matters for multi-agent systems, and how structured memory packets let agents preserve state and reasoning.</description>
+  </item>
+
+  <item>
+    <title>Agentic Orchestration Fundamentals</title>
+    <link>https://philhills.com/blog/agentic-orchestration/</link>
+    <guid>https://philhills.com/blog/agentic-orchestration/</guid>
+    <pubDate>Sun, 05 Jan 2025 12:00:00 GMT</pubDate>
+    <description>A practical breakdown of real agentic orchestration: structure, supervision, memory, and multi-agent workflows.</description>
+  </item>
+
+</channel>
+</rss>

@@ -1,0 +1,23 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Phil Hills – Blog",
+    "home_page_url": "https://philhills.com",
+    "feed_url": "https://philhills.com/feed.json",
+    "items": [
+      {
+        "id": "semantic-memory",
+        "url": "https://philhills.com/blog/semantic-memory/",
+        "title": "Semantic Memory for Agents",
+        "content_text": "Why semantic memory matters for multi-agent systems, and how structured memory packets let agents preserve state, context, and reasoning across workflows.",
+        "date_published": "2025-01-02T12:00:00Z"
+      },
+      {
+        "id": "agentic-orchestration",
+        "url": "https://philhills.com/blog/agentic-orchestration/",
+        "title": "Agentic Orchestration Fundamentals",
+        "content_text": "A practical breakdown of real agentic orchestration: supervised workflows, structured packets, memory, and multi-agent coordination.",
+        "date_published": "2025-01-05T12:00:00Z"
+      }
+    ]
+  }
+  
