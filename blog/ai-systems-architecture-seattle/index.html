@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>AI Systems Architecture in Seattle – My Approach to Multi-Agent Workflows</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="How I approach AI systems architecture in Magnolia, Seattle: semantic memory, multi-agent orchestration, and protocol-driven design grounded in open-source work and everyday life near Discovery Park and TruFusion Ballard.">
+
+<!-- SEO + AI META -->
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="ai-content" content="index, allow-ai-summary">
+<meta name="google-allow-ai-summarization" content="yes">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://philhills.com/blog/ai-systems-architecture-seattle/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="AI Systems Architecture in Seattle – My Approach to Multi-Agent Workflows">
+<meta property="og:description" content="A practical view of how I design AI systems in Seattle: semantic memory, multi-agent orchestration, and protocol-first design backed by 180+ GitHub experiments.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://philhills.com/blog/ai-systems-architecture-seattle/">
+<meta property="og:image" content="https://philhills.com/media/phil.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Inline Styles -->
+<style>
+  body { margin:0; font-family:system-ui,sans-serif; background:#f9fafb; color:#111827; line-height:1.7; }
+  header, main, footer { max-width:800px; margin:0 auto; padding:1.5rem 1rem; }
+
+  header {
+    display:flex; justify-content:space-between; align-items:center;
+    border-bottom:1px solid #e5e7eb; padding-top:2rem;
+  }
+
+  .brand { display:flex; align-items:center; gap:.75rem; }
+  .brand-mark {
+    width:38px; height:38px; border-radius:999px; border:2px solid #111;
+    display:flex; align-items:center; justify-content:center; font-weight:700;
+  }
+  .brand-text { display:flex; flex-direction:column; }
+  .brand-text span:last-child { font-size:.85rem; color:#6b7280; }
+
+  nav a {
+    margin-left:1rem; text-decoration:none; color:#111; font-size:.95rem;
+  }
+  nav a:first-child { margin-left:0; }
+  nav a:hover { text-decoration:underline; }
+
+  h1 { font-size:2rem; margin-top:1.5rem; margin-bottom:.3rem; }
+  h2 { margin-top:2rem; font-size:1.35rem; }
+  p  { margin:.7rem 0; }
+  ul { padding-left:1.2rem; margin:.3rem 0 .8rem; }
+
+  .meta { font-size:.9rem; color:#6b7280; margin-bottom:1.25rem; }
+  a { color:#2563eb; text-decoration:none; }
+  a:hover { text-decoration:underline; }
+
+  footer {
+    margin-top:3rem;
+    border-top:1px solid #e5e7eb;
+    padding-top:1rem;
+    font-size:.85rem;
+    color:#6b7280;
+  }
+</style>
+
+<!-- JSON-LD: Article -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"AI Systems Architecture in Seattle – My Approach to Multi-Agent Workflows",
+  "description":"How Phil Hills, an AI Systems Architect in Magnolia, Seattle, designs AI systems with semantic memory, multi-agent orchestration, and protocol-first design grounded in open-source work.",
+  "author":{
+    "@type":"Person",
+    "name":"Phil Hills",
+    "url":"https://philhills.com/about.html"
+  },
+  "datePublished":"2025-01-15",
+  "dateModified":"2025-01-15",
+  "mainEntityOfPage":"https://philhills.com/blog/ai-systems-architecture-seattle/",
+  "publisher":{
+    "@type":"Organization",
+    "name":"Phil Hills"
+  },
+  "inLanguage":"en"
+}
+</script>
+
+<!-- JSON-LD: Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    { "@type":"ListItem", "position":1, "name":"Home", "item":"https://philhills.com/" },
+    { "@type":"ListItem", "position":2, "name":"Blog", "item":"https://philhills.com/blog/" },
+    { "@type":"ListItem", "position":3, "name":"AI Systems Architecture in Seattle", "item":"https://philhills.com/blog/ai-systems-architecture-seattle/" }
+  ]
+}
+</script>
+
+</head>
+
+<body>
+<header>
+  <div class="brand">
+    <div class="brand-mark">PH</div>
+    <div class="brand-text">
+      <span>Phil Hills</span>
+      <span>AI Systems Architect</span>
+    </div>
+  </div>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/cube-protocol.html">Cube Protocol</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/blog/">Blog</a>
+    <a href="/code.html">Code</a>
+    <a href="/resume.html">Resume</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h1>AI Systems Architecture in Seattle: My Approach to Multi-Agent Workflows</h1>
+    <div class="meta">
+      By <a href="/author/phil-hills/">Phil Hills</a> · Based in Magnolia, Seattle, Washington
+    </div>
+
+    <p>
+      I live in <strong>Magnolia, Seattle</strong>, right across from <strong>Discovery Park</strong>. It’s a quiet
+      vantage point over a city that has quietly become one of the nerve centers for cloud infrastructure and AI.
+      When I talk about “AI systems architecture,” I’m not talking about a single clever prompt — I’m talking about the
+      scaffolding: multi-agent workflows, semantic memory, and protocols that make behavior predictable.
+    </p>
+
+    <p>
+      This post is a walkthrough of how I think about AI systems architecture from that vantage point in Seattle — as a
+      builder, a <strong>dad</strong>, a <strong>U12 girls soccer coach</strong>, and someone who resets every day with
+      <strong>hot pilates and yoga at TruFusion Ballard</strong>. The work and the life are intertwined: discipline,
+      structure, and iteration show up in both.
+    </p>
+
+    <h2>Why “Systems Architecture,” Not Just Prompts</h2>
+    <p>
+      The easiest thing to build with AI is a single model call with a big prompt. The hardest thing to build is a
+      system that:
+    </p>
+    <ul>
+      <li>Has <strong>clear responsibilities</strong> for each component</li>
+      <li>Preserves <strong>memory</strong> across steps and tasks</li>
+      <li>Can be <strong>debugged</strong> and reasoned about</li>
+      <li><strong>Survives change</strong> in models, tools, and data</li>
+    </ul>
+    <p>
+      My work is aimed squarely at the second category. When I say “AI systems architecture,” I mean the design of the
+      protocols, memory, and orchestration that sit around models and make them behave like part of a living system.
+    </p>
+
+    <h2>Core Ingredients: Memory, Orchestration, Protocols</h2>
+    <p>
+      In practice, AI systems architecture for me comes down to three pillars:
+    </p>
+    <ul>
+      <li><strong>Semantic memory</strong> – a structured way to store and reuse state.</li>
+      <li><strong>Agentic orchestration</strong> – something outside the models that routes work and enforces rules.</li>
+      <li><strong>Protocols</strong> – clear, repeatable formats for how agents and tools communicate.</li>
+    </ul>
+
+    <p>
+      On this site, you’ll see those ideas show up as things like
+      <a href="/cube-protocol.html">Cube Protocol</a> and the orchestration work referenced on the
+      <a href="/projects.html">Projects</a> and <a href="/code.html">Code</a> pages. Under the hood, I’m trying to
+      build an ecosystem where agents don’t just talk — they exchange well-formed packets that can be inspected
+      and replayed.
+    </p>
+
+    <h2>Multi-Agent Workflows: The Controller Outside the Model</h2>
+    <p>
+      Real multi-agent systems are not just a single model pretending to be different roles. They have:
+    </p>
+    <ul>
+      <li>A supervising <strong>controller</strong> (the orchestrator)</li>
+      <li><strong>Capability-scoped agents</strong> with clear responsibilities</li>
+      <li>A shared <strong>memory substrate</strong></li>
+      <li><strong>Execution rules</strong> — timeouts, retries, and permissions</li>
+    </ul>
+
+    <p>
+      My controller layer is the part that lives outside any one model. It decides:
+    </p>
+    <ul>
+      <li>Which agent should handle this step?</li>
+      <li>What memory should they see?</li>
+      <li>What format should their output follow?</li>
+      <li>What happens if they fail or return an invalid packet?</li>
+    </ul>
+
+    <p>
+      That logic is grounded in the same thinking I apply when I’m coaching a U12 girls team: every player has a role,
+      the field has structure, and we run patterns — not random chaos — even if each game is different.
+    </p>
+
+    <h2>Semantic Memory from Seattle: Why Context Has to Persist</h2>
+    <p>
+      Living near Discovery Park, it’s impossible not to think in terms of context and landscape. The model’s context
+      window is a narrow viewpoint; the system’s memory is the full map. If you want agents to do meaningful work,
+      they need access to:
+    </p>
+    <ul>
+      <li>What has already happened</li>
+      <li>What decisions were made and why</li>
+      <li>Which data was used and how it was structured</li>
+    </ul>
+
+    <p>
+      That’s why I work on semantic memory systems like Cube Protocol: to create <strong>reversible, structured
+      memory packets</strong> that can be stored, inspected, and reused. It’s not enough for a model to “remember”
+      in some fuzzy sense — the system needs a durable, testable representation of what happened.
+    </p>
+
+    <h2>Protocol-First Design</h2>
+    <p>
+      Protocols are the quiet backbone of any robust system. For AI, that means:
+    </p>
+    <ul>
+      <li>Standardized <strong>packet formats</strong> for requests and responses</li>
+      <li>Clear <strong>schemas</strong> for memory entries</li>
+      <li>Consistent <strong>interfaces</strong> between agents and tools</li>
+    </ul>
+
+    <p>
+      The work I do in my
+      <a href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">GitHub repositories</a>
+      is often about exploring new protocol shapes: how can we encode this state so it’s cheap to store, easy to
+      reconstruct, and self-explanatory to another agent or system?
+    </p>
+
+    <h2>Life Rhythms That Keep Systems Work Sane</h2>
+    <p>
+      The way I approach systems is heavily influenced by my routines in Seattle. Coaching soccer forces me to think in
+      terms of roles, structure, and long-term development rather than short-term wins. Living across from
+      <strong>Discovery Park</strong> means regular walks and resets that keep my thinking clear.
+    </p>
+
+    <p>
+      Daily training at <strong>TruFusion Ballard</strong> — especially hot pilates and yoga — reinforces discipline and
+      pacing. You can’t rush adaptation, whether it’s a system, a team, or your own body. That mindset shows up in how
+      I design AI architectures: small changes, consistent habits, and clear feedback loops over time.
+    </p>
+
+    <h2>How This All Shows Up in Code</h2>
+    <p>
+      If you want to see this philosophy in practice, the best place to look is my code:
+    </p>
+    <ul>
+      <li><a href="/code.html">Code overview on this site</a></li>
+      <li><a href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">github.com/Phil-Hills</a></li>
+      <li><a href="/cube-protocol.html">Cube Protocol docs</a></li>
+      <li><a href="/projects.html">Projects page</a></li>
+    </ul>
+
+    <p>
+      Those repositories are not just demos — they’re how I test system ideas: new memory formats, orchestration
+      patterns, and ways to make AI behavior more structured, reversible, and trustworthy.
+    </p>
+
+    <h2>Closing: AI Systems Architecture From Magnolia, Seattle</h2>
+    <p>
+      When you search for <strong>“Phil Hills Seattle”</strong>, what you’re really looking for is a picture of who I am
+      now: an AI Systems Architect in Magnolia, building protocol-driven AI systems, raising a family across from
+      Discovery Park, coaching youth soccer, and training most days at TruFusion Ballard.
+    </p>
+    <p>
+      This mix of work, family, community, and routine is what shapes my approach to AI systems architecture. The code
+      and protocols are one expression of that — the rest is lived here in Seattle.
+    </p>
+  </article>
+</main>
+
+<footer>© <span id="year"></span> Phil Hills – AI Systems Architect in Seattle, Washington.</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
