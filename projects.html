@@ -59,6 +59,9 @@
 
   .project-block { margin-bottom:1.5rem; }
 
+  a { color:#2563eb; text-decoration:none; }
+  a:hover { text-decoration:underline; }
+
   footer {
     margin-top:3rem;
     border-top:1px solid #e5e7eb;
@@ -80,6 +83,19 @@
 }
 </script>
 
+<!-- JSON-LD: GitHub Repositories Collection -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ItemList",
+  "name":"Phil Hills GitHub Repositories",
+  "description":"Open-source projects and experiments by Phil Hills related to semantic memory, agentic orchestration, and AI systems.",
+  "url":"https://github.com/Phil-Hills",
+  "itemListOrder":"Unordered",
+  "numberOfItems":180
+}
+</script>
+
 </head>
 
 <body>
@@ -97,6 +113,7 @@
     <a href="/about.html">About</a>
     <a href="/cube-protocol.html">Cube Protocol</a>
     <a href="/projects.html">Projects</a>
+    <a href="/blog/">Blog</a>
     <a href="/resume.html">Resume</a>
     <a href="/contact.html">Contact</a>
   </nav>
@@ -106,7 +123,6 @@
   <h1>Projects</h1>
   <p>A selection of systems, protocols, and architectural work focused on semantic AI, multi-agent workflows, and large-scale data structure.</p>
 
-  <!-- Core Systems -->
   <h2>Core Systems</h2>
 
   <div class="project-block">
@@ -129,12 +145,11 @@
   <div class="project-block">
     <h3>AI Packet Bridge</h3>
     <p>
-      A token-efficient AI-to-AI transmission format for structured packets enabling safe, deterministic
-      communication between specialized agents and models.
+      A token-efficient AI-to-AI data exchange system built on structured packet rules,
+      enabling safe, deterministic communication between specialized agents and models.
     </p>
   </div>
 
-  <!-- Special Implementations -->
   <h2>Specialized Implementations</h2>
 
   <div class="project-block">
@@ -149,12 +164,21 @@
 
   <div class="project-block">
     <h3>Financial Dataset Cubes</h3>
-    <p>High-volume structured datasets for market data, analytics traces, and temporal series, all encoded into cube form.</p>
+    <p>High-volume structured datasets for market data, analytics traces, and temporal series encoded into cube form.</p>
   </div>
+
+  <h2>Open Source Code (180+ Repositories)</h2>
+  <p>
+    Beyond these highlighted projects, I maintain an actively evolving open-source portfolio on GitHub:
+    <a href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">github.com/Phil-Hills</a>.
+    It includes experiments, reference implementations, and systems that inform the protocols and designs on this site.
+  </p>
 </main>
 
 <footer>© <span id="year"></span> Phil Hills.</footer>
-<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>

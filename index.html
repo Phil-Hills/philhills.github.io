@@ -13,7 +13,7 @@
 <meta name="ai-content" content="index, allow-ai-summary">
 <meta name="google-allow-ai-summarization" content="yes">
 
-<!-- Canonical -->
+<!-- Canonical (primary domain) -->
 <link rel="canonical" href="https://philhills.com/">
 
 <!-- Open Graph -->
@@ -75,8 +75,8 @@
     margin:1rem 0 .75rem;
   }
   .hero-subtitle {
-    max-width: 600px;
-    font-size:1.1rem;
+    max-width: 650px;
+    font-size:1.05rem;
     color:#4b5563;
     margin-top:0;
   }
@@ -84,6 +84,7 @@
     display:flex;
     gap:.75rem;
     margin-top:1.75rem;
+    flex-wrap:wrap;
   }
   .btn {
     padding:.55rem 1.1rem;
@@ -104,7 +105,7 @@
   .card-grid {
     display:grid;
     gap:1.5rem;
-    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
   }
   .card {
     background:#fff;
@@ -121,6 +122,8 @@
     font-size:.85rem;
     color:#6b7280;
   }
+  a.inline-link { color:#2563eb; text-decoration:none; }
+  a.inline-link:hover { text-decoration:underline; }
 </style>
 
 <!-- JSON-LD: WebSite -->
@@ -149,7 +152,8 @@
   "logo":"https://philhills.com/media/phil.jpg",
   "sameAs":[
     "https://github.com/Phil-Hills",
-    "https://www.linkedin.com/in/hillphil"
+    "https://www.linkedin.com/in/hillphil",
+    "https://philhills.ai"
   ]
 }
 </script>
@@ -187,6 +191,8 @@
     <a href="/about.html">About</a>
     <a href="/cube-protocol.html">Cube Protocol</a>
     <a href="/projects.html">Projects</a>
+    <a href="/blog/">Blog</a>
+    <a href="/code.html">Code</a>
     <a href="/resume.html">Resume</a>
     <a href="/contact.html">Contact</a>
   </nav>
@@ -194,15 +200,19 @@
 
 <main>
   <section>
-    <h1 class="hero-title">AI Systems Architect & Agentic Protocol Engineer</h1>
+    <h1 class="hero-title">AI Systems Architect &amp; Agentic Protocol Engineer</h1>
     <p class="hero-subtitle">
       I design semantic memory systems, agentic orchestration layers, and structured AI protocols
-      for next-generation multi-agent workflows.
+      for next-generation multi-agent workflows. I also maintain over 180 public repositories on
+      <a class="inline-link" href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">GitHub</a>
+      where these ideas are explored in concrete implementations.
     </p>
 
     <div class="hero-actions">
       <a class="btn btn-primary" href="/cube-protocol.html">Explore Cube Protocol</a>
       <a class="btn" href="/projects.html">See Projects</a>
+      <a class="btn" href="/blog/">Read the Blog</a>
+      <a class="btn" href="/code.html">Browse Code</a>
     </div>
   </section>
 
@@ -211,7 +221,7 @@
     <div class="card-grid">
       <div class="card">
         <h3>Cube Protocol</h3>
-        <p>A structured, reversible, 3D semantic memory format for agent systems.</p>
+        <p>A 3D semantic data format for agent memory and communication.</p>
       </div>
 
       <div class="card">
@@ -222,6 +232,17 @@
       <div class="card">
         <h3>Large-Scale Data Workflows</h3>
         <p>Compression, transformation, and semantic labeling for complex datasets.</p>
+      </div>
+
+      <div class="card">
+        <h3>Blog &amp; Writing</h3>
+        <p>
+          System design notes, semantic memory concepts, and orchestration patterns drawn from
+          real-world experiments and open-source work.
+        </p>
+        <p style="margin-top:.5rem;">
+          <a class="inline-link" href="/blog/">Visit the blog →</a>
+        </p>
       </div>
     </div>
   </section>
