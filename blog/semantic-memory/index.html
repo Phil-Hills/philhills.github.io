@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Semantic Memory for Agents – Phil Hills</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Why semantic memory matters for multi-agent systems, and how structured memory cubes solve state, retention, and cross-agent communication.">
+  <link rel="canonical" href="https://philhills.com/blog/semantic-memory/">
+
+  <!-- OG -->
+  <meta property="og:title" content="Semantic Memory for Agents – Phil Hills">
+  <meta property="og:description" content="Why semantic memory matters for multi-agent systems, and how structured memory cubes solve state retention and communication.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://philhills.com/blog/semantic-memory/">
+
+  <!-- Article Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Semantic Memory for Agents",
+    "author": {
+      "@type": "Person",
+      "name": "Phil Hills",
+      "url": "https://philhills.com/about.html"
+    },
+    "datePublished": "2025-01-02",
+    "dateModified": "2025-01-02",
+    "mainEntityOfPage": "https://philhills.com/blog/semantic-memory/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Phil Hills"
+    }
+  }
+  </script>
+
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      font-family: system-ui;
+      background: #f9fafb;
+      color: #111827;
+      line-height: 1.6;
+    }
+    header, main, footer {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem;
+    }
+    nav a { margin-right: 1rem; color:#111827; text-decoration:none; }
+    nav a:hover { text-decoration:underline; }
+    article h1 { font-size:2rem; }
+    article h2 { margin-top:2rem; }
+    .meta { font-size:.9rem; color:#6b7280; margin-bottom:1.25rem; }
+    footer { color:#6b7280; font-size:.85rem; border-top:1px solid #e5e7eb; margin-top:3rem; padding-top:1rem; }
+  </style>
+</head>
+
+<body>
+<header>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/cube-protocol.html">Cube Protocol</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/author/phil-hills/">Author</a>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h1>Semantic Memory for Agents</h1>
+    <div class="meta">
+      By <a href="/author/phil-hills/">Phil Hills</a> · January 2, 2025
+    </div>
+
+    <p>
+      Agents without memory behave like goldfish: clever in the moment, useless across tasks.
+      Memory isn’t optional for real agentic systems—it’s the foundation of continuity,
+      reasoning, and reusable state.
+    </p>
+
+    <h2>Why Memory Matters</h2>
+    <p>
+      Context windows aren’t memory—they’re an inbox. Real memory must be:
+    </p>
+    <ul>
+      <li><strong>Structured</strong> so agents can reference, retrieve, and reason over it</li>
+      <li><strong>Compressed</strong> for token efficiency</li>
+      <li><strong>Semantic</strong> so models know what it means, not just what it stores</li>
+      <li><strong>Portable</strong> so multiple agents can share it</li>
+    </ul>
+
+    <h2>Why LLMs Can't Maintain Memory Alone</h2>
+    <p>
+      A model can simulate memory—but it can't retain it. Every new state must be explicitly fed
+      back to the model. Otherwise the system forgets everything it just did.
+    </p>
+
+    <h2>Enter Semantic Memory Cubes</h2>
+    <p>
+      I built Cube Protocol to solve this problem. Its memory format allows agents to produce and reuse:
+    </p>
+    <ul>
+      <li>State snapshots</li>
+      <li>Compressed task context</li>
+      <li>Cross-agent packets</li>
+      <li>Structured representations of long workflows</li>
+    </ul>
+
+    <p>
+      The goal is simple: give agents a shared, predictable, efficient memory substrate.
+    </p>
+
+    <h2>Why Structured Memory Works</h2>
+    <p>
+      Agents reason better with:
+    </p>
+    <ul>
+      <li>Bounded, labeled, predictable inputs</li>
+      <li>Compressed but reversible structures</li>
+      <li>Clear domain/sequence/outcome semantics</li>
+    </ul>
+
+    <p>
+      Semantic memory becomes the backbone of reliable agent systems.
+    </p>
+  </article>
+</main>
+
+<footer>
+  © <span id="year"></span> Phil Hills.
+</footer>
+
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
