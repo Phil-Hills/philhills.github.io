@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>The Seattle AI Landscape and Where My Work Fits In</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A personal view of the Seattle AI landscape from Magnolia, and how my work in semantic memory, multi-agent orchestration, and protocols fits into that ecosystem.">
+
+<!-- SEO + AI META -->
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="ai-content" content="index, allow-ai-summary">
+<meta name="google-allow-ai-summarization" content="yes">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://philhills.com/blog/seattle-ai-landscape/">
+
+<!-- OG -->
+<meta property="og:title" content="The Seattle AI Landscape and Where My Work Fits In">
+<meta property="og:description" content="How Seattle’s AI ecosystem, from cloud to open-source, connects with my work on AI systems architecture, semantic memory, and multi-agent protocols.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://philhills.com/blog/seattle-ai-landscape/">
+<meta property="og:image" content="https://philhills.com/media/phil.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Styles -->
+<style>
+  body { margin:0; font-family:system-ui,sans-serif; background:#f9fafb; color:#111827; line-height:1.7; }
+  header, main, footer { max-width:800px; margin:0 auto; padding:1.5rem 1rem; }
+
+  header {
+    display:flex; justify-content:space-between; align-items:center;
+    border-bottom:1px solid #e5e7eb; padding-top:2rem;
+  }
+
+  .brand { display:flex; align-items:center; gap:.75rem; }
+  .brand-mark {
+    width:38px; height:38px; border-radius:999px; border:2px solid #111;
+    display:flex; align-items:center; justify-content:center; font-weight:700;
+  }
+  .brand-text { display:flex; flex-direction:column; }
+  .brand-text span:last-child { font-size:.85rem; color:#6b7280; }
+
+  nav a { margin-left:1rem; text-decoration:none; color:#111; font-size:.95rem; }
+  nav a:first-child { margin-left:0; }
+  nav a:hover { text-decoration:underline; }
+
+  h1 { font-size:2rem; margin-top:1.5rem; margin-bottom:.3rem; }
+  h2 { margin-top:2rem; font-size:1.35rem; }
+  p  { margin:.7rem 0; }
+  ul { padding-left:1.2rem; margin:.3rem 0 .8rem; }
+
+  .meta { font-size:.9rem; color:#6b7280; margin-bottom:1.25rem; }
+  a { color:#2563eb; text-decoration:none; }
+  a:hover { text-decoration:underline; }
+
+  footer {
+    margin-top:3rem;
+    border-top:1px solid #e5e7eb;
+    padding-top:1rem;
+    font-size:.85rem;
+    color:#6b7280;
+  }
+</style>
+
+<!-- JSON-LD: Article -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"The Seattle AI Landscape and Where My Work Fits In",
+  "description":"A view of the Seattle AI ecosystem from Magnolia, and how semantic memory, multi-agent orchestration, and protocol-first design fit into that landscape.",
+  "author":{
+    "@type":"Person",
+    "name":"Phil Hills",
+    "url":"https://philhills.com/about.html"
+  },
+  "datePublished":"2025-01-22",
+  "dateModified":"2025-01-22",
+  "mainEntityOfPage":"https://philhills.com/blog/seattle-ai-landscape/",
+  "publisher":{
+    "@type":"Organization",
+    "name":"Phil Hills"
+  },
+  "inLanguage":"en"
+}
+</script>
+
+<!-- JSON-LD: Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    { "@type":"ListItem", "position":1, "name":"Home", "item":"https://philhills.com/" },
+    { "@type":"ListItem", "position":2, "name":"Blog", "item":"https://philhills.com/blog/" },
+    { "@type":"ListItem", "position":3, "name":"Seattle AI Landscape", "item":"https://philhills.com/blog/seattle-ai-landscape/" }
+  ]
+}
+</script>
+
+</head>
+
+<body>
+<header>
+  <div class="brand">
+    <div class="brand-mark">PH</div>
+    <div class="brand-text">
+      <span>Phil Hills</span>
+      <span>AI Systems Architect</span>
+    </div>
+  </div>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/cube-protocol.html">Cube Protocol</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/blog/">Blog</a>
+    <a href="/code.html">Code</a>
+    <a href="/resume.html">Resume</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h1>The Seattle AI Landscape and Where My Work Fits In</h1>
+    <div class="meta">
+      By <a href="/author/phil-hills/">Phil Hills</a> · January 22, 2025
+    </div>
+
+    <p>
+      Seattle has a particular kind of AI energy. It’s less about splashy demos and more about infrastructure:
+      cloud platforms, large-scale data systems, and the glue that keeps everything running. From Magnolia, looking
+      out over the city and <strong>Discovery Park</strong>, it’s hard not to see the skyline as a stack of systems.
+    </p>
+
+    <p>
+      In this post, I want to talk about how I see the <strong>Seattle AI landscape</strong> and where my own work in
+      semantic memory, multi-agent orchestration, and protocol-first design fits into that ecosystem.
+    </p>
+
+    <h2>Seattle as an Infrastructure City</h2>
+    <p>
+      Seattle is home to some of the largest cloud and software organizations in the world. That shows up in the way
+      people think about AI here:
+    </p>
+    <ul>
+      <li>Scale and reliability matter just as much as raw capability.</li>
+      <li>Systems thinking is the default, not an afterthought.</li>
+      <li>There’s a long history of building tools that other builders rely on.</li>
+    </ul>
+
+    <p>
+      My own work feels aligned with that DNA: I care less about a single impressive model call and more about the
+      invisible layers that make complex AI systems possible.
+    </p>
+
+    <h2>My Niche in the Seattle AI Ecosystem</h2>
+    <p>
+      My niche is <strong>AI systems architecture</strong> — specifically:
+    </p>
+    <ul>
+      <li>How agents coordinate through a controller.</li>
+      <li>How <strong>semantic memory</strong> is structured and reused.</li>
+      <li>How we design <strong>protocols</strong> so behavior is explicit.</li>
+    </ul>
+
+    <p>
+      On <a href="https://philhills.com" target="_blank" rel="noreferrer">philhills.com</a> and in my
+      <a href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">GitHub repositories</a>, that shows up as:
+    </p>
+    <ul>
+      <li><a href="/cube-protocol.html">Cube Protocol</a> and other semantic memory experiments.</li>
+      <li>Agent orchestration patterns and multi-agent controllers.</li>
+      <li>Packet and protocol formats for AI-to-AI communication.</li>
+    </ul>
+
+    <h2>Magnolia, Discovery Park, and Thinking in Systems</h2>
+    <p>
+      Living in Magnolia, across from <strong>Discovery Park</strong>, has a strange but real influence on how I think.
+      The park is a giant, structured space — trails, fields, coastline — that still feels organic and alive. Good
+      systems architecture tries to do the same thing: create structure without killing the ability to adapt.
+    </p>
+
+    <p>
+      Coaching <strong>U12 girls soccer</strong> and training regularly at <strong>TruFusion Ballard</strong> give me
+      similar lenses: teams, routines, and tiny adjustments over time. Those experiences shape how I approach AI
+      systems — it’s all practice, patterns, and evolving structure.
+    </p>
+
+    <h2>Where My Work Can Help in Seattle</h2>
+    <p>
+      I see my work fitting best into organizations and projects that:
+    </p>
+    <ul>
+      <li>Have complex workflows where AI is one component, not the whole product.</li>
+      <li>Need <strong>durable memory</strong> across sessions, tools, and models.</li>
+      <li>Care about being able to <strong>inspect, replay, and debug</strong> AI behavior.</li>
+      <li>Operate on large, multi-domain datasets where structure matters.</li>
+    </ul>
+
+    <p>
+      In other words: places in the Seattle ecosystem that want AI to be part of a real system, not a fragile bolt-on.
+    </p>
+
+    <h2>How to Explore My Work from Here</h2>
+    <p>
+      If you’re here because you searched for <strong>“Phil Hills Seattle”</strong>, these are the best next places to look:
+    </p>
+    <ul>
+      <li><a href="/about.html">About</a> – who I am and what I focus on.</li>
+      <li><a href="/projects.html">Projects</a> – system- and protocol-level work.</li>
+      <li><a href="/code.html">Code</a> – how this all shows up in open-source form.</li>
+      <li><a href="https://github.com/Phil-Hills" target="_blank">GitHub</a> – the full repository list.</li>
+    </ul>
+
+    <p>
+      Seattle is full of people quietly building the foundations of the next wave of infrastructure. My work is one
+      small piece of that puzzle: making sure AI systems have the memory, orchestration, and protocols they need to
+      behave like real systems, not just clever tricks.
+    </p>
+  </article>
+</main>
+
+<footer>© <span id="year"></span> Phil Hills – AI Systems Architect in Seattle, Washington.</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -7,19 +7,27 @@
   <language>en-us</language>
 
   <item>
-    <title>Semantic Memory for Agents</title>
-    <link>https://philhills.com/blog/semantic-memory/</link>
-    <guid>https://philhills.com/blog/semantic-memory/</guid>
-    <pubDate>Thu, 02 Jan 2025 12:00:00 GMT</pubDate>
-    <description>Why semantic memory matters for multi-agent systems, and how structured memory packets let agents preserve state and reasoning.</description>
+    <title>AI Systems Architecture in Seattle: My Approach to Multi-Agent Workflows</title>
+    <link>https://philhills.com/blog/ai-systems-architecture-seattle/</link>
+    <guid>https://philhills.com/blog/ai-systems-architecture-seattle/</guid>
+    <pubDate>Wed, 15 Jan 2025 12:00:00 GMT</pubDate>
+    <description>How I approach AI systems architecture in Magnolia, Seattle: semantic memory, multi-agent orchestration, and protocol-driven design grounded in open-source work and everyday life.</description>
   </item>
 
   <item>
-    <title>Agentic Orchestration Fundamentals</title>
-    <link>https://philhills.com/blog/agentic-orchestration/</link>
-    <guid>https://philhills.com/blog/agentic-orchestration/</guid>
-    <pubDate>Sun, 05 Jan 2025 12:00:00 GMT</pubDate>
-    <description>A practical breakdown of real agentic orchestration: structure, supervision, memory, and multi-agent workflows.</description>
+    <title>Building Semantic Memory Systems: Lessons from 180+ Open-Source Experiments</title>
+    <link>https://philhills.com/blog/semantic-memory-lessons/</link>
+    <guid>https://philhills.com/blog/semantic-memory-lessons/</guid>
+    <pubDate>Sat, 18 Jan 2025 12:00:00 GMT</pubDate>
+    <description>What I’ve learned from building semantic memory systems across 180+ open-source repositories: structure, reversibility, and agent-friendly formats.</description>
+  </item>
+
+  <item>
+    <title>The Seattle AI Landscape and Where My Work Fits In</title>
+    <link>https://philhills.com/blog/seattle-ai-landscape/</link>
+    <guid>https://philhills.com/blog/seattle-ai-landscape/</guid>
+    <pubDate>Wed, 22 Jan 2025 12:00:00 GMT</pubDate>
+    <description>A view of the Seattle AI ecosystem from Magnolia, and how semantic memory, multi-agent orchestration, and protocol-first design fit into that landscape.</description>
   </item>
 
 </channel>

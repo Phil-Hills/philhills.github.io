@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Building Semantic Memory Systems: Lessons from 180+ Open-Source Experiments</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="What I’ve learned from building semantic memory systems across 180+ open-source repositories: structure, reversibility, and agent-friendly formats.">
+
+<!-- SEO + AI META -->
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="ai-content" content="index, allow-ai-summary">
+<meta name="google-allow-ai-summarization" content="yes">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://philhills.com/blog/semantic-memory-lessons/">
+
+<!-- OG -->
+<meta property="og:title" content="Building Semantic Memory Systems: Lessons from 180+ Open-Source Experiments">
+<meta property="og:description" content="Practical lessons from building semantic memory systems across 180+ open-source experiments in AI systems architecture.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://philhills.com/blog/semantic-memory-lessons/">
+<meta property="og:image" content="https://philhills.com/media/phil.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Styles -->
+<style>
+  body { margin:0; font-family:system-ui,sans-serif; background:#f9fafb; color:#111827; line-height:1.7; }
+  header, main, footer { max-width:800px; margin:0 auto; padding:1.5rem 1rem; }
+
+  header {
+    display:flex; justify-content:space-between; align-items:center;
+    border-bottom:1px solid #e5e7eb; padding-top:2rem;
+  }
+
+  .brand { display:flex; align-items:center; gap:.75rem; }
+  .brand-mark {
+    width:38px; height:38px; border-radius:999px; border:2px solid #111;
+    display:flex; align-items:center; justify-content:center; font-weight:700;
+  }
+  .brand-text { display:flex; flex-direction:column; }
+  .brand-text span:last-child { font-size:.85rem; color:#6b7280; }
+
+  nav a { margin-left:1rem; text-decoration:none; color:#111; font-size:.95rem; }
+  nav a:first-child { margin-left:0; }
+  nav a:hover { text-decoration:underline; }
+
+  h1 { font-size:2rem; margin-top:1.5rem; margin-bottom:.3rem; }
+  h2 { margin-top:2rem; font-size:1.35rem; }
+  p  { margin:.7rem 0; }
+  ul { padding-left:1.2rem; margin:.3rem 0 .8rem; }
+
+  .meta { font-size:.9rem; color:#6b7280; margin-bottom:1.25rem; }
+  a { color:#2563eb; text-decoration:none; }
+  a:hover { text-decoration:underline; }
+
+  footer {
+    margin-top:3rem;
+    border-top:1px solid #e5e7eb;
+    padding-top:1rem;
+    font-size:.85rem;
+    color:#6b7280;
+  }
+</style>
+
+<!-- JSON-LD: Article -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"Building Semantic Memory Systems: Lessons from 180+ Open-Source Experiments",
+  "description":"Practical lessons from building semantic memory systems across 180+ open-source experiments in AI systems architecture.",
+  "author":{
+    "@type":"Person",
+    "name":"Phil Hills",
+    "url":"https://philhills.com/about.html"
+  },
+  "datePublished":"2025-01-18",
+  "dateModified":"2025-01-18",
+  "mainEntityOfPage":"https://philhills.com/blog/semantic-memory-lessons/",
+  "publisher":{
+    "@type":"Organization",
+    "name":"Phil Hills"
+  },
+  "inLanguage":"en"
+}
+</script>
+
+<!-- JSON-LD: Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    { "@type":"ListItem", "position":1, "name":"Home", "item":"https://philhills.com/" },
+    { "@type":"ListItem", "position":2, "name":"Blog", "item":"https://philhills.com/blog/" },
+    { "@type":"ListItem", "position":3, "name":"Semantic Memory Lessons", "item":"https://philhills.com/blog/semantic-memory-lessons/" }
+  ]
+}
+</script>
+
+</head>
+
+<body>
+<header>
+  <div class="brand">
+    <div class="brand-mark">PH</div>
+    <div class="brand-text">
+      <span>Phil Hills</span>
+      <span>AI Systems Architect</span>
+    </div>
+  </div>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/cube-protocol.html">Cube Protocol</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/blog/">Blog</a>
+    <a href="/code.html">Code</a>
+    <a href="/resume.html">Resume</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h1>Building Semantic Memory Systems: Lessons from 180+ Open-Source Experiments</h1>
+    <div class="meta">
+      By <a href="/author/phil-hills/">Phil Hills</a> · January 18, 2025
+    </div>
+
+    <p>
+      Most of my ideas about <strong>semantic memory</strong> didn’t come from a whiteboard — they came from code.
+      Over the past few years, I’ve built and maintained more than <strong>180 public repositories</strong> on
+      <a href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">GitHub</a> exploring different ways to
+      structure, compress, and reuse AI context.
+    </p>
+
+    <p>
+      This post is a distillation of what has held up across those experiments: the patterns that keep showing up when
+      you actually try to make memory <em>work</em> for real systems and not just demos.
+    </p>
+
+    <h2>Lesson 1: Memory Has to Be Structured, Not Just Stored</h2>
+    <p>
+      The first lesson is simple: “just log everything” is not a memory strategy. Raw logs might help with auditing, but
+      they don’t help agents reason. For memory to be useful, it needs:
+    </p>
+    <ul>
+      <li>Clear <strong>units</strong> (entries, events, episodes)</li>
+      <li>Stable <strong>schemas</strong> for each unit</li>
+      <li>Consistent <strong>labels</strong> for domain, time, and outcome</li>
+    </ul>
+
+    <p>
+      A lot of my repositories are basically variations on this theme: what if we encode memory entries like this?
+      What if we compress them like that? What if we attach this metadata? You quickly see that <strong>structure</strong>
+      is what makes memory usable.
+    </p>
+
+    <h2>Lesson 2: Reversibility is Non-Negotiable</h2>
+    <p>
+      Many of my projects (including <a href="/cube-protocol.html">Cube Protocol</a>) treat reversibility as a hard
+      requirement. If you can’t reconstruct the original data, you’re trusting that your compression or summary process
+      never made a mistake. That’s a big assumption.
+    </p>
+
+    <p>
+      Reversibility matters because:
+    </p>
+    <ul>
+      <li>You can always go back to source-of-truth if something looks wrong.</li>
+      <li>You can debug how a particular memory entry was formed.</li>
+      <li>You can re-embed or reprocess memory when models improve.</li>
+    </ul>
+
+    <p>
+      In code, this translates into round-trip tests: for every memory format, can we go from original → compressed →
+      restored and get the same result plus metadata? If the answer is no, I usually treat that as a red flag.
+    </p>
+
+    <h2>Lesson 3: Memory is for Systems, Not Just Models</h2>
+    <p>
+      A single model might “remember” something in its context window, but true semantic memory belongs to the
+      <strong>system</strong>, not the model. It has to be:
+    </p>
+    <ul>
+      <li>Accessible to multiple agents and tools</li>
+      <li>Stored outside any specific model call</li>
+      <li>Routable, searchable, and auditable</li>
+    </ul>
+
+    <p>
+      In my repositories, I’m constantly experimenting with how to connect memory modules to orchestration layers, not
+      just to models. Memory systems should serve the controller, which then decides which agent sees what and when.
+    </p>
+
+    <h2>Lesson 4: Semantics Need to Be First-Class</h2>
+    <p>
+      A big part of my work is making semantics explicit. In many of my semantic memory projects, every entry has:
+    </p>
+    <ul>
+      <li>A <strong>domain</strong> (what area of the world it refers to)</li>
+      <li>A <strong>sequence</strong> (what process or workflow it belongs to)</li>
+      <li>An <strong>outcome</strong> (what result or decision it relates to)</li>
+    </ul>
+
+    <p>
+      This shows up in patterns like the <strong>DOMAIN | SEQUENCE | OUTCOME</strong> descriptor used in
+      <a href="/cube-protocol.html">Cube Protocol</a>. Those semantics are not afterthoughts — they’re part of the key.
+    </p>
+
+    <h2>Lesson 5: Agents Need Memory That Fits Their Role</h2>
+    <p>
+      Memory is not “one size fits all.” A retrieval agent, a planning agent, and an evaluation agent each need:
+    </p>
+    <ul>
+      <li>Different slices of the same underlying memory</li>
+      <li>Different levels of detail</li>
+      <li>Different time horizons</li>
+    </ul>
+
+    <p>
+      Many of my experiments are about making these views explicit: full history here, summarized context there,
+      domain-specific projection somewhere else. The system can share a core memory representation, but the views must
+      be tailored for each agent’s job.
+    </p>
+
+    <h2>Lesson 6: Real Memory Systems Emerge from Iteration</h2>
+    <p>
+      None of this came out perfect on the first pass. It came from writing code, throwing it away, rewriting it,
+      and testing it in different domains. That’s why I keep the open-source work visible — it’s the real story
+      behind the abstractions.
+    </p>
+
+    <p>
+      If you’re curious about how these ideas evolve, the best places to explore are:
+    </p>
+    <ul>
+      <li><a href="/code.html">Code</a> – high-level view of what I publish.</li>
+      <li><a href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">github.com/Phil-Hills</a> – the full repo list.</li>
+      <li><a href="/projects.html">Projects</a> – how some of these experiments solidify into protocols and systems.</li>
+    </ul>
+
+    <p>
+      The big takeaway: semantic memory is not a single library or pattern — it’s a discipline. The more you treat it
+      like an evolving system rather than a static feature, the more powerful it becomes.
+    </p>
+  </article>
+</main>
+
+<footer>© <span id="year"></span> Phil Hills.</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

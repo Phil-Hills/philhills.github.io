@@ -4,9 +4,12 @@ https://philhills.com/cube-protocol.html
 https://philhills.com/projects.html
 https://philhills.com/resume.html
 https://philhills.com/contact.html
+https://philhills.com/code.html
+https://philhills.com/phil-hills-seattle.html
 https://philhills.com/blog/
-https://philhills.com/blog/semantic-memory/
-https://philhills.com/blog/agentic-orchestration/
+https://philhills.com/blog/ai-systems-architecture-seattle/
+https://philhills.com/blog/semantic-memory-lessons/
+https://philhills.com/blog/seattle-ai-landscape/
 https://philhills.com/author/phil-hills/
 https://philhills.com/docs/
 https://philhills.com/docs/cube-protocol/
