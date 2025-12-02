@@ -1,109 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Cube Protocol — Multi-Agent AI Automation Framework</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Cube Protocol is an AI automation and multi-agent reasoning framework created by Phil Hills to coordinate intelligent workflows." />
-  <link rel="canonical" href="https://philhills.com/cube-protocol.html" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube Protocol – Phil Hills</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-<div class="site-wrapper">
-  <header class="navbar">
-    <div class="nav-inner">
-      <a class="brand" href="/">
-        <div class="brand-logo">PH</div>
-        <div class="brand-text">
-          <span>Phil Hills</span>
-          <span>AI Programmer & Automation Architect · Seattle</span>
-        </div>
-      </a>
-      <nav class="nav-links">
-        <a href="/about.html">About</a>
-        <a href="/cube-protocol.html">Cube Protocol</a>
-        <a href="/contact.html">Contact</a>
-      </nav>
+
+<header class="header">
+    <div class="container">
+        <h1 class="logo">PHIL HILLS</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="cube-protocol.html" class="active">Cube Protocol</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </div>
-  </header>
+</header>
 
-  <main class="main">
-    <section class="page-hero">
-      <h1 class="page-title">Cube Protocol</h1>
-      <p class="page-subtitle">
-        An AI automation and multi-agent reasoning framework designed by Phil Hills.
-      </p>
-    </section>
-
-    <section class="page-section">
-      <div class="stack">
-        <div>
-          <h2>Why Cube Protocol?</h2>
-          <p>
-            Traditional LLM messaging is verbose, lossy, and slow. Cube Protocol solves
-            this by introducing a compressed representation layer with explicit semantics,
-            fingerprinting, and multi-channel payloads optimized for agent-to-agent
-            collaboration.
-          </p>
-        </div>
-
-        <div>
-          <h2>Core Components</h2>
-          <ul>
-            <li><strong>Blueprint Encoding:</strong> Structured representation of agent intent and metadata.</li>
-            <li><strong>Multi-Channel Payload:</strong> Parallel compressed vectors for instructions, memory, and context.</li>
-            <li><strong>Packet Fingerprinting:</strong> Integrity checking and source verification.</li>
-            <li><strong>Semantic Compression:</strong> Reduces token usage while preserving meaning.</li>
-          </ul>
-        </div>
-
-        <div>
-          <h2>Example Cube Packet</h2>
-          <pre><code>{
-  "cube_version": "1.0",
-  "intent": "summarize",
-  "payload": {
-    "compressed_vectors": ["v0x91f2", "v0x22c1"],
-    "context_hash": "a82c11d9fe1b"
-  },
-  "fingerprint": "fp_9932_ab12"
-}</code></pre>
-        </div>
-
-        <div>
-          <h2>Implementation</h2>
-          <p>
-            Cube Protocol is implemented across multiple languages including
-            TypeScript, Python, and Rust. Companion libraries handle encoding,
-            decoding, compression, and packet verification.
-          </p>
-        </div>
-
-        <div>
-          <h2>Project Status</h2>
-          <p>
-            Cube Protocol is actively evolving with new compression layers,
-            multi-agent routing logic, and an expanding test suite.
-          </p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-inner">
-      <div>© <span id="year"></span> Phil Hills. All rights reserved.</div>
-      <div class="footer-links">
-        <a href="/">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/cube-protocol.html">Cube Protocol</a>
-        <a href="https://github.com/Phil-Hills" target="_blank" rel="noopener">GitHub</a>
-      </div>
+<section class="hero hero-small">
+    <div class="container hero-inner">
+        <h2>Cube Protocol</h2>
+        <p>A 3D semantic memory and agent interoperability framework.</p>
     </div>
-  </footer>
-</div>
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+</section>
+
+
+<section class="container page">
+
+    <h2>Executive Summary</h2>
+
+    <p><strong>Cube Protocol</strong> is a research-backed semantic memory system designed by <strong>Phil Hills</strong>. It compresses, structures, and annotates data into <strong>3D cubes</strong> that can be exchanged across agentic systems, cloud workflows, and large-domain pipelines.</p>
+
+    <p>Unlike ordinary compression tools, Cube Protocol enables:</p>
+
+    <ul>
+        <li>Semantic memory packets for multi-agent workflows</li>
+        <li>Multi-layer type-aware compression</li>
+        <li>Hash-verified integrity</li>
+        <li>Cross-domain data packetization</li>
+        <li>Token-efficient AI-to-AI communication</li>
+        <li>Interoperability with open standards (A2A)</li>
+    </ul>
+
+
+    <div class="section-break"></div>
+
+    <h2>Technical Architecture</h2>
+
+    <h3>3D Semantic Memory Cube</h3>
+    <p>All input data—text, JSON, HTML, images, logs, microscopy stacks—is normalized, compressed, and packed into a structured <strong>3D cube</strong> with optimized dimensions.</p>
+
+    <h3>Semantic Descriptor System</h3>
+    <pre class="code-block">
+DOMAIN | SEQUENCE | OUTCOME
+    </pre>
+
+    <p>This “Trinity Pattern” lets agents understand:</p>
+    <ul>
+        <li>What the cube contains</li>
+        <li>How it was produced</li>
+        <li>What operation is expected</li>
+    </ul>
+
+    <h3>Multi-Layer Compression</h3>
+    <ul>
+        <li>Type-specific precompression</li>
+        <li>gzip-based deflation</li>
+        <li>base64 encoding</li>
+        <li>cube decomposition into layers</li>
+    </ul>
+
+    <h3>Integrity Verification</h3>
+    <p>Every cube includes a <strong>SHA-256</strong> hash of the compressed payload, enabling tamper detection and safe reconstruction.</p>
+
+    <h3>Automatic Dimension Calculation</h3>
+    <p>Cube Protocol determines optimal dimensions based on content size and data type, ensuring minimal entropy per layer.</p>
+
+    <h3>Reconstruction Engine</h3>
+    <p>Fully reversible process restoring the original data from the cube, ensuring lossless round-trips.</p>
+
+    <h3>A2A Integration</h3>
+    <p>Cube Protocol is interoperable with the open-source <strong>Agent-to-Agent (A2A)</strong> protocol for structured data transfer.</p>
+
+
+    <div class="section-break"></div>
+
+    <h2>Case Study – Why I Built It</h2>
+
+    <p class="story">
+        “Cube Protocol started because AI systems needed structured memory. Models could reason, but they couldn’t carry meaningful state across workflows.
+        I wanted a way to give agents a shared language—geometry, semantics, integrity—and a portable format that worked across any domain.
+        Cube Protocol became my answer: a unified packet for meaning, structure, and interoperability.”
+    </p>
+
+    <p>I designed Cube Protocol to handle:</p>
+    <ul>
+        <li>Large imaging stacks</li>
+        <li>Robotics / AR memory</li>
+        <li>Multi-agent communication</li>
+        <li>High-volume structured datasets (finance, analytics, etc.)</li>
+        <li>Cloud-scale workflows</li>
+    </ul>
+
+
+    <div class="section-break"></div>
+
+    <h2>Product Applications</h2>
+
+    <h3>AI Orchestration</h3>
+    <p>Standardized packets for structured, repeatable cross-agent workflows.</p>
+
+    <h3>Robotics & AR Memory</h3>
+    <p>3D semantic memory aligns with spatial reasoning and scene-state capture.</p>
+
+    <h3>Large Structured Datasets</h3>
+    <p>Financial, scientific, or analytics data can be packed into predictable, efficient cubes.</p>
+
+    <h3>Microscopy / Imaging (Optional Domain)</h3>
+    <p>Specialized cube variants support multi-channel, z-depth, and time-sequence imaging data.</p>
+
+
+</section>
+
+<footer>
+    <p>© 2025 Phil Hills.</p>
+</footer>
+
 </body>
 </html>

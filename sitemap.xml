@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://philhills.com/</loc>
   </url>
+
   <url>
     <loc>https://philhills.com/about.html</loc>
   </url>
+
+  <url>
+    <loc>https://philhills.com/cube-protocol.html</loc>
+  </url>
+
+  <url>
+    <loc>https://philhills.com/projects.html</loc>
+  </url>
+
   <url>
     <loc>https://philhills.com/contact.html</loc>
   </url>
-  <url>
-    <loc>https://philhills.com/cube-protocol.html</loc>
-    <lastmod>2025-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
+
 </urlset>
