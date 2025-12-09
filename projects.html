@@ -1,12 +1,95 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
 
-<title>Projects – Phil Hills</title>
+<head>
+  <meta charset="utf-8">
+  <title>Projects – Phil Hills</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a href="/" class="brand">
+      <div class="brand-mark">PH</div>
+      <div class="brand-text">
+        <span>Phil Hills</span>
+        <span>AI Systems Architect</span>
+      </div>
+    </a>
+
+    <nav>
+      <a href="/">Home</a>
+      <a href="/projects.html" class="active">Projects</a>
+      <a href="/blog/">Blog</a>
+      <a href="https://github.com/Phil-Hills" target="_blank">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="hero-title" style="font-size: 2.5rem;">System Implementations</h1>
+    <p class="hero-subtitle">
+      Architectural work focused on semantic AI, multi-agent workflows, and large-scale data structure.
+    </p>
+
+    <section>
+      <h2>Deployed Applications</h2>
+      <div class="card-grid">
+        <div class="card" style="border-color: var(--accent);">
+          <h3 style="color: var(--accent);">AI Summary Cube</h3>
+          <p>
+            Production-grade implementation of Cube Protocol v1.1. Features 3D visualization,
+            BLAKE3 hash verification, and GZIP+Base64 semantic compression.
+          </p>
+          <div style="margin-top: 1rem; display: flex; gap: 0.5rem;">
+            <a class="btn btn-primary" href="https://cube-protocol-app-422805462249.us-central1.run.app"
+              target="_blank">Launch App</a>
+            <a class="btn" href="https://github.com/Phil-Hills/Cube-interface" target="_blank">Source</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Architectural Patterns</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Agentic Orchestration Layer</h3>
+          <p>A supervised multi-agent architecture with task routing, memory management, and execution boundaries.</p>
+        </div>
+
+        <div class="card">
+          <h3>AI Packet Bridge</h3>
+          <p>Token-efficient AI-to-AI data exchange system built on structured packet rules.</p>
+        </div>
+
+        <div class="card">
+          <h3>Financial Dataset Cubes</h3>
+          <p>High-volume structured datasets for market data, analytics traces, and temporal series.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Phil Hills.
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Projects by Phil Hills across semantic memory, agentic orchestration, structured data protocols, and multi-agent AI systems.">
+<meta name="description"
+  content="Projects by Phil Hills across semantic memory, agentic orchestration, structured data protocols, and multi-agent AI systems.">
 
 <!-- SEO + AI META -->
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -18,7 +101,8 @@
 
 <!-- Open Graph -->
 <meta property="og:title" content="Projects – Phil Hills">
-<meta property="og:description" content="AI systems projects including Cube Protocol, multi-agent orchestration, structured data pipelines, and semantic memory frameworks.">
+<meta property="og:description"
+  content="AI systems projects including Cube Protocol, multi-agent orchestration, structured data pipelines, and semantic memory frameworks.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://philhills.com/projects.html">
 <meta property="og:image" content="https://philhills.com/media/phil.jpg">
@@ -28,46 +112,106 @@
 
 <!-- Inline Styles -->
 <style>
-  body { margin:0; font-family:system-ui, sans-serif; background:#f9fafb; color:#111; line-height:1.6; }
-  header, main, footer { max-width:940px; margin:0 auto; padding:1.5rem 1rem; }
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #f9fafb;
+    color: #111;
+    line-height: 1.6;
+  }
+
+  header,
+  main,
+  footer {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+  }
 
   header {
-    display:flex; justify-content:space-between; align-items:center;
-    border-bottom:1px solid #e5e7eb; padding-top:2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e7eb;
+    padding-top: 2rem;
   }
 
-  .brand { display:flex; align-items:center; gap:.75rem; }
-  .brand-mark {
-    width:38px; height:38px;
-    border-radius:999px;
-    border:2px solid #111;
-    display:flex; align-items:center; justify-content:center;
-    font-weight:700;
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
   }
-  .brand-text { display:flex; flex-direction:column; }
-  .brand-text span:last-child { color:#6b7280; font-size:.85rem; }
+
+  .brand-mark {
+    width: 38px;
+    height: 38px;
+    border-radius: 999px;
+    border: 2px solid #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand-text span:last-child {
+    color: #6b7280;
+    font-size: .85rem;
+  }
 
   nav a {
-    margin-left:1rem; text-decoration:none; color:#111; font-size:.95rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #111;
+    font-size: .95rem;
   }
-  nav a:first-child { margin-left:0; }
-  nav a:hover { text-decoration:underline; }
 
-  h1 { font-size:2rem; margin-top:1.25rem; }
-  h2 { font-size:1.35rem; margin-top:2rem; }
-  h3 { font-size:1.1rem; margin-top:1.25rem; }
+  nav a:first-child {
+    margin-left: 0;
+  }
 
-  .project-block { margin-bottom:1.5rem; }
+  nav a:hover {
+    text-decoration: underline;
+  }
 
-  a { color:#2563eb; text-decoration:none; }
-  a:hover { text-decoration:underline; }
+  h1 {
+    font-size: 2rem;
+    margin-top: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    margin-top: 1.25rem;
+  }
+
+  .project-block {
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 
   footer {
-    margin-top:3rem;
-    border-top:1px solid #e5e7eb;
-    padding-top:1rem;
-    font-size:.85rem;
-    color:#6b7280;
+    margin-top: 3rem;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 1rem;
+    font-size: .85rem;
+    color: #6b7280;
   }
 </style>
 
@@ -99,86 +243,91 @@
 </head>
 
 <body>
-<header>
-  <div class="brand">
-    <div class="brand-mark">PH</div>
-    <div class="brand-text">
-      <span>Phil Hills</span>
-      <span>AI Systems Architect</span>
+  <header>
+    <div class="brand">
+      <div class="brand-mark">PH</div>
+      <div class="brand-text">
+        <span>Phil Hills</span>
+        <span>AI Systems Architect</span>
+      </div>
     </div>
-  </div>
 
-  <nav>
-    <a href="/">Home</a>
-    <a href="/about.html">About</a>
-    <a href="/cube-protocol.html">Cube Protocol</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/blog/">Blog</a>
-    <a href="/resume.html">Resume</a>
-    <a href="/contact.html">Contact</a>
-  </nav>
-</header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/cube-protocol.html">Cube Protocol</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/blog/">Blog</a>
+      <a href="/resume.html">Resume</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
 
-<main>
-  <h1>Projects</h1>
-  <p>A selection of systems, protocols, and architectural work focused on semantic AI, multi-agent workflows, and large-scale data structure.</p>
+  <main>
+    <h1>Projects</h1>
+    <p>A selection of systems, protocols, and architectural work focused on semantic AI, multi-agent workflows, and
+      large-scale data structure.</p>
 
-  <h2>Core Systems</h2>
+    <h2>Core Systems</h2>
 
-  <div class="project-block">
-    <h3>Cube Protocol</h3>
+    <div class="project-block">
+      <h3>Cube Protocol</h3>
+      <p>
+        A 3D structured data protocol for reversible semantic memory and cross-agent communication.
+        Supports compression, labeling, reversible reconstruction, and domain-scoped semantics.
+      </p>
+      <p><a href="/cube-protocol.html">Learn more →</a></p>
+    </div>
+
+    <div class="project-block">
+      <h3>Agentic Orchestration Layer</h3>
+      <p>
+        A supervised multi-agent architecture with task routing, memory management, structured packet exchange,
+        and predictable execution boundaries.
+      </p>
+    </div>
+
+    <div class="project-block">
+      <h3>AI Packet Bridge</h3>
+      <p>
+        A token-efficient AI-to-AI data exchange system built on structured packet rules,
+        enabling safe, deterministic communication between specialized agents and models.
+      </p>
+    </div>
+
+    <h2>Specialized Implementations</h2>
+
+    <div class="project-block">
+      <h3>Microscopy Cube Variant</h3>
+      <p>Domain-specific cube formatting for multi-channel imaging, z-depth stacks, and scientific datasets.</p>
+    </div>
+
+    <div class="project-block">
+      <h3>Robotics Memory Experiments</h3>
+      <p>Using structured cubes to represent spatial scenes, temporal slices, and environment state for robotics agents.
+      </p>
+    </div>
+
+    <div class="project-block">
+      <h3>Financial Dataset Cubes</h3>
+      <p>High-volume structured datasets for market data, analytics traces, and temporal series encoded into cube form.
+      </p>
+    </div>
+
+    <h2>Open Source Code (180+ Repositories)</h2>
     <p>
-      A 3D structured data protocol for reversible semantic memory and cross-agent communication.
-      Supports compression, labeling, reversible reconstruction, and domain-scoped semantics.
+      Beyond these highlighted projects, I maintain an actively evolving open-source portfolio on GitHub:
+      <a href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">github.com/Phil-Hills</a>.
+      It includes experiments, reference implementations, and systems that inform the protocols and designs on this
+      site.
     </p>
-    <p><a href="/cube-protocol.html">Learn more →</a></p>
-  </div>
+  </main>
 
-  <div class="project-block">
-    <h3>Agentic Orchestration Layer</h3>
-    <p>
-      A supervised multi-agent architecture with task routing, memory management, structured packet exchange,
-      and predictable execution boundaries.
-    </p>
-  </div>
-
-  <div class="project-block">
-    <h3>AI Packet Bridge</h3>
-    <p>
-      A token-efficient AI-to-AI data exchange system built on structured packet rules,
-      enabling safe, deterministic communication between specialized agents and models.
-    </p>
-  </div>
-
-  <h2>Specialized Implementations</h2>
-
-  <div class="project-block">
-    <h3>Microscopy Cube Variant</h3>
-    <p>Domain-specific cube formatting for multi-channel imaging, z-depth stacks, and scientific datasets.</p>
-  </div>
-
-  <div class="project-block">
-    <h3>Robotics Memory Experiments</h3>
-    <p>Using structured cubes to represent spatial scenes, temporal slices, and environment state for robotics agents.</p>
-  </div>
-
-  <div class="project-block">
-    <h3>Financial Dataset Cubes</h3>
-    <p>High-volume structured datasets for market data, analytics traces, and temporal series encoded into cube form.</p>
-  </div>
-
-  <h2>Open Source Code (180+ Repositories)</h2>
-  <p>
-    Beyond these highlighted projects, I maintain an actively evolving open-source portfolio on GitHub:
-    <a href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">github.com/Phil-Hills</a>.
-    It includes experiments, reference implementations, and systems that inform the protocols and designs on this site.
-  </p>
-</main>
-
-<footer>© <span id="year"></span> Phil Hills.</footer>
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+  <footer>© <span id="year"></span> Phil Hills.</footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 
 </body>
+
 </html>

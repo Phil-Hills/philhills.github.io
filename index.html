@@ -1,12 +1,107 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
 
-<title>Phil Hills – AI Systems Architect & Agentic Protocol Engineer</title>
+<head>
+  <meta charset="utf-8">
+  <title>Phil Hills – AI Systems Architect & Agentic Protocol Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Phil Hills designs semantic memory systems, agentic orchestration layers, and structured AI protocols for next-generation multi-agent workflows.">
+
+  <!-- SEO + AI META -->
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="ai-content" content="index, allow-ai-summary">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Phil Hills – AI Systems Architect">
+  <meta property="og:description"
+    content="Semantic memory systems, multi-agent orchestration, structured AI protocols.">
+  <meta property="og:url" content="https://philhills.com/">
+  <meta property="og:type" content="website">
+
+</head>
+
+<body>
+  <header>
+    <a href="/" class="brand">
+      <div class="brand-mark">PH</div>
+      <div class="brand-text">
+        <span>Phil Hills</span>
+        <span>AI Systems Architect</span>
+      </div>
+    </a>
+
+    <nav>
+      <a href="/" class="active">Home</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/blog/">Blog</a>
+      <a href="https://github.com/Phil-Hills" target="_blank">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">AI Systems Architect &amp; Agentic Protocol Engineer</h1>
+      <p class="hero-subtitle">
+        I design semantic memory systems, agentic orchestration layers, and structured AI protocols
+        for next-generation multi-agent workflows.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://cube-protocol-app-422805462249.us-central1.run.app"
+          target="_blank">Launch AI Summary Cube</a>
+        <a class="btn" href="/projects.html">View Systems</a>
+        <a class="btn" href="https://github.com/Phil-Hills" target="_blank">Browse Code</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Core Systems</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Cube Protocol v1.1</h3>
+          <p>A 3D semantic data format for agent memory. Uses BLAKE3 verification and domain-scoped compression.</p>
+          <a class="inline-link" href="https://cube-protocol-app-422805462249.us-central1.run.app"
+            target="_blank">Launch App →</a>
+        </div>
+
+        <div class="card">
+          <h3>Agentic Orchestration</h3>
+          <p>Supervised multi-agent architectures with predictable, testable behavior and structured packet exchange.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>AI Packet Bridge</h3>
+          <p>Token-efficient AI-to-AI data exchange system built on safe, deterministic communication rules.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Phil Hills. Built with Cube Protocol.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Phil Hills designs semantic memory systems, agentic orchestration layers, and structured AI protocols for next-generation multi-agent workflows.">
+<meta name="description"
+  content="Phil Hills designs semantic memory systems, agentic orchestration layers, and structured AI protocols for next-generation multi-agent workflows.">
 
 <!-- SEO + AI META -->
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -18,7 +113,8 @@
 
 <!-- Open Graph -->
 <meta property="og:title" content="Phil Hills – AI Systems Architect & Agentic Protocol Engineer">
-<meta property="og:description" content="Semantic memory systems, multi-agent orchestration, structured AI protocols, and large-scale data architectures.">
+<meta property="og:description"
+  content="Semantic memory systems, multi-agent orchestration, structured AI protocols, and large-scale data architectures.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://philhills.com/">
 <meta property="og:image" content="https://philhills.com/media/phil.jpg">
@@ -30,7 +126,10 @@
 
 <!-- Inline Styles -->
 <style>
-  :root { color-scheme: light dark; }
+  :root {
+    color-scheme: light dark;
+  }
+
   body {
     margin: 0;
     font-family: system-ui, sans-serif;
@@ -38,11 +137,15 @@
     color: #111827;
     line-height: 1.6;
   }
-  header, main, footer {
+
+  header,
+  main,
+  footer {
     max-width: 940px;
     margin: 0 auto;
     padding: 1.5rem 1rem;
   }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -50,80 +153,128 @@
     border-bottom: 1px solid #e5e7eb;
     padding-top: 2rem;
   }
-  .brand { display:flex; align-items:center; gap:.75rem; }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+  }
+
   .brand-mark {
-    width: 38px; height: 38px;
+    width: 38px;
+    height: 38px;
     border-radius: 999px;
     border: 2px solid #111;
-    display:flex; align-items:center; justify-content:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 700;
   }
-  .brand-text { display:flex; flex-direction:column; }
-  .brand-text span:last-child { color:#6b7280; font-size:.85rem; }
+
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand-text span:last-child {
+    color: #6b7280;
+    font-size: .85rem;
+  }
 
   nav a {
-    margin-left:1rem;
-    text-decoration:none;
-    color:#111;
-    font-size:.95rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #111;
+    font-size: .95rem;
   }
-  nav a:first-child { margin-left:0; }
-  nav a:hover { text-decoration:underline; }
+
+  nav a:first-child {
+    margin-left: 0;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
 
   .hero-title {
-    font-size:2.4rem;
-    margin:1rem 0 .75rem;
+    font-size: 2.4rem;
+    margin: 1rem 0 .75rem;
   }
+
   .hero-subtitle {
     max-width: 650px;
-    font-size:1.05rem;
-    color:#4b5563;
-    margin-top:0;
+    font-size: 1.05rem;
+    color: #4b5563;
+    margin-top: 0;
   }
-  .hero-actions {
-    display:flex;
-    gap:.75rem;
-    margin-top:1.75rem;
-    flex-wrap:wrap;
-  }
-  .btn {
-    padding:.55rem 1.1rem;
-    border:1px solid #111;
-    border-radius:999px;
-    text-decoration:none;
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    font-size:.95rem;
-    color:#111;
-  }
-  .btn-primary { background:#111; color:#fff; }
 
-  section { margin-top:2.75rem; }
-  h2 { font-size:1.45rem; margin-bottom:1rem; }
+  .hero-actions {
+    display: flex;
+    gap: .75rem;
+    margin-top: 1.75rem;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    padding: .55rem 1.1rem;
+    border: 1px solid #111;
+    border-radius: 999px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .95rem;
+    color: #111;
+  }
+
+  .btn-primary {
+    background: #111;
+    color: #fff;
+  }
+
+  section {
+    margin-top: 2.75rem;
+  }
+
+  h2 {
+    font-size: 1.45rem;
+    margin-bottom: 1rem;
+  }
 
   .card-grid {
-    display:grid;
-    gap:1.5rem;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
+
   .card {
-    background:#fff;
-    border:1px solid #e5e7eb;
-    padding:1.25rem;
-    border-radius:.75rem;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    padding: 1.25rem;
+    border-radius: .75rem;
   }
-  .card h3 { margin-top:0; margin-bottom:.5rem; }
+
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
 
   footer {
-    margin-top:3rem;
-    border-top:1px solid #e5e7eb;
-    padding-top:1rem;
-    font-size:.85rem;
-    color:#6b7280;
+    margin-top: 3rem;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 1rem;
+    font-size: .85rem;
+    color: #6b7280;
   }
-  a.inline-link { color:#2563eb; text-decoration:none; }
-  a.inline-link:hover { text-decoration:underline; }
+
+  a.inline-link {
+    color: #2563eb;
+    text-decoration: none;
+  }
+
+  a.inline-link:hover {
+    text-decoration: underline;
+  }
 </style>
 
 <!-- JSON-LD: WebSite -->
@@ -177,83 +328,84 @@
 </head>
 
 <body>
-<header>
-  <div class="brand">
-    <div class="brand-mark">PH</div>
-    <div class="brand-text">
-      <span>Phil Hills</span>
-      <span>AI Systems Architect</span>
-    </div>
-  </div>
-
-  <nav>
-    <a href="/">Home</a>
-    <a href="/about.html">About</a>
-    <a href="/cube-protocol.html">Cube Protocol</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/blog/">Blog</a>
-    <a href="/code.html">Code</a>
-    <a href="/resume.html">Resume</a>
-    <a href="/contact.html">Contact</a>
-  </nav>
-</header>
-
-<main>
-  <section>
-    <h1 class="hero-title">AI Systems Architect &amp; Agentic Protocol Engineer</h1>
-    <p class="hero-subtitle">
-      I design semantic memory systems, agentic orchestration layers, and structured AI protocols
-      for next-generation multi-agent workflows. I also maintain over 180 public repositories on
-      <a class="inline-link" href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">GitHub</a>
-      where these ideas are explored in concrete implementations.
-    </p>
-
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="/cube-protocol.html">Explore Cube Protocol</a>
-      <a class="btn" href="/projects.html">See Projects</a>
-      <a class="btn" href="/blog/">Read the Blog</a>
-      <a class="btn" href="/code.html">Browse Code</a>
-    </div>
-  </section>
-
-  <section>
-    <h2>What I Build</h2>
-    <div class="card-grid">
-      <div class="card">
-        <h3>Cube Protocol</h3>
-        <p>A 3D semantic data format for agent memory and communication.</p>
-      </div>
-
-      <div class="card">
-        <h3>Agentic Orchestration</h3>
-        <p>Supervised multi-agent architectures with predictable, testable behavior.</p>
-      </div>
-
-      <div class="card">
-        <h3>Large-Scale Data Workflows</h3>
-        <p>Compression, transformation, and semantic labeling for complex datasets.</p>
-      </div>
-
-      <div class="card">
-        <h3>Blog &amp; Writing</h3>
-        <p>
-          System design notes, semantic memory concepts, and orchestration patterns drawn from
-          real-world experiments and open-source work.
-        </p>
-        <p style="margin-top:.5rem;">
-          <a class="inline-link" href="/blog/">Visit the blog →</a>
-        </p>
+  <header>
+    <div class="brand">
+      <div class="brand-mark">PH</div>
+      <div class="brand-text">
+        <span>Phil Hills</span>
+        <span>AI Systems Architect</span>
       </div>
     </div>
-  </section>
-</main>
 
-<footer>
-  © <span id="year"></span> Phil Hills.
-</footer>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/cube-protocol.html">Cube Protocol</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/blog/">Blog</a>
+      <a href="/code.html">Code</a>
+      <a href="/resume.html">Resume</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
 
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+  <main>
+    <section>
+      <h1 class="hero-title">AI Systems Architect &amp; Agentic Protocol Engineer</h1>
+      <p class="hero-subtitle">
+        I design semantic memory systems, agentic orchestration layers, and structured AI protocols
+        for next-generation multi-agent workflows. I also maintain over 180 public repositories on
+        <a class="inline-link" href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">GitHub</a>
+        where these ideas are explored in concrete implementations.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/cube-protocol.html">Explore Cube Protocol</a>
+        <a class="btn" href="/projects.html">See Projects</a>
+        <a class="btn" href="/blog/">Read the Blog</a>
+        <a class="btn" href="/code.html">Browse Code</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>What I Build</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Cube Protocol</h3>
+          <p>A 3D semantic data format for agent memory and communication.</p>
+        </div>
+
+        <div class="card">
+          <h3>Agentic Orchestration</h3>
+          <p>Supervised multi-agent architectures with predictable, testable behavior.</p>
+        </div>
+
+        <div class="card">
+          <h3>Large-Scale Data Workflows</h3>
+          <p>Compression, transformation, and semantic labeling for complex datasets.</p>
+        </div>
+
+        <div class="card">
+          <h3>Blog &amp; Writing</h3>
+          <p>
+            System design notes, semantic memory concepts, and orchestration patterns drawn from
+            real-world experiments and open-source work.
+          </p>
+          <p style="margin-top:.5rem;">
+            <a class="inline-link" href="/blog/">Visit the blog →</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Phil Hills.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
+
 </html>
