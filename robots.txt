@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Allow: /identity.json
+Allow: /ai.txt
 
 Sitemap: https://philhills.com/sitemap.xml
+x-robot-instructions: https://philhills.com/ai.txt
