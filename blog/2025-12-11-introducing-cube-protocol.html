@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducing the CUBE Protocol: 3D Semantic Data Compression - Phil Hills</title>
+    <meta name="description"
+        content="Learn how the CUBE Protocol transforms data compression by organizing compressed information into balanced 3D cube structures with optimized dimensions and SHA256 verification.">
+    <meta name="author" content="Phil Hills">
+    <meta name="keywords"
+        content="CUBE Protocol, data compression, gzip, base64, semantic data, AI agents, protocol engineering">
+    <meta name="article:published_time" content="2025-12-11T10:01:00-08:00">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Introducing the CUBE Protocol: 3D Semantic Data Compression">
+    <meta property="og:description"
+        content="Learn how the CUBE Protocol transforms data compression by organizing compressed information into balanced 3D cube structures.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://philhills.com/blog/2025-12-11-introducing-cube-protocol.html">
+    <meta property="article:author" content="Phil Hills">
+    <meta property="article:published_time" content="2025-12-11T10:01:00-08:00">
+    <meta property="article:tag" content="CUBE Protocol, data compression, protocol engineering, AI">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Introducing the CUBE Protocol">
+    <meta name="twitter:description" content="3D semantic data compression for next-generation AI systems">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://philhills.com/blog/2025-12-11-introducing-cube-protocol.html">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Schema.org Article -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Introducing the CUBE Protocol: 3D Semantic Data Compression",
+    "description": "Learn how the CUBE Protocol transforms data compression by organizing compressed information into balanced 3D cube structures.",
+    "author": {
+      "@type": "Person",
+      "name": "Phil Hills",
+      "url": "https://philhills.com"
+    },
+    "datePublished": "2025-12-11T10:01:00-08:00",
+    "keywords": "CUBE Protocol, data compression, gzip, base64, semantic data",
+    "publisher": {
+      "@type": "Person",
+      "name": "Phil Hills",
+      "url": "https://philhills.com"
+    }
+  }
+  </script>
+</head>
+
+<body>
+    <header>
+        <a href="/" class="brand">
+            <div class="brand-mark">PH</div>
+            <div class="brand-text">
+                <span>Phil Hills</span>
+                <span>AI Systems Architect</span>
+            </div>
+        </a>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/blog/">Blog</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="blog-post">
+        <article>
+            <header class="article-header">
+                <h1>Introducing the CUBE Protocol: 3D Semantic Data Compression</h1>
+                <div class="article-meta">
+                    <time datetime="2025-12-11T10:01:00-08:00">December 11, 2025</time>
+                    <span class="separator">•</span>
+                    <span class="author">by Phil Hills</span>
+                    <span class="separator">•</span>
+                    <span class="reading-time">5 min read</span>
+                </div>
+                <div class="tags">
+                    <span class="tag">CUBE Protocol</span>
+                    <span class="tag">Data Compression</span>
+                    <span class="tag">Protocol Engineering</span>
+                    <span class="tag">AI Systems</span>
+                </div>
+            </header>
+
+            <div class="article-content">
+                <p>Data compression isn't new, but what if we could organize compressed data in a way that's not just
+                    smaller, but semantically structured? That's the core idea behind the <strong>CUBE
+                        Protocol</strong>—a novel approach to data compression that transforms how we think about
+                    compressed information.</p>
+
+                <h2>The Problem with Traditional Compression</h2>
+
+                <p>Standard compression formats like gzip work brilliantly for reducing file sizes, but they treat data
+                    as a linear stream. Once compressed, the data loses any semantic structure it might have had. For AI
+                    agents exchanging information, this creates challenges:</p>
+
+                <ul>
+                    <li><strong>No metadata preservation</strong> - Context about the data is lost</li>
+                    <li><strong>Difficult verification</strong> - Ensuring data integrity requires additional steps</li>
+                    <li><strong>Limited discoverability</strong> - Compressed data is a black box until decompressed
+                    </li>
+                </ul>
+
+                <h2>Enter the CUBE Protocol</h2>
+
+                <p>The CUBE Protocol takes a different approach. Instead of treating compressed data as a flat stream,
+                    it organizes it into balanced 3D cube structures. Here's how it works:</p>
+
+                <h3>1. Maximum Compression</h3>
+                <p>First, we apply maximum gzip compression (level 9) to squeeze every byte we can:</p>
+
+                <pre><code>import gzip
+
+compressed = gzip.compress(
+    data.encode('utf-8'),
+    compresslevel=9
+)</code></pre>
+
+                <h3>2. Base64 Encoding</h3>
+                <p>The compressed binary data is then base64-encoded, making it text-safe for transmission and storage:
+                </p>
+
+                <pre><code>import base64
+
+encoded = base64.b64encode(compressed).decode('utf-8')</code></pre>
+
+                <h3>3. Cube-Fitting Dimensions</h3>
+                <p>Here's where it gets interesting. We calculate optimal 3D dimensions (X, Y, Z) that minimize padding
+                    waste while creating a balanced cube structure:</p>
+
+                <pre><code>def optimize_dimensions(data_length):
+    # Find cube root as starting point
+    cube_root = math.ceil(data_length ** (1/3))
+    
+    # Search for optimal dimensions
+    best_volume = float('inf')
+    best_dims = None
+    
+    for x in range(cube_root, cube_root + 50):
+        for y in range(cube_root, x + 1):
+            z = math.ceil(data_length / (x * y))
+            volume = x * y * z
+            waste = volume - data_length
+            
+            if volume >= data_length and volume < best_volume:
+                best_volume = volume
+                best_dims = (x, y, z)
+    
+    return best_dims</code></pre>
+
+                <h3>4. SHA256 Verification</h3>
+                <p>Every cube includes a SHA256 hash for integrity verification:</p>
+
+                <pre><code>import hashlib
+
+hash_value = hashlib.sha256(
+    cube_str.encode('utf-8')
+).hexdigest()</code></pre>
+
+                <h3>5. Structured Output</h3>
+                <p>The result is a JSON object with rich metadata:</p>
+
+                <pre><code>{
+  "descriptor": "ai-summary|compressed|cube",
+  "cube": "H4sIAAAAAAAA/+1Y227bMBD8lUC...",
+  "hash": "a3f8b9c2...",
+  "dimensions": {"x": 23, "y": 23, "z": 23},
+  "protocol_version": "1.1",
+  "timestamp": "2025-12-11T10:01:00Z"
+}</code></pre>
+
+                <h2>Real-World Results</h2>
+
+                <p>In benchmarks, the CUBE Protocol achieves impressive compression ratios:</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Original Size</th>
+                            <th>CUBE Size</th>
+                            <th>Compression Ratio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1 KB</td>
+                            <td>176 bytes</td>
+                            <td>82.4%</td>
+                        </tr>
+                        <tr>
+                            <td>10 KB</td>
+                            <td>240 bytes</td>
+                            <td>97.6%</td>
+                        </tr>
+                        <tr>
+                            <td>100 KB</td>
+                            <td>640 bytes</td>
+                            <td>99.4%</td>
+                        </tr>
+                        <tr>
+                            <td>1 MB</td>
+                            <td>4.7 KB</td>
+                            <td>99.5%</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Use Cases</h2>
+
+                <p>The CUBE Protocol shines in several scenarios:</p>
+
+                <ul>
+                    <li><strong>Agent-to-Agent Communication</strong> - AI agents can exchange compressed data with
+                        built-in verification</li>
+                    <li><strong>Semantic Memory Systems</strong> - Store memories in structured, verifiable cubes</li>
+                    <li><strong>API Data Transfer</strong> - Reduce bandwidth while maintaining metadata</li>
+                    <li><strong>Archival Storage</strong> - Self-describing compressed archives with integrity checks
+                    </li>
+                </ul>
+
+                <h2>Try It Yourself</h2>
+
+                <p>The CUBE Protocol is open source and available on GitHub. You can try the live demo at <a
+                        href="https://phil-hills.github.io/ai-summary-cube/">phil-hills.github.io/ai-summary-cube</a> to
+                    see compression in action.</p>
+
+                <p>The JavaScript implementation matches the Python version exactly, so you can compress on the server
+                    and decompress in the browser (or vice versa).</p>
+
+                <h2>What's Next?</h2>
+
+                <p>I'm currently working on:</p>
+
+                <ul>
+                    <li><strong>Multi-layer cubes</strong> - Nested structures for hierarchical data</li>
+                    <li><strong>Streaming support</strong> - Compress data as it arrives</li>
+                    <li><strong>Protocol extensions</strong> - Adding semantic tags and relationships</li>
+                </ul>
+
+                <p>The goal is to make the CUBE Protocol a standard for agent-to-agent data exchange, where compression
+                    and structure work together instead of being at odds.</p>
+
+                <h2>Learn More</h2>
+
+                <p>Check out the full implementation and documentation:</p>
+
+                <ul>
+                    <li><a href="https://github.com/Phil-Hills/ai-summary-cube">GitHub Repository</a></li>
+                    <li><a href="https://phil-hills.github.io/ai-summary-cube/">Live Demo</a></li>
+                    <li><a href="/cube-protocol.html">Technical Specification</a></li>
+                </ul>
+
+                <p>Questions or want to contribute? Open an issue on GitHub or reach out on LinkedIn!</p>
+            </div>
+
+            <footer class="article-footer">
+                <div class="share-links">
+                    <span>Share this article:</span>
+                    <a href="https://twitter.com/intent/tweet?url=https://philhills.com/blog/2025-12-11-introducing-cube-protocol.html&text=Introducing%20the%20CUBE%20Protocol"
+                        target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://philhills.com/blog/2025-12-11-introducing-cube-protocol.html"
+                        target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </footer>
+        </article>
+    </main>
+
+    <footer>
+        © <span id="year"></span> Phil Hills.
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

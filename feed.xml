@@ -1,34 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-  <title>Phil Hills – Blog</title>
-  <link>https://philhills.com</link>
-  <description>AI systems architecture writing by Phil Hills.</description>
-  <language>en-us</language>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phil Hills - AI Systems Architect</title>
+    <link>https://philhills.com/blog/</link>
+    <description>Blog posts about AI systems, agentic orchestration, and the CUBE Protocol</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Dec 2025 10:03:45 +0000</lastBuildDate>
+    <atom:link href="https://philhills.com/feed.xml" rel="self" type="application/rss+xml"/>
 
-  <item>
-    <title>AI Systems Architecture in Seattle: My Approach to Multi-Agent Workflows</title>
-    <link>https://philhills.com/blog/ai-systems-architecture-seattle/</link>
-    <guid>https://philhills.com/blog/ai-systems-architecture-seattle/</guid>
-    <pubDate>Wed, 15 Jan 2025 12:00:00 GMT</pubDate>
-    <description>How I approach AI systems architecture in Magnolia, Seattle: semantic memory, multi-agent orchestration, and protocol-driven design grounded in open-source work and everyday life.</description>
-  </item>
-
-  <item>
-    <title>Building Semantic Memory Systems: Lessons from 180+ Open-Source Experiments</title>
-    <link>https://philhills.com/blog/semantic-memory-lessons/</link>
-    <guid>https://philhills.com/blog/semantic-memory-lessons/</guid>
-    <pubDate>Sat, 18 Jan 2025 12:00:00 GMT</pubDate>
-    <description>What I’ve learned from building semantic memory systems across 180+ open-source repositories: structure, reversibility, and agent-friendly formats.</description>
-  </item>
-
-  <item>
-    <title>The Seattle AI Landscape and Where My Work Fits In</title>
-    <link>https://philhills.com/blog/seattle-ai-landscape/</link>
-    <guid>https://philhills.com/blog/seattle-ai-landscape/</guid>
-    <pubDate>Wed, 22 Jan 2025 12:00:00 GMT</pubDate>
-    <description>A view of the Seattle AI ecosystem from Magnolia, and how semantic memory, multi-agent orchestration, and protocol-first design fit into that landscape.</description>
-  </item>
-
-</channel>
+    <item>
+      <title>2025 12 11 Introducing Cube Protocol</title>
+      <link>https://philhills.com/blog/2025-12-11-introducing-cube-protocol.html</link>
+      <pubDate>Thu, 11 Dec 2025 10:03:36 +0000</pubDate>
+      <guid isPermaLink="true">https://philhills.com/blog/2025-12-11-introducing-cube-protocol.html</guid>
+    </item>
+  </channel>
 </rss>
