@@ -1,171 +1,393 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phil Hills - AI Systems Architect Resume</title>
+  <meta name="description"
+    content="Resume of Phil Hills - AI Systems Architect specializing in multi-agent orchestration, semantic memory systems, and the CUBE Protocol.">
 
-<title>Resume – Phil Hills</title>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Phil Hills - AI Systems Architect Resume">
+  <meta property="og:description"
+    content="Leading AI Systems Architect with expertise in multi-agent orchestration and semantic memory systems">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://philhills.com/resume.html">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Resume of Phil Hills — AI Systems Architect specializing in semantic memory, multi-agent orchestration, and structured data protocols.">
+  <link rel="canonical" href="https://philhills.com/resume.html">
+  <link rel="stylesheet" href="/style.css">
 
-<!-- SEO + AI META -->
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="ai-content" content="index, allow-ai-summary">
-<meta name="google-allow-ai-summarization" content="yes">
+  <style>
+    .resume-header {
+      text-align: center;
+      margin-bottom: 64px;
+      padding: 48px 0;
+      border-bottom: 1px solid var(--glass-border);
+    }
 
-<!-- Canonical -->
-<link rel="canonical" href="https://philhills.com/resume.html">
+    .resume-title {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      background: var(--accent-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
 
-<!-- Open Graph -->
-<meta property="og:title" content="Resume – Phil Hills">
-<meta property="og:description" content="AI Systems Architect with expertise in structured memory systems, agentic orchestration, and large-scale AI workflows.">
-<meta property="og:type" content="profile">
-<meta property="og:url" content="https://philhills.com/resume.html">
-<meta property="og:image" content="https://philhills.com/media/phil.jpg">
+    .resume-subtitle {
+      font-size: 24px;
+      color: var(--text-secondary);
+      font-weight: 400;
+    }
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
+    .resume-contact {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
 
-<!-- Inline Styles -->
-<style>
-  body { margin:0; font-family:system-ui,sans-serif; background:#f9fafb; color:#111; line-height:1.6; }
-  header, main, footer { max-width:940px; margin:0 auto; padding:1.5rem 1rem; }
+    .resume-contact a {
+      color: var(--accent-primary);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
 
-  header {
-    display:flex; justify-content:space-between; align-items:center;
-    border-bottom:1px solid #e5e7eb; padding-top:2rem;
-  }
+    .resume-contact a:hover {
+      color: var(--text-primary);
+    }
 
-  .brand { display:flex; align-items:center; gap:.75rem; }
-  .brand-mark {
-    width:38px; height:38px; border:2px solid #111;
-    border-radius:999px;
-    display:flex; align-items:center; justify-content:center;
-    font-weight:700;
-  }
-  .brand-text { display:flex; flex-direction:column; }
-  .brand-text span:last-child { font-size:.85rem; color:#6b7280; }
+    .resume-section {
+      margin-bottom: 64px;
+    }
 
-  nav a {
-    margin-left:1rem; text-decoration:none; color:#111; font-size:.95rem;
-  }
-  nav a:first-child { margin-left:0; }
-  nav a:hover { text-decoration:underline; }
+    .resume-section h2 {
+      font-size: 32px;
+      margin-bottom: 32px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--glass-border);
+    }
 
-  h1 { font-size:2rem; margin-top:1.5rem; }
-  h2 { font-size:1.35rem; margin-top:2rem; }
-  ul { padding-left:1.2rem; }
+    .resume-item {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+      transition: all 0.3s ease;
+    }
 
-  footer {
-    margin-top:3rem;
-    border-top:1px solid #e5e7eb;
-    padding-top:1rem;
-    font-size:.85rem;
-    color:#6b7280;
-  }
-</style>
+    .resume-item:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(0, 240, 255, 0.3);
+      transform: translateY(-2px);
+    }
 
-<!-- JSON-LD: ProfilePage -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"ProfilePage",
-  "name":"Resume – Phil Hills",
-  "url":"https://philhills.com/resume.html",
-  "about":{
-    "@type":"Person",
-    "name":"Phil Hills",
-    "jobTitle":"AI Systems Architect"
-  }
-}
-</script>
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
 
-<!-- JSON-LD: Breadcrumbs -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"BreadcrumbList",
-  "itemListElement":[
-    { "@type":"ListItem", "position":1, "name":"Home", "item":"https://philhills.com/" },
-    { "@type":"ListItem", "position":2, "name":"Resume", "item":"https://philhills.com/resume.html" }
-  ]
-}
-</script>
+    .item-title {
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+    }
 
+    .item-company {
+      font-size: 18px;
+      color: var(--accent-primary);
+      font-weight: 500;
+    }
+
+    .item-date {
+      color: var(--text-tertiary);
+      font-size: 14px;
+      white-space: nowrap;
+    }
+
+    .item-description {
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .item-highlights {
+      list-style: none;
+      padding: 0;
+    }
+
+    .item-highlights li {
+      padding-left: 24px;
+      position: relative;
+      margin-bottom: 12px;
+      color: var(--text-secondary);
+    }
+
+    .item-highlights li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent-primary);
+      font-weight: 700;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+
+    .skill-category {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 12px;
+      padding: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .skill-category:hover {
+      background: rgba(255, 255, 255, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .skill-category h3 {
+      font-size: 18px;
+      color: var(--accent-primary);
+      margin-bottom: 12px;
+    }
+
+    .skill-list {
+      list-style: none;
+      padding: 0;
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+
+    .skill-list li {
+      margin-bottom: 8px;
+    }
+  </style>
 </head>
 
 <body>
+  <header>
+    <a href="/" class="brand">
+      <div class="brand-mark">PH</div>
+      <div class="brand-text">
+        <span>Phil Hills</span>
+        <span>AI Systems Architect</span>
+      </div>
+    </a>
 
-<header>
-  <div class="brand">
-    <div class="brand-mark">PH</div>
-    <div class="brand-text">
-      <span>Phil Hills</span>
-      <span>AI Systems Architect</span>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/cube-protocol.html">Cube Protocol</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/blog/">Blog</a>
+      <a href="/code.html">Code</a>
+      <a href="/resume.html" class="active">Resume</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="resume-header">
+      <h1 class="resume-title">Phil Hills</h1>
+      <p class="resume-subtitle">AI Systems Architect & Agentic Protocol Engineer</p>
+      <div class="resume-contact">
+        <a href="mailto:phil@philhills.com">phil@philhills.com</a>
+        <a href="https://philhills.com">philhills.com</a>
+        <a href="https://github.com/Phil-Hills" target="_blank">github.com/Phil-Hills</a>
+        <a href="https://linkedin.com/in/hillphil" target="_blank">linkedin.com/in/hillphil</a>
+      </div>
     </div>
-  </div>
 
-  <nav>
-    <a href="/">Home</a>
-    <a href="/about.html">About</a>
-    <a href="/cube-protocol.html">Cube Protocol</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/resume.html">Resume</a>
-    <a href="/contact.html">Contact</a>
-  </nav>
-</header>
+    <div class="resume-section">
+      <h2>Professional Summary</h2>
+      <div class="resume-item">
+        <p class="item-description">
+          AI Systems Architect specializing in multi-agent orchestration, semantic memory systems, and structured AI
+          protocols. Creator of the CUBE Protocol for 3D semantic data compression. Extensive experience building
+          production-grade AI infrastructure on Google Cloud Platform, designing agentic workflows, and implementing
+          large-scale data systems across 180+ open-source repositories.
+        </p>
+      </div>
+    </div>
 
-<main>
-  <h1>Resume</h1>
+    <div class="resume-section">
+      <h2>Core Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>AI Systems</h3>
+          <ul class="skill-list">
+            <li>Multi-Agent Orchestration</li>
+            <li>Semantic Memory Systems</li>
+            <li>Protocol Engineering</li>
+            <li>Agentic Workflows</li>
+            <li>LLM Integration</li>
+          </ul>
+        </div>
 
-  <h2>Professional Summary</h2>
-  <p>
-    AI Systems Architect specializing in semantic memory structures, agentic orchestration,
-    reversible data formats, and multi-agent workflow design. I build systems that give
-    AI agents structured context, continuity, and interoperability across tools and domains.
-  </p>
+        <div class="skill-category">
+          <h3>Data Engineering</h3>
+          <ul class="skill-list">
+            <li>Compression Algorithms</li>
+            <li>Structured Data Protocols</li>
+            <li>Real-Time Processing</li>
+            <li>Large-Scale Datasets</li>
+            <li>Data Verification (BLAKE3)</li>
+          </ul>
+        </div>
 
-  <h2>Core Skills</h2>
-  <ul>
-    <li>Semantic memory & structured data protocols</li>
-    <li>Multi-agent system design</li>
-    <li>Agentic orchestration & workflow control</li>
-    <li>Protocol engineering & AI packet formats</li>
-    <li>Large-scale data transformation & compression</li>
-    <li>Cloud architectures (GCP)</li>
-  </ul>
+        <div class="skill-category">
+          <h3>Cloud & Infrastructure</h3>
+          <ul class="skill-list">
+            <li>Google Cloud Platform</li>
+            <li>Cloud Run Deployments</li>
+            <li>Kubernetes (GKE)</li>
+            <li>Serverless Architecture</li>
+            <li>CI/CD Pipelines</li>
+          </ul>
+        </div>
 
-  <h2>Selected Work</h2>
-  <ul>
-    <li><strong>Cube Protocol</strong> — A reversible 3D memory packet format.</li>
-    <li><strong>Agentic Orchestration Layer</strong> — Supervised multi-agent workflows.</li>
-    <li><strong>AI Packet Bridge</strong> — Token-efficient structured AI-to-AI communication.</li>
-  </ul>
+        <div class="skill-category">
+          <h3>Languages & Frameworks</h3>
+          <ul class="skill-list">
+            <li>Python (Advanced)</li>
+            <li>TypeScript/JavaScript</li>
+            <li>React & Next.js</li>
+            <li>FastAPI & Flask</li>
+            <li>Google ADK</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  <h2>Roles & Responsibilities</h2>
-  <ul>
-    <li>Architecting semantic data pipelines & AI control layers</li>
-    <li>Designing multi-agent execution flows & protocols</li>
-    <li>Building reproducible AI workflows with reversible state</li>
-    <li>Creating interoperable data formats for cross-model execution</li>
-    <li>Optimizing data for semantic compression & reconstruction</li>
-  </ul>
+    <div class="resume-section">
+      <h2>Key Projects</h2>
 
-  <h2>Technical Focus</h2>
-  <ul>
-    <li>LLM systems</li>
-    <li>Agent-to-agent communication</li>
-    <li>Multi-domain data pipelines</li>
-    <li>Model-tool interoperability</li>
-    <li>Protocol-driven AI design</li>
-  </ul>
+      <div class="resume-item">
+        <div class="item-header">
+          <div>
+            <div class="item-title">CUBE Protocol v1.1</div>
+            <div class="item-company">Open Source Protocol</div>
+          </div>
+          <div class="item-date">2024 - Present</div>
+        </div>
+        <p class="item-description">
+          Designed and implemented a 3D semantic data compression protocol for AI agent memory and cross-system
+          communication.
+        </p>
+        <ul class="item-highlights">
+          <li>Achieved 97%+ compression ratios using GZIP level 9 + Base64 encoding</li>
+          <li>Implemented BLAKE3 hash verification for data integrity</li>
+          <li>Built production web application deployed on Google Cloud Run</li>
+          <li>Created JavaScript and Python implementations with full parity</li>
+          <li>Designed optimized cube dimension algorithms minimizing padding waste</li>
+        </ul>
+      </div>
 
-</main>
+      <div class="resume-item">
+        <div class="item-header">
+          <div>
+            <div class="item-title">Multi-Agent Orchestration Platform</div>
+            <div class="item-company">AI Infrastructure</div>
+          </div>
+          <div class="item-date">2024 - Present</div>
+        </div>
+        <p class="item-description">
+          Architected supervised multi-agent systems with task routing, memory management, and structured packet
+          exchange.
+        </p>
+        <ul class="item-highlights">
+          <li>Designed agent delegation patterns with hierarchical orchestration</li>
+          <li>Implemented state management and inter-agent communication protocols</li>
+          <li>Built agent mesh visualization and real-time monitoring dashboards</li>
+          <li>Created predictable execution boundaries and safety constraints</li>
+          <li>Integrated with Google ADK and LangChain frameworks</li>
+        </ul>
+      </div>
 
-<footer>© <span id="year"></span> Phil Hills.</footer>
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+      <div class="resume-item">
+        <div class="item-header">
+          <div>
+            <div class="item-title">AI-to-AI Data Exchange System</div>
+            <div class="item-company">Protocol Design</div>
+          </div>
+          <div class="item-date">2024</div>
+        </div>
+        <p class="item-description">
+          Created token-efficient communication protocol for AI agent interoperability.
+        </p>
+        <ul class="item-highlights">
+          <li>Designed structured packet format for deterministic agent communication</li>
+          <li>Optimized for minimal token usage while maintaining semantic richness</li>
+          <li>Implemented safe execution boundaries and verification systems</li>
+          <li>Enabled cross-model communication patterns</li>
+        </ul>
+      </div>
+    </div>
 
+    <div class="resume-section">
+      <h2>Technical Achievements</h2>
+      <div class="resume-item">
+        <ul class="item-highlights">
+          <li><strong>180+ Open Source Repositories</strong> - Active portfolio demonstrating continuous innovation and
+            experimentation</li>
+          <li><strong>Production AI Systems</strong> - Deployed serverless applications on GCP handling real-time data
+            processing</li>
+          <li><strong>Protocol Standardization</strong> - Created reusable, documented protocols adopted across multiple
+            projects</li>
+          <li><strong>Cross-Platform Implementation</strong> - Built identical functionality in Python and JavaScript
+            maintaining full compatibility</li>
+          <li><strong>Semantic Memory Innovation</strong> - Advanced state-of-the-art in structured AI memory
+            representations</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <h2>Professional Background</h2>
+      <div class="resume-item">
+        <p class="item-description">
+          Transitioned from traditional software engineering to specialize in AI systems architecture, focusing on the
+          infrastructure layer that enables scalable, reliable multi-agent workflows. Deep expertise in both theoretical
+          protocol design and practical production deployment. Track record of building systems that combine
+          cutting-edge AI capabilities with enterprise- grade reliability.
+        </p>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <h2>Education & Certifications</h2>
+      <div class="resume-item">
+        <ul class="item-highlights">
+          <li>Self-directed learning in AI/ML, distributed systems, and protocol engineering</li>
+          <li>Continuous experimentation and research documented across 180+ repositories</li>
+          <li>Active engagement with cutting-edge AI research and implementation</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Phil Hills. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
+
 </html>
