@@ -1,104 +1,259 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Phil Hills – AI Systems Architect & Agentic Protocol Engineer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phil Hills | AI Nexus</title>
+
+    <meta name="description" content="Phil Hills AI: Advanced AI Agents, CUBE Protocol, and Future Tech. Explore the frontier of artificial intelligence.">
+    <meta name="keywords" content="Phil Hills, AI, Artificial Intelligence, CUBE Protocol, Agents, Machine Learning, Tech">
+    <meta name="author" content="Phil Hills">
+    <link rel="canonical" href="https://philhills.ai/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://philhills.ai/">
+    <meta property="og:title" content="Phil Hills AI - The Feature of Intelligence">
+    <meta property="og:description" content="Explore advanced AI agents and the revolutionary CUBE protocol.">
+    <meta property="og:site_name" content="Phil Hills AI">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://philhills.ai/">
+    <meta property="twitter:title" content="Phil Hills AI">
+    <meta property="twitter:description" content="Explore advanced AI agents and the revolutionary CUBE protocol.">
+    
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Phil Hills AI",
+      "url": "https://philhills.ai/",
+      "author": {
+        "@type": "Person",
+        "name": "Phil Hills"
+      },
+      "description": "Portfolio and demonstration of AI agents and CUBE protocol."
+    }
+    </script>
+    
   <meta name="description"
-    content="Phil Hills designs semantic memory systems, agentic orchestration layers, and structured AI protocols for next-generation multi-agent workflows.">
+    content="Phil Hills AI Identity Nexus. Canonical source of truth for autonomous agents and Cube Protocol discovery.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://philhills.ai">
 
-  <!-- SEO + AI META -->
-  <meta name="robots" content="index, follow, max-image-preview:large">
-  <meta name="ai-content" content="index, allow-ai-summary">
+  <!-- AI & Identity -->
+  <link rel="alternate" type="application/json" href="/identity.json" title="Identity Cube">
+  <link rel="help" href="/ai.txt" title="Agent Instructions">
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap"
-    rel="stylesheet">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Phil Hills",
+  "jobTitle": "AI Systems Architect & Automation Engineer",
+  "url": "https://philhills.ai",
+  "sameAs": [
+    "https://philhills.com",
+    "https://github.com/Phil-Hills",
+    "https://www.linkedin.com/in/phil-hills-easyaichatbots"
+  ],
+  "knowsAbout": [
+    "Cube Protocol (A2AC)",
+    "Agentic AI Frameworks",
+    "Mortgage Automation",
+    "Semantic Compression"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "EasyAi Chatbots",
+    "url": "https://philhills.ai"
+  },
+  "description": "Phil Hills is the creator of the Cube Protocol (A2AC), an open standard for Agent-to-Agent communication. He specializes in applying autonomous AI infrastructure to the mortgage and fintech industries."
+}
+</script>
 
-  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --bg: #050505;
+      --text: #00ff41;
+      --dim: #55aa55;
+      --alert: #ff0055;
+      --font: 'Courier New', Courier, monospace;
+    }
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Phil Hills – AI Systems Architect">
-  <meta property="og:description"
-    content="Semantic memory systems, multi-agent orchestration, structured AI protocols.">
-  <meta property="og:url" content="https://philhills.com/">
-  <meta property="og:type" content="website">
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
 
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      border-bottom: 2px solid var(--dim);
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .status {
+      animation: blink 2s infinite;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .terminal-window {
+      background: rgba(0, 20, 0, 0.3);
+      border: 1px solid var(--dim);
+      padding: 1.5rem;
+      min-height: 400px;
+      position: relative;
+    }
+
+    .line {
+      margin-bottom: 0.5rem;
+      opacity: 0;
+      animation: fadeIn 0.1s forwards;
+    }
+
+    .line.active {
+      border-right: 10px solid var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+      width: 100%;
+      opacity: 1;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid var(--dim);
+      transition: all 0.3s;
+    }
+
+    a:hover {
+      background: var(--text);
+      color: var(--bg);
+      box-shadow: 0 0 10px var(--text);
+    }
+
+    .nav-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+      opacity: 0;
+      animation: fadeIn 1s forwards 3s;
+      /* Delay appearance */
+    }
+
+    .nav-item {
+      border: 1px solid var(--dim);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .nav-item:hover {
+      border-color: var(--text);
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.3;
+      }
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Scanline effect */
+    body::before {
+      content: " ";
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+      z-index: 2;
+      background-size: 100% 2px, 3px 100%;
+      pointer-events: none;
+    }
+  </style>
 </head>
 
 <body>
-  <header>
-    <a href="/" class="brand">
-      <div class="brand-mark">PH</div>
-      <div class="brand-text">
-        <span>Phil Hills</span>
-        <span>AI Systems Architect</span>
+  <div class="container">
+    <div class="header">
+      <div>PHILHILLS.AI <span style="font-size: 0.8rem; color: var(--dim)">// NODE_01</span></div>
+      <div class="status">SYSTEM ONLINE</div>
+    </div>
+
+    <div class="terminal-window">
+      <div class="line" style="animation-delay: 0s">Initializing connection...</div>
+      <div class="line" style="animation-delay: 0.5s">Identity verified: Phil Hills [Seattle/WA]</div>
+      <div class="line" style="animation-delay: 1s">Role: AI Systems Architect</div>
+      <div class="line" style="animation-delay: 1.5s">Protocol: Cube v1.1 [BLAKE3]</div>
+      <div class="line" style="animation-delay: 2s; color: var(--dim)">Downloading semantic context...</div>
+      <div class="line" style="animation-delay: 2.5s">Ready.</div>
+      <br>
+      <div class="line" style="animation-delay: 3s">> SELECT INTERFACE_</div>
+
+      <div class="nav-grid">
+        <a href="https://philhills.com" class="nav-item">
+          <div>[HUMAN_INTERFACE]</div>
+          <div style="font-size: 0.8rem; margin-top:0.5rem; color:var(--dim)">Portfolio & Bio</div>
+        </a>
+        <a href="/chat.html" class="nav-item">
+          <div>[AGENT_CHAT]</div>
+          <div style="font-size: 0.8rem; margin-top:0.5rem; color:var(--dim)">Live Orchestrator</div>
+        </a>
+        <a href="/agents.html" class="nav-item">
+          <div>[AGENT_MESH]</div>
+          <div style="font-size: 0.8rem; margin-top:0.5rem; color:var(--dim)">30+ Agents</div>
+        </a>
+        <a href="/cube-protocol/" class="nav-item">
+          <div>[CUBE_PROTOCOL]</div>
+          <div style="font-size: 0.8rem; margin-top:0.5rem; color:var(--dim)">Interactive Tool</div>
+        </a>
+        <a href="/identity.json" class="nav-item">
+          <div>[IDENTITY_DUMP]</div>
+          <div style="font-size: 0.8rem; margin-top:0.5rem; color:var(--dim)">JSON Artifact</div>
+        </a>
       </div>
-    </a>
+    </div>
 
-    <nav>
-      <a href="/" class="active">Home</a>
-      <a href="/about.html">About</a>
-      <a href="/cube-protocol.html">Cube Protocol</a>
-      <a href="/projects.html">Projects</a>
-      <a href="/blog/">Blog</a>
-      <a href="/code.html">Code</a>
-      <a href="/resume.html">Resume</a>
-      <a href="/contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero">
-      <h1 class="hero-title">AI Systems Architect &amp; Agentic Protocol Engineer</h1>
-      <p class="hero-subtitle">
-        I design semantic memory systems, agentic orchestration layers, and structured AI protocols
-        for next-generation multi-agent workflows.
-      </p>
-
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="https://cube-protocol-app-422805462249.us-central1.run.app"
-          target="_blank">Launch AI Summary Cube</a>
-        <a class="btn" href="/projects.html">View Systems</a>
-        <a class="btn" href="https://github.com/Phil-Hills" target="_blank">Browse Code</a>
-      </div>
-    </section>
-
-    <section>
-      <h2>Core Systems</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>Cube Protocol v1.1</h3>
-          <p>A 3D semantic data format for agent memory. Uses BLAKE3 verification and domain-scoped compression.</p>
-          <a class="inline-link" href="https://cube-protocol-app-422805462249.us-central1.run.app"
-            target="_blank">Launch App →</a>
-        </div>
-
-        <div class="card">
-          <h3>Agentic Orchestration</h3>
-          <p>Supervised multi-agent architectures with predictable, testable behavior and structured packet exchange.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>AI Packet Bridge</h3>
-          <p>Token-efficient AI-to-AI data exchange system built on safe, deterministic communication rules.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    © <span id="year"></span> Phil Hills. Built with Cube Protocol.
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+    <div style="margin-top: 2rem; color: var(--dim); font-size: 0.8rem; text-align: center;">
+      Machine Readable Endpoint Access: <span style="color: var(--text)">/identity.json</span>
+    </div>
+  </div>
 </body>
 
 </html>
