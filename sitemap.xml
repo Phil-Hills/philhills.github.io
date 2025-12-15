@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Core Pages -->
-  <url><loc>https://philhills.com/</loc></url>
-  <url><loc>https://philhills.com/about.html</loc></url>
-  <url><loc>https://philhills.com/cube-protocol.html</loc></url>
-  <url><loc>https://philhills.com/projects.html</loc></url>
-  <url><loc>https://philhills.com/resume.html</loc></url>
-  <url><loc>https://philhills.com/contact.html</loc></url>
-  <url><loc>https://philhills.com/code.html</loc></url>
-  <url><loc>https://philhills.com/phil-hills-seattle.html</loc></url>
-
-  <!-- Blog -->
-  <url><loc>https://philhills.com/blog/</loc></url>
-  <url><loc>https://philhills.com/blog/ai-systems-architecture-seattle/</loc></url>
-  <url><loc>https://philhills.com/blog/semantic-memory-lessons/</loc></url>
-  <url><loc>https://philhills.com/blog/seattle-ai-landscape/</loc></url>
-
-  <!-- Author -->
-  <url><loc>https://philhills.com/author/phil-hills/</loc></url>
-
-  <!-- Docs -->
-  <url><loc>https://philhills.com/docs/</loc></url>
-  <url><loc>https://philhills.com/docs/cube-protocol/</loc></url>
-  <url><loc>https://philhills.com/docs/agentic-orchestration/</loc></url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://philhills.ai/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>
