@@ -432,9 +432,15 @@
                 <div class="header-subtitle">Powered by Google Gemini</div>
             </div>
         </div>
-        <div class="status-badge">
-            <div class="status-dot"></div>
-            <span>Online</span>
+        <div class="header-right" style="display: flex; align-items: center; gap: 12px;">
+            <div class="status-badge">
+                <div class="status-dot"></div>
+                <span>Online</span>
+            </div>
+            <button id="authButton" class="auth-button"
+                style="display: none; padding: 6px 12px; background: none; border: 1px solid var(--border); border-radius: 8px; font-size: 12px; cursor: pointer; color: var(--text-secondary);">
+                Sign Out
+            </button>
         </div>
     </div>
 
@@ -469,13 +475,13 @@
         const errorMessage = document.getElementById('errorMessage');
 
         // Auto-resize textarea
-        messageInput.addEventListener('input', function() {
+        messageInput.addEventListener('input', function () {
             this.style.height = 'auto';
             this.style.height = this.scrollHeight + 'px';
         });
 
         // Send message on Enter (Shift+Enter for new line)
-        messageInput.addEventListener('keydown', function(e) {
+        messageInput.addEventListener('keydown', function (e) {
             if (e.key === 'Enter' && !e.shiftKey) {
                 e.preventDefault();
                 sendMessage();
@@ -498,27 +504,27 @@
 
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${isUser ? 'user' : 'ai'}`;
-            
+
             const avatar = document.createElement('div');
             avatar.className = `avatar ${isUser ? 'user' : 'ai'}`;
             avatar.textContent = isUser ? '👤' : '🤖';
-            
+
             const contentDiv = document.createElement('div');
             contentDiv.className = 'message-content';
-            
+
             const bubble = document.createElement('div');
             bubble.className = 'message-bubble';
             bubble.textContent = text;
-            
+
             const time = document.createElement('div');
             time.className = 'message-time';
             time.textContent = getCurrentTime();
-            
+
             contentDiv.appendChild(bubble);
             contentDiv.appendChild(time);
             messageDiv.appendChild(avatar);
             messageDiv.appendChild(contentDiv);
-            
+
             chatContainer.appendChild(messageDiv);
             chatContainer.scrollTop = chatContainer.scrollHeight;
         }
@@ -527,11 +533,11 @@
             const indicator = document.createElement('div');
             indicator.className = 'message ai';
             indicator.id = 'typingIndicator';
-            
+
             const avatar = document.createElement('div');
             avatar.className = 'avatar ai';
             avatar.textContent = '🤖';
-            
+
             const typingDiv = document.createElement('div');
             typingDiv.className = 'typing-indicator active';
             typingDiv.innerHTML = `
@@ -541,7 +547,7 @@
                     <div class="typing-dot"></div>
                 </div>
             `;
-            
+
             indicator.appendChild(avatar);
             indicator.appendChild(typingDiv);
             chatContainer.appendChild(indicator);
@@ -580,11 +586,18 @@
             showTypingIndicator();
 
             try {
+                const token = localStorage.getItem('google_token');
+                const headers = {
+                    'Content-Type': 'application/json',
+                };
+
+                if (token) {
+                    headers['Authorization'] = `Bearer ${token}`;
+                }
+
                 const response = await fetch('https://philhills-chat-api-768405504263.us-central1.run.app/api/chat', {
                     method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
+                    headers: headers,
                     body: JSON.stringify({ message: message })
                 });
 
@@ -593,10 +606,10 @@
                 }
 
                 const data = await response.json();
-                
+
                 // Hide typing indicator
                 hideTypingIndicator();
-                
+
                 // Add AI response
                 if (data.response) {
                     addMessage(data.response, false);
@@ -615,6 +628,29 @@
             }
         }
 
+        // Auth Management
+        const authButton = document.getElementById('authButton');
+        const token = localStorage.getItem('google_token');
+
+        if (token) {
+            authButton.textContent = 'Sign Out';
+            authButton.style.display = 'block';
+            authButton.onclick = () => {
+                localStorage.removeItem('google_token');
+                localStorage.removeItem('user_email');
+                localStorage.removeItem('user_name');
+                window.location.reload();
+            };
+        } else {
+            // Optional: Uncomment to force login
+            // window.location.href = 'login.html';
+            authButton.textContent = 'Sign In';
+            authButton.style.display = 'block';
+            authButton.onclick = () => {
+                window.location.href = 'login.html';
+            };
+        }
+
         // Focus input on load
         window.addEventListener('load', () => {
             messageInput.focus();
@@ -623,3 +659,4 @@
 </body>
 
 </html>
+```
