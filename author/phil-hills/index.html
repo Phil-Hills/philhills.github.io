@@ -1,86 +1,151 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
 
-<title>Author – Phil Hills</title>
+  <title>Author – Phil Hills</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Technical writing by Phil Hills on AI systems architecture, semantic memory, and multi-agent orchestration from Magnolia, Seattle.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Technical writing by Phil Hills on AI systems architecture, semantic memory, and multi-agent orchestration from Magnolia, Seattle.">
 
-<!-- SEO + AI META -->
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="ai-content" content="index, allow-ai-summary">
-<meta name="google-allow-ai-summarization" content="yes">
+  <!-- SEO + AI META -->
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="ai-content" content="index, allow-ai-summary">
+  <meta name="google-allow-ai-summarization" content="yes">
 
-<!-- Canonical -->
-<link rel="canonical" href="https://philhills.com/author/phil-hills/">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://philhills.com/author/phil-hills/">
 
-<!-- Open Graph -->
-<meta property="og:title" content="Author – Phil Hills">
-<meta property="og:description" content="Articles and technical notes by AI Systems Architect Phil Hills based in Magnolia, Seattle.">
-<meta property="og:type" content="profile">
-<meta property="og:url" content="https://philhills.com/author/phil-hills/">
-<meta property="og:image" content="https://philhills.com/media/phil.jpg">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Author – Phil Hills">
+  <meta property="og:description"
+    content="Articles and technical notes by AI Systems Architect Phil Hills based in Magnolia, Seattle.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://philhills.com/author/phil-hills/">
+  <meta property="og:image" content="https://philhills.com/media/phil.jpg">
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
 
-<!-- Inline Styles -->
-<style>
-  body { margin:0; font-family:system-ui,sans-serif; background:#f9fafb; color:#111827; line-height:1.6; }
-  header, main, footer { max-width:940px; margin:0 auto; padding:1.5rem 1rem; }
+  <!-- Inline Styles -->
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #f9fafb;
+      color: #111827;
+      line-height: 1.6;
+    }
 
-  header {
-    display:flex; justify-content:space-between; align-items:center;
-    border-bottom:1px solid #e5e7eb; padding-top:2rem;
-  }
+    header,
+    main,
+    footer {
+      max-width: 940px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem;
+    }
 
-  .brand { display:flex; align-items:center; gap:.75rem; }
-  .brand-mark {
-    width:38px; height:38px;
-    border-radius:999px;
-    border:2px solid #111;
-    display:flex; align-items:center; justify-content:center;
-    font-weight:700;
-  }
-  .brand-text { display:flex; flex-direction:column; }
-  .brand-text span:last-child { font-size:.85rem; color:#6b7280; }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e5e7eb;
+      padding-top: 2rem;
+    }
 
-  nav a {
-    margin-left:1rem; text-decoration:none; color:#111; font-size:.95rem;
-  }
-  nav a:first-child { margin-left:0; }
-  nav a:hover { text-decoration:underline; }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+    }
 
-  h1 { font-size:2rem; margin-top:1.5rem; }
-  p.intro { max-width:620px; color:#4b5563; }
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      border-radius: 999px;
+      border: 2px solid #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+    }
 
-  .post-list { list-style:none; padding:0; margin-top:2rem; }
-  .post-list li {
-    padding:1rem 0;
-    border-bottom:1px solid #e5e7eb;
-  }
-  .post-list a {
-    text-decoration:none;
-    color:#111;
-    font-weight:600;
-    font-size:1.1rem;
-  }
-  .post-list a:hover { text-decoration:underline; }
-  .meta { font-size:.85rem; color:#6b7280; margin-top:.25rem; }
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
 
-  footer {
-    margin-top:3rem;
-    border-top:1px solid #e5e7eb;
-    padding-top:1rem;
-    font-size:.85rem;
-    color:#6b7280;
-  }
-</style>
+    .brand-text span:last-child {
+      font-size: .85rem;
+      color: #6b7280;
+    }
 
-<!-- JSON-LD: Person -->
-<script type="application/ld+json">
+    nav a {
+      margin-left: 1rem;
+      text-decoration: none;
+      color: #111;
+      font-size: .95rem;
+    }
+
+    nav a:first-child {
+      margin-left: 0;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-top: 1.5rem;
+    }
+
+    p.intro {
+      max-width: 620px;
+      color: #4b5563;
+    }
+
+    .post-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 2rem;
+    }
+
+    .post-list li {
+      padding: 1rem 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .post-list a {
+      text-decoration: none;
+      color: #111;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .post-list a:hover {
+      text-decoration: underline;
+    }
+
+    .meta {
+      font-size: .85rem;
+      color: #6b7280;
+      margin-top: .25rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 1rem;
+      font-size: .85rem;
+      color: #6b7280;
+    }
+  </style>
+
+  <!-- JSON-LD: Person -->
+  <script type="application/ld+json">
 {
   "@context":"https://schema.org",
   "@type":"Person",
@@ -97,13 +162,13 @@
   "sameAs":[
     "https://github.com/Phil-Hills",
     "https://www.linkedin.com/in/hillphil",
-    "https://philhills.ai"
+    "https://philhills.com/ai/"
   ]
 }
 </script>
 
-<!-- JSON-LD: Breadcrumbs -->
-<script type="application/ld+json">
+  <!-- JSON-LD: Breadcrumbs -->
+  <script type="application/ld+json">
 {
   "@context":"https://schema.org",
   "@type":"BreadcrumbList",
@@ -118,51 +183,55 @@
 
 <body>
 
-<header>
-  <div class="brand">
-    <div class="brand-mark">PH</div>
-    <div class="brand-text">
-      <span>Phil Hills</span>
-      <span>AI Systems Architect</span>
+  <header>
+    <div class="brand">
+      <div class="brand-mark">PH</div>
+      <div class="brand-text">
+        <span>Phil Hills</span>
+        <span>AI Systems Architect</span>
+      </div>
     </div>
-  </div>
 
-  <nav>
-    <a href="/">Home</a>
-    <a href="/about.html">About</a>
-    <a href="/cube-protocol.html">Cube Protocol</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/blog/">Blog</a>
-    <a href="/code.html">Code</a>
-    <a href="/resume.html">Resume</a>
-    <a href="/contact.html">Contact</a>
-  </nav>
-</header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/cube-protocol.html">Cube Protocol</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/blog/">Blog</a>
+      <a href="/code.html">Code</a>
+      <a href="/resume.html">Resume</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
 
-<main>
-  <h1>Writing by Phil Hills</h1>
-  <p class="intro">
-    Technical writing on semantic memory, multi-agent orchestration, and AI systems architecture — written from Magnolia, Seattle.
-  </p>
+  <main>
+    <h1>Writing by Phil Hills</h1>
+    <p class="intro">
+      Technical writing on semantic memory, multi-agent orchestration, and AI systems architecture — written from
+      Magnolia, Seattle.
+    </p>
 
-  <ul class="post-list">
-    <li>
-      <a href="/blog/ai-systems-architecture-seattle/">AI Systems Architecture in Seattle: My Approach to Multi-Agent Workflows</a>
-      <div class="meta">January 15, 2025 · Systems Architecture · Seattle</div>
-    </li>
-    <li>
-      <a href="/blog/semantic-memory-lessons/">Building Semantic Memory Systems: Lessons from 180+ Open-Source Experiments</a>
-      <div class="meta">January 18, 2025 · Semantic Memory · Open Source</div>
-    </li>
-    <li>
-      <a href="/blog/seattle-ai-landscape/">The Seattle AI Landscape and Where My Work Fits In</a>
-      <div class="meta">January 22, 2025 · Seattle · Ecosystem</div>
-    </li>
-  </ul>
-</main>
+    <ul class="post-list">
+      <li>
+        <a href="/blog/ai-systems-architecture-seattle/">AI Systems Architecture in Seattle: My Approach to Multi-Agent
+          Workflows</a>
+        <div class="meta">January 15, 2025 · Systems Architecture · Seattle</div>
+      </li>
+      <li>
+        <a href="/blog/semantic-memory-lessons/">Building Semantic Memory Systems: Lessons from 180+ Open-Source
+          Experiments</a>
+        <div class="meta">January 18, 2025 · Semantic Memory · Open Source</div>
+      </li>
+      <li>
+        <a href="/blog/seattle-ai-landscape/">The Seattle AI Landscape and Where My Work Fits In</a>
+        <div class="meta">January 22, 2025 · Seattle · Ecosystem</div>
+      </li>
+    </ul>
+  </main>
 
-<footer>© <span id="year"></span> Phil Hills.</footer>
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <footer>© <span id="year"></span> Phil Hills.</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 
 </body>
+
 </html>

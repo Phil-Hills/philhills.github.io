@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Phil Hills
 
-**AI Systems Architect & Agentic Protocol Engineer — Magnolia, Seattle, WA**
+**AI & Robotics Systems Architect & Agentic Protocol Engineer — Magnolia, Seattle, WA**
 
 I build the connective tissue around AI models: semantic memory systems, multi-agent orchestration layers, and structured protocols that make model behavior predictable, debuggable, and reusable.
 

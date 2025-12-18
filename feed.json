@@ -1,30 +1,29 @@
 {
-    "version": "https://jsonfeed.org/version/1",
-    "title": "Phil Hills – Blog",
-    "home_page_url": "https://philhills.com",
-    "feed_url": "https://philhills.com/feed.json",
-    "items": [
-      {
-        "id": "ai-systems-architecture-seattle",
-        "url": "https://philhills.com/blog/ai-systems-architecture-seattle/",
-        "title": "AI Systems Architecture in Seattle: My Approach to Multi-Agent Workflows",
-        "content_text": "How I approach AI systems architecture in Magnolia, Seattle: semantic memory, multi-agent orchestration, and protocol-driven design grounded in open-source work and everyday life.",
-        "date_published": "2025-01-15T12:00:00Z"
-      },
-      {
-        "id": "semantic-memory-lessons",
-        "url": "https://philhills.com/blog/semantic-memory-lessons/",
-        "title": "Building Semantic Memory Systems: Lessons from 180+ Open-Source Experiments",
-        "content_text": "What I’ve learned from building semantic memory systems across 180+ open-source repositories: structure, reversibility, and agent-friendly formats.",
-        "date_published": "2025-01-18T12:00:00Z"
-      },
-      {
-        "id": "seattle-ai-landscape",
-        "url": "https://philhills.com/blog/seattle-ai-landscape/",
-        "title": "The Seattle AI Landscape and Where My Work Fits In",
-        "content_text": "A view of the Seattle AI ecosystem from Magnolia, and how semantic memory, multi-agent orchestration, and protocol-first design fit into that landscape.",
-        "date_published": "2025-01-22T12:00:00Z"
-      }
-    ]
-  }
-  
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Phil Hills – Blog",
+  "home_page_url": "https://philhills.com",
+  "feed_url": "https://philhills.com/feed.json",
+  "items": [
+    {
+      "id": "ai-systems-architecture-seattle",
+      "url": "https://philhills.com/blog/ai-systems-architecture-seattle/",
+      "title": "AI & Robotics Systems Architecture in Seattle: My Approach to Multi-Agent Workflows",
+      "content_text": "How I approach AI systems architecture in Magnolia, Seattle: semantic memory, multi-agent orchestration, and protocol-driven design grounded in open-source work and everyday life.",
+      "date_published": "2025-01-15T12:00:00Z"
+    },
+    {
+      "id": "semantic-memory-lessons",
+      "url": "https://philhills.com/blog/semantic-memory-lessons/",
+      "title": "Building Semantic Memory Systems: Lessons from 180+ Open-Source Experiments",
+      "content_text": "What I’ve learned from building semantic memory systems across 180+ open-source repositories: structure, reversibility, and agent-friendly formats.",
+      "date_published": "2025-01-18T12:00:00Z"
+    },
+    {
+      "id": "seattle-ai-landscape",
+      "url": "https://philhills.com/blog/seattle-ai-landscape/",
+      "title": "The Seattle AI Landscape and Where My Work Fits In",
+      "content_text": "A view of the Seattle AI ecosystem from Magnolia, and how semantic memory, multi-agent orchestration, and protocol-first design fit into that landscape.",
+      "date_published": "2025-01-22T12:00:00Z"
+    }
+  ]
+}

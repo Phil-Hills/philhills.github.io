@@ -19,7 +19,7 @@
   "original_payload": {
     "entity": {
       "name": "Phil Hills",
-      "role": "AI Systems Architect & Agentic Protocol Engineer",
+      "role": "AI & Robotics Systems Architect & Agentic Protocol Engineer",
       "location": {
         "city": "Seattle",
         "neighborhood": "Magnolia",
@@ -62,7 +62,7 @@
     ],
     "links": {
       "site": "https://philhills.com",
-      "ai_site": "https://philhills.ai",
+      "ai_site": "https://philhills.com/ai/",
       "github": "https://github.com/Phil-Hills",
       "linkedin": "https://linkedin.com/in/hillphil"
     },
