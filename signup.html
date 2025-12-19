@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Access | Phil Hills AI Agents</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://js.stripe.com/v3/"></script>
+    <style>
+        .signup-container {
+            max-width: 600px;
+            margin: 80px auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--accent);
+            border-radius: 20px;
+        }
+
+        .pricing-card {
+            background: rgba(0, 255, 136, 0.1);
+            border: 2px solid var(--accent);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+
+        .price {
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--accent);
+            margin: 20px 0;
+        }
+
+        .features {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .features li {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .features li:before {
+            content: "✓ ";
+            color: var(--accent);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        #checkout-button {
+            width: 100%;
+            padding: 20px;
+            background: var(--accent);
+            color: var(--bg);
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        #checkout-button:hover {
+            background: #00dd77;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);
+        }
+
+        #checkout-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .error-message {
+            color: #ff4444;
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="/" class="brand">
+            <div class="brand-mark">PH</div>
+            <div class="brand-text">
+                <span>Phil Hills</span>
+                <span>AI & Robotics Systems Architect</span>
+            </div>
+        </a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/ai/">AI Lab</a>
+            <a href="/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="signup-container">
+            <h1 style="text-align: center; margin-bottom: 10px;">Get Agent Access</h1>
+            <p style="text-align: center; color: #888; margin-bottom: 40px;">
+                Unlock access to 94+ specialized AI agents
+            </p>
+
+            <div class="pricing-card">
+                <h2 style="color: var(--accent);">Pro Plan</h2>
+                <div class="price">$99<span style="font-size: 24px; color: #888;">/month</span></div>
+
+                <ul class="features">
+                    <li>Access to all 94+ AI agents</li>
+                    <li>Trading Bot ($500/day target)</li>
+                    <li>Chimera Hunter (bug bounty)</li>
+                    <li>50-Agent Outreach system</li>
+                    <li>CUBE Protocol memory (unlimited)</li>
+                    <li>Priority support</li>
+                    <li>API access</li>
+                    <li>Cancel anytime</li>
+                </ul>
+
+                <button id="checkout-button">
+                    Subscribe Now - $99/month
+                </button>
+
+                <div id="error-message" class="error-message"></div>
+
+                <p style="text-align: center; color: #888; font-size: 14px; margin-top: 20px;">
+                    Secure payment powered by Stripe<br>
+                    Cancel anytime, no questions asked
+                </p>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <h3>What You Get:</h3>
+                <p style="color: #888; line-height: 1.8;">
+                    Full access to our autonomous agent platform. Generate revenue with trading bots,
+                    bug bounty hunting, and automated outreach. All agents include CUBE Protocol memory
+                    for persistent context and learning.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Initialize Stripe
+        const stripe = Stripe('pk_test_51QUoLhRr9gZUHcqODjEjMXKqYVYZJKLQOZJZJZJZJZJZ'); // Replace with your publishable key
+
+        const checkoutButton = document.getElementById('checkout-button');
+        const errorMessage = document.getElementById('error-message');
+
+        checkoutButton.addEventListener('click', async () => {
+            checkoutButton.disabled = true;
+            checkoutButton.textContent = 'Processing...';
+            errorMessage.style.display = 'none';
+
+            try {
+                // Call your backend to create a checkout session
+                const response = await fetch('/api/create-checkout-session', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        priceId: 'price_1234567890', // Replace with your Stripe price ID
+                    }),
+                });
+
+                const session = await response.json();
+
+                if (session.error) {
+                    throw new Error(session.error);
+                }
+
+                // Redirect to Stripe Checkout
+                const result = await stripe.redirectToCheckout({
+                    sessionId: session.id,
+                });
+
+                if (result.error) {
+                    throw new Error(result.error.message);
+                }
+            } catch (error) {
+                errorMessage.textContent = error.message;
+                errorMessage.style.display = 'block';
+                checkoutButton.disabled = false;
+                checkoutButton.textContent = 'Subscribe Now - $99/month';
+            }
+        });
+    </script>
+
+    <footer>
+        © <span id="year"></span> Phil Hills. Built with Cube Protocol.
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
