@@ -185,7 +185,7 @@ After updating your LinkedIn:
    - Expected: AI & Robotics Systems Architect visible
 
 2. **LinkedIn URL Test:**
-   - Visit: https://www.linkedin.com/in/hillphil
+   - Visit: https://www.linkedin.com/in/philhills
    - Verify: No "mortgage" in visible text
    - Verify: Headline shows "Systems Architect"
 

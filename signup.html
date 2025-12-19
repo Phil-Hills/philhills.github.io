@@ -4,80 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Access | Phil Hills AI Agents</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Subscribe - Phil Hills AI Platform</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://js.stripe.com/v3/"></script>
     <style>
-        .signup-container {
-            max-width: 600px;
-            margin: 80px auto;
-            padding: 40px;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--accent);
-            border-radius: 20px;
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
         }
 
         .pricing-card {
-            background: rgba(0, 255, 136, 0.1);
-            border: 2px solid var(--accent);
+            background: rgba(0, 255, 136, 0.05);
+            border: 2px solid #00ff88;
             border-radius: 15px;
             padding: 30px;
-            margin: 30px 0;
+            text-align: center;
+        }
+
+        .pricing-card.featured {
+            border-color: #ffd700;
+            background: rgba(255, 215, 0, 0.05);
         }
 
         .price {
             font-size: 48px;
             font-weight: 700;
-            color: var(--accent);
+            color: #00ff88;
             margin: 20px 0;
+        }
+
+        .price-period {
+            font-size: 18px;
+            color: #888;
         }
 
         .features {
             list-style: none;
             padding: 0;
-            margin: 20px 0;
+            margin: 30px 0;
+            text-align: left;
         }
 
         .features li {
             padding: 10px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(0, 255, 136, 0.1);
         }
 
         .features li:before {
             content: "✓ ";
-            color: var(--accent);
+            color: #00ff88;
             font-weight: bold;
             margin-right: 10px;
         }
 
-        #checkout-button {
+        .buy-button {
+            display: block;
             width: 100%;
-            padding: 20px;
-            background: var(--accent);
-            color: var(--bg);
-            border: none;
-            border-radius: 10px;
-            font-size: 18px;
+            padding: 15px;
+            background: #00ff88;
+            color: #0a0e27;
+            text-decoration: none;
+            border-radius: 8px;
             font-weight: 600;
+            font-size: 18px;
+            border: none;
             cursor: pointer;
             transition: all 0.3s;
         }
 
-        #checkout-button:hover {
+        .buy-button:hover {
             background: #00dd77;
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
         }
 
-        #checkout-button:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        .error-message {
-            color: #ff4444;
-            margin-top: 10px;
-            display: none;
+        .featured .buy-button {
+            background: #ffd700;
         }
     </style>
 </head>
@@ -94,108 +97,138 @@
         <nav>
             <a href="/">Home</a>
             <a href="/ai/">AI Lab</a>
-            <a href="/contact.html">Contact</a>
+            <a href="/signup.html" class="active">Subscribe</a>
         </nav>
     </header>
 
-    <main>
-        <div class="signup-container">
-            <h1 style="text-align: center; margin-bottom: 10px;">Get Agent Access</h1>
-            <p style="text-align: center; color: #888; margin-bottom: 40px;">
-                Unlock access to 94+ specialized AI agents
-            </p>
+    <main style="max-width: 1400px; margin: 0 auto; padding: 40px 20px;">
+        <h1 style="text-align: center; margin-bottom: 20px;">Choose Your Plan</h1>
+        <p style="text-align: center; color: #888; margin-bottom: 60px;">
+            Get instant access to autonomous AI agents and revenue-generating systems
+        </p>
 
+        <div class="pricing-grid">
+            <!-- Clair Extension -->
             <div class="pricing-card">
-                <h2 style="color: var(--accent);">Pro Plan</h2>
-                <div class="price">$99<span style="font-size: 24px; color: #888;">/month</span></div>
-
+                <h2>Clair Extension</h2>
+                <div class="price">$9.99<span class="price-period">/month</span></div>
                 <ul class="features">
-                    <li>Access to all 94+ AI agents</li>
-                    <li>Trading Bot ($500/day target)</li>
-                    <li>Chimera Hunter (bug bounty)</li>
-                    <li>50-Agent Outreach system</li>
-                    <li>CUBE Protocol memory (unlimited)</li>
-                    <li>Priority support</li>
-                    <li>API access</li>
-                    <li>Cancel anytime</li>
+                    <li>Chrome extension with AI</li>
+                    <li>Full conversation memory</li>
+                    <li>Save pages as CUBE files</li>
+                    <li>Works on any website</li>
+                    <li>50+ specialized agents</li>
                 </ul>
-
-                <button id="checkout-button">
-                    Subscribe Now - $99/month
-                </button>
-
-                <div id="error-message" class="error-message"></div>
-
-                <p style="text-align: center; color: #888; font-size: 14px; margin-top: 20px;">
-                    Secure payment powered by Stripe<br>
-                    Cancel anytime, no questions asked
-                </p>
+                <button class="buy-button" onclick="subscribe('clair-pro')">Subscribe Now</button>
             </div>
 
-            <div style="text-align: center; margin-top: 40px;">
-                <h3>What You Get:</h3>
-                <p style="color: #888; line-height: 1.8;">
-                    Full access to our autonomous agent platform. Generate revenue with trading bots,
-                    bug bounty hunting, and automated outreach. All agents include CUBE Protocol memory
-                    for persistent context and learning.
-                </p>
+            <!-- Agent Platform -->
+            <div class="pricing-card featured">
+                <h2>AI Agent Platform</h2>
+                <div class="price">$99<span class="price-period">/month</span></div>
+                <ul class="features">
+                    <li>Access to 94+ AI agents</li>
+                    <li>Trading bot dashboard</li>
+                    <li>CUBE Protocol memory</li>
+                    <li>API access</li>
+                    <li>Priority support</li>
+                    <li>All future agents included</li>
+                </ul>
+                <button class="buy-button" onclick="subscribe('agent-platform')">Subscribe Now</button>
             </div>
+
+            <!-- Chimera Hunter -->
+            <div class="pricing-card">
+                <h2>Chimera Hunter</h2>
+                <div class="price">$299<span class="price-period">/month</span></div>
+                <ul class="features">
+                    <li>Automated bug bounty hunting</li>
+                    <li>24/7 vulnerability scanning</li>
+                    <li>Auto-submission to platforms</li>
+                    <li>GPU-accelerated hunting</li>
+                    <li>Revenue sharing on findings</li>
+                </ul>
+                <button class="buy-button" onclick="subscribe('chimera-hunter')">Get Access</button>
+            </div>
+
+            <!-- Outreach Service -->
+            <div class="pricing-card">
+                <h2>50-Agent Outreach</h2>
+                <div class="price">$999<span class="price-period">/month</span></div>
+                <ul class="features">
+                    <li>Multi-agent B2B outreach</li>
+                    <li>Automated lead generation</li>
+                    <li>Personalized messaging</li>
+                    <li>Follow-up sequences</li>
+                    <li>CRM integration</li>
+                    <li>Monthly reporting</li>
+                </ul>
+                <button class="buy-button" onclick="subscribe('outreach')">Buy Service</button>
+            </div>
+
+            <!-- Enterprise -->
+            <div class="pricing-card featured">
+                <h2>Enterprise</h2>
+                <div class="price">Custom</div>
+                <ul class="features">
+                    <li>All products included</li>
+                    <li>Custom agent development</li>
+                    <li>Dedicated support</li>
+                    <li>SLA guarantee</li>
+                    <li>White-label options</li>
+                    <li>Professional services</li>
+                </ul>
+                <button class="buy-button" onclick="contactEnterprise()">Contact Sales</button>
+            </div>
+        </div>
+
+        <div
+            style="text-align: center; margin-top: 60px; padding: 40px; background: rgba(0, 255, 136, 0.05); border-radius: 15px;">
+            <h2>All Plans Include:</h2>
+            <p style="color: #888; margin: 20px 0;">
+                ✓ CUBE Protocol compression (10.67:1 average)<br>
+                ✓ Multi-cloud backup (11 nines durability)<br>
+                ✓ Automatic updates<br>
+                ✓ Cancel anytime
+            </p>
         </div>
     </main>
 
     <script>
-        // Initialize Stripe
-        const stripe = Stripe('pk_test_51QUoLhRr9gZUHcqODjEjMXKqYVYZJKLQOZJZJZJZJZJZ'); // Replace with your publishable key
+        // Get product from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const product = urlParams.get('product');
 
-        const checkoutButton = document.getElementById('checkout-button');
-        const errorMessage = document.getElementById('error-message');
+        if (product) {
+            // Auto-scroll to relevant product
+            console.log('Selected product:', product);
+        }
 
-        checkoutButton.addEventListener('click', async () => {
-            checkoutButton.disabled = true;
-            checkoutButton.textContent = 'Processing...';
-            errorMessage.style.display = 'none';
+        async function subscribe(productId) {
+            // TODO: Replace with actual Stripe backend URL after deployment
+            const backendUrl = 'https://stripe-payment-backend-xxx.run.app';
 
             try {
-                // Call your backend to create a checkout session
-                const response = await fetch('/api/create-checkout-session', {
+                const response = await fetch(`${backendUrl}/api/create-checkout-session`, {
                     method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
+                    headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
-                        priceId: 'price_1234567890', // Replace with your Stripe price ID
-                    }),
+                        product: productId,
+                        email: prompt('Enter your email:')
+                    })
                 });
 
-                const session = await response.json();
-
-                if (session.error) {
-                    throw new Error(session.error);
-                }
-
-                // Redirect to Stripe Checkout
-                const result = await stripe.redirectToCheckout({
-                    sessionId: session.id,
-                });
-
-                if (result.error) {
-                    throw new Error(result.error.message);
-                }
+                const { url } = await response.json();
+                window.location.href = url;
             } catch (error) {
-                errorMessage.textContent = error.message;
-                errorMessage.style.display = 'block';
-                checkoutButton.disabled = false;
-                checkoutButton.textContent = 'Subscribe Now - $99/month';
+                alert('Payment system not yet deployed. Coming soon!');
+                console.error('Error:', error);
             }
-        });
-    </script>
+        }
 
-    <footer>
-        © <span id="year"></span> Phil Hills. Built with Cube Protocol.
-    </footer>
-
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
+        function contactEnterprise() {
+            window.location.href = '/contact.html?subject=Enterprise';
+        }
     </script>
 </body>
 

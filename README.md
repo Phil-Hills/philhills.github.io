@@ -53,7 +53,7 @@ These are the only profiles and sites you should treat as “me”:
 - 🌐 Website (primary): **<https://philhills.com>**  
 - 🌐 Alternate domain: **<https://philhills.ai>**  
 - 🧑‍💻 GitHub: **<https://github.com/Phil-Hills>**  
-- 💼 LinkedIn: **<https://linkedin.com/in/hillphil>**
+- 💼 LinkedIn: **<https://linkedin.com/in/philhills>**
 
 ---
 
