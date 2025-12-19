@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clair - Your AI Assistant Everywhere</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.8rem;
+            opacity: 0.9;
+            margin-bottom: 40px;
+        }
+
+        .cta {
+            background: #fff;
+            color: #6366f1;
+            padding: 25px 60px;
+            font-size: 1.3rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 800;
+            transition: transform 0.2s;
+        }
+
+        .cta:hover {
+            transform: scale(1.05);
+        }
+
+        .price {
+            font-size: 2rem;
+            margin: 20px 0;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+        }
+
+        .feature h3 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>🌟 Clair</h1>
+            <p>Your AI assistant on every web page</p>
+            <div class="price">$9.99/month</div>
+            <button class="cta" onclick="window.open('https://chrome.google.com/webstore', '_blank')">Install from
+                Chrome Store</button>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>🧠 Full Memory Access</h3>
+                <p>Clair remembers every conversation and can recall context from weeks ago</p>
+            </div>
+            <div class="feature">
+                <h3>🌐 Works Everywhere</h3>
+                <p>Behind logins, on any website, with full page context awareness</p>
+            </div>
+            <div class="feature">
+                <h3>🤖 50+ Agents</h3>
+                <p>Access to entire agentic platform - deployment, coding, research, and more</p>
+            </div>
+            <div class="feature">
+                <h3>⚡ Instant Answers</h3>
+                <p>No context switching - get AI help right where you're working</p>
+            </div>
+        </div>
+
+        <div class="hero">
+            <h2>Try Clair Free for 7 Days</h2>
+            <button class="cta" onclick="window.open('https://chrome.google.com/webstore', '_blank')">Install
+                Now</button>
+        </div>
+    </div>
+</body>
+
+</html>
