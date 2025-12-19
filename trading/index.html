@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Dashboard - Phil Hills</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            color: #00ff88;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Login Screen */
+        .login-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .login-box {
+            background: rgba(20, 25, 45, 0.95);
+            border: 2px solid #00ff88;
+            border-radius: 15px;
+            padding: 50px;
+            box-shadow: 0 0 50px rgba(0, 255, 136, 0.3);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .login-box h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 32px;
+            text-shadow: 0 0 20px rgba(0, 255, 136, 0.8);
+        }
+
+        .login-box p {
+            text-align: center;
+            color: #888;
+            margin-bottom: 30px;
+        }
+
+        .login-box input {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid #00ff88;
+            border-radius: 8px;
+            color: #00ff88;
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+        }
+
+        .login-box input:focus {
+            outline: none;
+            box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 15px;
+            background: #00ff88;
+            border: none;
+            border-radius: 8px;
+            color: #0a0e27;
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .login-box button:hover {
+            background: #00dd77;
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.6);
+        }
+
+        .error {
+            color: #ff4444;
+            text-align: center;
+            margin-top: 15px;
+            display: none;
+        }
+
+        /* Dashboard */
+        .dashboard {
+            display: none;
+            padding: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            text-shadow: 0 0 20px rgba(0, 255, 136, 0.8);
+        }
+
+        .logout-btn {
+            padding: 10px 20px;
+            background: rgba(255, 68, 68, 0.2);
+            border: 1px solid #ff4444;
+            border-radius: 8px;
+            color: #ff4444;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .logout-btn:hover {
+            background: rgba(255, 68, 68, 0.4);
+        }
+
+        .target-display {
+            text-align: center;
+            padding: 40px;
+            background: rgba(0, 255, 136, 0.1);
+            border: 3px solid #00ff88;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 40px rgba(0, 255, 136, 0.2);
+        }
+
+        .target-display h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #888;
+        }
+
+        .target-display .amount {
+            font-size: 72px;
+            font-weight: bold;
+            text-shadow: 0 0 30px rgba(0, 255, 136, 0.8);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.7;
+            }
+        }
+
+        .status {
+            display: inline-block;
+            padding: 10px 30px;
+            background: rgba(0, 255, 136, 0.2);
+            border: 2px solid #00ff88;
+            border-radius: 25px;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .status.complete {
+            background: rgba(255, 215, 0, 0.2);
+            border-color: #ffd700;
+            color: #ffd700;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: rgba(20, 25, 45, 0.8);
+            border: 1px solid #00ff88;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.1);
+        }
+
+        .stat-card h3 {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .stat-card .value {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .trades-table {
+            background: rgba(20, 25, 45, 0.8);
+            border: 1px solid #00ff88;
+            border-radius: 15px;
+            padding: 25px;
+            overflow-x: auto;
+        }
+
+        .trades-table h3 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+        }
+
+        th {
+            color: #888;
+            font-weight: normal;
+        }
+
+        .profit-positive {
+            color: #00ff88;
+        }
+
+        .profit-negative {
+            color: #ff4444;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Login Screen -->
+    <div class="login-container" id="loginScreen">
+        <div class="login-box">
+            <h1>🔒 TRADING DASHBOARD</h1>
+            <p>Phil Hills - Secure Access</p>
+            <input type="password" id="passwordInput" placeholder="Enter Password" autocomplete="off">
+            <button onclick="login()">ACCESS DASHBOARD</button>
+            <div class="error" id="errorMsg">Invalid password</div>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="dashboard" id="dashboard">
+        <div class="header">
+            <h1>💹 TRADING BOT DASHBOARD</h1>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </div>
+
+        <div class="target-display">
+            <h2>DAILY TARGET</h2>
+            <div class="amount" id="currentProfit">$0.00</div>
+            <div class="status" id="status">ACTIVE</div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>TRADES TODAY</h3>
+                <div class="value" id="tradesCount">0 / 12.5</div>
+            </div>
+            <div class="stat-card">
+                <h3>AVERAGE PROFIT</h3>
+                <div class="value" id="avgProfit">$0.00</div>
+            </div>
+            <div class="stat-card">
+                <h3>TIME TO TARGET</h3>
+                <div class="value" id="timeToTarget">--:--</div>
+            </div>
+            <div class="stat-card">
+                <h3>SUCCESS RATE</h3>
+                <div class="value" id="successRate">100%</div>
+            </div>
+        </div>
+
+        <div class="trades-table">
+            <h3>📊 TRADE HISTORY</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>TIME</th>
+                        <th>PAIR</th>
+                        <th>PROFIT</th>
+                        <th>TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody id="tradesBody">
+                    <tr>
+                        <td colspan="4" style="text-align: center; color: #888;">No trades yet today</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // Password protection
+        const CORRECT_PASSWORD = 'phil2024';  // Change this to your secure password
+
+        function login() {
+            const password = document.getElementById('passwordInput').value;
+            if (password === CORRECT_PASSWORD) {
+                document.getElementById('loginScreen').style.display = 'none';
+                document.getElementById('dashboard').style.display = 'block';
+                startDashboard();
+            } else {
+                document.getElementById('errorMsg').style.display = 'block';
+                setTimeout(() => {
+                    document.getElementById('errorMsg').style.display = 'none';
+                }, 3000);
+            }
+        }
+
+        function logout() {
+            document.getElementById('loginScreen').style.display = 'flex';
+            document.getElementById('dashboard').style.display = 'none';
+            document.getElementById('passwordInput').value = '';
+        }
+
+        // Allow Enter key to login
+        document.getElementById('passwordInput')?.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') login();
+        });
+
+        // Dashboard functionality
+        function startDashboard() {
+            // Connect to trading bot API
+            fetchTradingData();
+            setInterval(fetchTradingData, 5000);  // Update every 5 seconds
+        }
+
+        async function fetchTradingData() {
+            try {
+                // In production, this would fetch from your trading bot API
+                const response = await fetch('/api/trading/status');
+                const data = await response.json();
+
+                updateDashboard(data);
+            } catch (error) {
+                // Demo data for now
+                updateDashboard({
+                    currentProfit: 0,
+                    tradesCount: 0,
+                    avgProfit: 0,
+                    timeToTarget: '--:--',
+                    successRate: 100,
+                    trades: []
+                });
+            }
+        }
+
+        function updateDashboard(data) {
+            document.getElementById('currentProfit').textContent = `$${data.currentProfit.toFixed(2)}`;
+            document.getElementById('tradesCount').textContent = `${data.tradesCount} / 12.5`;
+            document.getElementById('avgProfit').textContent = `$${data.avgProfit.toFixed(2)}`;
+            document.getElementById('timeToTarget').textContent = data.timeToTarget;
+            document.getElementById('successRate').textContent = `${data.successRate}%`;
+
+            // Update status
+            const status = document.getElementById('status');
+            if (data.currentProfit >= 500) {
+                status.textContent = 'TARGET REACHED';
+                status.classList.add('complete');
+            } else {
+                status.textContent = 'ACTIVE';
+                status.classList.remove('complete');
+            }
+
+            // Update trades table
+            if (data.trades && data.trades.length > 0) {
+                const tbody = document.getElementById('tradesBody');
+                tbody.innerHTML = data.trades.map(trade => `
+                    <tr>
+                        <td>${trade.time}</td>
+                        <td>${trade.pair}</td>
+                        <td class="${trade.profit >= 0 ? 'profit-positive' : 'profit-negative'}">
+                            $${trade.profit.toFixed(2)}
+                        </td>
+                        <td class="profit-positive">$${trade.total.toFixed(2)}</td>
+                    </tr>
+                `).join('');
+            }
+        }
+    </script>
+</body>
+
+</html>
