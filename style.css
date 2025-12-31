@@ -596,3 +596,119 @@ html {
     background: rgba(0, 240, 255, 0.3);
     color: white;
 }
+
+/* =========================================
+   CUBE TERMINAL
+   ========================================= */
+.terminal-section {
+    margin: 80px 0;
+}
+
+.terminal-container {
+    background: rgba(10, 10, 15, 0.95);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    font-family: 'JetBrains Mono', monospace;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.terminal-header {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.dot.red {
+    background: #ff5f56;
+}
+
+.dot.yellow {
+    background: #ffbd2e;
+}
+
+.dot.green {
+    background: #27c93f;
+}
+
+.terminal-title {
+    margin-left: 12px;
+    font-size: 12px;
+    color: var(--text-tertiary);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.terminal-body {
+    padding: 24px;
+    min-height: 300px;
+    max-height: 500px;
+    overflow-y: auto;
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.line {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+.prompt {
+    color: var(--accent-primary);
+    margin-right: 8px;
+    font-weight: 700;
+}
+
+.system {
+    color: var(--text-tertiary);
+}
+
+.user-text {
+    color: var(--text-primary);
+}
+
+.cube-hex {
+    font-size: 10px;
+    color: #404040;
+    margin: 4px 0 12px 24px;
+    font-family: 'Courier New', monospace;
+}
+
+.agent-response {
+    color: #e0e0e0;
+    white-space: pre-wrap;
+}
+
+.terminal-input-line {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+    background: rgba(255, 255, 255, 0.02);
+    border-top: 1px solid var(--glass-border);
+}
+
+#cube-input {
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+}
+
+#cube-input::placeholder {
+    color: var(--text-tertiary);
+}
