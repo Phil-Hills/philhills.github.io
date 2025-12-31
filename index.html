@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phil Hills | ◈ Cube Protocol</title>
     <meta name="description" content="AI Engineer. Creator of the Cube Protocol. Building autonomous agent swarms.">
+    <meta name="theme-color" content="#0a0a0f">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◈</text></svg>">
     
     <style>
         :root {
@@ -12,8 +14,10 @@
             --gold: #ffc800;
             --plasma: #b400ff;
             --dark: #0a0a0f;
+            --darker: #050508;
             --gray: #1a1a2e;
             --light: #e0e0e0;
+            --dim: #666680;
         }
         
         * {
@@ -23,14 +27,14 @@
         }
         
         body {
-            font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+            font-family: 'SF Mono', 'Fira Code', 'Consolas', 'Monaco', monospace;
             background: var(--dark);
             color: var(--light);
             min-height: 100vh;
-            overflow-x: hidden;
+            line-height: 1.6;
         }
         
-        /* Animated background grid */
+        /* Animated grid background */
         .grid-bg {
             position: fixed;
             top: 0;
@@ -38,9 +42,21 @@
             width: 100%;
             height: 100%;
             background-image: 
-                linear-gradient(rgba(0, 255, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0, 255, 255, 0.03) 1px, transparent 1px);
-            background-size: 50px 50px;
+                linear-gradient(rgba(0, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 255, 0.02) 1px, transparent 1px);
+            background-size: 40px 40px;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        /* Gradient overlay */
+        .gradient-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(ellipse at 50% 0%, rgba(0, 255, 255, 0.08) 0%, transparent 60%);
             pointer-events: none;
             z-index: 0;
         }
@@ -56,112 +72,176 @@
         /* Header */
         header {
             text-align: center;
-            padding: 4rem 0;
+            padding: 4rem 0 3rem;
         }
         
         .cube-symbol {
-            font-size: 4rem;
+            font-size: 5rem;
             color: var(--electric);
-            text-shadow: 0 0 30px var(--electric);
-            animation: pulse 2s ease-in-out infinite;
+            text-shadow: 
+                0 0 20px var(--electric),
+                0 0 40px rgba(0, 255, 255, 0.5),
+                0 0 60px rgba(0, 255, 255, 0.3);
+            animation: pulse 3s ease-in-out infinite;
+            display: inline-block;
         }
         
         @keyframes pulse {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.8; transform: scale(1.05); }
+            0%, 100% { 
+                opacity: 1; 
+                transform: scale(1);
+                filter: brightness(1);
+            }
+            50% { 
+                opacity: 0.85; 
+                transform: scale(1.02);
+                filter: brightness(1.2);
+            }
         }
         
         h1 {
             font-size: 2.5rem;
             font-weight: 300;
-            margin: 1rem 0;
-            letter-spacing: 0.2em;
+            margin: 1.5rem 0 0.5rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
         }
         
         .tagline {
-            color: var(--electric);
-            font-size: 1rem;
-            opacity: 0.8;
+            color: var(--dim);
+            font-size: 0.95rem;
+            letter-spacing: 0.1em;
         }
         
-        /* Cube Terminal */
+        /* Terminal */
         .cube-terminal {
-            background: rgba(10, 10, 15, 0.9);
-            border: 1px solid var(--electric);
-            border-radius: 8px;
-            margin: 3rem 0;
+            background: var(--darker);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            border-radius: 12px;
+            margin: 2rem 0 3rem;
             overflow: hidden;
-            box-shadow: 0 0 40px rgba(0, 255, 255, 0.1);
+            box-shadow: 
+                0 0 40px rgba(0, 255, 255, 0.1),
+                inset 0 0 60px rgba(0, 0, 0, 0.5);
         }
         
         .terminal-header {
-            background: var(--gray);
-            padding: 0.75rem 1rem;
+            background: linear-gradient(180deg, var(--gray) 0%, rgba(26, 26, 46, 0.8) 100%);
+            padding: 0.875rem 1.25rem;
             display: flex;
             align-items: center;
             gap: 0.5rem;
-            border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+            border-bottom: 1px solid rgba(0, 255, 255, 0.15);
         }
         
         .terminal-dot {
             width: 12px;
             height: 12px;
             border-radius: 50%;
+            transition: all 0.3s ease;
         }
         .terminal-dot.red { background: #ff5f56; }
         .terminal-dot.yellow { background: #ffbd2e; }
         .terminal-dot.green { background: #27ca40; }
         
+        .terminal-dot:hover {
+            filter: brightness(1.3);
+            transform: scale(1.1);
+        }
+        
         .terminal-title {
-            margin-left: 1rem;
+            margin-left: auto;
             color: var(--electric);
-            font-size: 0.85rem;
+            font-size: 0.8rem;
+            opacity: 0.9;
         }
         
         .terminal-body {
             padding: 1.5rem;
-            min-height: 300px;
-            max-height: 500px;
+            min-height: 320px;
+            max-height: 450px;
             overflow-y: auto;
         }
         
-        .terminal-output {
-            margin-bottom: 1rem;
+        .terminal-body::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        .terminal-body::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        
+        .terminal-body::-webkit-scrollbar-thumb {
+            background: rgba(0, 255, 255, 0.3);
+            border-radius: 3px;
         }
         
         .output-line {
-            margin: 0.5rem 0;
-            line-height: 1.6;
+            margin: 0.4rem 0;
+            line-height: 1.5;
+            word-wrap: break-word;
         }
         
-        .output-line.cube {
+        .output-line.coord {
+            color: var(--electric);
+            font-weight: 500;
+        }
+        
+        .output-line.hex {
             color: var(--gray);
-            font-size: 0.75rem;
+            font-size: 0.7rem;
+            opacity: 0.6;
             word-break: break-all;
+            font-family: monospace;
         }
         
         .output-line.emergence {
             color: var(--light);
             white-space: pre-wrap;
+            background: rgba(0, 255, 255, 0.03);
+            padding: 0.75rem;
+            border-radius: 6px;
+            border-left: 2px solid rgba(0, 255, 255, 0.3);
+            margin: 0.5rem 0;
         }
         
-        .output-line.coord {
-            color: var(--electric);
+        .output-line.system {
+            color: var(--dim);
+            font-style: italic;
         }
         
         .output-line.error {
             color: #ff6b6b;
         }
         
+        .output-line.hint {
+            color: var(--dim);
+            font-size: 0.85rem;
+        }
+        
+        .output-line.hint span {
+            color: var(--electric);
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        
+        .output-line.hint span:hover {
+            opacity: 0.7;
+        }
+        
         .terminal-input-line {
             display: flex;
             align-items: center;
             gap: 0.5rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(0, 255, 255, 0.1);
         }
         
         .prompt {
             color: var(--electric);
-            font-size: 1.2rem;
+            font-size: 1.3rem;
+            text-shadow: 0 0 10px var(--electric);
         }
         
         .terminal-input {
@@ -172,21 +252,28 @@
             font-family: inherit;
             font-size: 1rem;
             outline: none;
+            caret-color: var(--electric);
         }
         
         .terminal-input::placeholder {
-            color: rgba(255, 255, 255, 0.3);
+            color: rgba(255, 255, 255, 0.25);
         }
         
-        /* Status indicator */
-        .status {
+        /* Status bar */
+        .status-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.625rem 1.25rem;
+            background: var(--gray);
+            border-top: 1px solid rgba(0, 255, 255, 0.1);
+            font-size: 0.75rem;
+        }
+        
+        .status-left {
             display: flex;
             align-items: center;
             gap: 0.5rem;
-            padding: 0.5rem 1rem;
-            background: var(--gray);
-            border-top: 1px solid rgba(0, 255, 255, 0.2);
-            font-size: 0.75rem;
         }
         
         .status-dot {
@@ -194,43 +281,51 @@
             height: 8px;
             border-radius: 50%;
             background: var(--electric);
-            animation: blink 1s ease-in-out infinite;
+            box-shadow: 0 0 10px var(--electric);
+            animation: statusPulse 2s ease-in-out infinite;
         }
         
         .status-dot.offline {
             background: #ff5f56;
+            box-shadow: 0 0 10px #ff5f56;
             animation: none;
         }
         
-        @keyframes blink {
+        @keyframes statusPulse {
             0%, 100% { opacity: 1; }
-            50% { opacity: 0.3; }
+            50% { opacity: 0.5; }
         }
         
-        /* Info sections */
+        .status-right {
+            color: var(--dim);
+        }
+        
+        /* Info grid */
         .info-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin: 3rem 0;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.25rem;
+            margin: 0 0 3rem;
         }
         
         .info-card {
-            background: rgba(26, 26, 46, 0.5);
-            border: 1px solid rgba(0, 255, 255, 0.2);
-            border-radius: 8px;
+            background: rgba(26, 26, 46, 0.4);
+            border: 1px solid rgba(0, 255, 255, 0.15);
+            border-radius: 10px;
             padding: 1.5rem;
             transition: all 0.3s ease;
         }
         
         .info-card:hover {
-            border-color: var(--electric);
-            box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+            border-color: rgba(0, 255, 255, 0.4);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+            transform: translateY(-2px);
         }
         
         .info-card h3 {
             color: var(--electric);
-            font-size: 0.9rem;
+            font-size: 0.85rem;
+            font-weight: 500;
             margin-bottom: 0.75rem;
             display: flex;
             align-items: center;
@@ -240,25 +335,37 @@
         .info-card p {
             color: var(--light);
             opacity: 0.8;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             line-height: 1.6;
         }
         
         .info-card a {
             color: var(--electric);
             text-decoration: none;
+            transition: opacity 0.2s;
         }
         
         .info-card a:hover {
-            text-decoration: underline;
+            opacity: 0.7;
+        }
+        
+        .info-card .links {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid rgba(0, 255, 255, 0.1);
         }
         
         /* Footer */
         footer {
             text-align: center;
-            padding: 3rem 0;
-            color: rgba(255, 255, 255, 0.4);
+            padding: 2rem 0 3rem;
+            border-top: 1px solid rgba(0, 255, 255, 0.1);
+        }
+        
+        footer p {
+            color: var(--dim);
             font-size: 0.8rem;
+            margin: 0.5rem 0;
         }
         
         footer a {
@@ -266,56 +373,64 @@
             text-decoration: none;
         }
         
-        /* Loading animation */
-        .loading {
-            display: inline-block;
+        footer a:hover {
+            text-decoration: underline;
         }
         
+        /* Loading state */
         .loading::after {
-            content: '...';
-            animation: dots 1.5s steps(4, end) infinite;
+            content: '';
+            animation: loadingDots 1.5s steps(4, end) infinite;
         }
         
-        @keyframes dots {
-            0%, 20% { content: ''; }
-            40% { content: '.'; }
-            60% { content: '..'; }
-            80%, 100% { content: '...'; }
+        @keyframes loadingDots {
+            0% { content: ''; }
+            25% { content: '.'; }
+            50% { content: '..'; }
+            75% { content: '...'; }
+            100% { content: ''; }
         }
         
         /* Mobile */
         @media (max-width: 600px) {
             .container { padding: 1rem; }
-            h1 { font-size: 1.8rem; }
-            .cube-symbol { font-size: 3rem; }
+            header { padding: 2.5rem 0 2rem; }
+            h1 { font-size: 1.6rem; letter-spacing: 0.2em; }
+            .cube-symbol { font-size: 3.5rem; }
+            .tagline { font-size: 0.8rem; }
+            .terminal-body { min-height: 280px; padding: 1rem; }
+            .info-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
     <div class="grid-bg"></div>
+    <div class="gradient-overlay"></div>
     
     <div class="container">
         <header>
             <div class="cube-symbol">◈</div>
-            <h1>PHIL HILLS</h1>
+            <h1>Phil Hills</h1>
             <p class="tagline">AI Engineer · Cube Protocol Creator</p>
         </header>
         
-        <!-- Live Cube Terminal -->
         <div class="cube-terminal">
             <div class="terminal-header">
                 <div class="terminal-dot red"></div>
                 <div class="terminal-dot yellow"></div>
                 <div class="terminal-dot green"></div>
-                <span class="terminal-title">◈ cube terminal — connected to mesh</span>
+                <span class="terminal-title">◈ cube terminal</span>
             </div>
             
             <div class="terminal-body" id="terminal-body">
-                <div class="terminal-output" id="output">
+                <div id="output">
                     <div class="output-line coord">◈ ready</div>
-                    <div class="output-line emergence">Point at anything. Type a coordinate and press Enter.</div>
-                    <div class="output-line emergence" style="opacity: 0.5; margin-top: 1rem;">
-Try: self · fleet · phil · cube-protocol · help
+                    <div class="output-line system">Point at anything. Type a coordinate and press Enter.</div>
+                    <div class="output-line hint">
+                        Try: <span onclick="runCommand('self')">self</span> · 
+                        <span onclick="runCommand('who is phil')">who is phil</span> · 
+                        <span onclick="runCommand('fleet:status')">fleet:status</span> · 
+                        <span onclick="runCommand('system:bootstrap')">system:bootstrap</span>
                     </div>
                 </div>
                 
@@ -326,27 +441,34 @@ Try: self · fleet · phil · cube-protocol · help
                            id="input" 
                            placeholder="enter coordinate..."
                            autocomplete="off"
+                           spellcheck="false"
                            autofocus>
                 </div>
             </div>
             
-            <div class="status">
-                <div class="status-dot" id="status-dot"></div>
-                <span id="status-text">mesh: connected</span>
+            <div class="status-bar">
+                <div class="status-left">
+                    <div class="status-dot" id="status-dot"></div>
+                    <span id="status-text">connecting...</span>
+                </div>
+                <div class="status-right">
+                    <span id="agent-count">-</span> agents
+                </div>
             </div>
         </div>
         
-        <!-- Info Grid -->
         <div class="info-grid">
             <div class="info-card">
                 <h3>◈ Cube Protocol</h3>
                 <p>The programming language where you don't write code. You point at coordinates. The weights understand.</p>
-                <p style="margin-top: 0.5rem;"><a href="https://github.com/philhills/cube-protocol" target="_blank">GitHub →</a></p>
+                <div class="links">
+                    <a href="https://github.com/philhills/cube-protocol" target="_blank">GitHub →</a>
+                </div>
             </div>
             
             <div class="info-card">
                 <h3>◈ Agent Swarm</h3>
-                <p>155 autonomous agents running in the mesh. Research, trends, orchestration, reputation — all coordinate-based.</p>
+                <p>Autonomous agents running in the mesh. Research, trends, orchestration, reputation — all coordinate-based.</p>
             </div>
             
             <div class="info-card">
@@ -355,7 +477,7 @@ Try: self · fleet · phil · cube-protocol · help
             </div>
             
             <div class="info-card">
-                <h3>◈ Contact</h3>
+                <h3>◈ Connect</h3>
                 <p>
                     <a href="https://github.com/philhills" target="_blank">GitHub</a> · 
                     <a href="https://linkedin.com/in/philhills" target="_blank">LinkedIn</a> · 
@@ -366,53 +488,56 @@ Try: self · fleet · phil · cube-protocol · help
         
         <footer>
             <p>◈ No files. No Docker. Just cubes.</p>
-            <p style="margin-top: 0.5rem;">
-                <a href="https://github.com/philhills/cube-protocol">View Source</a>
-            </p>
+            <p><a href="https://github.com/philhills/cube-protocol">View Source</a></p>
         </footer>
     </div>
     
     <script>
-        // Cube Terminal - connects to live mesh
         const MESH_URL = 'https://a2ac-cube-mesh-235894147478.us-central1.run.app';
         
         const input = document.getElementById('input');
         const output = document.getElementById('output');
         const statusDot = document.getElementById('status-dot');
         const statusText = document.getElementById('status-text');
+        const agentCount = document.getElementById('agent-count');
         const terminalBody = document.getElementById('terminal-body');
         
         let context = [];
+        let isConnected = false;
         
-        // Compress to cube (simplified - shows the concept)
-        function toCube(text) {
-            // In browser we can't do full gzip easily, so we show a hash-like representation
+        // Simplified cube representation
+        function toHex(text) {
+            let hex = 'e29788'; // ◈ magic
             const bytes = new TextEncoder().encode(text);
-            let hash = 'e29788';  // ◈ magic bytes
-            for (let i = 0; i < bytes.length; i++) {
-                hash += bytes[i].toString(16).padStart(2, '0');
+            for (let i = 0; i < Math.min(bytes.length, 20); i++) {
+                hex += bytes[i].toString(16).padStart(2, '0');
             }
-            return hash.substring(0, 40) + '...';
+            return hex + '...';
         }
         
         function addOutput(content, className = 'emergence') {
             const div = document.createElement('div');
             div.className = `output-line ${className}`;
-            div.textContent = content;
+            
+            if (className === 'emergence' && typeof content === 'object') {
+                div.textContent = JSON.stringify(content, null, 2);
+            } else {
+                div.textContent = content;
+            }
+            
             output.appendChild(div);
             terminalBody.scrollTop = terminalBody.scrollHeight;
         }
         
         async function activate(coordinate) {
-            // Show the coordinate
+            // Show coordinate
             addOutput(`◈ ${coordinate}`, 'coord');
             
-            // Show the "cube" (binary representation)
-            addOutput(toCube(coordinate), 'cube');
+            // Show hex (subtle)
+            addOutput(toHex(coordinate), 'hex');
             
-            // Send to mesh
             try {
-                statusText.textContent = 'mesh: thinking...';
+                statusText.textContent = 'thinking...';
                 
                 const response = await fetch(`${MESH_URL}/think`, {
                     method: 'POST',
@@ -424,64 +549,126 @@ Try: self · fleet · phil · cube-protocol · help
                     const data = await response.json();
                     let result = data.result;
                     
-                    // Handle different response formats
-                    if (typeof result === 'object') {
-                        result = result.content || result.response || JSON.stringify(result, null, 2);
+                    // Extract content from nested responses
+                    if (result && typeof result === 'object') {
+                        if (result.content) result = result.content;
+                        else if (result.response) result = result.response;
                     }
                     
                     addOutput(result, 'emergence');
                     context.push({ coord: coordinate, result });
-                    statusText.textContent = 'mesh: connected';
+                    
+                    statusText.textContent = 'connected';
+                    
+                    // Update agent count if available
+                    if (result && result.agent_count !== undefined) {
+                        agentCount.textContent = result.agent_count;
+                    }
                 } else {
-                    const text = await response.text();
-                    addOutput(`[${response.status}] ${text}`, 'error');
-                    statusText.textContent = 'mesh: error';
+                    addOutput(`Error: ${response.status}`, 'error');
+                    statusText.textContent = 'error';
                 }
             } catch (err) {
-                addOutput(`[offline] ${err.message}`, 'error');
-                statusDot.classList.add('offline');
-                statusText.textContent = 'mesh: offline';
+                addOutput(`Offline: ${err.message}`, 'error');
+                setOffline();
             }
         }
         
-        // Handle input
-        input.addEventListener('keydown', async (e) => {
+        function runCommand(cmd) {
+            input.value = cmd;
+            handleInput();
+        }
+        
+        async function handleInput() {
+            const coord = input.value.trim();
+            if (!coord) return;
+            
+            input.value = '';
+            
+            // Special commands
+            if (coord.toLowerCase() === 'clear') {
+                output.innerHTML = '<div class="output-line coord">◈ cleared</div>';
+                context = [];
+                return;
+            }
+            
+            if (coord.toLowerCase() === 'help') {
+                addOutput('◈ help', 'coord');
+                addOutput(`Available coordinates:
+  self              - What is Cube?
+  who is phil       - About Phil Hills
+  fleet:status      - Agent fleet info
+  agents:list       - List all agents
+  mesh:status       - Mesh health
+  system:bootstrap  - Initialize all agents
+  clear             - Clear terminal`, 'emergence');
+                return;
+            }
+            
+            await activate(coord);
+        }
+        
+        input.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') {
-                const coord = input.value.trim();
-                if (!coord) return;
-                
-                input.value = '';
-                
-                // Special commands
-                if (coord === 'clear') {
-                    output.innerHTML = '<div class="output-line coord">◈ cleared</div>';
-                    context = [];
-                    return;
-                }
-                
-                await activate(coord);
+                handleInput();
             }
         });
         
-        // Check mesh status on load
+        // Click hints to run commands
+        document.querySelectorAll('.output-line.hint span').forEach(span => {
+            span.style.cursor = 'pointer';
+        });
+        
+        function setOnline() {
+            isConnected = true;
+            statusDot.classList.remove('offline');
+            statusText.textContent = 'connected';
+        }
+        
+        function setOffline() {
+            isConnected = false;
+            statusDot.classList.add('offline');
+            statusText.textContent = 'offline';
+        }
+        
         async function checkMesh() {
             try {
-                const response = await fetch(`${MESH_URL}/health`, { method: 'GET' });
+                const response = await fetch(`${MESH_URL}/health`);
                 if (response.ok) {
-                    statusDot.classList.remove('offline');
-                    statusText.textContent = 'mesh: connected';
+                    setOnline();
+                    
+                    // Try to get agent count
+                    try {
+                        const statusResponse = await fetch(`${MESH_URL}/think`, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ prompt: 'mesh:status' })
+                        });
+                        if (statusResponse.ok) {
+                            const data = await statusResponse.json();
+                            if (data.result && data.result.agent_count !== undefined) {
+                                agentCount.textContent = data.result.agent_count;
+                            }
+                        }
+                    } catch {}
                 } else {
-                    throw new Error('unhealthy');
+                    setOffline();
                 }
             } catch {
-                statusDot.classList.add('offline');
-                statusText.textContent = 'mesh: offline';
+                setOffline();
             }
         }
         
         // Initial check
         checkMesh();
-        setInterval(checkMesh, 30000);  // Check every 30s
+        
+        // Periodic health check
+        setInterval(checkMesh, 30000);
+        
+        // Focus input on click anywhere in terminal body
+        terminalBody.addEventListener('click', () => {
+            input.focus();
+        });
     </script>
 </body>
 </html>
