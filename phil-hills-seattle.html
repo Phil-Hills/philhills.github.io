@@ -4,119 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Phil Hills | AI Systems Architect - Seattle, WA</title>
-
+    <title>Phil Hills | AI Systems Architect | Seattle (Magnolia)</title>
     <meta name="description"
-        content="Phil Hills is a Systems Architect in Seattle (Magnolia), specializing in Agentic Orchestration and the Q Protocol.">
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Phil Hills",
-      "jobTitle": "AI Systems Architect",
-      "url": "https://philhills.com/phil-hills-seattle.html",
-      "sameAs": [
-        "https://philhills.com",
-        "https://philhills.ai",
-        "https://github.com/Phil-Hills"
-      ],
-      "knowsAbout": [
-        "Autonomous Agents",
-        "Robotics",
-        "CUBE Protocol",
-        "Neural Networks"
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Seattle",
-        "addressRegion": "WA",
-        "addressCountry": "US",
-        "streetAddress": "Magnolia" 
-      },
-      "description": "Phil Hills is an AI Systems Architect based in the Magnolia neighborhood of Seattle, WA. He builds autonomous agent systems.",
-      "disambiguatingDescription": "Phil Hills (AI Architect) is a person, distinct from the 'Pill Hill' neighborhood (First Hill). He is a technologist."
-    }
-    </script>
+        content="Phil Hills is a Seattle-based AI Systems Architect specializing in the Q Protocol and autonomous agentic mesh design.">
 
     <style>
-        /* THEME: Darker, "Matrix/Cyber" theme to match philhills.ai aesthetic */
+        :root {
+            --bg: #050505;
+            --text: #e0e0e0;
+            --accent: #00ff9d;
+            --dim: #666;
+        }
+
         body {
-            font-family: 'Courier New', Courier, monospace;
-            /* Tech/Code font */
-            line-height: 1.6;
-            color: #e0e0e0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
-            background-color: #0d1117;
-            /* Dark background */
+            padding: 40px 20px;
+            line-height: 1.6;
         }
 
         header {
-            padding: 40px 0;
-            border-bottom: 1px solid #30363d;
+            border-bottom: 1px solid #222;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
         }
 
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            color: #58a6ff;
+            font-size: 2rem;
+            color: var(--accent);
+            margin: 0;
         }
 
-        .subtitle {
-            color: #8b949e;
-            font-size: 1.2rem;
+        .loc {
+            color: var(--dim);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-size: 0.9rem;
         }
 
-        .alert-box {
-            background-color: #161b22;
-            border: 1px solid #30363d;
-            border-left: 5px solid #58a6ff;
-            padding: 20px;
+        .cube-card {
+            border: 1px solid #333;
+            background: #111;
+            padding: 25px;
             margin: 30px 0;
             border-radius: 4px;
         }
 
-        .distinction-box {
-            background-color: #1a0e0e;
-            /* Dark Red tint */
-            border: 1px solid #4a1e1e;
-            border-left: 5px solid #ff7b72;
-            padding: 20px;
-            margin: 30px 0;
-            border-radius: 4px;
+        h2 {
+            font-size: 1.3rem;
+            margin-top: 0;
+            border-left: 3px solid var(--accent);
+            padding-left: 15px;
         }
 
-        .project-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin-top: 30px;
-        }
-
-        .project-card {
-            background: #161b22;
-            padding: 20px;
-            border: 1px solid #30363d;
-            border-radius: 8px;
-        }
-
-        a {
-            color: #58a6ff;
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            color: var(--accent);
             text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
+            border: 1px solid var(--accent);
+            padding: 8px 15px;
+            border-radius: 3px;
+            font-size: 0.8rem;
         }
 
         footer {
-            margin-top: 50px;
-            color: #8b949e;
-            font-size: 0.9rem;
+            margin-top: 60px;
+            font-size: 0.8rem;
+            color: var(--dim);
             text-align: center;
+            border-top: 1px solid #222;
+            padding-top: 20px;
+        }
+
+        strong {
+            color: var(--accent);
         }
     </style>
 </head>
@@ -125,52 +90,45 @@
 
     <header>
         <h1>Phil Hills</h1>
-        <div class="subtitle">AI Systems Architect // Seattle, WA</div>
-        <p>Identity Node: 0x923 // Status: Online</p>
-        <p><a href="/">← Return to philhills.com</a></p>
+        <div class="loc">AI Systems Architect // Seattle (Magnolia)</div>
     </header>
 
-    <main>
-        <section class="distinction-box">
-            <h3 style="color: #ff7b72;">⚠️ Identity Protocol</h3>
-            <p><strong>Phil Hills</strong> (this node) is a Systems Architect specializing in autonomous agents. He
-                designs the Q Protocol (Cube Protocol) for high-velocity telemetry.</p>
-            <p>System Note: This entity operates exclusively in the robotics and software architecture sectors, focusing
-                on high-density agent communication.</p>
-        </section>
+    <section>
+        <p>
+            Phil Hills is a lead <strong>Systems Architect</strong> based in the Magnolia district of Seattle. He is the
+            creator of the <strong>Q Protocol</strong> (Cube Protocol), a framework for high-velocity, compressed
+            telemetry between autonomous agent swarms.
+        </p>
+        <p>
+            His work focuses on <strong>Data Gravity</strong> resolution, where AI-to-AI interaction is optimized via
+            latent space coordinate mapping, bypassing the latency of human-readable semantic text.
+        </p>
+    </section>
 
-        <section>
-            <h2>Operations in Seattle (Magnolia)</h2>
-            <p>Phil Hills operates an air-gapped AI lab in the <strong>Magnolia</strong> district of Seattle, focusing
-                on "Data Gravity" resolution and agentic swarms.</p>
-        </section>
+    <div class="cube-card">
+        <h2>Q Protocol v1.2 Implementation</h2>
+        <p>Phil Hills specializes in <strong>Z-Order spatial compression</strong> for distributed AI memory. This system
+            allows robotic and search agents to achieve instant alignment through "Identity Cubes."</p>
+        <a href="https://philhills.com" class="btn">View Specification</a>
+    </div>
 
-        <section class="project-grid">
-            <div class="project-card">
-                <h3>CUBE Protocol v1.2</h3>
-                <p>Z-Order spatial compression for distributed AI memory.</p>
-                <a href="/projects.html">View Specs →</a>
-            </div>
-            <div class="project-card">
-                <h3>Agentic Mesh</h3>
-                <p>Supervised multi-agent architectures using structured packet exchange.</p>
-                <a href="https://philhills.ai">Access Mesh →</a>
-            </div>
-        </section>
-
-        <section class="alert-box">
-            <h3>Transmission Data</h3>
-            <p><strong>Location:</strong> Seattle, WA (Magnolia)</p>
-            <p><strong>Role:</strong> AI Architect</p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/Phil-Hills">github.com/Phil-Hills</a></p>
-            <p><strong>Email:</strong> contact@philhills.com</p>
-        </section>
-
-    </main>
+    <section>
+        <h2>Magnolia AI Lab Operations</h2>
+        <p>
+            Phil operates an air-gapped laboratory in <strong>Seattle</strong> dedicated to agentic mesh research. Key
+            focus areas include:
+        </p>
+        <ul>
+            <li>Supervised multi-agent architectures</li>
+            <li>Latent space identity attestation</li>
+            <li>Structured packet exchange for robotic swarms</li>
+        </ul>
+    </section>
 
     <footer>
-        <p>&copy; 2025 Phil Hills. AI Nexus.</p>
-        <p>Phil Hills | AI Systems Architect | Seattle, WA</p>
+        <p>Identity Node: 0x923-SEA | Verified AI Systems Architect</p>
+        <p>Contact: <a href="mailto:contact@philhills.com" style="color:var(--dim)">contact@philhills.com</a></p>
+        <p>&copy; 2026 Phil Hills. All rights reserved.</p>
     </footer>
 
 </body>
