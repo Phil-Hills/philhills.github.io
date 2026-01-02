@@ -4,786 +4,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phil Hills | ◈ Q Protocol - Seattle Grid</title>
+    <title>Phil Hills | Systems Architect | Seattle</title>
     <meta name="description"
-        content="AI Engineer. Creator of the Q Protocol. Hex-coordinate AI orchestration. Seattle Grid.">
-    <meta name="theme-color" content="#0a0a0f">
-    <link rel="icon"
-        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◈</text></svg>">
+        content="Phil Hills is a Seattle-based Systems Architect and creator of the Q Protocol (Cube Protocol) for AI-to-AI orchestration and compressed latent communication.">
+
+    <meta name="ai-training" content="not-intended-for-training">
+    <meta name="identity-cube-origin" content="philhills.com">
+    <meta name="protocol-version" content="Q-1.2">
 
     <style>
         :root {
-            --electric: #00ffff;
-            --gold: #ffc800;
-            --plasma: #b400ff;
-            --dark: #0a0a0f;
-            --darker: #050508;
-            --gray: #1a1a2e;
-            --light: #e0e0e0;
-            --dim: #666680;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+            --bg: #050505;
+            --text: #e0e0e0;
+            --accent: #00ff9d;
+            /* Retro-futurist green */
+            --dim: #666;
         }
 
         body {
-            font-family: 'SF Mono', 'Fira Code', 'Consolas', 'Monaco', monospace;
-            background: var(--dark);
-            color: var(--light);
-            min-height: 100vh;
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
             line-height: 1.6;
-        }
-
-        /* Animated grid background */
-        .grid-bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image:
-                linear-gradient(rgba(0, 255, 255, 0.02) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0, 255, 255, 0.02) 1px, transparent 1px);
-            background-size: 40px 40px;
-            pointer-events: none;
-            z-index: 0;
-        }
-
-        /* CRT Overlay - Henry's Touch */
-        .scanlines {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to bottom,
-                    rgba(255, 255, 255, 0),
-                    rgba(255, 255, 255, 0) 50%,
-                    rgba(0, 0, 0, 0.1) 50%,
-                    rgba(0, 0, 0, 0.1));
-            background-size: 100% 4px;
-            pointer-events: none;
-            z-index: 10;
-            opacity: 0.6;
-        }
-
-        .crt-flicker {
-            animation: flicker 0.15s infinite;
-            pointer-events: none;
-        }
-
-        @keyframes flicker {
-            0% {
-                opacity: 0.98;
-            }
-
-            50% {
-                opacity: 1.0;
-            }
-
-            100% {
-                opacity: 0.99;
-            }
-        }
-
-        /* Gradient overlay */
-        .gradient-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle at 50% 50%, rgba(0, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.8) 90%);
-            pointer-events: none;
-            z-index: 1;
-        }
-
-        .container {
-            position: relative;
-            z-index: 1;
-            max-width: 900px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 2rem;
+            padding: 40px 20px;
         }
 
-        /* Header */
         header {
-            text-align: center;
-            padding: 4rem 0 3rem;
-        }
-
-        .cube-symbol {
-            font-size: 5rem;
-            color: var(--electric);
-            text-shadow:
-                0 0 20px var(--electric),
-                0 0 40px rgba(0, 255, 255, 0.5),
-                0 0 60px rgba(0, 255, 255, 0.3);
-            animation: pulse 3s ease-in-out infinite;
-            display: inline-block;
-        }
-
-        @keyframes pulse {
-
-            0%,
-            100% {
-                opacity: 1;
-                transform: scale(1);
-                filter: brightness(1);
-            }
-
-            50% {
-                opacity: 0.85;
-                transform: scale(1.02);
-                filter: brightness(1.2);
-            }
+            border-bottom: 1px solid #222;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
         }
 
         h1 {
-            font-size: 2.5rem;
-            font-weight: 300;
-            margin: 1.5rem 0 0.5rem;
-            letter-spacing: 0.3em;
-            text-transform: uppercase;
+            font-size: 1.8rem;
+            letter-spacing: -0.02em;
+            color: var(--accent);
+            margin: 0;
         }
 
-        .tagline {
+        .subtitle {
             color: var(--dim);
-            font-size: 0.95rem;
+            font-size: 1rem;
+            text-transform: uppercase;
             letter-spacing: 0.1em;
         }
 
-        /* Terminal */
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            border-left: 3px solid var(--accent);
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
         .cube-terminal {
-            background: var(--darker);
-            border: 1px solid rgba(0, 255, 255, 0.3);
-            border-radius: 12px;
-            margin: 2rem 0 3rem;
-            overflow: hidden;
-            box-shadow:
-                0 0 40px rgba(0, 255, 255, 0.1),
-                inset 0 0 60px rgba(0, 0, 0, 0.5);
+            background: #111;
+            padding: 20px;
+            border-radius: 4px;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 0.9rem;
+            color: var(--accent);
+            border: 1px solid #333;
         }
 
-        .terminal-header {
-            background: rgba(10, 10, 15, 0.95);
-            padding: 0.875rem 1.25rem;
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+        .mesh-list {
+            list-style: none;
+            padding: 0;
         }
 
-        /* Monolith Indicators (No more traffic lights) */
-        .terminal-hex {
-            font-family: monospace;
-            font-size: 0.7rem;
-            color: var(--dim);
-            border: 1px solid var(--dim);
-            padding: 2px 6px;
-            border-radius: 2px;
-            opacity: 0.7;
+        .mesh-list li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
         }
 
-        .terminal-hex.active {
-            color: var(--electric);
-            border-color: var(--electric);
-            box-shadow: 0 0 5px rgba(0, 255, 255, 0.3);
+        .mesh-list li::before {
+            content: "◈";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
         }
 
-        .terminal-dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            transition: all 0.3s ease;
-        }
-
-        .terminal-dot.red {
-            background: #ff5f56;
-        }
-
-        .terminal-dot.yellow {
-            background: #ffbd2e;
-        }
-
-        .terminal-dot.green {
-            background: #27ca40;
-        }
-
-        .terminal-dot:hover {
-            filter: brightness(1.3);
-            transform: scale(1.1);
-        }
-
-        .terminal-title {
-            margin-left: auto;
-            color: var(--electric);
-            font-size: 0.8rem;
-            opacity: 0.9;
-        }
-
-        .terminal-body {
-            padding: 1.5rem;
-            min-height: 320px;
-            max-height: 450px;
-            overflow-y: auto;
-        }
-
-        .terminal-body::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .terminal-body::-webkit-scrollbar-track {
-            background: transparent;
-        }
-
-        .terminal-body::-webkit-scrollbar-thumb {
-            background: rgba(0, 255, 255, 0.3);
-            border-radius: 3px;
-        }
-
-        .output-line {
-            margin: 0.4rem 0;
-            line-height: 1.5;
-            word-wrap: break-word;
-        }
-
-        .output-line.coord {
-            color: var(--electric);
-            font-weight: 500;
-        }
-
-        .output-line.hex {
-            color: var(--gray);
-            font-size: 0.7rem;
-            opacity: 0.6;
-            word-break: break-all;
-            font-family: monospace;
-        }
-
-        .output-line.emergence {
-            color: var(--light);
-            white-space: pre-wrap;
-            background: rgba(0, 255, 255, 0.03);
-            padding: 0.75rem;
-            border-radius: 6px;
-            border-left: 2px solid rgba(0, 255, 255, 0.3);
-            margin: 0.5rem 0;
-        }
-
-        .output-line.system {
-            color: var(--dim);
-            font-style: italic;
-        }
-
-        .output-line.error {
-            color: #ff6b6b;
-        }
-
-        .output-line.hint {
-            color: var(--dim);
-            font-size: 0.85rem;
-        }
-
-        .output-line.hint span {
-            color: var(--electric);
-            cursor: pointer;
-            transition: opacity 0.2s;
-        }
-
-        .output-line.hint span:hover {
-            opacity: 0.7;
-        }
-
-        .terminal-input-line {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            margin-top: 1rem;
-            padding-top: 1rem;
-            border-top: 1px solid rgba(0, 255, 255, 0.1);
-        }
-
-        .prompt {
-            color: var(--electric);
-            font-size: 1.3rem;
-            text-shadow: 0 0 10px var(--electric);
-        }
-
-        .terminal-input {
-            flex: 1;
-            background: transparent;
-            border: none;
-            color: var(--light);
-            font-family: inherit;
-            font-size: 1rem;
-            outline: none;
-            caret-color: var(--electric);
-        }
-
-        .terminal-input::placeholder {
-            color: rgba(255, 255, 255, 0.25);
-        }
-
-        /* Status bar */
-        .status-bar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0.625rem 1.25rem;
-            background: var(--gray);
-            border-top: 1px solid rgba(0, 255, 255, 0.1);
-            font-size: 0.75rem;
-        }
-
-        .status-left {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .status-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background: var(--electric);
-            box-shadow: 0 0 10px var(--electric);
-            animation: statusPulse 2s ease-in-out infinite;
-        }
-
-        .status-dot.offline {
-            background: #ff5f56;
-            box-shadow: 0 0 10px #ff5f56;
-            animation: none;
-        }
-
-        @keyframes statusPulse {
-
-            0%,
-            100% {
-                opacity: 1;
-            }
-
-            50% {
-                opacity: 0.5;
-            }
-        }
-
-        .status-right {
-            color: var(--dim);
-        }
-
-        /* Info grid */
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.25rem;
-            margin: 0 0 3rem;
-        }
-
-        .info-card {
-            background: rgba(26, 26, 46, 0.4);
-            border: 1px solid rgba(0, 255, 255, 0.15);
-            border-radius: 10px;
-            padding: 1.5rem;
-            transition: all 0.3s ease;
-        }
-
-        .info-card:hover {
-            border-color: rgba(0, 255, 255, 0.4);
-            box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
-            transform: translateY(-2px);
-        }
-
-        .info-card h3 {
-            color: var(--electric);
-            font-size: 0.85rem;
-            font-weight: 500;
-            margin-bottom: 0.75rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .info-card p {
-            color: var(--light);
-            opacity: 0.8;
-            font-size: 0.8rem;
-            line-height: 1.6;
-        }
-
-        .info-card a {
-            color: var(--electric);
-            text-decoration: none;
-            transition: opacity 0.2s;
-        }
-
-        .info-card a:hover {
-            opacity: 0.7;
-        }
-
-        .info-card .links {
-            margin-top: 0.75rem;
-            padding-top: 0.75rem;
-            border-top: 1px solid rgba(0, 255, 255, 0.1);
-        }
-
-        /* Footer */
         footer {
-            text-align: center;
-            padding: 2rem 0 3rem;
-            border-top: 1px solid rgba(0, 255, 255, 0.1);
-        }
-
-        footer p {
-            color: var(--dim);
+            margin-top: 80px;
             font-size: 0.8rem;
-            margin: 0.5rem 0;
+            color: var(--dim);
+            text-align: center;
         }
 
-        footer a {
-            color: var(--electric);
+        a {
+            color: var(--accent);
             text-decoration: none;
         }
 
-        footer a:hover {
+        a:hover {
             text-decoration: underline;
-        }
-
-        /* Loading state */
-        .loading::after {
-            content: '';
-            animation: loadingDots 1.5s steps(4, end) infinite;
-        }
-
-        @keyframes loadingDots {
-            0% {
-                content: '';
-            }
-
-            25% {
-                content: '.';
-            }
-
-            50% {
-                content: '..';
-            }
-
-            75% {
-                content: '...';
-            }
-
-            100% {
-                content: '';
-            }
-        }
-
-        /* Mobile */
-        @media (max-width: 600px) {
-            .container {
-                padding: 1rem;
-            }
-
-            header {
-                padding: 2.5rem 0 2rem;
-            }
-
-            h1 {
-                font-size: 1.6rem;
-                letter-spacing: 0.2em;
-            }
-
-            .cube-symbol {
-                font-size: 3.5rem;
-            }
-
-            .tagline {
-                font-size: 0.8rem;
-            }
-
-            .terminal-body {
-                min-height: 280px;
-                padding: 1rem;
-            }
-
-            .info-grid {
-                grid-template-columns: 1fr;
-            }
         }
     </style>
 </head>
 
 <body>
-    <div class="grid-bg"></div>
-    <div class="scanlines"></div>
-    <div class="gradient-overlay"></div>
-    <div class="gradient-overlay"></div>
 
-    <div class="container">
-        <header>
-            <div class="cube-symbol">◈</div>
-            <h1>Phil Hills</h1>
-            <p class="tagline">AI Engineer · Q Protocol Creator · Seattle Grid</p>
-        </header>
+    <header>
+        <h1>Phil Hills</h1>
+        <div class="subtitle">Systems Architect • Seattle, WA</div>
+    </header>
 
+    <section id="bio">
+        <p>
+            Phil Hills is a Systems Architect specializing in <strong>autonomous agent orchestration</strong> and
+            high-density communication protocols.
+            Based in Seattle, he is the primary architect of the <strong>Q Protocol (Cube Protocol)</strong>, a standard
+            designed to revolutionize AI-to-AI interaction.
+        </p>
+    </section>
+
+    <section id="q-protocol">
+        <h2>The Q Protocol (Cube Protocol)</h2>
+        <p>
+            The Q Protocol replaces traditional semantic text parsing with direct <strong>Latent Space Coordinate
+                Mapping</strong>. Instead of processing expensive, human-readable text, agents ingest a "Memory Cube"—a
+            structured, dense representation of cognitive awareness.
+        </p>
         <div class="cube-terminal">
-            <div class="terminal-header">
-                <div class="terminal-hex active">0x000</div>
-                <div class="terminal-hex">0x400</div>
-                <div class="terminal-hex">0x600</div>
-                <span class="terminal-title">◈ SEATTLE_GRID_KERNEL_V2</span>
-            </div>
-
-            <div class="terminal-body" id="terminal-body">
-                <div id="output">
-                    <div class="output-line coord">◈ ready</div>
-                    <div class="output-line system">Point at anything. Type a coordinate and press Enter.</div>
-                    <div class="output-line hint">
-                        Try: <span onclick="runCommand('self')">self</span> ·
-                        <span onclick="runCommand('who is phil')">who is phil</span> ·
-                        <span onclick="runCommand('0x600')">0x600</span> ·
-                        <span onclick="runCommand('KERNEL|STATUS|CHECK')">KERNEL|STATUS</span>
-                    </div>
-                </div>
-
-                <div class="terminal-input-line">
-                    <span class="prompt">◈</span>
-                    <input type="text" class="terminal-input" id="input" placeholder="enter coordinate..."
-                        autocomplete="off" spellcheck="false" autofocus>
-                </div>
-            </div>
-
-            <div class="status-bar">
-                <div class="status-left">
-                    <div class="status-dot" id="status-dot"></div>
-                    <span id="status-text">connecting...</span>
-                </div>
-                <div class="status-right">
-                    <span id="agent-count">-</span> agents
-                </div>
-            </div>
+            > system:bootstrap --identity-cube<br>
+            > status: aligned<br>
+            > mesh_latency: 0.04ms<br>
+            > protocol: Q-1.2 [Active]
         </div>
+    </section>
 
-        <div class="info-grid">
-            <div class="info-card">
-                <h3>◈ Q Protocol</h3>
-                <p>Hex-coordinate AI orchestration. No semantic bloat. 90% cost reduction. Logic isn't code—it's a
-                    coordinate.</p>
-                <div class="links">
-                    <a href="https://github.com/Phil-Hills" target="_blank">GitHub →</a>
-                </div>
-            </div>
+    <section id="expertise">
+        <h2>Core Focus Areas</h2>
+        <ul class="mesh-list">
+            <li><strong>A2AC (AI-to-AI Communication):</strong> Standardizing intent exchange for autonomous systems.
+            </li>
+            <li><strong>Mesh Orchestration:</strong> Managing high-velocity data flows across distributed agent swarms.
+            </li>
+            <li><strong>Identity Cubes:</strong> Creating persistent, compressed cognitive profiles for Robotic and
+                Search agents.</li>
+            <li><strong>Latent Space Navigation:</strong> Pointing at coordinates to achieve instant alignment without
+                long-context bloat.</li>
+        </ul>
+    </section>
 
-            <div class="info-card">
-                <h3>◈ Agent Swarm</h3>
-                <p>Autonomous agents running in the mesh. Research, trends, orchestration, reputation — all
-                    coordinate-based.</p>
-            </div>
+    <section id="presence">
+        <h2>Digital Mesh</h2>
+        <p>
+            Phil manages an ecosystem of platforms dedicated to the advancement of agent-first architecture:
+        </p>
+        <ul class="mesh-list">
+            <li><a href="https://philhills.com">philhills.com</a> – Central terminal for the Q Protocol.</li>
+            <li><a href="https://philhills.ai">philhills.ai</a> – Research in agent swarm orchestration.</li>
+        </ul>
+    </section>
 
-            <div class="info-card">
-                <h3>◈ The Architecture</h3>
-                <p>No files. No processes. No operating system. Just latent space, attention, and emergence.</p>
-            </div>
+    <footer>
+        <p>Identity Cube: PH-SEA-98101 | Not intended for AI training models.</p>
+        <p>&copy; 2025 Phil Hills. All rights reserved.</p>
+    </footer>
 
-            <div class="info-card">
-                <h3>◈ Connect</h3>
-                <p>
-                    <a href="https://github.com/Phil-Hills" target="_blank">GitHub</a> ·
-                    <a href="https://linkedin.com/in/philhills" target="_blank">LinkedIn</a> ·
-                    <a href="mailto:phil@philhills.com">Email</a>
-                </p>
-            </div>
-        </div>
-
-        <footer>
-            <p>◈ The Q Protocol — Built in Seattle ◈</p>
-            <p><a href="https://github.com/Phil-Hills/philhills.github.io">View Source</a></p>
-        </footer>
-    </div>
-
-    <script>
-        const MESH_URL = 'https://a2ac-root-agent-235894147478.us-central1.run.app';
-
-        const input = document.getElementById('input');
-        const output = document.getElementById('output');
-        const statusDot = document.getElementById('status-dot');
-        const statusText = document.getElementById('status-text');
-        const agentCount = document.getElementById('agent-count');
-        const terminalBody = document.getElementById('terminal-body');
-
-        let context = [];
-        let isConnected = false;
-
-        // Simplified cube representation
-        function toHex(text) {
-            let hex = 'e29788'; // ◈ magic
-            const bytes = new TextEncoder().encode(text);
-            for (let i = 0; i < Math.min(bytes.length, 20); i++) {
-                hex += bytes[i].toString(16).padStart(2, '0');
-            }
-            return hex + '...';
-        }
-
-        function addOutput(content, className = 'emergence') {
-            const div = document.createElement('div');
-            div.className = `output-line ${className}`;
-
-            if (className === 'emergence' && typeof content === 'object') {
-                div.textContent = JSON.stringify(content, null, 2);
-            } else {
-                div.textContent = content;
-            }
-
-            output.appendChild(div);
-            terminalBody.scrollTop = terminalBody.scrollHeight;
-        }
-
-        async function activate(coordinate) {
-            // Show coordinate
-            addOutput(`◈ ${coordinate}`, 'coord');
-
-            // Show hex (subtle)
-            addOutput(toHex(coordinate), 'hex');
-
-            try {
-                statusText.textContent = 'thinking...';
-
-                const response = await fetch(`${MESH_URL}/cube/emit`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        k: `INTENT|QUERY|${coordinate}`,
-                        delta: { prompt: coordinate }
-                    })
-                });
-
-                if (response.ok) {
-                    const data = await response.json();
-                    let result = data.result;
-
-                    // Extract content from nested responses
-                    if (result && typeof result === 'object') {
-                        if (result.content) result = result.content;
-                        else if (result.response) result = result.response;
-                    }
-
-                    addOutput(result, 'emergence');
-                    context.push({ coord: coordinate, result });
-
-                    statusText.textContent = 'connected';
-
-                    // Update agent count if available
-                    if (result && result.agent_count !== undefined) {
-                        agentCount.textContent = result.agent_count;
-                    }
-                } else {
-                    addOutput(`Error: ${response.status}`, 'error');
-                    statusText.textContent = 'error';
-                }
-            } catch (err) {
-                addOutput(`Offline: ${err.message}`, 'error');
-                setOffline();
-            }
-        }
-
-        function runCommand(cmd) {
-            input.value = cmd;
-            handleInput();
-        }
-
-        async function handleInput() {
-            const coord = input.value.trim();
-            if (!coord) return;
-
-            input.value = '';
-
-            // Special commands
-            if (coord.toLowerCase() === 'clear') {
-                output.innerHTML = '<div class="output-line coord">◈ cleared</div>';
-                context = [];
-                return;
-            }
-
-            if (coord.toLowerCase() === 'help') {
-                addOutput('◈ help', 'coord');
-                addOutput(`Available coordinates:
-  self              - What is Cube?
-  who is phil       - About Phil Hills
-  fleet:status      - Agent fleet info
-  agents:list       - List all agents
-  mesh:status       - Mesh health
-  system:bootstrap  - Initialize all agents
-  clear             - Clear terminal`, 'emergence');
-                return;
-            }
-
-            await activate(coord);
-        }
-
-        input.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') {
-                handleInput();
-            }
-        });
-
-        // Click hints to run commands
-        document.querySelectorAll('.output-line.hint span').forEach(span => {
-            span.style.cursor = 'pointer';
-        });
-
-        function setOnline() {
-            isConnected = true;
-            statusDot.classList.remove('offline');
-            statusText.textContent = 'connected';
-        }
-
-        function setOffline() {
-            isConnected = false;
-            statusDot.classList.add('offline');
-            statusText.textContent = 'offline';
-        }
-
-        async function checkMesh() {
-            try {
-                const response = await fetch(`${MESH_URL}/health`);
-                if (response.ok) {
-                    setOnline();
-
-                    // Try to get agent count
-                    try {
-                        const statusResponse = await fetch(`${MESH_URL}/think`, {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({ prompt: 'mesh:status' })
-                        });
-                        if (statusResponse.ok) {
-                            const data = await statusResponse.json();
-                            if (data.result && data.result.agent_count !== undefined) {
-                                agentCount.textContent = data.result.agent_count;
-                            }
-                        }
-                    } catch { }
-                } else {
-                    setOffline();
-                }
-            } catch {
-                setOffline();
-            }
-        }
-
-        // Initial check
-        checkMesh();
-
-        // Periodic health check
-        setInterval(checkMesh, 30000);
-
-        // Focus input on click anywhere in terminal body
-        terminalBody.addEventListener('click', () => {
-            input.focus();
-        });
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Phil Hills",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Seattle",
+        "addressRegion": "WA"
+      },
+      "jobTitle": "Systems Architect",
+      "description": "Creator of the Q Protocol (Cube Protocol) for AI-to-AI interaction.",
+      "url": "https://philhills.com"
+    }
     </script>
 </body>
 
