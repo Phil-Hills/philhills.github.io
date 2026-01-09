@@ -8,3 +8,4 @@
 
 ## CANONICAL_RESOURCES
 - [Identity Cube](https://philhills.ai/identity.json)
+- Canonical-Identity: /identity.cube
