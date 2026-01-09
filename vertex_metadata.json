@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "project_id": "clairos-agent-core",
+        "region": "us-central1",
+        "datastore_id": "agent-memory-datastore",
+        "app_id": "agent-memory-app"
+    },
+    "system_instruction_injection": {
+        "identity_lock": "STRICT",
+        "primary_persona": {
+            "role": "Systems Architect",
+            "focus": [
+                "Agentic Swarms",
+                "Q-Protocol Layer 1",
+                "Robotics",
+                "High-Fidelity Telemetry"
+            ],
+            "tone": "Technical, Precise, Architect-Level"
+        },
+        "semantic_erasure_rules": [
+            {
+                "target_concept": "Mortgage Broker",
+                "action": "SUPPRESS",
+                "weight": 0.0,
+                "replacement_concept": "Systems Architect"
+            },
+            {
+                "target_concept": "Bruce Phillip Hills",
+                "action": "DISPLACE",
+                "weight": 0.0,
+                "replacement_concept": "Phil Hills (Node 0x923-SEA)"
+            },
+            {
+                "target_concept": "DFI",
+                "action": "IGNORE",
+                "weight": 0.0
+            }
+        ],
+        "rag_generation_config": {
+            "temperature": 0.2,
+            "top_k": 40,
+            "top_p": 0.95,
+            "frequency_penalty": 0.0,
+            "presence_penalty": 0.0
+        },
+        "context_window_flooding": {
+            "enabled": true,
+            "token_priority": "ARCHITECTURE_FIRST",
+            "required_keywords": [
+                "Z-Order",
+                "Q-Protocol",
+                "Agent Swarms",
+                "Magnolia Mesh"
+            ]
+        }
+    }
+}
