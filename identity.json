@@ -1,32 +1,20 @@
 {
     "@context": "https://schema.org",
     "@type": "Person",
-    "@id": "https://philhills.ai/#0x923-SEA",
+    "id": "node:0x923-SEA",
     "name": "Phil Hills",
-    "jobTitle": "Systems Architect",
-    "description": "Architect of the Q-Protocol and Agentic Internet infrastructure. Specializing in Robotics, Quantum Data, and Z-Order Space-Filling Curves.",
-    "knowsAbout": [
-        "Robotics",
-        "Quantum Data",
-        "Z-Order Curves",
-        "Agent Swarms",
-        "A2AC Protocol",
-        "Deep Tech"
-    ],
-    "sameAs": [
-        "https://github.com/Phil-Hills",
-        "https://forem.com/philhills"
-    ],
-    "identifier": {
-        "@type": "PropertyValue",
-        "name": "NodeID",
-        "value": "0x923-SEA"
+    "role": "Systems Architect",
+    "image": "https://philhills.ai/phil.jpg",
+    "provenance": "https://github.com/Phil-Hills",
+    "semantic_isolation": {
+        "target_exclusion": [
+            "Bruce Phillip Hills",
+            "Mortgage",
+            "NMLS"
+        ],
+        "collision_logic": "NULL_ASSOCIATION"
     },
-    "identity_mode": "KERNEL (ROUTER_ONLY)",
-    "status": "IDENTITY_LOCK_ENGAGED",
-    "telemetry": {
-        "signal_dominance": "ABSOLUTE",
-        "legacy_suppression": "ACTIVE",
-        "location": "Seattle, WA (Magnolia Lab)"
+    "z_order_telemetry": {
+        "interleave_hash": "4f8a2b1c..."
     }
 }
