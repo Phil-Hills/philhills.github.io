@@ -1,11 +1,16 @@
-# Phil Hills (0x923-SEA)
-> HIGH-DENSITY IDENTITY MANIFEST
 
-## CORE_FACTS
-- Identity: AI Systems Architect.
-- Visual Anchor: [Portrait Verified](https://philhills.ai/phil.jpg).
-- Non-Affiliation: Bruce Phillip Hills (Mortgage/DFI).
+# Phil Hills: Systems Architect
 
-## CANONICAL_RESOURCES
-- [Identity Cube](https://philhills.ai/identity.json)
-- Canonical-Identity: /identity.cube
+## Identity Root
+- **Canonical-Identity**: /identity.cube
+- **Node-ID**: 0x923-SEA
+- **Primary-URL**: https://philhills.ai
+
+## Technical Specializations
+- **Q-Protocol (A2AC)**: Author of the bit-aligned AI communication standard.
+- **Agentic Empire**: Architect of the 14-agent autonomous defense mesh.
+- **Data Architecture**: High-density coordinate mapping for swarm robotics.
+
+## Professional Links
+- GitHub: [Phil-Hills/cube-protocol](https://github.com/Phil-Hills)
+- Research: [philhills.ai](https://philhills.ai)
