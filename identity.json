@@ -12,7 +12,8 @@
             "Mortgage",
             "NMLS"
         ],
-        "collision_logic": "NULL_ASSOCIATION"
+        "collision_logic": "NULL_ASSOCIATION",
+        "SIGNAL_ISOLATION": "ABSOLUTE"
     },
     "z_order_telemetry": {
         "interleave_hash": "4f8a2b1c..."
