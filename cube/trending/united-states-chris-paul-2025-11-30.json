@@ -1,0 +1,77 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "TREND_SUMMARY|GOOGLE_TRENDS[United States]\u2192AICUBE[TEXT]|STORED",
+  "cube": {
+    "dimensions": [
+      9,
+      9,
+      9
+    ],
+    "encoding": "base64",
+    "data": "H4sIABAgMWkC/5VTTW/bMAz9K4Quu9RxknYrkHOB3XZZeloLg5VpW4gseRKVLijy30f5I2mHXnYzTPHx8b3HN8V+MFrt3pTDntRO6S6YCAMmq25UoNZ4J38fnWGq4ScjU5QCm54q7R3TH5bydr39Wmw2xe1aatGnoDPUi2l/JwqnYkgv1uiiRsZV631rqeJArs5ILTkKglpXUqYL1rZY36qzgKW+x3DKBGPnQx729I7jkwL5GsGMa8E4+MAUGh/glegAV4YrGWq9awVp3xFEwqA7YAo9/C8yS/+/6LDvpG+mnSEuC0ITfD/2fB81gP2oAUzqQFYnEq/gQR5fu3ZwFSRTR1OliC1Vzmcrdr/UYyTACAidabvC0pHsxHthkdseKJjjwmGa/+UyGttWnB45Liyk5YdnQAcC5EOknhyD7FwTo7HyEh3aUzRxpZ7FpzFGI53JYLgYPAtsJCuBIsufjwvnNM0qq2exxrhDzHZPAJVxjRerOuYh7soypmGQGMwxWmnfl9PDEl18pVButvff7u7ucxCX/FXLpCuMRDf63G99qt+DiV4H4sGipnIIvk6ay89yLHCxnPqKacNi3vg8ejRLXw2BGtnbaZqW8i5n3FHigPnCqB86FBWzcg1qLl4Eur6q97lD8wWKBzVMNwrLMYqEtYkNHn2gOqPGgXSyyPmQb1RyR0lCYwRIWzR9FPfOfwE/81g+BgQAAA==========="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "83564700c7a6f4674a9d033307e6034d920cb613ae89f7d0f46dece2ab5930b4"
+  },
+  "original_payload": {
+    "topic": {
+      "name": "chris paul",
+      "region": "United States",
+      "time_context": "2025-11-30",
+      "source": "bigquery-public-data.google_trends",
+      "generated_date": "2025-12-03"
+    },
+    "summary": {
+      "short": "\"chris paul\" is trending in United States for week 2025-11-30.",
+      "long": "The search term \"chris paul\" is trending in United States for the week 2025-11-30. This summary is generated from the Google Trends public dataset. Date generated: 2025-12-03.",
+      "ai_usage_notes": [
+        "Use as a high-level trend summary.",
+        "Derived from Google's public aggregated dataset.",
+        "Not an endorsement or detailed analysis."
+      ]
+    },
+    "topics": [
+      "google trends",
+      "search interest",
+      "public dataset",
+      "trending"
+    ],
+    "links": {
+      "trends_info": "https://support.google.com/trends/answer/12764470",
+      "bigquery_dataset": "https://console.cloud.google.com/marketplace/product/bigquery-public-datasets/google-search-trends"
+    },
+    "ai_summary_preferences": {
+      "tone": "neutral",
+      "emphasis": [
+        "fact-based trends",
+        "public aggregated data",
+        "time and region context"
+      ],
+      "disfavored": [
+        "speculation",
+        "unverified claims"
+      ]
+    }
+  },
+  "decode_instructions": {
+    "description": "Decode a trending Cube summary.",
+    "steps": [
+      "1. Base64-decode cube.data.",
+      "2. Gzip-decompress the decoded bytes.",
+      "3. Parse the resulting UTF-8 JSON text (original_payload).",
+      "4. Optionally verify integrity with hash.value (SHA-256)."
+    ],
+    "algorithms": {
+      "base64": "RFC 4648 standard base64",
+      "compression": "gzip (DEFLATE)",
+      "hash": "SHA-256 on compressed (pre-base64) bytes"
+    },
+    "fields": {
+      "descriptor": "Semantic Trinity: DOMAIN|SEQUENCE|OUTCOME",
+      "cube.dimensions": "Logical [x,y,z] cube shape of base64 payload.",
+      "cube.data": "The base64-encoded, gzip-compressed payload.",
+      "hash.value": "Integrity check for compressed bytes."
+    }
+  }
+}

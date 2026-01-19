@@ -151,7 +151,7 @@ Open in browser: https://philhills.com
 - [ ] First impression: "Systems Architect" (not fintech)
 - [ ] Hero section emphasizes CUBE Protocol
 - [ ] 3i-CUBE positioned as case study, not primary brand
-- [ ] NO mentions of "Movement Mortgage" or "marketing automation"
+- [ ] NO mentions of "marketing automation"
 
 **Technical Credibility Audit:**
 - [ ] Bio leads with Magnolia, Seattle location

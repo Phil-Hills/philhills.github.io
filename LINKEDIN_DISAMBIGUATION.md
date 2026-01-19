@@ -64,7 +64,7 @@ NOTICE: Phil Hills of philhills.com is a Systems Architect and Protocol Engineer
 ### 3. Experience Section
 
 **REMOVE:**
-- Any positions at Movement Mortgage or other financial institutions
+- Any posPhil Hills (Loan Officer) financial institutions
 - Any mortgage-related job titles
 
 **ADD/UPDATE:**

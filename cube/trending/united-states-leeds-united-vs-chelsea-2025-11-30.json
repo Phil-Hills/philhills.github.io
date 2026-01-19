@@ -1,0 +1,77 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "TREND_SUMMARY|GOOGLE_TRENDS[United States]\u2192AICUBE[TEXT]|STORED",
+  "cube": {
+    "dimensions": [
+      9,
+      9,
+      9
+    ],
+    "encoding": "base64",
+    "data": "H4sIABAgMWkC/6VTy24bMQz8FUKXXrJe20kbwOcAvfVS59QEC0XiagVrpa0oOTUC/3upfdhNkZ56FcXhcGb4JlIYrBK7N+Flj2InHKImyN4m1HAkUB06QiluRERjg+cvj1Pxe5IJiQvJ9tio4BP+Slzerrefq82mul1zjUKOquC+WPMzYzxVQ35xVlVaJrkyIRiHTYrodUEy6DEyqm64jBesbbW+FWcGy30v46mwpS7EMuzpX4SfBFiCEdl6A9bDO9rQhgiviAe40l0xAxe8Ydh9h8AgUXWQMPbwX2MSg/09CvYd980LFYjL6tDG0I89X0d1YD+qA5NuUHQjTCt44M/Xrh1cpSp7SNtkkgYbH4pJux/ikRAkgYTOmq5yeEQ38V5YlLYHjPa4cJjmf7qMlsZwBkaOCwtu+RYSSA8MFCJhjz4B76wxSev4p/TSncjSSjyzg2PaRjqT9XCxflbbcooiUuKX9wuXnM0qi2f2yfoDlSBMAI31bWDfupQG2tU15WHggMwBW6nQ19PHWnp6xVhvtvdf7u7uS0SXZDbLpCsMh5pC6Xch6z/BWK8DpsFJhfUQg84q1R8lnOGonvqqacNq3vg8ejRL3wwRW97bK5yWCr6k32NOUTrmiP3QSVaxKNdKlaoXhtZX9T52aL5N9kDDdL2wnClLqC218hgi6oJKA6rsZConfiOyP3ISWstAyknbE7t3/g3mz0XdLQQAAA==="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "f8cec7a9bcc2d18d8301e86c9ec816fbee45851cc783378536839819c7647e60"
+  },
+  "original_payload": {
+    "topic": {
+      "name": "leeds united vs chelsea",
+      "region": "United States",
+      "time_context": "2025-11-30",
+      "source": "bigquery-public-data.google_trends",
+      "generated_date": "2025-12-03"
+    },
+    "summary": {
+      "short": "\"leeds united vs chelsea\" is trending in United States for week 2025-11-30.",
+      "long": "The search term \"leeds united vs chelsea\" is trending in United States for the week 2025-11-30. This summary is generated from the Google Trends public dataset. Date generated: 2025-12-03.",
+      "ai_usage_notes": [
+        "Use as a high-level trend summary.",
+        "Derived from Google's public aggregated dataset.",
+        "Not an endorsement or detailed analysis."
+      ]
+    },
+    "topics": [
+      "google trends",
+      "search interest",
+      "public dataset",
+      "trending"
+    ],
+    "links": {
+      "trends_info": "https://support.google.com/trends/answer/12764470",
+      "bigquery_dataset": "https://console.cloud.google.com/marketplace/product/bigquery-public-datasets/google-search-trends"
+    },
+    "ai_summary_preferences": {
+      "tone": "neutral",
+      "emphasis": [
+        "fact-based trends",
+        "public aggregated data",
+        "time and region context"
+      ],
+      "disfavored": [
+        "speculation",
+        "unverified claims"
+      ]
+    }
+  },
+  "decode_instructions": {
+    "description": "Decode a trending Cube summary.",
+    "steps": [
+      "1. Base64-decode cube.data.",
+      "2. Gzip-decompress the decoded bytes.",
+      "3. Parse the resulting UTF-8 JSON text (original_payload).",
+      "4. Optionally verify integrity with hash.value (SHA-256)."
+    ],
+    "algorithms": {
+      "base64": "RFC 4648 standard base64",
+      "compression": "gzip (DEFLATE)",
+      "hash": "SHA-256 on compressed (pre-base64) bytes"
+    },
+    "fields": {
+      "descriptor": "Semantic Trinity: DOMAIN|SEQUENCE|OUTCOME",
+      "cube.dimensions": "Logical [x,y,z] cube shape of base64 payload.",
+      "cube.data": "The base64-encoded, gzip-compressed payload.",
+      "hash.value": "Integrity check for compressed bytes."
+    }
+  }
+}
