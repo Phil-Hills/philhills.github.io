@@ -19,7 +19,7 @@ git commit -m "Deep Tech reconstruction: Seattle Systems Engineering Lab
 - Seattle Ground Station positioning (Magnolia, TruFusion)
 - Big Tech vocabulary (Morton Encoding, Low-Photon Regime, Sim-to-Real)
 - Synthetic Identity technical note
-- Removed all fintech/marketing references"
+- ❌ Removed: All restricted industry references"
 
 git push origin main
 ```
