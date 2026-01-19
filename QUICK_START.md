@@ -5,7 +5,7 @@
 ### Files Modified (12 files)
 - `identity.json` - Updated with Seattle-native positioning and 3i-CUBE context
 - `index.html` - Restructured with "System & Applications" architecture
-- `projects.html` - Deep Tech showcase, removed fintech references
+- `projects.html` - [ ] Check `about.html` for specific industry references
 - `about.html` - Seattle-native bio with Magnolia/TruFusion context
 - `resume.html` - Deep Tech skills and 3i-CUBE as top project
 - `cube-protocol.html` - Updated brand header
