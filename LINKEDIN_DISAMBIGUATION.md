@@ -159,7 +159,7 @@ These keywords should NEVER appear in your LinkedIn profile:
 - Loan
 - Financial services
 - Bruce Phillip Hills
-- DFI (Department of Financial Institutions)
+- Regulatory Agencies
 - Lending
 - Real estate finance
 
