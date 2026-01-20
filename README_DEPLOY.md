@@ -33,7 +33,7 @@ git push origin main
 - **Professional Identity:** "Systems Architect" (removing specific industry references)
 
 ### Content Transformation
-- ❌ Removed: All fintech/marketing (Movement Mortgage, Financial Dataset Cubes)
+- ❌ Removed: All restricted/marketing (Restricted Organizations, Financial Dataset Cubes)
 - ✅ Added: Big Tech vocabulary (Morton Encoding, Low-Photon Regime, Sim-to-Real, Air-Gapped Proxy)
 - ✅ Added: Seattle markers (Magnolia, TruFusion, SLU/Ballard)
 

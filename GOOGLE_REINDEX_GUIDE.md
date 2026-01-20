@@ -2,7 +2,7 @@
 
 ## Identity Firebox Strategy - Phase 2: Force Re-Index
 
-After deploying the Schema.org disambiguation and updating LinkedIn, you must force Google to re-crawl and re-index your site to break the semantic link between "Phil Hills" + "Mortgage" + "Bruce Phillip Hills".
+After deploying the Schema.org disambiguation and updating LinkedIn, you must force Google to re-crawl and re-index your site to break the semantic link between "Phil Hills" + "Restricted Industry" + "Bruce Phillip Hills".
 
 ---
 
@@ -80,7 +80,7 @@ For each URL submitted:
 **Expected Results:**
 - ✅ philhills.com appears in top 3
 - ✅ Snippet shows "Systems Architect" or "AI & Robotics"
-- ✅ NO mention of "mortgage" in snippet
+- ✅ NO mention of "restricted industry" in snippet
 - ✅ NO mention of "Bruce Phillip Hills"
 
 **If Failed:** Re-submit URLs, check LinkedIn profile for mortgage references
@@ -98,12 +98,12 @@ For each URL submitted:
 ---
 
 #### Test 3: Negative Keyword Test
-**Query:** `"Phil Hills" mortgage`
+**Query:** `"Phil Hills" restricted industry`
 
 **Expected Results:**
 - ✅ philhills.com appears with "Notice of Identity" snippet
 - ✅ OR philhills.com does NOT appear (semantic link broken)
-- ❌ FAIL if philhills.com appears with mortgage-positive context
+- ❌ FAIL if philhills.com appears with restricted-positive context
 
 ---
 
@@ -120,7 +120,7 @@ Who is Phil Hills from Seattle, Washington?
 - ✅ Mentions "Systems Architect" or "AI & Robotics"
 - ✅ Mentions "Cube Protocol" or "3i-CUBE"
 - ✅ Mentions "Seattle" or "Magnolia"
-- ❌ FAIL if mentions "mortgage" or "Bruce Phillip Hills"
+- ❌ FAIL if mentions "restricted industry" or "Bruce Phillip Hills"
 
 ---
 
