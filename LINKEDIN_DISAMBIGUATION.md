@@ -3,7 +3,7 @@
 ## Immediate Actions Required
 
 ### 1. Headline (160 characters max)
-**Current (if contains "mortgage"):** [REMOVE IMMEDIATELY]
+**Current (if contains "restricted terms"):** [REMOVE IMMEDIATELY]
 
 **New Headline:**
 ```

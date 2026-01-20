@@ -325,7 +325,7 @@ Sitemap: https://philhills.com/sitemap.xml
 ### Phase 2: Short-Term (Week 3-4)
 - [ ] Google AI Overview no longer shows restricted industry
 - [ ] ChatGPT identifies as Systems Architect
-- [ ] LinkedIn profile clean (no mortgage)
+- [ ] LinkedIn profile clean (no restricted terms)
 
 ### Phase 3: Long-Term (Month 2-6)
 - [ ] Consistent Systems Architect positioning across all platforms

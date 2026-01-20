@@ -57,7 +57,7 @@ curl https://philhills.com/identity.json
 ### 3. Content Audit Checklist
 
 **Fintech/Marketing References (MUST BE REMOVED):**
-- [ ] "Movement Mortgage" - VERIFY REMOVED
+- [ ] "Restricted Organizations" - VERIFY REMOVED
 - [ ] "Client journeys" - VERIFY REMOVED
 - [ ] "Fintech" - VERIFY REMOVED
 - [ ] "Marketing automation" - VERIFY REMOVED

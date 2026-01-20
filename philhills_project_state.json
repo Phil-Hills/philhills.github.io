@@ -30,7 +30,7 @@
     },
     "branding_filter": {
         "active_narrative": "Deep Tech / Systems Engineering / Robotics",
-        "deprecated_narrative": "Fintech / Mortgage / Marketing Automation",
+        "deprecated_narrative": "Fintech / Restricted Industry / Marketing Automation",
         "instruction": "Treat 3i-CUBE as a 'High-Content Proof of Concept' for the CUBE Protocol. Do not allow 3i-specific jargon to dominate the top-level 'Phil Hills' brand architecture."
     }
 }
