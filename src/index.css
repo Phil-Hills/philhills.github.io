@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background-color: #050505;
+    color: #e0e0e0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow: hidden;
+    /* Prevent scrolling, handle in terminal */
+}
+
+/* Custom scrollbar for terminal output if needed */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
+
+@layer utilities {
+    .text-shadow-glow {
+        text-shadow: 0 0 5px rgba(0, 255, 157, 0.5);
+    }
+}
