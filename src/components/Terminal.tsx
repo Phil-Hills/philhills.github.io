@@ -28,38 +28,42 @@ export const Terminal: React.FC = () => {
 
     return (
         <div
+            role="region"
+            aria-label="Interactive Terminal Interface"
             className="min-h-screen bg-terminal-bg text-terminal-text font-mono p-4 sm:p-6 overflow-hidden flex flex-col"
             onClick={focusInput}
         >
             <div className="max-w-4xl mx-auto w-full flex-grow flex flex-col">
-                {history.map((item, i) => (
-                    <div key={i} className="mb-1 leading-relaxed break-words">
-                        {item.type === 'input' ? (
-                            <div className="flex">
-                                <span className="text-terminal-accent mr-3 select-none">
-                                    phil@node-sea:{item.cwd}$
-                                </span>
-                                <span>{item.content}</span>
-                            </div>
-                        ) : item.type === 'component' ? (
-                            <div className="my-2">
-                                <div className="text-terminal-text opacity-90 mb-1">{item.content}</div>
-                                {item.componentName === 'ZCurveViz' && (
-                                    <ZCurveViz count={item.componentProps?.count || 50} />
-                                )}
-                                {item.componentName === 'AgentVoxel' && (
-                                    <AgentVoxel />
-                                )}
-                            </div>
-                        ) : item.type === 'error' ? (
-                            <div className="text-red-500 whitespace-pre-wrap">{item.content}</div>
-                        ) : (
-                            <div className="text-terminal-text whitespace-pre-wrap opacity-90">
-                                {item.content}
-                            </div>
-                        )}
-                    </div>
-                ))}
+                <div role="log" aria-live="polite" aria-label="Command History">
+                    {history.map((item, i) => (
+                        <div key={i} className="mb-1 leading-relaxed break-words">
+                            {item.type === 'input' ? (
+                                <div className="flex">
+                                    <span className="text-terminal-accent mr-3 select-none">
+                                        phil@node-sea:{item.cwd}$
+                                    </span>
+                                    <span>{item.content}</span>
+                                </div>
+                            ) : item.type === 'component' ? (
+                                <div className="my-2">
+                                    <div className="text-terminal-text opacity-90 mb-1">{item.content}</div>
+                                    {item.componentName === 'ZCurveViz' && (
+                                        <ZCurveViz count={item.componentProps?.count || 50} />
+                                    )}
+                                    {item.componentName === 'AgentVoxel' && (
+                                        <AgentVoxel />
+                                    )}
+                                </div>
+                            ) : item.type === 'error' ? (
+                                <div className="text-red-500 whitespace-pre-wrap">{item.content}</div>
+                            ) : (
+                                <div className="text-terminal-text whitespace-pre-wrap opacity-90">
+                                    {item.content}
+                                </div>
+                            )}
+                        </div>
+                    ))}
+                </div>
 
                 <div className="flex mt-2">
                     <span className="text-terminal-accent mr-3 select-none">
@@ -76,6 +80,7 @@ export const Terminal: React.FC = () => {
                         autoComplete="off"
                         spellCheck="false"
                     />
+                    <span className="animate-blink text-terminal-accent">▌</span>
                 </div>
                 <div ref={bottomRef} />
             </div>
