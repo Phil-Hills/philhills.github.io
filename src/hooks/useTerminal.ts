@@ -1,10 +1,12 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback } from 'react';
 import { fileSystem, FileSystemNode } from '../filesystem';
 
 type HistoryItem = {
-    type: 'input' | 'output' | 'error';
+    type: 'input' | 'output' | 'error' | 'component';
     content: string;
     cwd?: string;
+    componentName?: string;
+    componentProps?: any;
 };
 
 export const useTerminal = () => {
@@ -44,6 +46,25 @@ export const useTerminal = () => {
         const args = parts.slice(1);
 
         switch (cmd) {
+            case 'spawn':
+                // Parse args like --count 50
+                let count = 50;
+                const countIdx = args.indexOf('--count');
+                if (countIdx !== -1 && args[countIdx + 1]) {
+                    count = parseInt(args[countIdx + 1], 10);
+                    if (isNaN(count)) count = 50;
+                }
+                // Limit for perf
+                count = Math.min(Math.max(count, 10), 500);
+
+                addToHistory({
+                    type: 'component',
+                    content: `Spawning ${count} Agent Voxels...`,
+                    componentName: 'ZCurveViz',
+                    componentProps: { count }
+                });
+                break;
+
             case 'help':
                 addToHistory({
                     type: 'output',
@@ -51,12 +72,9 @@ export const useTerminal = () => {
   ls        List directory contents
   cd <dir>  Change directory
   cat <file> Display file contents
+  spawn     Visualize Q Protocol agents (Usage: spawn --count 100)
   clear     Clear terminal screen
-  help      Show this help message
-  
-Special commands:
-  spawn     Visualize Q Protocol agents (Coming in Phase 3)
-`
+  help      Show this help message`
                 });
                 break;
 
@@ -66,7 +84,7 @@ Special commands:
 
             case 'ls':
                 const node = resolvePath(cwd);
-                if (typeof node === 'object') {
+                if (node && typeof node === 'object') {
                     const contents = Object.keys(node).map(key => {
                         const isDir = typeof node[key] !== 'string';
                         return isDir ? `${key}/` : key;

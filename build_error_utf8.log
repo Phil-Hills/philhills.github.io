@@ -1,0 +1,9 @@
+﻿src/hooks/useTerminal.ts(1,33): error TS6133: 'useEffect' is declared but its value is never read.
+src/hooks/useTerminal.ts(88,50): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(o: {}): string[]', gave the following error.
+    Argument of type '{ [key: string]: FileSystemNode; } | null' is not assignable to parameter of type '{}'.
+      Type 'null' is not assignable to type '{}'.
+  Overload 2 of 2, '(o: object): string[]', gave the following error.
+    Argument of type '{ [key: string]: FileSystemNode; } | null' is not assignable to parameter of type 'object'.
+      Type 'null' is not assignable to type 'object'.
+src/hooks/useTerminal.ts(89,46): error TS18047: 'node' is possibly 'null'.

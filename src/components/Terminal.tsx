@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useTerminal } from '../hooks/useTerminal';
+import { ZCurveViz } from './ZCurveViz';
 
 export const Terminal: React.FC = () => {
     const { history, cwd, execute } = useTerminal();
@@ -38,6 +39,13 @@ export const Terminal: React.FC = () => {
                                     phil@node-sea:{item.cwd}$
                                 </span>
                                 <span>{item.content}</span>
+                            </div>
+                        ) : item.type === 'component' ? (
+                            <div className="my-2">
+                                <div className="text-terminal-text opacity-90 mb-1">{item.content}</div>
+                                {item.componentName === 'ZCurveViz' && (
+                                    <ZCurveViz count={item.componentProps?.count || 50} />
+                                )}
                             </div>
                         ) : item.type === 'error' ? (
                             <div className="text-red-500 whitespace-pre-wrap">{item.content}</div>
