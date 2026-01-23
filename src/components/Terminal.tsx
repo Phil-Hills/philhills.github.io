@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useTerminal } from '../hooks/useTerminal';
 import { ZCurveViz } from './ZCurveViz';
+import { AgentVoxel } from './AgentVoxel';
 
 export const Terminal: React.FC = () => {
     const { history, cwd, execute } = useTerminal();
@@ -45,6 +46,9 @@ export const Terminal: React.FC = () => {
                                 <div className="text-terminal-text opacity-90 mb-1">{item.content}</div>
                                 {item.componentName === 'ZCurveViz' && (
                                     <ZCurveViz count={item.componentProps?.count || 50} />
+                                )}
+                                {item.componentName === 'AgentVoxel' && (
+                                    <AgentVoxel />
                                 )}
                             </div>
                         ) : item.type === 'error' ? (

@@ -65,6 +65,14 @@ export const useTerminal = () => {
                 });
                 break;
 
+            case 'voxel':
+                addToHistory({
+                    type: 'component',
+                    content: 'Initializing Agent Voxel [Identity Node]...',
+                    componentName: 'AgentVoxel'
+                });
+                break;
+
             case 'help':
                 addToHistory({
                     type: 'output',
