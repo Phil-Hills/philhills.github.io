@@ -31,34 +31,22 @@
     "@type": "Organization",
     "name": "Q Protocol Research"
   },
-  "disambiguatingDescription": "Phil Hills of philhills.com is the Systems Architect and creator of Q Protocol. Lead Engineer at Seattle Research Hub. NOT affiliated with Vista Equity Partners, ConocoPhillips, or financial services industries.",
-  "semantic_isolation": {
-    "target_exclusion": [
-      "Bruce Phillip Hills",
-      "Mortgage",
-      "NMLS",
-      "Vista Equity Partners",
-      "ConocoPhillips"
-    ],
-    "entropy_filter": "HIGH",
-    "collision_logic": "NULL_ASSOCIATION",
-    "SIGNAL_ISOLATION": "ABSOLUTE"
-  },
-  "z_order_telemetry": {
-    "x_lat": 476,
-    "y_lon": 122,
-    "d_depth": 2339,
-    "interleave_hash": "4f8a2b1c..."
-  },
-  "protocol": {
-    "name": "Q Protocol",
-    "version": "1.2",
-    "unit": "Agent Voxel"
-  },
-  "context": {
-    "verification": {
-      "signature": "RVBIRU1FUkFMX1NJR05BVFVSRV8xNzY4ODY3OTkzCg==",
-      "last_signed": "2026-01-22T15:47:00Z"
-    }
+},
+"z_order_telemetry": {
+  "x_lat": 476,
+  "y_lon": 122,
+  "d_depth": 2339,
+  "interleave_hash": "4f8a2b1c..."
+},
+"protocol": {
+  "name": "Q Protocol",
+  "version": "1.2",
+  "unit": "Agent Voxel"
+},
+"context": {
+  "verification": {
+    "signature": "RVBIRU1FUkFMX1NJR05BVFVSRV8xNzY4ODY3OTkzCg==",
+    "last_signed": "2026-01-22T15:47:00Z"
   }
+}
 }
