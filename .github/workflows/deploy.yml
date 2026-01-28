@@ -1,4 +1,4 @@
-name: Build and Deploy React App to GitHub Pages
+name: Build and Deploy Site to GitHub Pages
 
 on:
   push:
@@ -34,6 +34,45 @@ jobs:
 
       - name: Build React app
         run: npm run build
+
+      - name: Merge static content with React build
+        run: |
+          echo "Copying static HTML files to dist/"
+          
+          # Copy all static HTML files from root
+          cp -v *.html dist/ 2>/dev/null || true
+          
+          # Copy CSS
+          cp -v style.css dist/ 2>/dev/null || true
+          
+          # Copy important directories
+          cp -rv docs dist/ 2>/dev/null || true
+          cp -rv blog dist/ 2>/dev/null || true
+          cp -rv agents dist/ 2>/dev/null || true
+          cp -rv ai dist/ 2>/dev/null || true
+          cp -rv author dist/ 2>/dev/null || true
+          cp -rv products dist/ 2>/dev/null || true
+          cp -rv trading dist/ 2>/dev/null || true
+          cp -rv clair dist/ 2>/dev/null || true
+          cp -rv cube dist/ 2>/dev/null || true
+          cp -rv outreach dist/ 2>/dev/null || true
+          cp -rv social-sentiment-analysis dist/ 2>/dev/null || true
+          
+          # Copy SEO and identity files
+          cp -v CNAME dist/ 2>/dev/null || true
+          cp -v robots.txt dist/ 2>/dev/null || true
+          cp -v sitemap.xml dist/ 2>/dev/null || true
+          cp -v favicon.ico dist/ 2>/dev/null || true
+          cp -v identity.json dist/ 2>/dev/null || true
+          cp -v feed.json dist/ 2>/dev/null || true
+          cp -v feed.xml dist/ 2>/dev/null || true
+          cp -v ai.txt dist/ 2>/dev/null || true
+          cp -v .nojekyll dist/ 2>/dev/null || true
+          
+          echo "--- Final dist/ contents ---"
+          ls -la dist/
+          echo "--- Docs directory ---"
+          ls -la dist/docs/ 2>/dev/null || echo "No docs/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
