@@ -5,6 +5,27 @@
   <meta charset="utf-8">
   <title>Deep Tech Projects – Phil Hills</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="AI systems projects including Cube Protocol, multi-agent orchestration, structured data pipelines, and semantic memory frameworks.">
+
+  <!-- SEO + AI META -->
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="ai-content" content="index, allow-ai-summary">
+  <meta name="google-allow-ai-summarization" content="yes">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://philhills.com/projects.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Deep Tech Projects – Phil Hills">
+  <meta property="og:description"
+    content="AI systems projects including Cube Protocol, multi-agent orchestration, structured data pipelines, and semantic memory frameworks.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://philhills.com/projects.html">
+  <meta property="og:image" content="https://philhills.com/media/phil.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +33,31 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD: Breadcrumbs -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      { "@type":"ListItem", "position":1, "name":"Home", "item":"https://philhills.com/" },
+      { "@type":"ListItem", "position":2, "name":"Projects", "item":"https://philhills.com/projects.html" }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: GitHub Repositories Collection -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "name":"Phil Hills GitHub Repositories",
+    "description":"Open-source projects and experiments by Phil Hills related to semantic memory, agentic orchestration, and AI systems.",
+    "url":"https://github.com/Phil-Hills",
+    "itemListOrder":"Unordered",
+    "numberOfItems":180
+  }
+  </script>
 </head>
 
 <body>
@@ -26,9 +72,12 @@
 
     <nav>
       <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/cube-protocol.html">Cube Protocol</a>
       <a href="/projects.html" class="active">Projects</a>
       <a href="/blog/">Blog</a>
-      <a href="https://github.com/Phil-Hills" target="_blank">GitHub</a>
+      <a href="/resume.html">Resume</a>
+      <a href="/contact.html">Contact</a>
     </nav>
   </header>
 
@@ -101,157 +150,43 @@
         </div>
       </div>
     </section>
-  </main>
 
-  <footer>
-    © <span id="year"></span> Phil Hills.
-  </footer>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
+    <section>
+      <h2>Specialized Implementations</h2>
 
-</html>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description"
-  content="Projects by Phil Hills across semantic memory, agentic orchestration, structured data protocols, and multi-agent AI systems.">
-
-<!-- SEO + AI META -->
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="ai-content" content="index, allow-ai-summary">
-<meta name="google-allow-ai-summarization" content="yes">
-
-<!-- Canonical -->
-<link rel="canonical" href="https://philhills.com/projects.html">
-
-<!-- Open Graph -->
-<meta property="og:title" content="Projects – Phil Hills">
-<meta property="og:description"
-  content="AI systems projects including Cube Protocol, multi-agent orchestration, structured data pipelines, and semantic memory frameworks.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://philhills.com/projects.html">
-<meta property="og:image" content="https://philhills.com/media/phil.jpg">
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-
-<!-- Inline Styles -->
-
-
-<!-- JSON-LD: Breadcrumbs -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"BreadcrumbList",
-  "itemListElement":[
-    { "@type":"ListItem", "position":1, "name":"Home", "item":"https://philhills.com/" },
-    { "@type":"ListItem", "position":2, "name":"Projects", "item":"https://philhills.com/projects.html" }
-  ]
-}
-</script>
-
-<!-- JSON-LD: GitHub Repositories Collection -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"ItemList",
-  "name":"Phil Hills GitHub Repositories",
-  "description":"Open-source projects and experiments by Phil Hills related to semantic memory, agentic orchestration, and AI systems.",
-  "url":"https://github.com/Phil-Hills",
-  "itemListOrder":"Unordered",
-  "numberOfItems":180
-}
-</script>
-
-</head>
-
-<body>
-  <header>
-    <div class="brand">
-      <div class="brand-mark">PH</div>
-      <div class="brand-text">
-        <span>Phil Hills</span>
-        <span>AI Systems Architect</span>
+      <div class="project-block">
+        <h3>Microscopy Cube Variant</h3>
+        <p>Domain-specific cube formatting for multi-channel imaging, z-depth stacks, and scientific datasets.</p>
       </div>
-    </div>
 
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about.html">About</a>
-      <a href="/cube-protocol.html">Cube Protocol</a>
-      <a href="/projects.html">Projects</a>
-      <a href="/blog/">Blog</a>
-      <a href="/resume.html">Resume</a>
-      <a href="/contact.html">Contact</a>
-    </nav>
-  </header>
+      <div class="project-block">
+        <h3>Robotics Memory Experiments</h3>
+        <p>Using structured cubes to represent spatial scenes, temporal slices, and environment state for robotics
+          agents.</p>
+      </div>
 
-  <main>
-    <h1>Projects</h1>
-    <p>A selection of systems, protocols, and architectural work focused on semantic AI, multi-agent workflows, and
-      large-scale data structure.</p>
+      <div class="project-block">
+        <h3>Financial Dataset Cubes</h3>
+        <p>High-volume structured datasets for market data, analytics traces, and temporal series encoded into cube
+          form.</p>
+      </div>
+    </section>
 
-    <h2>Core Systems</h2>
-
-    <div class="project-block">
-      <h3>Cube Protocol</h3>
+    <section>
+      <h2>Open Source Code (180+ Repositories)</h2>
       <p>
-        A 3D structured data protocol for reversible semantic memory and cross-agent communication.
-        Supports compression, labeling, reversible reconstruction, and domain-scoped semantics.
+        Beyond these highlighted projects, I maintain an actively evolving open-source portfolio on GitHub:
+        <a href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">github.com/Phil-Hills</a>.
+        It includes experiments, reference implementations, and systems that inform the protocols and designs on this
+        site.
       </p>
-      <p><a href="/cube-protocol.html">Learn more →</a></p>
-    </div>
-
-    <div class="project-block">
-      <h3>Agentic Orchestration Layer</h3>
-      <p>
-        A supervised multi-agent architecture with task routing, memory management, structured packet exchange,
-        and predictable execution boundaries.
-      </p>
-    </div>
-
-    <div class="project-block">
-      <h3>AI Packet Bridge</h3>
-      <p>
-        A token-efficient AI-to-AI data exchange system built on structured packet rules,
-        enabling safe, deterministic communication between specialized agents and models.
-      </p>
-    </div>
-
-    <h2>Specialized Implementations</h2>
-
-    <div class="project-block">
-      <h3>Microscopy Cube Variant</h3>
-      <p>Domain-specific cube formatting for multi-channel imaging, z-depth stacks, and scientific datasets.</p>
-    </div>
-
-    <div class="project-block">
-      <h3>Robotics Memory Experiments</h3>
-      <p>Using structured cubes to represent spatial scenes, temporal slices, and environment state for robotics agents.
-      </p>
-    </div>
-
-    <div class="project-block">
-      <h3>Financial Dataset Cubes</h3>
-      <p>High-volume structured datasets for market data, analytics traces, and temporal series encoded into cube form.
-      </p>
-    </div>
-
-    <h2>Open Source Code (180+ Repositories)</h2>
-    <p>
-      Beyond these highlighted projects, I maintain an actively evolving open-source portfolio on GitHub:
-      <a href="https://github.com/Phil-Hills" target="_blank" rel="noreferrer">github.com/Phil-Hills</a>.
-      It includes experiments, reference implementations, and systems that inform the protocols and designs on this
-      site.
-    </p>
+    </section>
   </main>
 
   <footer>© <span id="year"></span> Phil Hills.</footer>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
-
 </body>
 
 </html>
