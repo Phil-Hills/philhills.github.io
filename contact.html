@@ -110,6 +110,50 @@
 
         <button type="submit" class="btn btn-primary" style="width: 100%; border: none;">Send Inquiry</button>
       </form>
+      <div id="form-response"
+        style="display:none; margin-top: 20px; padding: 15px; border-radius: 8px; background: rgba(45, 212, 191, 0.1); border: 1px solid #2dd4bf; color: #fff;">
+      </div>
+
+      <script>
+        document.querySelector('form').addEventListener('submit', async function (e) {
+          e.preventDefault();
+          const form = e.target;
+          const btn = form.querySelector('button');
+          const originalText = btn.innerText;
+          const responseDiv = document.getElementById('form-response');
+
+          btn.innerText = 'Sending...';
+          btn.disabled = true;
+          responseDiv.style.display = 'none';
+
+          try {
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+
+            const response = await fetch(form.action, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+              responseDiv.innerHTML = `<strong>${result.message}</strong><br><br>${result.next_steps}`;
+              responseDiv.style.display = 'block';
+              form.reset();
+              btn.innerText = 'Sent';
+            } else {
+              throw new Error(result.error || 'Submission failed');
+            }
+          } catch (err) {
+            responseDiv.innerHTML = `<span style="color: #ef4444;">Error: ${err.message}</span>`;
+            responseDiv.style.display = 'block';
+            btn.innerText = originalText;
+            btn.disabled = false;
+          }
+        });
+      </script>
     </div>
 
     <h2>Other Channels</h2>

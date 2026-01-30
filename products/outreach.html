@@ -196,11 +196,52 @@
                         Submit Request
                     </button>
 
-                    <p style="text-align: center; margin-top: 15px; font-size: 13px; color: #666;">
-                        <span style="color: #7000ff;">🔒</span> Your data is routed securely.
-                    </p>
+                    <div id="outreach-response"
+                        style="display:none; margin-top: 20px; padding: 15px; border-radius: 8px; background: rgba(45, 212, 191, 0.1); border: 1px solid #2dd4bf; color: #fff;">
+                    </div>
                 </form>
             </div>
+
+            <script>
+                document.querySelector('#demo form').addEventListener('submit', async function (e) {
+                    e.preventDefault();
+                    const form = e.target;
+                    const btn = form.querySelector('button');
+                    const originalText = btn.innerText;
+                    const responseDiv = document.getElementById('outreach-response');
+
+                    btn.innerText = 'Submitting Request...';
+                    btn.disabled = true;
+                    responseDiv.style.display = 'none';
+
+                    try {
+                        const formData = new FormData(form);
+                        const data = Object.fromEntries(formData.entries());
+
+                        const response = await fetch(form.action, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify(data)
+                        });
+
+                        const result = await response.json();
+
+                        if (result.success) {
+                            responseDiv.innerHTML = `<strong>${result.message}</strong><br><br>${result.next_steps}`;
+                            responseDiv.style.display = 'block';
+                            form.reset();
+                            btn.innerText = 'Request Submitted';
+                        } else {
+                            throw new Error(result.error || 'Submission failed');
+                        }
+                    } catch (err) {
+                        responseDiv.innerHTML = `<span style="color: #ef4444;">Error: ${err.message}</span>`;
+                        responseDiv.style.display = 'block';
+                        btn.innerText = originalText;
+                        btn.disabled = false;
+                    }
+                });
+            </script>
         </section>
 
         <section style="margin: 60px 0;">

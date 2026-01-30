@@ -39,12 +39,16 @@ def submit_lead(request):
             return ('Unknown content type', 400, headers)
 
         # Log the lead (This effectively "saves" it to Cloud Logging)
-        # In a real production scenario, you might write this to Firestore or Google Sheets.
         logging.info(f"New Lead Received: {json.dumps(data)}")
 
-        # Redirect back to the website with a success parameter (optional, if using form post)
-        # For this implementation, we'll return a JSON success response for AJAX or simple success text for form POST
-        return ('Success! Lead received.', 200, headers)
+        # Professional Response ensuring the user feels handled
+        response_data = {
+            "success": True,
+            "message": "Thank you. Your request has been routed to our enterprise team.",
+            "next_steps": "A systems architect will review your infrastructure profile and contact you within 24 hours to schedule your audit."
+        }
+
+        return (json.dumps(response_data), 200, headers)
 
     except Exception as e:
         logging.error(f"Error processing lead: {e}")
