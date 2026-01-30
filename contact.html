@@ -66,7 +66,7 @@
       <div class="brand-mark">PH</div>
       <div class="brand-text">
         <span>Phil Hills</span>
-        <span>AI & Robotics Systems Architect</span>
+        <span>AI Systems Architect</span>
       </div>
     </div>
 
@@ -84,13 +84,36 @@
     <h1>Contact</h1>
     <p>Get in touch professionally through the channels below.</p>
 
-    <h2>Email</h2>
+    <div class="card" style="margin-top: 40px; border-color: #7000ff; max-width: 600px;">
+      <h3 style="color: #7000ff;">Start Automation Project</h3>
+      <form action="YOUR_GCP_CLOUD_FUNCTION_URL_HERE" method="POST" style="margin-top: 20px;">
+        <!-- Replace ACTION with your Formspree/Netlify endpoint -->
+
+        <div style="margin-bottom: 15px;">
+          <label style="display: block; margin-bottom: 5px; color: #ccc;">Name</label>
+          <input type="text" name="name" required
+            style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.2); color: white;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <label style="display: block; margin-bottom: 5px; color: #ccc;">Work Email</label>
+          <input type="email" name="email" required
+            style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.2); color: white;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <label style="display: block; margin-bottom: 5px; color: #ccc;">Message</label>
+          <textarea name="message" rows="4"
+            style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.2); color: white;"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; border: none;">Send Inquiry</button>
+      </form>
+    </div>
+
+    <h2>Other Channels</h2>
     <p><a href="mailto:phil@philhills.com">phil@philhills.com</a></p>
-
-    <h2>GitHub</h2>
     <p><a href="https://github.com/Phil-Hills" target="_blank">github.com/Phil-Hills</a></p>
-
-    <h2>LinkedIn</h2>
     <p><a href="https://www.linkedin.com/in/philhills" target="_blank">linkedin.com/in/philhills</a></p>
 
   </main>

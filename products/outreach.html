@@ -91,8 +91,8 @@
         <h1>📞 Autonomous Voice Sales Platform</h1>
         <p class="tagline">The Enterprise Outbound Ecosystem. Salesforce-Integrated. High-Fidelity Voice.</p>
         <a href="#demo" class="cta-primary">Request Enterprise Demo</a>
-        <a href="#how-it-works" class="cta-primary"
-            style="background: transparent; border: 2px solid #ffffff; color: #ffffff;">See Architecture</a>
+        <a href="https://movement-voice-agent-235894147478.us-central1.run.app/" target="_blank" class="cta-primary"
+            style="background: transparent; border: 2px solid #ffffff; color: #ffffff;">Try Live Voice Agent</a>
     </div>
 
     <main style="max-width: 1200px; margin: 0 auto; padding: 40px 20px;">
@@ -143,31 +143,57 @@
             </div>
         </section>
 
-        <section id="demo">
-            <div class="pricing-box">
-                <h2>Enterprise Access</h2>
-                <div class="price">Deploy Your Autonomous Team</div>
+        <section id="demo" style="max-width: 600px; margin: 0 auto;">
+            <div class="pricing-box" style="padding: 40px;">
+                <h2>Request Enterprise Demo</h2>
+                <p style="margin-bottom: 30px; color: #ccc;">Fill out the form below to initiate an infrastructure
+                    audit.</p>
 
-                <ul style="text-align: left; margin: 30px 0; list-style: none; padding: 0; color: #ccc;">
-                    <li style="padding: 10px 0; border-bottom: 1px solid rgba(112,0,255,0.2);">✓ Full CRM Integration
-                        Setup</li>
-                    <li style="padding: 10px 0; border-bottom: 1px solid rgba(112,0,255,0.2);">✓ Custom Voice Model
-                        Training</li>
-                    <li style="padding: 10px 0; border-bottom: 1px solid rgba(112,0,255,0.2);">✓ Compliance & Logic
-                        Guardrails</li>
-                    <li style="padding: 10px 0; border-bottom: 1px solid rgba(112,0,255,0.2);">✓ Dedicated Success
-                        Architect</li>
-                    <li style="padding: 10px 0;">✓ SLA & Uptime Guarantees</li>
-                </ul>
+                <form action="YOUR_GCP_CLOUD_FUNCTION_URL_HERE" method="POST" style="text-align: left;">
+                    <!-- Replace ACTION with your Formspree/Netlify endpoint -->
 
-                <a href="/contact.html" class="cta-primary"
-                    style="width: 100%; display: block; box-sizing: border-box; background: #7000ff; color: #fff;">
-                    Contact Sales for Demo
-                </a>
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; margin-bottom: 8px; color: #7000ff; font-weight: 600;">Full
+                            Name</label>
+                        <input type="text" name="name" required
+                            style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #7000ff; background: rgba(112,0,255,0.05); color: #fff; font-family: inherit;">
+                    </div>
 
-                <p style="margin-top: 20px; font-size: 14px; color: #888;">
-                    Designed for teams with high lead volume (>1000/mo).
-                </p>
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; margin-bottom: 8px; color: #7000ff; font-weight: 600;">Work
+                            Email</label>
+                        <input type="email" name="email" required
+                            style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #7000ff; background: rgba(112,0,255,0.05); color: #fff; font-family: inherit;">
+                    </div>
+
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; margin-bottom: 8px; color: #7000ff; font-weight: 600;">Monthly
+                            Lead Volume</label>
+                        <select name="volume"
+                            style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #7000ff; background: #0a0e27; color: #fff; font-family: inherit;">
+                            <option value="<1000">&lt; 1,000 / month</option>
+                            <option value="1k-10k">1,000 - 10,000 / month</option>
+                            <option value="10k+">10,000+ / month</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-bottom: 30px;">
+                        <label
+                            style="display: block; margin-bottom: 8px; color: #7000ff; font-weight: 600;">Infrastructure
+                            Notes</label>
+                        <textarea name="notes" rows="3" placeholder="Current CRM? Pain points?"
+                            style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #7000ff; background: rgba(112,0,255,0.05); color: #fff; font-family: inherit; resize: vertical;"></textarea>
+                    </div>
+
+                    <button type="submit" class="cta-primary"
+                        style="width: 100%; border: none; cursor: pointer; background: #7000ff; color: #fff;">
+                        Submit Request
+                    </button>
+
+                    <p style="text-align: center; margin-top: 15px; font-size: 13px; color: #666;">
+                        <span style="color: #7000ff;">🔒</span> Your data is routed securely.
+                    </p>
+                </form>
             </div>
         </section>
 
