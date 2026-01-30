@@ -254,10 +254,18 @@
     </div>
   </div>
 
+  <!-- Chat Widget Script -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     let chatOpen = false;
     const API_URL = "https://cube-protocol-app-235894147478.us-central1.run.app/api/chat/phil";
     const history = [];
+
+    // Configure Marked
+    marked.setOptions({
+      breaks: true, // Enable line breaks
+      gfm: true     // GitHub Flavored Markdown
+    });
 
     function toggleChat() {
       chatOpen = !chatOpen;
@@ -311,11 +319,11 @@
           appendMessage('model', data.response);
           history.push({ role: 'model', content: data.response });
         } else {
-          appendMessage('model', "Connection disrupted. My node is currently syncing.");
+          appendMessage('model', "Connection disrupted. Please try again.");
         }
       } catch (err) {
         document.getElementById(typingId).remove();
-        appendMessage('model', "Data stream interrupted. Please try again.");
+        appendMessage('model', "Unable to connect. Please check your internet.");
         console.error(err);
       }
     }
@@ -331,10 +339,20 @@
             color: ${isUser ? 'white' : 'rgba(255, 255, 255, 0.9)'};
             font-size: 14px; line-height: 1.5;
             box-shadow: ${isUser ? '0 4px 12px rgba(0, 240, 255, 0.2)' : 'none'};
+            overflow-wrap: break-word;
         `;
 
-      // Parse basic markdown bold
-      div.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      // Parse Markdown
+      div.innerHTML = marked.parse(text);
+
+      // Styling fix for paragraphs inside markdown
+      const paragraphs = div.getElementsByTagName('p');
+      for (let p of paragraphs) {
+        p.style.margin = '0 0 8px 0';
+        if (p.nextElementSibling === null) { // Check if it's the last child
+          p.style.marginBottom = '0';
+        }
+      }
 
       document.getElementById('chat-messages').appendChild(div);
       div.scrollIntoView({ behavior: 'smooth' });
@@ -349,7 +367,7 @@
             background: rgba(255, 255, 255, 0.05); border-radius: 16px 16px 16px 4px;
             color: rgba(255, 255, 255, 0.5); font-size: 12px; font-style: italic;
         `;
-      div.innerText = 'Calculating...';
+      div.innerText = 'Thinking...';
       document.getElementById('chat-messages').appendChild(div);
       div.scrollIntoView({ behavior: 'smooth' });
       return id;
