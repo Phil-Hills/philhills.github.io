@@ -173,13 +173,189 @@
 
     <section
       style="background-color: #fffaf0; color: #333; border-left: 4px solid #ffd700; padding: 2rem; margin: 2rem auto; max-width: 800px;">
-      <h2 style="margin-top: 0;">Built for Safety</h2>
-      <p>We don't just automate; we protect your reputation. Every agent follows strict safety rules, and every action
-        is logged and verified. Your business stays safe, compliant, and in control.</p>
+      <h2 style="font-size: 2rem; margin-bottom: 20px; color: #fff;">Built for Safety</h2>
+      <p
+        style="color: #ffffff; font-size: 1.1rem; line-height: 1.6; max-width: 700px; margin: 0 auto; opacity: 1; font-weight: 500;">
+        We don't just automate; we protect your reputation. Every agent follows strict safety rules,
+        and every action is logged and verified. Your business stays safe, compliant, and in control.
+      </p>
     </section>
 
 
   </main>
+
+  <!-- Phil Bot Widget -->
+  <div id="phil-bot-widget"
+    style="position: fixed; bottom: 32px; right: 32px; z-index: 9999; font-family: 'Inter', sans-serif;">
+    <!-- Chat Button -->
+    <button id="chat-toggle" onclick="toggleChat()" style="
+        width: 64px; height: 64px; border-radius: 50%; 
+        background: linear-gradient(135deg, #00f0ff 0%, #8b5cf6 100%);
+        border: none; box-shadow: 0 10px 30px rgba(0, 240, 255, 0.3);
+        cursor: pointer; transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        display: flex; align-items: center; justify-content: center;
+    ">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 6C13.66 6 15 7.34 15 9C15 10.66 13.66 12 12 12C10.34 12 9 10.66 9 9C9 7.34 10.34 6 12 6ZM12 18.2C9.5 18.2 7.29 16.92 6 14.9C6.03 12.91 10 11.8 12 11.8C13.99 11.8 17.97 12.91 18 14.9C16.71 16.92 14.5 18.2 12 18.2Z"
+          fill="white" />
+      </svg>
+    </button>
+
+    <!-- Chat Window -->
+    <div id="chat-window" style="
+        position: absolute; bottom: 80px; right: 0; width: 380px; height: 500px;
+        background: rgba(10, 10, 15, 0.95); backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 24px;
+        display: none; flex-direction: column; overflow: hidden;
+        box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
+        transform-origin: bottom right; transition: all 0.3s ease;
+    ">
+      <!-- Header -->
+      <div
+        style="padding: 20px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); display: flex; align-items: center; gap: 12px;">
+        <div
+          style="width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(135deg, #00f0ff 0%, #8b5cf6 100%); display: flex; align-items: center; justify-content: center; font-weight: 700; color: white;">
+          PH</div>
+        <div>
+          <div style="font-weight: 600; color: white;">Phil Hills AI</div>
+          <div style="font-size: 12px; color: rgba(255, 255, 255, 0.5);">Systems Architect Node</div>
+        </div>
+        <button onclick="toggleChat()"
+          style="margin-left: auto; background: none; border: none; color: rgba(255, 255, 255, 0.5); cursor: pointer; font-size: 20px;">×</button>
+      </div>
+
+      <!-- Messages -->
+      <div id="chat-messages"
+        style="flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+        <div
+          style="align-self: flex-start; max-width: 80%; padding: 12px 16px; background: rgba(255, 255, 255, 0.05); border-radius: 16px 16px 16px 4px; color: rgba(255, 255, 255, 0.9); font-size: 14px; line-height: 1.5;">
+          Hello. I am the digital twin of Phil Hills. Ask me about **Systems of Revenue**, **Q Protocol**, or my
+          **Architecture**.
+        </div>
+      </div>
+
+      <!-- Input -->
+      <div style="padding: 16px; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+        <form onsubmit="sendMessage(event)" style="display: flex; gap: 8px;">
+          <input type="text" id="chat-input" placeholder="Ask a question..." style="
+                    flex: 1; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);
+                    padding: 12px 16px; border-radius: 12px; color: white; font-family: inherit; font-size: 14px;
+                    outline: none; transition: border-color 0.2s;
+                " onfocus="this.style.borderColor = '#8b5cf6'"
+            onblur="this.style.borderColor = 'rgba(255, 255, 255, 0.1)'">
+          <button type="submit" style="
+                    background: linear-gradient(135deg, #00f0ff 0%, #8b5cf6 100%); border: none;
+                    width: 42px; border-radius: 12px; cursor: pointer; color: white; display: flex; align-items: center; justify-content: center;
+                ">
+            →
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let chatOpen = false;
+    const API_URL = "https://cube-protocol-app-235894147478.us-central1.run.app/api/chat/phil";
+    const history = [];
+
+    function toggleChat() {
+      chatOpen = !chatOpen;
+      const window = document.getElementById('chat-window');
+      const btn = document.getElementById('chat-toggle');
+
+      if (chatOpen) {
+        window.style.display = 'flex';
+        window.style.opacity = '0';
+        window.style.transform = 'scale(0.9)';
+        requestAnimationFrame(() => {
+          window.style.opacity = '1';
+          window.style.transform = 'scale(1)';
+        });
+        btn.style.transform = 'rotate(45deg)';
+        document.getElementById('chat-input').focus();
+      } else {
+        window.style.opacity = '0';
+        window.style.transform = 'scale(0.9)';
+        setTimeout(() => window.style.display = 'none', 300);
+        btn.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    async function sendMessage(e) {
+      e.preventDefault();
+      const input = document.getElementById('chat-input');
+      const message = input.value.trim();
+      if (!message) return;
+
+      // Add User Message
+      appendMessage('user', message);
+      input.value = '';
+      history.push({ role: 'user', content: message });
+
+      // Show Typing Indicator
+      const typingId = appendTyping();
+
+      try {
+        const response = await fetch(API_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: message, history: history })
+        });
+        const data = await response.json();
+
+        // Remove Typing
+        document.getElementById(typingId).remove();
+
+        if (data.response) {
+          appendMessage('model', data.response);
+          history.push({ role: 'model', content: data.response });
+        } else {
+          appendMessage('model', "Connection disrupted. My node is currently syncing.");
+        }
+      } catch (err) {
+        document.getElementById(typingId).remove();
+        appendMessage('model', "Data stream interrupted. Please try again.");
+        console.error(err);
+      }
+    }
+
+    function appendMessage(role, text) {
+      const div = document.createElement('div');
+      const isUser = role === 'user';
+      div.style.cssText = `
+            align-self: ${isUser ? 'flex-end' : 'flex-start'};
+            max-width: 80%; padding: 12px 16px;
+            background: ${isUser ? 'linear-gradient(135deg, #00f0ff 0%, #8b5cf6 100%)' : 'rgba(255, 255, 255, 0.05)'};
+            border-radius: ${isUser ? '16px 16px 4px 16px' : '16px 16px 16px 4px'};
+            color: ${isUser ? 'white' : 'rgba(255, 255, 255, 0.9)'};
+            font-size: 14px; line-height: 1.5;
+            box-shadow: ${isUser ? '0 4px 12px rgba(0, 240, 255, 0.2)' : 'none'};
+        `;
+
+      // Parse basic markdown bold
+      div.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+      document.getElementById('chat-messages').appendChild(div);
+      div.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function appendTyping() {
+      const id = 'typing-' + Date.now();
+      const div = document.createElement('div');
+      div.id = id;
+      div.style.cssText = `
+            align-self: flex-start; padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.05); border-radius: 16px 16px 16px 4px;
+            color: rgba(255, 255, 255, 0.5); font-size: 12px; font-style: italic;
+        `;
+      div.innerText = 'Calculating...';
+      document.getElementById('chat-messages').appendChild(div);
+      div.scrollIntoView({ behavior: 'smooth' });
+      return id;
+    }
+  </script>
 
   <footer>
     © <span id="year"></span> Phil Hills. Built with Cube Protocol.

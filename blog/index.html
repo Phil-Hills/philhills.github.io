@@ -1,36 +1,39 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
 
-<title>Blog – Phil Hills</title>
+  <title>Blog – Phil Hills</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Technical writing by Phil Hills on semantic memory, agentic orchestration, AI systems architecture, and life as an AI engineer in Magnolia, Seattle.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Technical writing by Phil Hills on semantic memory, agentic orchestration, AI systems architecture, and life as an AI engineer in Magnolia, Seattle.">
 
-<!-- SEO + AI META -->
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="ai-content" content="index, allow-ai-summary">
-<meta name="google-allow-ai-summarization" content="yes">
+  <!-- SEO + AI META -->
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="ai-content" content="index, allow-ai-summary">
+  <meta name="google-allow-ai-summarization" content="yes">
 
-<!-- Canonical -->
-<link rel="canonical" href="https://philhills.com/blog/">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://philhills.com/blog/">
 
-<!-- Open Graph -->
-<meta property="og:title" content="Blog – Phil Hills">
-<meta property="og:description" content="Technical notes and essays on semantic memory, agentic orchestration, and AI systems architecture from Magnolia, Seattle.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://philhills.com/blog/">
-<meta property="og:image" content="https://philhills.com/media/phil.jpg">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Blog – Phil Hills">
+  <meta property="og:description"
+    content="Technical notes and essays on semantic memory, agentic orchestration, and AI systems architecture from Magnolia, Seattle.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://philhills.com/blog/">
+  <meta property="og:image" content="https://philhills.com/media/phil.jpg">
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
 
-<!-- Inline Styles -->
+  <!-- Inline Styles -->
 
 
-<!-- JSON-LD: WebPage -->
-<script type="application/ld+json">
+  <!-- JSON-LD: WebPage -->
+  <script type="application/ld+json">
 {
   "@context":"https://schema.org",
   "@type":"WebPage",
@@ -40,8 +43,8 @@
 }
 </script>
 
-<!-- JSON-LD: Breadcrumbs -->
-<script type="application/ld+json">
+  <!-- JSON-LD: Breadcrumbs -->
+  <script type="application/ld+json">
 {
   "@context":"https://schema.org",
   "@type":"BreadcrumbList",
@@ -56,52 +59,71 @@
 </head>
 
 <body>
-<header>
-  <div class="brand">
-    <div class="brand-mark">PH</div>
-    <div class="brand-text">
-      <span>Phil Hills</span>
-      <span>AI Systems Architect</span>
+  <header>
+    <div class="brand">
+      <div class="brand-mark">PH</div>
+      <div class="brand-text">
+        <span>Phil Hills</span>
+        <span>AI Systems Architect</span>
+      </div>
     </div>
-  </div>
 
-  <nav>
-    <a href="/">Home</a>
-    <a href="/about.html">About</a>
-    <a href="/cube-protocol.html">Cube Protocol</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/blog/">Blog</a>
-    <a href="/code.html">Code</a>
-    <a href="/resume.html">Resume</a>
-    <a href="/contact.html">Contact</a>
-  </nav>
-</header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/blog/" class="active">Insights</a>
+      <a href="/contact.html">Contact</a>
+      <a href="https://philhills.ai" target="_blank">Technical Labs ↗</a>
+    </nav>
+  </header>
 
-<main>
-  <h1>Blog</h1>
-  <p class="intro">
-    Technical notes, system breakdowns, and reflections on AI systems architecture, semantic memory,
-    and multi-agent workflows — written from Magnolia, Seattle.
-  </p>
+  <main>
+    <section class="hero-section" style="margin-bottom: 60px;">
+      <h1>Systems of <br><span class="gradient-text"
+          style="background: linear-gradient(90deg, #2dd4bf, #0ea5e9); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Revenue</span>
+      </h1>
+      <p class="intro" style="max-width: 600px; color: #94a3b8; font-size: 1.1rem; line-height: 1.6;">
+        Strategic breakdowns of high-velocity AI systems. Focusing on architecture outcomes,
+        revenue automation, and the mechanics of modern scale.
+      </p>
+    </section>
 
-  <ul class="post-list">
-    <li>
-      <a href="/blog/ai-systems-architecture-seattle/">AI Systems Architecture in Seattle: My Approach to Multi-Agent Workflows</a>
-      <div class="meta">January 15, 2025 · Systems Architecture · Seattle</div>
-    </li>
-    <li>
-      <a href="/blog/semantic-memory-lessons/">Building Semantic Memory Systems: Lessons from 180+ Open-Source Experiments</a>
-      <div class="meta">January 18, 2025 · Semantic Memory · Open Source</div>
-    </li>
-    <li>
-      <a href="/blog/seattle-ai-landscape/">The Seattle AI Landscape and Where My Work Fits In</a>
-      <div class="meta">January 22, 2025 · Seattle · Ecosystem</div>
-    </li>
-  </ul>
-</main>
+    <div class="insight-grid">
+      <a href="/blog/ai-systems-architecture-seattle/" class="insight-card">
+        <div>
+          <div class="insight-date">Jan 15, 2025</div>
+          <h2 class="insight-title">AI Systems Architecture in Seattle</h2>
+          <p style="color: #94a3b8; font-size: 0.95rem;">My approach to multi-agent workflows and the evolving ecosystem
+            in Magnolia.</p>
+        </div>
+        <div><span class="insight-tag">Systems Architecture</span></div>
+      </a>
 
-<footer>© <span id="year"></span> Phil Hills.</footer>
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+      <a href="/blog/semantic-memory-lessons/" class="insight-card">
+        <div>
+          <div class="insight-date">Jan 18, 2025</div>
+          <h2 class="insight-title">Building Semantic Memory Systems</h2>
+          <p style="color: #94a3b8; font-size: 0.95rem;">Lessons learned from 180+ open-source experiments in
+            persistence.</p>
+        </div>
+        <div><span class="insight-tag">Semantic Memory</span></div>
+      </a>
+
+      <a href="/blog/seattle-ai-landscape/" class="insight-card">
+        <div>
+          <div class="insight-date">Jan 22, 2025</div>
+          <h2 class="insight-title">The Seattle AI Landscape</h2>
+          <p style="color: #94a3b8; font-size: 0.95rem;">Where my work fits into the broader Pacific Northwest
+            ecosystem.</p>
+        </div>
+        <div><span class="insight-tag">Ecosystem</span></div>
+      </a>
+    </div>
+  </main>
+
+  <footer>© <span id="year"></span> Phil Hills.</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 
 </body>
+
 </html>
