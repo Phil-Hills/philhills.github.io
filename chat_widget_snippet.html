@@ -1,0 +1,16 @@
+<div id="chat-widget" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+    <button onclick="toggleChat()"
+        style="background: #00ff41; color: black; border: none; padding: 15px; border-radius: 50%; font-weight: bold;">💬</button>
+</div>
+
+<script>
+    async function sendMessage(msg) {
+        const resp = await fetch('https://cube-protocol-app-235894147478.us-central1.run.app/api/chat/phil', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: msg })
+        });
+        const data = await resp.json();
+        console.log("Phil Says:", data.response);
+    }
+</script>
