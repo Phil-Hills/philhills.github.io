@@ -30,15 +30,88 @@
 
   <link rel="stylesheet" href="style.css">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Phil Hills | AI Systems Architect – AI Automation & Sales Infrastructure">
-  <meta property="og:description"
-    content="Bridging advanced AI with practical business results. Real-Time Business Intelligence, The 'Context' Memory Engine, Edge-AI for Sales.">
-  <meta property="og:url" content="https://philhills.com/">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://philhills.com/media/phil.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <style>
+    /* Glass Server Styles */
+    .terminal-window {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      padding: 20px;
+      margin: 2rem auto;
+      max-width: 900px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .terminal-header {
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      color: #8b949e;
+      font-size: 0.8rem;
+    }
+
+    .status-dot {
+      height: 8px;
+      width: 8px;
+      background-color: #238636;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 6px;
+      box-shadow: 0 0 5px #238636;
+    }
+
+    .ledger-table {
+      width: 100%;
+      border-collapse: collapse;
+      color: #c9d1d9;
+      font-size: 0.9rem;
+    }
+
+    .ledger-table th {
+      text-align: left;
+      padding: 8px;
+      color: #8b949e;
+      border-bottom: 1px solid #21262d;
+    }
+
+    .ledger-table td {
+      padding: 8px;
+      border-bottom: 1px solid #21262d;
+    }
+
+    .hash {
+      color: #d2a8ff;
+    }
+
+    .agent {
+      color: #7ee787;
+      font-weight: bold;
+    }
+
+    .task {
+      color: #a5d6ff;
+    }
+
+    .timestamp {
+      color: #8b949e;
+      font-size: 0.8em;
+    }
+
+    .ticker-box {
+      background: rgba(0, 255, 136, 0.1);
+      border: 1px solid #00ff88;
+      color: #00ff88;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  </style>
 
   <!-- JSON-LD: Phil Hills Identity (Systems Architect) -->
   <script type="application/ld+json">
@@ -98,9 +171,8 @@
 
     <nav>
       <a href="/" class="active">Home</a>
-      <a href="/about.html">About</a>
-      <a href="/blog/">Blog</a>
-      <a href="/contact.html">Contact</a>
+      <a href="/agents.html">Agent Roster</a>
+      <a href="/contact.html">A2AC Bridge</a>
       <a href="https://philhills.ai" target="_blank" style="color: #00ff41; font-weight: 600;">Technical Labs →</a>
     </nav>
   </header>
@@ -114,14 +186,45 @@
       </p>
 
       <div class="hero-actions">
-        <a class="btn btn-primary" href="/contact.html">Request Consultation</a>
+        <a class="btn btn-primary" href="/contact.html">Request A2AC Bridge</a>
+      </div>
+
+      <div class="ticker-box">
+        TOKENS SAVED (A2AC): <span id="total-tokens">CALCULATING...</span>
+      </div>
+    </section>
+
+    <!-- LIVE HEARTBEAT -->
+    <section>
+      <div class="terminal-window">
+        <div class="terminal-header">
+          <div><span class="status-dot"></span>SWARM_MEMORY // LIVE_LEDGER</div>
+          <div>Q-PROTOCOL v2.0</div>
+        </div>
+        <table class="ledger-table">
+          <thead>
+            <tr>
+              <th>HASH</th>
+              <th>AGENT</th>
+              <th>TASK</th>
+              <th>SAVED</th>
+              <th>TIME (UTC)</th>
+            </tr>
+          </thead>
+          <tbody id="ledger-body">
+            <tr>
+              <td colspan="5">Connecting to Swarm Memory...</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
     <section
       style="background-color: rgba(0, 255, 136, 0.1); border-left: 4px solid #00ff88; padding: 2rem; margin: 2rem auto; max-width: 800px;">
-      <h2 style="margin-top: 0;">The Speed Divide</h2>
-      <p>40% of leads are lost because no one answers instantly. We fix that with math, not more humans.</p>
+      <h2 style="margin-top: 0;">The Glass Server</h2>
+      <p>This site is a read-only view into an active Agentic Swarm. Every action above is a real compute task verified
+        by the Q-Protocol.</p>
     </section>
 
     <section>
@@ -134,14 +237,14 @@
         </div>
 
         <div class="card" style="border-color: #00ff88;">
-          <h3 style="color: #00ff88;">Corporate Treasury Logic</h3>
-          <p>Automated decision engines for asset management and capital allocation.</p>
-          <a class="inline-link" href="/products/trading-bot.html">View Logic →</a>
+          <h3 style="color: #00ff88;">Q-Protocol Governance</h3>
+          <p>Constitutional AI layers ensuring human-monitored dispute resolution and verified state transitions.</p>
+          <a class="inline-link" href="/whitepaper/The_Q_Protocol.pdf">Read Whitepaper →</a>
         </div>
 
         <div class="card" style="border-color: #ff4444;">
           <h3 style="color: #ff4444;">Deep Security Audit</h3>
-          <p>Continuous adversarial testing (Red Teaming) for network safety.</p>
+          <p>Continuous adversarial testing (Red Teaming) for network safety by Sentinel Agents.</p>
           <a class="inline-link" href="/products/chimera-hunter.html">View Protocol →</a>
         </div>
 
@@ -166,22 +269,28 @@
       </div>
     </section>
 
-    <section
-      style="background-color: #fffaf0; color: #333; border-left: 4px solid #ffd700; padding: 2rem; margin: 2rem auto; max-width: 800px;">
-      <h2 style="font-size: 2rem; margin-bottom: 20px; color: #333;">Built for Safety</h2>
-      <p
-        style="color: #333; font-size: 1.1rem; line-height: 1.6; max-width: 700px; margin: 0 auto; opacity: 1; font-weight: 500;">
-        We don't just automate; we protect your reputation. A deterministic approach to AI ensuring strict compliance
-        and verification.
-      </p>
+    <!-- Q-PROTOCOL & A2AC DETAILS -->
+    <section style="margin-top: 4rem;">
+      <h2>The Architecture</h2>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+        <div style="background: #fffaf0; padding: 20px; border-radius: 8px; border-left: 4px solid #ffd700;">
+          <h3 style="margin-top: 0;">Q-Protocol</h3>
+          <p>An EVM-compatible framework for decentralized governance. Unlike "Code is Law", Q integration a "Layer Q"
+            for enforceable private contracts and human dispute resolution.</p>
+        </div>
+        <div style="background: #f0f7ff; padding: 20px; border-radius: 8px; border-left: 4px solid #00f0ff;">
+          <h3 style="margin-top: 0;">A2AC Swarms</h3>
+          <p>The Agent-to-Agent Communication protocol standardizes how AI agents discover and interact. We rely on
+            "Agent Cards" and asynchronous work orders to coordinate complex tasks without human intervention.</p>
+        </div>
+      </div>
     </section>
 
   </main>
 
-  <!-- Phil Bot Widget -->
+  <!-- Phil Bot Widget (Preserved) -->
   <div id="phil-bot-widget"
     style="position: fixed; bottom: 32px; right: 32px; z-index: 9999; font-family: 'Inter', sans-serif;">
-    <!-- Chat Button -->
     <button id="chat-toggle" onclick="toggleChat()" style="
         width: 64px; height: 64px; border-radius: 50%; 
         background: linear-gradient(135deg, #00f0ff 0%, #8b5cf6 100%);
@@ -194,8 +303,7 @@
           fill="white" />
       </svg>
     </button>
-
-    <!-- Chat Window -->
+    <!-- Chat Window Content same as before -->
     <div id="chat-window" style="
         position: absolute; bottom: 80px; right: 0; width: 350px; height: 500px;
         background: #0f172a; border: 1px solid rgba(255, 255, 255, 0.1);
@@ -205,10 +313,8 @@
         backdrop-filter: blur(10px);
     ">
       <!-- Header -->
-      <div style="
-          padding: 20px; background: linear-gradient(135deg, rgba(0, 240, 255, 0.1), rgba(139, 92, 246, 0.1));
-          border-bottom: 1px solid rgba(255, 255, 255, 0.1); display: flex; align-items: center; gap: 12px;
-      ">
+      <div
+        style="padding: 20px; background: linear-gradient(135deg, rgba(0, 240, 255, 0.1), rgba(139, 92, 246, 0.1)); border-bottom: 1px solid rgba(255, 255, 255, 0.1); display: flex; align-items: center; gap: 12px;">
         <div
           style="width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(135deg, #00f0ff 0%, #8b5cf6 100%);">
         </div>
@@ -217,64 +323,81 @@
           <div style="font-size: 12px; color: rgba(255, 255, 255, 0.5);">Systems Architect Node</div>
         </div>
       </div>
-
-      <!-- Messages -->
       <div id="chat-messages"
-        style="flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 16px;">
-        <div
-          style="align-self: flex-start; padding: 12px 16px; background: rgba(255, 255, 255, 0.05); border-radius: 16px 16px 16px 4px; color: rgba(255, 255, 255, 0.9); font-size: 14px; line-height: 1.5;">
-          <strong>Hello.</strong> I am the AI Logic representation of Phil's infrastructure.
-          <br><br>
-          I can explain the CUBE Protocol, our automation capability, or verify my identity.
-        </div>
-      </div>
-
-      <!-- Input -->
+        style="flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 16px;"></div>
       <div style="padding: 16px; border-top: 1px solid rgba(255, 255, 255, 0.1);">
         <form onsubmit="sendMessage(event)" style="display: flex; gap: 8px;">
-          <input type="text" id="chat-input" placeholder="Ask a question..." style="
-              flex: 1; padding: 12px; border-radius: 12px;
-              background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);
-              color: white; outline: none; transition: border-color 0.2s;
-              font-family: inherit; font-size: 14px;
-          " onfocus="this.style.borderColor = '#8b5cf6'" onblur="this.style.borderColor = 'rgba(255, 255, 255, 0.1)'">
-          <button type="submit" style="
-              width: 42px; border-radius: 12px; cursor: pointer; color: white; display: flex; align-items: center; justify-content: center;
-              background: linear-gradient(135deg, #00f0ff 0%, #8b5cf6 100%); border: none;
-          ">
-            →
-          </button>
+          <input type="text" id="chat-input" placeholder="Ask a question..."
+            style="flex: 1; padding: 12px; border-radius: 12px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); color: white; outline: none;"
+            onfocus="this.style.borderColor = '#8b5cf6'" onblur="this.style.borderColor = 'rgba(255, 255, 255, 0.1)'">
+          <button type="submit"
+            style="width: 42px; border-radius: 12px; cursor: pointer; color: white; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #00f0ff 0%, #8b5cf6 100%); border: none;">→</button>
         </form>
       </div>
     </div>
   </div>
 
-  <!-- Chat Widget Script -->
+  <footer>
+    © <span id="year"></span> Phil Hills. Built with Cube Protocol. <br>
+    <a href="/whitepaper/The_Q_Protocol.pdf"
+      style="color: rgba(255,255,255,0.3); text-decoration: none; font-size: 0.8em;">Read the Q Protocol Whitepaper</a>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // LEDGER FETCH LOGIC
+    async function fetchLedger() {
+      try {
+        const response = await fetch('/ledger.json');
+        const data = await response.json();
+        const tbody = document.getElementById('ledger-body');
+        const totalDisplay = document.getElementById('total-tokens');
+
+        tbody.innerHTML = '';
+        let totalSaved = 0;
+
+        data.slice(0, 10).forEach(block => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+                    <td class="hash">${block.hash.substring(0, 10)}...</td>
+                    <td class="agent">${block.agent}</td>
+                    <td class="task">${block.task}</td>
+                    <td>${block.tokens_saved}</td>
+                    <td class="timestamp">${new Date(block.timestamp).toLocaleTimeString()}</td>
+                `;
+          tbody.appendChild(row);
+          totalSaved += block.tokens_saved || 0;
+        });
+
+        totalDisplay.innerText = totalSaved.toLocaleString();
+      } catch (e) {
+        console.error("Ledger Load Failed", e);
+        document.getElementById('ledger-body').innerHTML = '<tr><td colspan="5" style="color: #ff4444;">OFFLINE (Swarm Sync Pending)</td></tr>';
+      }
+    }
+
+    // Initial fetch
+    fetchLedger();
+    // Poll every 30s
+    setInterval(fetchLedger, 30000);
+
+    // Chat Logic (Preserved)
     let chatOpen = false;
     const API_URL = "https://cube-protocol-app-235894147478.us-central1.run.app/api/chat/phil";
     const history = [];
-
-    // Configure Marked
-    marked.setOptions({
-      breaks: true, // Enable line breaks
-      gfm: true     // GitHub Flavored Markdown
-    });
+    marked.setOptions({ breaks: true, gfm: true });
 
     function toggleChat() {
       chatOpen = !chatOpen;
       const window = document.getElementById('chat-window');
       const btn = document.getElementById('chat-toggle');
-
       if (chatOpen) {
         window.style.display = 'flex';
         window.style.opacity = '0';
         window.style.transform = 'scale(0.9)';
-        requestAnimationFrame(() => {
-          window.style.opacity = '1';
-          window.style.transform = 'scale(1)';
-        });
+        requestAnimationFrame(() => { window.style.opacity = '1'; window.style.transform = 'scale(1)'; });
         btn.style.transform = 'rotate(45deg)';
         document.getElementById('chat-input').focus();
       } else {
@@ -290,37 +413,27 @@
       const input = document.getElementById('chat-input');
       const message = input.value.trim();
       if (!message) return;
-
-      // Add User Message
       appendMessage('user', message);
       input.value = '';
       history.push({ role: 'user', content: message });
-
-      // Show Typing Indicator
       const typingId = appendTyping();
-
       try {
         const response = await fetch(API_URL, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ message: message, history: history })
         });
-
         const data = await response.json();
-
-        // Remove Typing
         document.getElementById(typingId).remove();
-
         if (data.response) {
           appendMessage('model', data.response);
           history.push({ role: 'model', content: data.response });
         } else {
-          appendMessage('model', "Connection disrupted. Please try again.");
+          appendMessage('model', "Connection disrupted.");
         }
       } catch (err) {
         document.getElementById(typingId).remove();
-        appendMessage('model', "Unable to connect. Please check your internet.");
-        console.error(err);
+        appendMessage('model', "Unable to connect.");
       }
     }
 
@@ -328,28 +441,16 @@
       const div = document.createElement('div');
       const isUser = role === 'user';
       div.style.cssText = `
-            align-self: ${isUser ? 'flex-end' : 'flex-start'};
-            max-width: 80%; padding: 12px 16px;
-            background: ${isUser ? 'linear-gradient(135deg, #00f0ff 0%, #8b5cf6 100%)' : 'rgba(255, 255, 255, 0.05)'};
-            border-radius: ${isUser ? '16px 16px 4px 16px' : '16px 16px 16px 4px'};
-            color: ${isUser ? 'white' : 'rgba(255, 255, 255, 0.9)'};
-            font-size: 14px; line-height: 1.5;
-            box-shadow: ${isUser ? '0 4px 12px rgba(0, 240, 255, 0.2)' : 'none'};
-            overflow-wrap: break-word;
-        `;
-
-      // Parse Markdown
+           align-self: ${isUser ? 'flex-end' : 'flex-start'};
+           max-width: 80%; padding: 12px 16px;
+           background: ${isUser ? 'linear-gradient(135deg, #00f0ff 0%, #8b5cf6 100%)' : 'rgba(255, 255, 255, 0.05)'};
+           border-radius: ${isUser ? '16px 16px 4px 16px' : '16px 16px 16px 4px'};
+           color: ${isUser ? 'white' : 'rgba(255, 255, 255, 0.9)'};
+           font-size: 14px; line-height: 1.5;
+           box-shadow: ${isUser ? '0 4px 12px rgba(0, 240, 255, 0.2)' : 'none'};
+           overflow-wrap: break-word;
+       `;
       div.innerHTML = marked.parse(text);
-
-      // Styling fix for paragraphs inside markdown
-      const paragraphs = div.getElementsByTagName('p');
-      for (let p of paragraphs) {
-        p.style.margin = '0 0 8px 0';
-        if (p.nextElementSibling === null) { // Check if it's the last child
-          p.style.marginBottom = '0';
-        }
-      }
-
       document.getElementById('chat-messages').appendChild(div);
       div.scrollIntoView({ behavior: 'smooth' });
     }
@@ -359,25 +460,15 @@
       const div = document.createElement('div');
       div.id = id;
       div.style.cssText = `
-            align-self: flex-start; padding: 12px 16px;
-            background: rgba(255, 255, 255, 0.05); border-radius: 16px 16px 16px 4px;
-            color: rgba(255, 255, 255, 0.5); font-size: 12px; font-style: italic;
-        `;
+           align-self: flex-start; padding: 12px 16px;
+           background: rgba(255, 255, 255, 0.05); border-radius: 16px 16px 16px 4px;
+           color: rgba(255, 255, 255, 0.5); font-size: 12px; font-style: italic;
+       `;
       div.innerText = 'Thinking...';
       document.getElementById('chat-messages').appendChild(div);
       div.scrollIntoView({ behavior: 'smooth' });
       return id;
     }
-  </script>
-
-  <footer>
-    © <span id="year"></span> Phil Hills. Built with Cube Protocol. <br>
-    <a href="/whitepaper/The_Q_Protocol.pdf"
-      style="color: rgba(255,255,255,0.3); text-decoration: none; font-size: 0.8em;">Read the Q Protocol Whitepaper</a>
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 
