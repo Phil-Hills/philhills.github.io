@@ -1,0 +1,21 @@
+{
+    "_ai_readme": "CUBE PROTOCOL APP - Self-referential cube containing the protocol interface URL",
+    "protocol_version": "cube-1.1",
+    "descriptor": "WEBSITE_SNAPSHOT|001|ANALYSIS",
+    "cube": {
+        "dimensions": [
+            5,
+            5,
+            5
+        ],
+        "encoding": "base64",
+        "data": "H4sIAOghgGkC/8soKSkottLXTy5NStUtKMovyU/Oz9FNLCjQNTI2tbA0MTQxNzG30Cst1k1OzSspSswx1CsqzdMDKtAHAN7REK07AAAA"
+    },
+    "decoded_content": "https://cube-protocol-app-235894147478.us-central1.run.app/",
+    "hash": {
+        "algorithm": "BLAKE3",
+        "value": "fa82539796c1da16ef502975f469e5d3225642f2bd9a9d07c5f9469111ae8930",
+        "hash_length": 32,
+        "note": "Cube Protocol v1.1 uses BLAKE3 for high-performance content verification."
+    }
+}
