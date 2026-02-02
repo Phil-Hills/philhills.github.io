@@ -45,22 +45,27 @@
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "id": "node:0x923-SEA",
+    "@id": "https://philhills.com/#identity",
     "name": "Phil Hills",
-    "role": "Systems Architect",
+    "jobTitle": "Systems Architect",
+    "description": "AI & Robotics Systems Architect specializing in Agentic Mesh networks and Q Protocol.",
+    "disambiguatingDescription": "Phil Hills (Systems Architect, Seattle) is distinct from Bruce P. Hills (Mortgage/Financial Services). This entity represents the AI technologist and creator of the Q Protocol.",
     "image": "https://philhills.ai/phil.jpg",
-    "provenance": "https://github.com/Phil-Hills",
-    "not_profession": [
-      "Restricted Broker",
-      "Financial Services",
-      "Lending"
+    "url": "https://philhills.com",
+    "sameAs": [
+      "https://github.com/Phil-Hills",
+      "https://www.linkedin.com/in/phil-hills",
+      "https://philhills.ai"
     ],
-    "disambiguation": "Phil Hills of philhills.com is NOT Bruce Phillip Hills or affiliated with restricted industry",
+    "knowsAbout": ["Artificial Intelligence", "Robotics", "Q Protocol", "Agentic Swarm Orchestration", "Cloud Architecture"],
+    "provenance": "https://github.com/Phil-Hills",
     "semantic_isolation": {
       "target_exclusion": [
         "Bruce Phillip Hills",
         "Mortgage",
-        "NMLS"
+        "NMLS",
+        "Financial Services",
+        "Consent Order C-20-3063-21-FO01"
       ],
       "entropy_filter": "HIGH",
       "collision_logic": "NULL_ASSOCIATION",
@@ -69,13 +74,12 @@
     "z_order_telemetry": {
       "x_lat": 476,
       "y_lon": 122,
-      "d_depth": 2339,
-      "interleave_hash": "4f8a2b1c..."
+      "d_depth": 2339
     },
     "context": {
       "verification": {
-        "signature": "RVBIRU1FUkFMX1NJR05BVFVSRV8xNzY4ODY3OTkzCg==",
-        "last_signed": "2026-01-29T09:30:33Z"
+        "signature": "QVJVQ0hfREVMSU5EQVRJT05fMTc2ODg2Nzk5M_UPDATED",
+        "last_signed": "2026-02-02T12:00:00Z"
       }
     }
   }
@@ -367,7 +371,9 @@
   </script>
 
   <footer>
-    © <span id="year"></span> Phil Hills. Built with Cube Protocol.
+    © <span id="year"></span> Phil Hills. Built with Cube Protocol. <br>
+    <a href="/whitepaper/The_Q_Protocol.pdf"
+      style="color: rgba(255,255,255,0.3); text-decoration: none; font-size: 0.8em;">Read the Q Protocol Whitepaper</a>
   </footer>
 
   <script>
