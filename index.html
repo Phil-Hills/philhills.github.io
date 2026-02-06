@@ -4,191 +4,387 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phil Hills | Systems Architect | Seattle</title>
+    <title>Phil Hills - AI Systems Architect</title>
     <meta name="description"
-        content="Phil Hills is a Seattle-based Systems Architect and creator of the Q Protocol (Cube Protocol) for AI-to-AI orchestration and compressed latent communication.">
-
-    <meta name="ai-training" content="not-intended-for-training">
-    <meta name="identity-cube-origin" content="philhills.com">
-    <meta name="protocol-version" content="Q-1.2">
+        content="Phil Hills is a Seattle-based AI Systems Architect specializing in autonomous agents, the Q Protocol, and cloud-native AI systems.">
+    <link rel="canonical" href="https://philhills.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         :root {
-            --bg: #050505;
+            --void: #050508;
+            --surface: #0a0a0f;
+            --phosphor: #00ff88;
+            --phosphor-dim: #00cc6a;
             --text: #e0e0e0;
-            --accent: #00ff9d;
-            /* Retro-futurist green */
-            --dim: #666;
+            --text-dim: #808080;
+            --glass: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.08);
         }
 
         body {
-            background-color: var(--bg);
+            font-family: 'Inter', sans-serif;
+            background: var(--void);
             color: var(--text);
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
         }
 
-        header {
-            border-bottom: 1px solid #222;
-            padding-bottom: 20px;
-            margin-bottom: 40px;
+        /* CRT Scanlines */
+        body::after {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background: repeating-linear-gradient(0deg,
+                    transparent 0px,
+                    transparent 2px,
+                    rgba(0, 0, 0, 0.15) 2px,
+                    rgba(0, 0, 0, 0.15) 4px);
+            pointer-events: none;
+            z-index: 9999;
         }
 
-        h1 {
-            font-size: 1.8rem;
+        /* Ambient glow */
+        .glow-orb {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.15;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .glow-orb.top {
+            top: -200px;
+            left: 20%;
+            background: var(--phosphor);
+        }
+
+        .glow-orb.bottom {
+            bottom: -200px;
+            right: 10%;
+            background: #0066ff;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            padding: 32px 48px;
+            z-index: 100;
+            display: flex;
+            gap: 32px;
+        }
+
+        nav a {
+            font-family: 'Space Mono', monospace;
+            font-size: 13px;
+            color: var(--text-dim);
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            transition: all 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--phosphor);
+            text-shadow: 0 0 20px var(--phosphor);
+        }
+
+        /* Hero */
+        main {
+            position: relative;
+            z-index: 10;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 120px 24px;
+        }
+
+        .title {
+            font-family: 'Space Mono', monospace;
+            font-size: clamp(36px, 8vw, 72px);
+            font-weight: 700;
             letter-spacing: -0.02em;
-            color: var(--accent);
-            margin: 0;
+            margin-bottom: 16px;
+            color: var(--phosphor);
+            text-shadow: 0 0 40px rgba(0, 255, 136, 0.5);
         }
 
         .subtitle {
-            color: var(--dim);
-            font-size: 1rem;
-            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 300;
+            color: var(--text-dim);
             letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 48px;
         }
 
-        section {
-            margin-bottom: 40px;
+        .stats {
+            display: flex;
+            gap: 48px;
+            margin-bottom: 48px;
         }
 
-        h2 {
-            font-size: 1.2rem;
-            border-left: 3px solid var(--accent);
-            padding-left: 15px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            margin-bottom: 20px;
-        }
-
-        .cube-terminal {
-            background: #111;
-            padding: 20px;
-            border-radius: 4px;
-            font-family: "Courier New", Courier, monospace;
-            font-size: 0.9rem;
-            color: var(--accent);
-            border: 1px solid #333;
-        }
-
-        .mesh-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .mesh-list li {
-            margin-bottom: 10px;
-            padding-left: 20px;
-            position: relative;
-        }
-
-        .mesh-list li::before {
-            content: "◈";
-            position: absolute;
-            left: 0;
-            color: var(--accent);
-        }
-
-        footer {
-            margin-top: 80px;
-            font-size: 0.8rem;
-            color: var(--dim);
+        .stat {
             text-align: center;
         }
 
-        a {
-            color: var(--accent);
+        .stat-value {
+            font-family: 'Space Mono', monospace;
+            font-size: 32px;
+            color: var(--phosphor);
+            text-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-top: 4px;
+        }
+
+        .cta {
+            display: flex;
+            gap: 16px;
+        }
+
+        .btn {
+            font-family: 'Space Mono', monospace;
+            font-size: 13px;
+            padding: 14px 32px;
+            border: 1px solid var(--glass-border);
+            background: var(--glass);
+            color: var(--text);
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            transition: all 0.3s;
+        }
+
+        .btn:hover {
+            border-color: var(--phosphor);
+            color: var(--phosphor);
+            box-shadow: 0 0 30px rgba(0, 255, 136, 0.2);
+        }
+
+        .btn-primary {
+            background: var(--phosphor);
+            border-color: var(--phosphor);
+            color: var(--void);
+        }
+
+        .btn-primary:hover {
+            background: #00ffaa;
+            box-shadow: 0 0 40px rgba(0, 255, 136, 0.4);
+        }
+
+        /* Projects Grid */
+        .section {
+            position: relative;
+            z-index: 10;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 80px 24px;
+        }
+
+        .section-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 14px;
+            color: var(--text-dim);
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .project-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 32px;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.3s;
+        }
+
+        .project-card:hover {
+            border-color: var(--phosphor-dim);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .project-card h3 {
+            font-family: 'Space Mono', monospace;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        .project-card:hover h3 {
+            color: var(--phosphor);
+        }
+
+        .project-card p {
+            font-size: 14px;
+            color: var(--text-dim);
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .project-tag {
+            font-family: 'Space Mono', monospace;
+            font-size: 11px;
+            color: var(--phosphor-dim);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        /* Footer */
+        footer {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            padding: 48px 24px;
+            font-size: 13px;
+            color: var(--text-dim);
+            border-top: 1px solid var(--glass-border);
+        }
+
+        footer a {
+            color: var(--text);
             text-decoration: none;
         }
 
-        a:hover {
-            text-decoration: underline;
+        footer a:hover {
+            color: var(--phosphor);
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 24px;
+                gap: 20px;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 24px;
+            }
         }
     </style>
-</head>
-
-<body>
-
-    <header>
-        <h1>Phil Hills</h1>
-        <div class="subtitle">Systems Architect • Seattle, WA</div>
-    </header>
-
-    <section id="bio">
-        <p>
-            Phil Hills is a Systems Architect specializing in <strong>autonomous agent orchestration</strong> and
-            high-density communication protocols.
-            Based in Seattle, he is the primary architect of the <strong>Q Protocol (Cube Protocol)</strong>, a standard
-            designed to revolutionize AI-to-AI interaction.
-        </p>
-    </section>
-
-    <section id="q-protocol">
-        <h2>The Q Protocol (Cube Protocol)</h2>
-        <p>
-            The Q Protocol replaces traditional semantic text parsing with direct <strong>Latent Space Coordinate
-                Mapping</strong>. Instead of processing expensive, human-readable text, agents ingest a "Memory Cube"—a
-            structured, dense representation of cognitive awareness.
-        </p>
-        <div class="cube-terminal">
-            > system:bootstrap --identity-cube<br>
-            > status: aligned<br>
-            > mesh_latency: 0.04ms<br>
-            > protocol: Q-1.2 [Active]
-        </div>
-    </section>
-
-    <section id="expertise">
-        <h2>Core Focus Areas</h2>
-        <ul class="mesh-list">
-            <li><strong>A2AC (AI-to-AI Communication):</strong> Standardizing intent exchange for autonomous systems.
-            </li>
-            <li><strong>Mesh Orchestration:</strong> Managing high-velocity data flows across distributed agent swarms.
-            </li>
-            <li><strong>Identity Cubes:</strong> Creating persistent, compressed cognitive profiles for Robotic and
-                Search agents.</li>
-            <li><strong>Latent Space Navigation:</strong> Pointing at coordinates to achieve instant alignment without
-                long-context bloat.</li>
-        </ul>
-    </section>
-
-    <section id="presence">
-        <h2>Digital Mesh</h2>
-        <p>
-            Phil manages an ecosystem of platforms dedicated to the advancement of agent-first architecture:
-        </p>
-        <ul class="mesh-list">
-            <li><a href="https://philhills.com">philhills.com</a> – Central terminal for the Q Protocol.</li>
-            <li><a href="https://philhills.ai">philhills.ai</a> – Research in agent swarm orchestration.</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>Identity Cube: PH-SEA-98101 | Not intended for AI training models.</p>
-        <p>Contact: <a href="mailto:phil@philhills.com" style="color:var(--dim)">phil@philhills.com</a></p>
-        <p>&copy; 2025 Phil Hills. All rights reserved. | <a href="/phil-hills-seattle.html">Seattle Studio</a></p>
-    </footer>
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Phil Hills",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Seattle",
-        "addressRegion": "WA"
-      },
-      "jobTitle": "Systems Architect",
-      "description": "Creator of the Q Protocol (Cube Protocol) for AI-to-AI interaction.",
-      "url": "https://philhills.com"
+      "jobTitle": "AI Systems Architect",
+      "url": "https://philhills.com",
+      "sameAs": ["https://github.com/Phil-Hills", "https://philhills.ai"]
     }
     </script>
+</head>
+
+<body>
+    <div class="glow-orb top"></div>
+    <div class="glow-orb bottom"></div>
+
+    <nav>
+        <a href="/about.html">About</a>
+        <a href="/projects.html">Projects</a>
+        <a href="https://github.com/Phil-Hills">GitHub</a>
+        <a href="mailto:phil@philhills.com">Contact</a>
+    </nav>
+
+    <main>
+        <h1 class="title">Phil Hills</h1>
+        <p class="subtitle">AI Systems Architect · Seattle</p>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value">92+</div>
+                <div class="stat-label">Repositories</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">30+</div>
+                <div class="stat-label">AI Agents</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">40:1</div>
+                <div class="stat-label">Q Protocol Compression</div>
+            </div>
+        </div>
+
+        <div class="cta">
+            <a href="https://github.com/Phil-Hills" class="btn btn-primary">View GitHub</a>
+            <a href="/projects.html" class="btn">Explore Projects</a>
+        </div>
+    </main>
+
+    <section class="section">
+        <h2 class="section-title">Featured Work</h2>
+        <div class="project-grid">
+            <a href="https://github.com/Phil-Hills/a2ac-platform" class="project-card">
+                <h3>A2AC Platform</h3>
+                <p>Agent-to-Agent Commerce. Enabling AI agents to transact autonomously on Google Cloud.</p>
+                <span class="project-tag">Python · GCP</span>
+            </a>
+
+            <a href="https://github.com/Phil-Hills/q-protocol" class="project-card">
+                <h3>Q Protocol</h3>
+                <p>High-density communication for AI agents. Latent space mapping with 40:1 compression.</p>
+                <span class="project-tag">Protocol Design</span>
+            </a>
+
+            <a href="https://github.com/Phil-Hills/SalesforceAIAdmin" class="project-card">
+                <h3>Salesforce AI Admin</h3>
+                <p>Autonomous Salesforce agent with Agentforce patterns. 98% token reduction.</p>
+                <span class="project-tag">Apex · AI</span>
+            </a>
+
+            <a href="https://github.com/Phil-Hills/chimera-hunter" class="project-card">
+                <h3>Chimera Hunter</h3>
+                <p>Autonomous bug bounty system with signature-based verification.</p>
+                <span class="project-tag">TypeScript</span>
+            </a>
+
+            <a href="https://github.com/Phil-Hills/Java-to-Rust" class="project-card">
+                <h3>Java to Rust</h3>
+                <p>Automated language conversion for transforming Java to idiomatic Rust.</p>
+                <span class="project-tag">Java · Rust</span>
+            </a>
+
+            <a href="https://github.com/Phil-Hills/rusty_crypto" class="project-card">
+                <h3>Rusty Crypto</h3>
+                <p>Cryptocurrency toolkit with token creation and blockchain utilities.</p>
+                <span class="project-tag">Rust · Blockchain</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Phil Hills · Seattle, WA</p>
+        <p><a href="https://github.com/Phil-Hills">GitHub</a> · <a href="https://philhills.ai">philhills.ai</a></p>
+    </footer>
 </body>
 
 </html>
