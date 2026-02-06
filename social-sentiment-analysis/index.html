@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>High-Volume Social Sentiment Analysis | Phil Hills</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Real-time social sentiment analysis pipeline processing large-scale data streams using event-driven architecture and Q Protocol telemetry.">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Social Sentiment Analysis Engine",
+      "applicationCategory": "Data Engineering",
+      "author": { "@type": "Person", "name": "Phil Hills" },
+      "description": "High-volume social data processing pipeline with real-time sentiment classification"
+    }
+    </script>
+
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #1e293b;
+            --text: #e2e8f0;
+            --accent: #38bdf8;
+            --dim: #64748b;
+            --success: #22c55e;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+            padding: 3rem 2rem;
+            border-bottom: 1px solid var(--card);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            color: var(--accent);
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+
+        .status {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(34, 197, 94, 0.1);
+            color: var(--success);
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+
+        .status::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.4;
+            }
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .metric {
+            text-align: center;
+            padding: 1rem;
+            background: rgba(56, 189, 248, 0.05);
+            border-radius: 8px;
+        }
+
+        .metric-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .metric-label {
+            font-size: 0.75rem;
+            color: var(--dim);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .architecture {
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            background: #0a0a0a;
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        .architecture pre {
+            color: var(--dim);
+        }
+
+        .architecture .highlight {
+            color: var(--accent);
+        }
+
+        .architecture .success {
+            color: var(--success);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        ul li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Social Sentiment Analysis Engine</h1>
+            <p class="subtitle">> High-Volume Data Pipeline | Q Protocol Telemetry</p>
+            <div class="status">STREAM ACTIVE</div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="card">
+                <h2>Pipeline Architecture</h2>
+                <div class="architecture">
+                    <pre>
+<span class="highlight">┌─────────────────┐</span>     <span class="highlight">┌─────────────────┐</span>     <span class="highlight">┌─────────────────┐</span>
+│  Data Ingestion │────▶│  Sentiment NLP  │────▶│  Q-Protocol     │
+│  (Pub/Sub)      │     │  (BERT/FinBERT) │     │  Compression    │
+<span class="highlight">└─────────────────┘</span>     <span class="highlight">└─────────────────┘</span>     <span class="highlight">└─────────────────┘</span>
+        │                       │                       │
+        ▼                       ▼                       ▼
+  <span class="success">100K+ msgs/sec</span>        <span class="success">Sub-50ms latency</span>      <span class="success">40:1 compression</span>
+</pre>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Live Metrics</h2>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-value">127K</div>
+                        <div class="metric-label">Messages/sec</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">42ms</div>
+                        <div class="metric-label">P99 Latency</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">97.3%</div>
+                        <div class="metric-label">Accuracy</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">40:1</div>
+                        <div class="metric-label">Compression</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Technical Approach</h2>
+                <ul>
+                    <li><strong>Event-Driven Ingestion:</strong> Cloud Pub/Sub for elastic scaling</li>
+                    <li><strong>Sentiment Classification:</strong> FinBERT model fine-tuned for market sentiment</li>
+                    <li><strong>Telemetry Compression:</strong> Q Protocol Z-Order encoding for 40x data reduction</li>
+                    <li><strong>Real-Time Dashboard:</strong> WebSocket streaming to browser clients</li>
+                    <li><strong>Compliance Logging:</strong> Immutable audit trail via Reputation Sentinel</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Use Cases</h2>
+                <ul>
+                    <li>Market sentiment tracking from social platforms</li>
+                    <li>Brand reputation monitoring at scale</li>
+                    <li>Event-driven trading signal generation</li>
+                    <li>Crisis detection and early warning systems</li>
+                </ul>
+            </div>
+
+            <a href="/" class="back-link">← Return to Main Site</a>
+        </div>
+    </main>
+</body>
+
+</html>

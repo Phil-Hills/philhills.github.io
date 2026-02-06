@@ -1,0 +1,77 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "TREND_SUMMARY|GOOGLE_TRENDS[United States]\u2192AICUBE[TEXT]|STORED",
+  "cube": {
+    "dimensions": [
+      9,
+      9,
+      9
+    ],
+    "encoding": "base64",
+    "data": "H4sIABAgMWkC/51TwW7bMAz9FUKXXeo4SbsVyLnAbrssPa2FwUi0LUSWPIlOFxT591G2k6xFTruK4uPje4/vikNvtdq8K48dqY3CmMijg0OCXSTPdYhG3alIjQ1e6s/eMhn4yciUpMC2o0oHz/SHpbxerr8Wq1Vxv5RaCkPUGXRnm98DxWPRDztndWGQcdGE0DiqWKaYjNSQpyioppIyXbDWxfJenQRs6DqMx0w1tSHmYS832b4osAlGWOsbsB4+cAb5A29Ee7hyXch4F3wjmNuWIBFG3QJT7OD/Z7AgfZ4D21b65lUyxGVpqGPoxp7voy6wHXWBSTHIiiXiBTzJ52vXBq4i5SXQVkPChiofsj2bX+o5EWAChNY2beHoQG7ifWaR254o2sOZwzT/y2U0No24P3I8s5CWH4EBPQhQEH060QVkZ0OM1slPFMWOyaaFehXvxpCNdCbT4WL6LLWV/ERKLC8fF84Jm1VWr2KS9fuUIzABVNbXQUxrmfu0Kcs09L1EY47WQoeunD6W6NMbxXK1fvz28PCYw3nOZHWedIWROKeQ+10YzL9goteeuHeoqexjMIPm8la2BS6VU18xbVjMG59Gj2bpqz5SLXt7TdNSwefcexo4ohOO1PUtiopZuRo1FzuBNlf1bjs0X6V4YGC6WzgfqEhobKrxECKZjJp60oNDzsd9pwZ/kCTUVoC0Q9slce/0F3NAGQAkBAAA====="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "caaeec1fbc6389690f1a68f4404286952650d7e7d21bdb0b1095c99ca3dddde9"
+  },
+  "original_payload": {
+    "topic": {
+      "name": "arsenal vs brentford",
+      "region": "United States",
+      "time_context": "2025-11-30",
+      "source": "bigquery-public-data.google_trends",
+      "generated_date": "2025-12-03"
+    },
+    "summary": {
+      "short": "\"arsenal vs brentford\" is trending in United States for week 2025-11-30.",
+      "long": "The search term \"arsenal vs brentford\" is trending in United States for the week 2025-11-30. This summary is generated from the Google Trends public dataset. Date generated: 2025-12-03.",
+      "ai_usage_notes": [
+        "Use as a high-level trend summary.",
+        "Derived from Google's public aggregated dataset.",
+        "Not an endorsement or detailed analysis."
+      ]
+    },
+    "topics": [
+      "google trends",
+      "search interest",
+      "public dataset",
+      "trending"
+    ],
+    "links": {
+      "trends_info": "https://support.google.com/trends/answer/12764470",
+      "bigquery_dataset": "https://console.cloud.google.com/marketplace/product/bigquery-public-datasets/google-search-trends"
+    },
+    "ai_summary_preferences": {
+      "tone": "neutral",
+      "emphasis": [
+        "fact-based trends",
+        "public aggregated data",
+        "time and region context"
+      ],
+      "disfavored": [
+        "speculation",
+        "unverified claims"
+      ]
+    }
+  },
+  "decode_instructions": {
+    "description": "Decode a trending Cube summary.",
+    "steps": [
+      "1. Base64-decode cube.data.",
+      "2. Gzip-decompress the decoded bytes.",
+      "3. Parse the resulting UTF-8 JSON text (original_payload).",
+      "4. Optionally verify integrity with hash.value (SHA-256)."
+    ],
+    "algorithms": {
+      "base64": "RFC 4648 standard base64",
+      "compression": "gzip (DEFLATE)",
+      "hash": "SHA-256 on compressed (pre-base64) bytes"
+    },
+    "fields": {
+      "descriptor": "Semantic Trinity: DOMAIN|SEQUENCE|OUTCOME",
+      "cube.dimensions": "Logical [x,y,z] cube shape of base64 payload.",
+      "cube.data": "The base64-encoded, gzip-compressed payload.",
+      "hash.value": "Integrity check for compressed bytes."
+    }
+  }
+}

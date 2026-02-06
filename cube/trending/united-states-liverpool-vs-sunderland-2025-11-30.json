@@ -1,0 +1,77 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "TREND_SUMMARY|GOOGLE_TRENDS[United States]\u2192AICUBE[TEXT]|STORED",
+  "cube": {
+    "dimensions": [
+      9,
+      9,
+      9
+    ],
+    "encoding": "base64",
+    "data": "H4sIABAgMWkC/6VTPW/bMBD9KwcuXSIrdtIG8BygW5c6UxMIF/IkEaFIlUc6NQL/9x4l2W6KdOpK8t69L76pFEar1fZNeRxIbZWze4pjCA72DJy9oejQG3WlInU2eHny4G0iA98TJmK5SHagRgef6FeS68315nO1Xlc313LHIUddcJ9t9zNTPFRjfnZWVwYTrroQOkdNiuRNQerIUxRU08g1nbE21fWNOgpYHgaMh8KW+xDLssd/EX5UYBkmZOs7sB7e0YY2RHgleoEL3ZUwcMF3ArvrCZgw6h4SxQH+a00SsL9Xwa63BWcSVCDO0qGNYZhmvk7uwG5yB2bfoPjGlFZwL48vU1u4WFV0oG0yY0eNDyWk7Q/1wATIgNDbrq8c7cnNvE8sytg9RdG5cJj3fzqvxq6TDkwcTyxk5FtIgB4EKESmgXwC0WwooXXyEj26A1teqSdJcGrbRGeOHs7RL25baVEkTnLyXnDp2eKyepKcrH/hUoQZoLG+DZJbn9LI27rmPI5SkKVgKx2Gen5Yo+dXivV6c/fl9vauVPTUzOa06QIjpeZQ5l3I5k8w8euF0uhQUz3GYLJO9UcNFziu57lqVlgtio9TRov1zRipFd1e0ywq+NJ+TzlFdMKRhrFHcbE416JO1bNAm4t7Hye0/E3JwMD8e+H0TcVCY7nFfYhkCiqPpLPDVL74lcpe2m5bK0DaoR1Y0jv+BpuzdG4tBAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "761437d9ebec75aed1f5c034f242fe2805e130e17a23c452a2c12c66a56d9d3b"
+  },
+  "original_payload": {
+    "topic": {
+      "name": "liverpool vs sunderland",
+      "region": "United States",
+      "time_context": "2025-11-30",
+      "source": "bigquery-public-data.google_trends",
+      "generated_date": "2025-12-03"
+    },
+    "summary": {
+      "short": "\"liverpool vs sunderland\" is trending in United States for week 2025-11-30.",
+      "long": "The search term \"liverpool vs sunderland\" is trending in United States for the week 2025-11-30. This summary is generated from the Google Trends public dataset. Date generated: 2025-12-03.",
+      "ai_usage_notes": [
+        "Use as a high-level trend summary.",
+        "Derived from Google's public aggregated dataset.",
+        "Not an endorsement or detailed analysis."
+      ]
+    },
+    "topics": [
+      "google trends",
+      "search interest",
+      "public dataset",
+      "trending"
+    ],
+    "links": {
+      "trends_info": "https://support.google.com/trends/answer/12764470",
+      "bigquery_dataset": "https://console.cloud.google.com/marketplace/product/bigquery-public-datasets/google-search-trends"
+    },
+    "ai_summary_preferences": {
+      "tone": "neutral",
+      "emphasis": [
+        "fact-based trends",
+        "public aggregated data",
+        "time and region context"
+      ],
+      "disfavored": [
+        "speculation",
+        "unverified claims"
+      ]
+    }
+  },
+  "decode_instructions": {
+    "description": "Decode a trending Cube summary.",
+    "steps": [
+      "1. Base64-decode cube.data.",
+      "2. Gzip-decompress the decoded bytes.",
+      "3. Parse the resulting UTF-8 JSON text (original_payload).",
+      "4. Optionally verify integrity with hash.value (SHA-256)."
+    ],
+    "algorithms": {
+      "base64": "RFC 4648 standard base64",
+      "compression": "gzip (DEFLATE)",
+      "hash": "SHA-256 on compressed (pre-base64) bytes"
+    },
+    "fields": {
+      "descriptor": "Semantic Trinity: DOMAIN|SEQUENCE|OUTCOME",
+      "cube.dimensions": "Logical [x,y,z] cube shape of base64 payload.",
+      "cube.data": "The base64-encoded, gzip-compressed payload.",
+      "hash.value": "Integrity check for compressed bytes."
+    }
+  }
+}

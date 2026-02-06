@@ -81,7 +81,7 @@
 
                 subgraph "GROUND STATION (Air-Gapped Lab)"
                 D -.->|"Polling HTTPS"| E[Local Python Proxy];
-                E -->|Validate Signature| F{Identity Cube Check};
+                E -->|Validate Signature| F{Agent Voxel Check};
                 F --"Approved"--> G[SlideBook API Driver];
                 F --"Rejected"--> H[Safety Interlock Log & Drop];
                 end
@@ -122,7 +122,7 @@
             <h3>Ground Station: Air-Gapped Proxy</h3>
             <p>
                 The local Python proxy polls the cloud queue via HTTPS, validates cryptographic signatures using
-                <strong>Identity Cubes</strong>, and executes commands through the SlideBook API. Rejected commands
+                <strong>Agent Voxels</strong>, and executes commands through the SlideBook API. Rejected commands
                 trigger safety interlocks with full audit logging.
             </p>
 
@@ -171,8 +171,7 @@
                 facilities.
             </p>
             <div class="hero-actions">
-                <a class="btn btn-primary" href="https://cube-protocol-app-235894147478.us-central1.run.app/"
-                    target="_blank">Launch 3i-CUBE Controller</a>
+                <a class="btn btn-primary" href="/projects.html" target="_blank">View 3i-CUBE Project</a>
                 <a class="btn" href="https://philhills.com/identity.json" target="_blank">View Identity Manifest</a>
             </div>
         </section>

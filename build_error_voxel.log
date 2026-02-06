@@ -1,0 +1,1 @@
+﻿src/components/AgentVoxel.tsx(13,15): error TS6133: 'state' is declared but its value is never read.

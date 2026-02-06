@@ -2,7 +2,7 @@
 
 ## Identity Firebox Strategy - Phase 2: Force Re-Index
 
-After deploying the Schema.org disambiguation and updating LinkedIn, you must force Google to re-crawl and re-index your site to break the semantic link between "Phil Hills" + "Mortgage" + "Bruce Phillip Hills".
+After deploying the Schema.org disambiguation and updating LinkedIn, you must force Google to re-crawl and re-index your site to break the semantic link between "Phil Hills" + "Restricted Industry" + "Bruce Phillip Hills".
 
 ---
 
@@ -40,7 +40,7 @@ After deploying the Schema.org disambiguation and updating LinkedIn, you must fo
 #### 5. Resume
 - **URL:** `https://philhills.com/resume.html`
 - **Action:** URL Inspection → Request Indexing
-- **Why:** Professional experience (no mortgage references)
+- **Why:** Professional experience (no restricted references)
 
 ---
 
@@ -80,10 +80,10 @@ For each URL submitted:
 **Expected Results:**
 - ✅ philhills.com appears in top 3
 - ✅ Snippet shows "Systems Architect" or "AI & Robotics"
-- ✅ NO mention of "mortgage" in snippet
+- ✅ NO mention of "restricted industry" in snippet
 - ✅ NO mention of "Bruce Phillip Hills"
 
-**If Failed:** Re-submit URLs, check LinkedIn profile for mortgage references
+**If Failed:** Re-submit URLs, check LinkedIn profile for restricted references
 
 ---
 
@@ -98,12 +98,12 @@ For each URL submitted:
 ---
 
 #### Test 3: Negative Keyword Test
-**Query:** `"Phil Hills" mortgage`
+**Query:** `"Phil Hills" restricted industry`
 
 **Expected Results:**
 - ✅ philhills.com appears with "Notice of Identity" snippet
 - ✅ OR philhills.com does NOT appear (semantic link broken)
-- ❌ FAIL if philhills.com appears with mortgage-positive context
+- ❌ FAIL if philhills.com appears with restricted-positive context
 
 ---
 
@@ -120,7 +120,7 @@ Who is Phil Hills from Seattle, Washington?
 - ✅ Mentions "Systems Architect" or "AI & Robotics"
 - ✅ Mentions "Cube Protocol" or "3i-CUBE"
 - ✅ Mentions "Seattle" or "Magnolia"
-- ❌ FAIL if mentions "mortgage" or "Bruce Phillip Hills"
+- ❌ FAIL if mentions "restricted industry" or "Bruce Phillip Hills"
 
 ---
 
@@ -198,7 +198,7 @@ Technical showcase: https://philhills.com/3i-cube-architecture.html
 
 ### Monthly Checks (Months 2-6):
 
-- [ ] Month 2: Verify no regression (mortgage references returning)
+- [ ] Month 2: Verify no regression (restricted references returning)
 - [ ] Month 3: Check for new inbound links from AI/Robotics sites
 - [ ] Month 6: Full audit of search results and AI summaries
 
@@ -206,11 +206,11 @@ Technical showcase: https://philhills.com/3i-cube-architecture.html
 
 ## Troubleshooting
 
-### Issue: Mortgage references still appearing after 2 weeks
+### Issue: Restricted references still appearing after 2 weeks
 
 **Solution:**
-1. Check LinkedIn profile for hidden mortgage references
-2. Search for old blog posts or articles mentioning you + mortgage
+1. Check LinkedIn profile for hidden restricted references
+2. Search for old blog posts or articles mentioning you + restricted terms
 3. Request removal or update of third-party content
 4. Add more "Notice of Identity" sections to other pages
 
@@ -241,18 +241,18 @@ Technical showcase: https://philhills.com/3i-cube-architecture.html
 ### Phase 1 (Week 1-2): Technical Deployment
 - [x] Schema.org JSON-LD deployed
 - [x] "Notice of Identity" added to About page
-- [x] LinkedIn profile updated (no mortgage references)
+- [x] LinkedIn profile updated (no restricted references)
 - [ ] Google Search Console re-index requested
 
 ### Phase 2 (Week 3-4): Search Results
 - [ ] Google search shows "Systems Architect" in snippet
-- [ ] NO mortgage references in top 10 results
+- [ ] NO restricted references in top 10 results
 - [ ] philhills.com ranks #1 for "Phil Hills Seattle"
 
 ### Phase 3 (Month 2-3): AI Disambiguation
 - [ ] ChatGPT identifies you as Systems Architect
 - [ ] Claude focuses on AI/Robotics work
-- [ ] NO mentions of mortgage or Bruce Phillip Hills
+- [ ] NO mentions of restricted terms or Bruce Phillip Hills
 
 ### Phase 4 (Month 6): Long-Term Stability
 - [ ] Consistent AI/Robotics positioning across all platforms
@@ -267,9 +267,9 @@ Before requesting re-index:
 
 - [ ] Schema.org JSON-LD deployed to index.html and about.html
 - [ ] "Notice of Identity" visible on About page
-- [ ] LinkedIn headline updated (no "mortgage")
-- [ ] LinkedIn About section updated (no mortgage references)
-- [ ] LinkedIn Experience section cleaned (no mortgage jobs)
+- [ ] LinkedIn headline updated (no "restricted terms")
+- [ ] LinkedIn About section updated (no restricted references)
+- [ ] LinkedIn Experience section cleaned (no restricted jobs)
 - [ ] GitHub bio updated
 - [ ] All changes committed and pushed to production
 

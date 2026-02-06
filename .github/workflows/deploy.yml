@@ -1,4 +1,4 @@
-name: Deploy Static Site to GitHub Pages
+name: Build and Deploy Site to GitHub Pages
 
 on:
   push:
@@ -16,23 +16,76 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Clean install dependencies
+        run: |
+          rm -rf node_modules
+          npm ci --legacy-peer-deps
+
+      - name: Build React app
+        run: npm run build
+
+      - name: Merge static content with React build
+        run: |
+          echo "Copying static HTML files to dist/"
+          
+          # Copy all static HTML files from root
+          cp -v *.html dist/ 2>/dev/null || true
+          
+          # Copy CSS
+          cp -v style.css dist/ 2>/dev/null || true
+          
+          # Copy important directories
+          cp -rv docs dist/ 2>/dev/null || true
+          cp -rv blog dist/ 2>/dev/null || true
+          cp -rv agents dist/ 2>/dev/null || true
+          cp -rv ai dist/ 2>/dev/null || true
+          cp -rv author dist/ 2>/dev/null || true
+          cp -rv products dist/ 2>/dev/null || true
+          cp -rv trading dist/ 2>/dev/null || true
+          cp -rv clair dist/ 2>/dev/null || true
+          cp -rv cube dist/ 2>/dev/null || true
+          cp -rv outreach dist/ 2>/dev/null || true
+          cp -rv social-sentiment-analysis dist/ 2>/dev/null || true
+          
+          # Copy SEO and identity files
+          cp -v CNAME dist/ 2>/dev/null || true
+          cp -v robots.txt dist/ 2>/dev/null || true
+          cp -v sitemap.xml dist/ 2>/dev/null || true
+          cp -v favicon.ico dist/ 2>/dev/null || true
+          cp -v identity.json dist/ 2>/dev/null || true
+          cp -v feed.json dist/ 2>/dev/null || true
+          cp -v feed.xml dist/ 2>/dev/null || true
+          cp -v ai.txt dist/ 2>/dev/null || true
+          cp -v .nojekyll dist/ 2>/dev/null || true
+          
+          echo "--- Final dist/ contents ---"
+          ls -la dist/
+          echo "--- Docs directory ---"
+          ls -la dist/docs/ 2>/dev/null || echo "No docs/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: './dist'
 
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

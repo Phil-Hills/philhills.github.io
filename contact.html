@@ -66,17 +66,17 @@
       <div class="brand-mark">PH</div>
       <div class="brand-text">
         <span>Phil Hills</span>
-        <span>AI & Robotics Systems Architect</span>
+        <span>AI Systems Architect</span>
       </div>
     </div>
 
     <nav>
-      <a href="/">Home</a>
       <a href="/about.html">About</a>
       <a href="/cube-protocol.html">Cube Protocol</a>
       <a href="/projects.html">Projects</a>
       <a href="/resume.html">Resume</a>
-      <a href="/contact.html">Contact</a>
+      <a href="/contact.html" class="active">Contact</a>
+      <a href="https://philhills.ai" target="_blank" style="color: #00ff41; font-weight: 600;">Technical Labs →</a>
     </nav>
   </header>
 
@@ -84,13 +84,81 @@
     <h1>Contact</h1>
     <p>Get in touch professionally through the channels below.</p>
 
-    <h2>Email</h2>
+    <div class="card" style="margin-top: 40px; border-color: #7000ff; max-width: 600px;">
+      <h3 style="color: #7000ff;">Start Automation Project</h3>
+      <form action="https://cube-protocol-app-235894147478.us-central1.run.app/api/leads" method="POST"
+        style="margin-top: 20px;">
+        <!-- Replace ACTION with your Formspree/Netlify endpoint -->
+
+        <div style="margin-bottom: 15px;">
+          <label style="display: block; margin-bottom: 5px; color: #ccc;">Name</label>
+          <input type="text" name="name" required
+            style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.2); color: white;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <label style="display: block; margin-bottom: 5px; color: #ccc;">Work Email</label>
+          <input type="email" name="email" required
+            style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.2); color: white;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+          <label style="display: block; margin-bottom: 5px; color: #ccc;">Message</label>
+          <textarea name="message" rows="4"
+            style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.2); color: white;"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; border: none;">Send Inquiry</button>
+      </form>
+      <div id="form-response"
+        style="display:none; margin-top: 20px; padding: 15px; border-radius: 8px; background: rgba(45, 212, 191, 0.1); border: 1px solid #2dd4bf; color: #fff;">
+      </div>
+
+      <script>
+        document.querySelector('form').addEventListener('submit', async function (e) {
+          e.preventDefault();
+          const form = e.target;
+          const btn = form.querySelector('button');
+          const originalText = btn.innerText;
+          const responseDiv = document.getElementById('form-response');
+
+          btn.innerText = 'Sending...';
+          btn.disabled = true;
+          responseDiv.style.display = 'none';
+
+          try {
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+
+            const response = await fetch(form.action, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+              responseDiv.innerHTML = `<strong>${result.message}</strong><br><br>${result.next_steps}`;
+              responseDiv.style.display = 'block';
+              form.reset();
+              btn.innerText = 'Sent';
+            } else {
+              throw new Error(result.error || 'Submission failed');
+            }
+          } catch (err) {
+            responseDiv.innerHTML = `<span style="color: #ef4444;">Error: ${err.message}</span>`;
+            responseDiv.style.display = 'block';
+            btn.innerText = originalText;
+            btn.disabled = false;
+          }
+        });
+      </script>
+    </div>
+
+    <h2>Other Channels</h2>
     <p><a href="mailto:phil@philhills.com">phil@philhills.com</a></p>
-
-    <h2>GitHub</h2>
     <p><a href="https://github.com/Phil-Hills" target="_blank">github.com/Phil-Hills</a></p>
-
-    <h2>LinkedIn</h2>
     <p><a href="https://www.linkedin.com/in/philhills" target="_blank">linkedin.com/in/philhills</a></p>
 
   </main>

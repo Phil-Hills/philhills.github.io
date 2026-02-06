@@ -1,4 +1,6 @@
 User-agent: *
+Disallow: /*.pdf$
+Disallow: /restricted/
 Allow: /
 
 # Canonical Identity Files (High Priority for AI Indexing)

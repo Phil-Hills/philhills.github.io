@@ -3,7 +3,7 @@
 ## Immediate Actions Required
 
 ### 1. Headline (160 characters max)
-**Current (if contains "mortgage"):** [REMOVE IMMEDIATELY]
+**Current (if contains "restricted terms"):** [REMOVE IMMEDIATELY]
 
 **New Headline:**
 ```
@@ -20,8 +20,8 @@ Systems Architect | Cube Protocol v1.2 | AI & Robotics Telemetry | Seattle
 ### 2. About Section
 
 **REMOVE ALL REFERENCES TO:**
-- Movement Mortgage
-- Mortgage industry
+- Restricted Organizations
+- Restricted Industry
 - Financial services
 - Any mention of "Bruce Phillip Hills"
 
@@ -56,7 +56,7 @@ Based in the Magnolia neighborhood, I work at the intersection of biological dat
 
 ---
 
-NOTICE: Phil Hills of philhills.com is a Systems Architect and Protocol Engineer. He is NOT affiliated with the mortgage brokerage industry, nor is he the individual "Bruce Phillip Hills" mentioned in legacy financial records. His work is strictly limited to Artificial Intelligence, Robotics, and the development of the Cube Protocol.
+NOTICE: Phil Hills of philhills.com is a Systems Architect and Protocol Engineer. He is NOT affiliated with the restricted brokerage industry, nor is he the individual "Bruce Phillip Hills" mentioned in legacy financial records. His work is strictly limited to Artificial Intelligence, Robotics, and the development of the Cube Protocol.
 ```
 
 ---
@@ -64,8 +64,8 @@ NOTICE: Phil Hills of philhills.com is a Systems Architect and Protocol Engineer
 ### 3. Experience Section
 
 **REMOVE:**
-- Any positions at Movement Mortgage or other financial institutions
-- Any mortgage-related job titles
+- Any posPhil Hills (Loan Officer) financial institutions
+- Any restricted job titles
 
 **ADD/UPDATE:**
 
@@ -86,7 +86,7 @@ NOTICE: Phil Hills of philhills.com is a Systems Architect and Protocol Engineer
 ### 4. Skills Section
 
 **REMOVE:**
-- Mortgage lending
+- Restricted lending
 - Financial analysis
 - Any finance-related skills
 
@@ -144,7 +144,7 @@ NOTICE: Phil Hills of philhills.com is a Systems Architect and Protocol Engineer
 - Anyone who can speak to your AI/Robotics work
 
 **Hide or remove recommendations that mention:**
-- Mortgage industry
+- Restricted Industry
 - Financial services
 - Any connection to Bruce Phillip Hills
 
@@ -155,11 +155,11 @@ NOTICE: Phil Hills of philhills.com is a Systems Architect and Protocol Engineer
 These keywords should NEVER appear in your LinkedIn profile:
 
 ❌ **FORBIDDEN TERMS:**
-- Mortgage
+- Restricted Industry
 - Loan
 - Financial services
 - Bruce Phillip Hills
-- DFI (Department of Financial Institutions)
+- Regulatory Agencies
 - Lending
 - Real estate finance
 
@@ -181,18 +181,18 @@ After updating your LinkedIn:
 
 1. **Google Search Test:**
    - Search: `"Phil Hills" Seattle LinkedIn`
-   - Expected: NO mortgage references in snippet
+   - Expected: NO restricted references in snippet
    - Expected: AI & Robotics Systems Architect visible
 
 2. **LinkedIn URL Test:**
    - Visit: https://www.linkedin.com/in/philhills
-   - Verify: No "mortgage" in visible text
+   - Verify: No "restricted" in visible text
    - Verify: Headline shows "Systems Architect"
 
 3. **AI Summary Test (48 hours after update):**
    - Ask ChatGPT: "Who is Phil Hills from Seattle?"
    - Expected: Systems Architect, Cube Protocol
-   - NOT Expected: Mortgage, Bruce Phillip Hills
+   - NOT Expected: Restricted Industry, Bruce Phillip Hills
 
 ---
 
@@ -201,13 +201,13 @@ After updating your LinkedIn:
 **Immediate (Today):**
 - [ ] Update LinkedIn headline
 - [ ] Update About section
-- [ ] Remove mortgage-related experience
+- [ ] Remove restricted-related experience
 - [ ] Update skills section
 
 **Within 24 hours:**
 - [ ] Add Featured links (3i-CUBE, portfolio, GitHub)
 - [ ] Request new recommendations
-- [ ] Hide old mortgage-related recommendations
+- [ ] Hide old restricted-related recommendations
 
 **Within 48 hours:**
 - [ ] Post update announcing Cube Protocol work
@@ -239,4 +239,4 @@ Check out the technical showcase: https://philhills.com/3i-cube-architecture.htm
 
 ---
 
-**CRITICAL:** Complete all LinkedIn updates BEFORE requesting Google re-index. The semantic link between "Phil Hills" + "Mortgage" must be broken at the source.
+**CRITICAL:** Complete all LinkedIn updates BEFORE requesting Google re-index. The semantic link between "Phil Hills" + "Restricted Industry" must be broken at the source.

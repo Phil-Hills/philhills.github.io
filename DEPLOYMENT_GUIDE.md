@@ -57,7 +57,7 @@ curl https://philhills.com/identity.json
 ### 3. Content Audit Checklist
 
 **Fintech/Marketing References (MUST BE REMOVED):**
-- [ ] "Movement Mortgage" - VERIFY REMOVED
+- [ ] "Restricted Organizations" - VERIFY REMOVED
 - [ ] "Client journeys" - VERIFY REMOVED
 - [ ] "Fintech" - VERIFY REMOVED
 - [ ] "Marketing automation" - VERIFY REMOVED
@@ -151,7 +151,7 @@ Open in browser: https://philhills.com
 - [ ] First impression: "Systems Architect" (not fintech)
 - [ ] Hero section emphasizes CUBE Protocol
 - [ ] 3i-CUBE positioned as case study, not primary brand
-- [ ] NO mentions of "Movement Mortgage" or "marketing automation"
+- [ ] NO mentions of "marketing automation"
 
 **Technical Credibility Audit:**
 - [ ] Bio leads with Magnolia, Seattle location

@@ -5,7 +5,7 @@
 ### Files Modified (12 files)
 - `identity.json` - Updated with Seattle-native positioning and 3i-CUBE context
 - `index.html` - Restructured with "System & Applications" architecture
-- `projects.html` - Deep Tech showcase, removed fintech references
+- `projects.html` - [ ] Check `about.html` for specific industry references
 - `about.html` - Seattle-native bio with Magnolia/TruFusion context
 - `resume.html` - Deep Tech skills and 3i-CUBE as top project
 - `cube-protocol.html` - Updated brand header
@@ -42,7 +42,7 @@ git commit -m "Deep Tech reconstruction: System & Applications architecture
 - Positioned CUBE Protocol v1.2 as primary technology
 - Moved 3i-CUBE to Applications as flagship case study
 - Updated all pages with Deep Tech positioning
-- Removed all fintech/marketing references
+- Removed all restricted industry references
 - Added Magnolia/TruFusion context for local Seattle presence"
 
 # Push to GitHub
@@ -73,7 +73,7 @@ python3 -m http.server 8000
 - **Applications Section:** 3i-CUBE as "Case Study: Automating $500k LightSheet Microscopes"
 
 ### ✅ Content Transformation
-- **Removed:** All fintech/marketing references (Movement Mortgage, Financial Dataset Cubes)
+- **Removed:** All restricted industry references
 - **Added:** Deep Tech keywords (Scientific Telemetry, Physics-Informed AI, Quantum-Ready Data Structures)
 
 ### ✅ Seattle-Native Positioning
