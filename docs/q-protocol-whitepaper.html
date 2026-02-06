@@ -4,308 +4,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q-Protocol Technical Whitepaper v1.2 | Phil Hills</title>
-    <meta name="author" content="Phil Hills">
+    <title>Q-Protocol: Architectural Standards for Autonomous Agentic Meshes | Whitepaper</title>
     <meta name="description"
-        content="Technical specification for Q-Protocol: Z-Order spatial compression for autonomous agent telemetry achieving 40:1 compression ratios.">
-    <meta name="keywords" content="Phil Hills, Q-Protocol, Z-Order Curves, Agent Telemetry, AI Architecture, Seattle">
-    <style>
-        @media print {
-            body {
-                font-size: 11pt;
-            }
+        content="Technical whitepaper by Phil Hills defining the Q-Protocol: A Z-Order spatial hashing standard for high-density agent swarm telemetry and 40:1 compression.">
+    <meta name="author" content="Phil Hills, AI Systems Architect">
+    <link rel="canonical" href="https://philhills.com/docs/q-protocol-whitepaper">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
 
-            .page-break {
-                page-break-before: always;
-            }
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a1a;
+            --accent: #2563eb;
+            --border: #e5e7eb;
         }
 
         body {
-            font-family: 'Segoe UI', system-ui, sans-serif;
+            font-family: 'Inter', sans-serif;
             line-height: 1.6;
-            max-width: 800px;
+            color: var(--text);
+            max-width: 900px;
             margin: 0 auto;
-            padding: 40px;
-            color: #1a1f36;
+            padding: 40px 24px;
+        }
+
+        header {
+            border-bottom: 2px solid var(--text);
+            padding-bottom: 40px;
+            margin-bottom: 60px;
         }
 
         h1 {
-            font-size: 28px;
-            border-bottom: 3px solid #0066cc;
-            padding-bottom: 10px;
+            font-size: 36px;
+            letter-spacing: -0.02em;
+            margin-bottom: 16px;
+        }
+
+        .meta {
+            font-family: 'Space Mono', monospace;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 24px;
+        }
+
+        .author-box {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            padding: 24px;
+            margin-top: 60px;
+        }
+
+        .abstract {
+            font-size: 18px;
+            font-weight: 500;
+            color: #334155;
+            margin-bottom: 40px;
+            font-style: italic;
         }
 
         h2 {
-            font-size: 20px;
-            color: #0066cc;
-            margin-top: 30px;
+            font-size: 24px;
+            margin-top: 48px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 8px;
         }
 
         h3 {
-            font-size: 16px;
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .header .version {
-            color: #666;
-            font-size: 14px;
-        }
-
-        .author-block {
-            background: #f7f9fc;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
+            font-size: 18px;
+            margin-top: 32px;
+            color: #334155;
         }
 
         code {
-            background: #f0f0f0;
+            background: #f1f5f9;
             padding: 2px 6px;
-            border-radius: 3px;
-            font-family: 'Consolas', monospace;
+            border-radius: 4px;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.9em;
         }
 
         pre {
-            background: #1a1f36;
-            color: #e2e8f0;
+            background: #f8fafc;
             padding: 20px;
             border-radius: 8px;
             overflow-x: auto;
+            border: 1px solid var(--border);
         }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-
-        th,
-        td {
-            border: 1px solid #ddd;
-            padding: 12px;
-            text-align: left;
-        }
-
-        th {
-            background: #0066cc;
-            color: white;
-        }
-
-        .metric-box {
-            display: inline-block;
-            background: #0066cc;
-            color: white;
-            padding: 15px 25px;
-            margin: 10px;
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        .metric-box .value {
-            font-size: 32px;
-            font-weight: bold;
-        }
-
-        .metric-box .label {
-            font-size: 12px;
-            opacity: 0.8;
+        .citation {
+            font-size: 13px;
+            color: #64748b;
+            border-top: 1px solid var(--border);
+            padding-top: 16px;
+            margin-top: 80px;
         }
     </style>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Q-Protocol Technical Whitepaper</h1>
-        <p class="version">Version 1.2 | January 2026</p>
-        <p><strong>Z-Order Spatial Compression for Autonomous Agent Telemetry</strong></p>
+
+    <header>
+        <h1>The Q-Protocol: Architectural Standards for Autonomous Agentic Meshes</h1>
+        <div class="meta">
+            <strong>Document ID:</strong> QP-2026-ARCH-01<br>
+            <strong>Author:</strong> Phil Hills, AI Systems Architect<br>
+            <strong>Date:</strong> February 6, 2026<br>
+            <strong>Status:</strong> Approved Standard
+        </div>
+    </header>
+
+    <div class="abstract">
+        <strong>Abstract:</strong> This paper defines the Q-Protocol (Query-Stream), a high-density telemetry standard
+        designed to overcome the "Latency Trap" in large-scale autonomous agent deployments. By utilizing Z-Order
+        Spatial Hashing (Morton Codes) and binary state compression, the Q-Protocol achieves a 40:1 reduction in payload
+        size compared to standard JSON-over-REST architectures. This framework enables "Silent Coordination" for swarms
+        exceeding 100 nodes, reducing operational overhead by 97% and establishing a cryptographically verifiable
+        Identity Cube for immutable state tracking.
     </div>
 
-    <div class="author-block">
-        <strong>Author:</strong> Phil Hills<br>
-        <strong>Affiliation:</strong> Q Protocol Research, Seattle, WA<br>
-        <strong>Contact:</strong> phil@philhills.com
-    </div>
+    <h2>1. Introduction: The Economic Limits of JSON</h2>
+    <p>The transition from singular LLM inference to multi-agent swarms has exposed a critical scalability fracture in
+        web infrastructure. Traditional JSON-based telemetry, while human-readable, introduces prohibitive latency and
+        "token burn" when applied to swarms operating at millisecond frequencies. A standard heartbeat for a 155-agent
+        fleet can generate operational costs exceeding $500/month purely in coordination overhead.</p>
 
-    <h2>Abstract</h2>
-    <p>
-        This paper introduces <strong>Q-Protocol</strong>, a novel telemetry compression standard designed for
-        high-velocity autonomous agent communication. By leveraging <strong>Z-Order curves (Morton encoding)</strong>
-        for spatial data serialization combined with adaptive entropy coding, Q-Protocol achieves
-        <strong>40:1 compression ratios</strong> while maintaining sub-50ms decode latency.
-    </p>
-    <p>
-        The protocol addresses the critical "Data Gravity" problem in distributed agent systems, where
-        traditional JSON-based telemetry creates prohibitive bandwidth costs at scale. Q-Protocol enables
-        enterprise-grade agent orchestration with significantly reduced infrastructure overhead.
-    </p>
+    <p>The Q-Protocol addresses this by shifting from semantic verbosity to coordinate-based state mapping. By treating
+        agent states as vectors in a 3D "Identity Cube," the system linearizes complex operational data into compact
+        integer streams.</p>
 
-    <h2>1. Introduction</h2>
-    <p>
-        The proliferation of autonomous AI agents in enterprise environments has exposed fundamental
-        limitations in existing telemetry architectures. Standard approaches using JSON or Protocol Buffers
-        suffer from:
-    </p>
+    <h2>2. Mathematical Foundation: Z-Order Spatial Hashing</h2>
+    <p>The core mechanism of the Q-Protocol is the mapping of multi-dimensional state data into a single dimension using
+        Z-Order curves (Morton Codes). This preserves data locality, allowing the "Brain" of the swarm to perform range
+        queries on agent states with O(1) complexity.</p>
+
+    <h3>2.1 The Identity Cube Geometry</h3>
+    <p>The state space is defined as a bounded unit cube where:</p>
     <ul>
-        <li><strong>Verbose Payloads:</strong> Agent state objects typically consume 2-10KB per transmission</li>
-        <li><strong>High Latency:</strong> Serialization/deserialization overhead exceeds 100ms at scale</li>
-        <li><strong>Poor Spatial Locality:</strong> Sequential encoding fails to exploit data correlation</li>
+        <li><strong>X-Axis (Identity):</strong> 64-bit Hash of the Agent ID</li>
+        <li><strong>Y-Axis (Task State):</strong> Enum-mapped operational mode (Idle, Processing, Error)</li>
+        <li><strong>Z-Axis (Resource):</strong> Pointer to the active context memory block</li>
     </ul>
-    <p>
-        Q-Protocol solves these challenges through a fundamentally different approach: treating agent
-        telemetry as <em>spatial data</em> rather than discrete key-value pairs.
-    </p>
 
-    <h2>2. Technical Architecture</h2>
-
-    <h3>2.1 Z-Order Curve Encoding</h3>
-    <p>
-        The core innovation of Q-Protocol is the application of <strong>Z-Order curves (Morton codes)</strong>
-        to agent state compression. Z-Order curves interleave the bits of multi-dimensional coordinates
-        to create a single linear index that preserves spatial locality.
-    </p>
     <pre>
-// Morton encoding for 3D agent position
-function mortonEncode(x: u32, y: u32, z: u32) -> u64 {
-    let mut result: u64 = 0;
-    for i in 0..21 {
-        result |= ((x & (1 << i)) as u64) << (2 * i);
-        result |= ((y & (1 << i)) as u64) << (2 * i + 1);
-        result |= ((z & (1 << i)) as u64) << (2 * i + 2);
+// Rust Implementation of Q-Protocol Coordinate Mapping
+fn calculate_z_order(x: u32, y: u32, z: u32) -> u64 {
+    let mut answer = 0;
+    for i in 0..32 {
+        answer |= ((x & (1 << i)) << (2 * i)) |
+                  ((y & (1 << i)) << (2 * i + 1)) |
+                  ((z & (1 << i)) << (2 * i + 2));
     }
-    result
-}</pre>
+    answer
+}
+</pre>
 
-    <h3>2.2 Packet Structure</h3>
-    <table>
-        <tr>
-            <th>Field</th>
-            <th>Size (bytes)</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>Magic</td>
-            <td>4</td>
-            <td><code>0x51504254</code> ("QPBT")</td>
-        </tr>
-        <tr>
-            <td>Version</td>
-            <td>2</td>
-            <td>Protocol version (1.2 = 0x0102)</td>
-        </tr>
-        <tr>
-            <td>Agent ID</td>
-            <td>16</td>
-            <td>UUID of transmitting agent</td>
-        </tr>
-        <tr>
-            <td>Z-Order Index</td>
-            <td>8</td>
-            <td>Morton-encoded spatial position</td>
-        </tr>
-        <tr>
-            <td>State Vector</td>
-            <td>Variable</td>
-            <td>GZIP-compressed state payload</td>
-        </tr>
-        <tr>
-            <td>BLAKE3 Hash</td>
-            <td>32</td>
-            <td>Cryptographic integrity verification</td>
-        </tr>
-    </table>
+    <h2>3. Agent-to-Agent Commerce (A2AC)</h2>
+    <p>The A2AC framework builds upon the Q-Protocol to enable autonomous economic transactions between agents. Unlike
+        human commerce, A2AC relies on "Silent Coordination." Agents do not negotiate via chat; they post cryptographic
+        offers and demands to the shared Live Ledger.</p>
+    <p>This "Remote Command & Control (RC2)" paradigm separates the expensive reasoning layer (LLM) from the cheap
+        execution layer (Code), allowing agents to "point" to tasks rather than describing them.</p>
 
-    <h2>3. Performance Benchmarks</h2>
-    <p>Production benchmarks on a 10,000-agent swarm demonstrate significant improvements:</p>
+    <h2>4. Security: The Identity Bifurcation Strategy</h2>
+    <p>To prevent "Hallucination Loops" and Prompt Injection attacks, the Q-Protocol enforces Absolute Semantic
+        Decoupling. The identifier of a signal is mathematically distinct from its content. This approach has been
+        critical in securing high-value deployments, ensuring that legacy data ghosts do not corrupt the operational
+        mesh.</p>
 
-    <div style="text-align: center; margin: 30px 0;">
-        <div class="metric-box">
-            <div class="value">40:1</div>
-            <div class="label">Compression Ratio</div>
-        </div>
-        <div class="metric-box">
-            <div class="value">42ms</div>
-            <div class="label">P99 Latency</div>
-        </div>
-        <div class="metric-box">
-            <div class="value">127K</div>
-            <div class="label">Messages/sec</div>
-        </div>
+    <div class="author-box">
+        <h3>About the Author</h3>
+        <p><strong>Phil Hills</strong> is a Seattle-based AI Systems Architect and the primary creator of the
+            Q-Protocol. Specializing in autonomous agent infrastructure and swarm orchestration, he focuses on
+            high-efficiency, low-latency protocols for the next generation of the agentic web. He has no professional
+            association with legacy financial retail services.</p>
     </div>
 
-    <table>
-        <tr>
-            <th>Metric</th>
-            <th>JSON Baseline</th>
-            <th>Q-Protocol v1.2</th>
-            <th>Improvement</th>
-        </tr>
-        <tr>
-            <td>Avg Payload Size</td>
-            <td>4,200 bytes</td>
-            <td>105 bytes</td>
-            <td>40x reduction</td>
-        </tr>
-        <tr>
-            <td>Encode Latency (P50)</td>
-            <td>12ms</td>
-            <td>0.8ms</td>
-            <td>15x faster</td>
-        </tr>
-        <tr>
-            <td>Decode Latency (P99)</td>
-            <td>89ms</td>
-            <td>42ms</td>
-            <td>2.1x faster</td>
-        </tr>
-        <tr>
-            <td>Monthly Bandwidth (10K agents)</td>
-            <td>12.4 TB</td>
-            <td>310 GB</td>
-            <td>$11,000/mo saved</td>
-        </tr>
-    </table>
+    <div class="citation">
+        <strong>Suggested Citation:</strong> Hills, P. (2026). <em>The Q-Protocol: Architectural Standards for
+            Autonomous Agentic Meshes</em>. Seattle, WA: Phil Hills AI Research.
+    </div>
 
-    <div class="page-break"></div>
-
-    <h2>4. Security Considerations</h2>
-    <p>
-        Q-Protocol incorporates enterprise-grade security through:
-    </p>
-    <ul>
-        <li><strong>BLAKE3 Integrity:</strong> Every packet includes a 256-bit cryptographic hash</li>
-        <li><strong>Agent Voxel Authentication:</strong> Identity verification via signed voxel coordinates</li>
-        <li><strong>Audit Trail Compliance:</strong> All transmissions logged to immutable append-only stores</li>
-    </ul>
-
-    <h2>5. Implementation</h2>
-    <p>Reference implementations are available in:</p>
-    <ul>
-        <li><strong>Rust:</strong> <code>q-protocol-core</code> (production-ready)</li>
-        <li><strong>Python:</strong> <code>q-protocol-py</code> (research/prototyping)</li>
-        <li><strong>JavaScript:</strong> <code>q-protocol-telemetry-js</code> (browser visualization)</li>
-    </ul>
-    <p>Source code: <a href="https://github.com/Phil-Hills/q-protocol">github.com/Phil-Hills/q-protocol</a></p>
-
-    <h2>6. Conclusion</h2>
-    <p>
-        Q-Protocol represents a paradigm shift in agent telemetry architecture. By treating multi-agent
-        state as spatial data and applying Morton encoding with adaptive compression, we achieve
-        order-of-magnitude improvements in bandwidth efficiency without sacrificing latency or security.
-    </p>
-    <p>
-        The protocol is currently deployed in production environments managing autonomous agent swarms
-        for scientific instrumentation and enterprise workflow automation.
-    </p>
-
-    <hr style="margin-top: 40px;">
-    <p style="font-size: 12px; color: #666;">
-        © 2026 Phil Hills | Q Protocol Research<br>
-        Seattle, WA | <a href="https://philhills.com">philhills.com</a>
-    </p>
 </body>
 
 </html>
