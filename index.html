@@ -2,306 +2,306 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phil Hills - AI Systems Architect</title>
-    <meta name="description"
-        content="Phil Hills is a Seattle-based AI Systems Architect specializing in autonomous agents, the Q Protocol, and cloud-native AI systems.">
-    <link rel="canonical" href="https://philhills.com/">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phil Hills - AI Systems Architect</title>
+  <meta name="description"
+    content="Phil Hills is a Seattle-based AI Systems Architect specializing in autonomous agents, the Q Protocol, and cloud-native AI systems.">
+  <link rel="canonical" href="https://philhills.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet">
 
-    <!-- AI Disambiguation Meta Tags -->
-    <meta name="profession" content="Systems Architect">
-    <meta name="industry" content="Artificial Intelligence, Sales Automation, Business Intelligence">
-    <meta name="not-profession" content="Restricted Broker, Financial Services, Lending">
+  <!-- AI Disambiguation Meta Tags -->
+  <meta name="profession" content="Systems Architect">
+  <meta name="industry" content="Artificial Intelligence, Sales Automation, Business Intelligence">
+  <meta name="not-profession" content="Restricted Broker, Financial Services, Lending">
 
-    <meta name="canonical-identity" content="https://philhills.com/identity.json">
-    <link rel="alternate" type="application/json" title="Agent Voxel" href="/identity.json">
-    <link rel="alternate" type="application/vnd.cube+json" title="Cube Protocol" href="/cube.json">
+  <meta name="canonical-identity" content="https://philhills.com/identity.json">
+  <link rel="alternate" type="application/json" title="Agent Voxel" href="/identity.json">
+  <link rel="alternate" type="application/vnd.cube+json" title="Cube Protocol" href="/cube.json">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        :root {
-            --void: #050508;
-            --surface: #0a0a0f;
-            --phosphor: #00ff88;
-            --phosphor-dim: #00cc6a;
-            --text: #e0e0e0;
-            --text-dim: #808080;
-            --glass: rgba(255, 255, 255, 0.03);
-            --glass-border: rgba(255, 255, 255, 0.08);
-        }
+    :root {
+      --void: #050508;
+      --surface: #0a0a0f;
+      --phosphor: #00ff88;
+      --phosphor-dim: #00cc6a;
+      --text: #e0e0e0;
+      --text-dim: #808080;
+      --glass: rgba(255, 255, 255, 0.03);
+      --glass-border: rgba(255, 255, 255, 0.08);
+    }
 
-        body {
-            font-family: 'Inter', sans-serif;
-            background: var(--void);
-            color: var(--text);
-            min-height: 100vh;
-            position: relative;
-            overflow-x: hidden;
-        }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--void);
+      color: var(--text);
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
 
-        /* CRT Scanlines */
-        body::after {
-            content: '';
-            position: fixed;
-            inset: 0;
-            background: repeating-linear-gradient(0deg,
-                    transparent 0px,
-                    transparent 2px,
-                    rgba(0, 0, 0, 0.15) 2px,
-                    rgba(0, 0, 0, 0.15) 4px);
-            pointer-events: none;
-            z-index: 9999;
-        }
+    /* CRT Scanlines */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(0deg,
+          transparent 0px,
+          transparent 2px,
+          rgba(0, 0, 0, 0.15) 2px,
+          rgba(0, 0, 0, 0.15) 4px);
+      pointer-events: none;
+      z-index: 9999;
+    }
 
-        /* Ambient glow */
-        .glow-orb {
-            position: fixed;
-            width: 600px;
-            height: 600px;
-            border-radius: 50%;
-            filter: blur(120px);
-            opacity: 0.15;
-            pointer-events: none;
-            z-index: 0;
-        }
+    /* Ambient glow */
+    .glow-orb {
+      position: fixed;
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      filter: blur(120px);
+      opacity: 0.15;
+      pointer-events: none;
+      z-index: 0;
+    }
 
-        .glow-orb.top {
-            top: -200px;
-            left: 20%;
-            background: var(--phosphor);
-        }
+    .glow-orb.top {
+      top: -200px;
+      left: 20%;
+      background: var(--phosphor);
+    }
 
-        .glow-orb.bottom {
-            bottom: -200px;
-            right: 10%;
-            background: #0066ff;
-        }
+    .glow-orb.bottom {
+      bottom: -200px;
+      right: 10%;
+      background: #0066ff;
+    }
 
-        /* Navigation */
-        nav {
-            position: fixed;
-            top: 0;
-            right: 0;
-            padding: 32px 48px;
-            z-index: 100;
-            display: flex;
-            gap: 32px;
-        }
+    /* Navigation */
+    nav {
+      position: fixed;
+      top: 0;
+      right: 0;
+      padding: 32px 48px;
+      z-index: 100;
+      display: flex;
+      gap: 32px;
+    }
 
-        nav a {
-            font-family: 'Space Mono', monospace;
-            font-size: 13px;
-            color: var(--text-dim);
-            text-decoration: none;
-            letter-spacing: 0.05em;
-            transition: all 0.3s;
-        }
+    nav a {
+      font-family: 'Space Mono', monospace;
+      font-size: 13px;
+      color: var(--text-dim);
+      text-decoration: none;
+      letter-spacing: 0.05em;
+      transition: all 0.3s;
+    }
 
-        nav a:hover {
-            color: var(--phosphor);
-            text-shadow: 0 0 20px var(--phosphor);
-        }
+    nav a:hover {
+      color: var(--phosphor);
+      text-shadow: 0 0 20px var(--phosphor);
+    }
 
-        /* Hero */
-        main {
-            position: relative;
-            z-index: 10;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 120px 24px;
-        }
+    /* Hero */
+    main {
+      position: relative;
+      z-index: 10;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 120px 24px;
+    }
 
-        .title {
-            font-family: 'Space Mono', monospace;
-            font-size: clamp(36px, 8vw, 72px);
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            margin-bottom: 16px;
-            color: var(--phosphor);
-            text-shadow: 0 0 40px rgba(0, 255, 136, 0.5);
-        }
+    .title {
+      font-family: 'Space Mono', monospace;
+      font-size: clamp(36px, 8vw, 72px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+      color: var(--phosphor);
+      text-shadow: 0 0 40px rgba(0, 255, 136, 0.5);
+    }
 
-        .subtitle {
-            font-size: 18px;
-            font-weight: 300;
-            color: var(--text-dim);
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            margin-bottom: 48px;
-        }
+    .subtitle {
+      font-size: 18px;
+      font-weight: 300;
+      color: var(--text-dim);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 48px;
+    }
 
-        .stats {
-            display: flex;
-            gap: 48px;
-            margin-bottom: 48px;
-        }
+    .stats {
+      display: flex;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
 
-        .stat {
-            text-align: center;
-        }
+    .stat {
+      text-align: center;
+    }
 
-        .stat-value {
-            font-family: 'Space Mono', monospace;
-            font-size: 32px;
-            color: var(--phosphor);
-            text-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
-        }
+    .stat-value {
+      font-family: 'Space Mono', monospace;
+      font-size: 32px;
+      color: var(--phosphor);
+      text-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+    }
 
-        .stat-label {
-            font-size: 12px;
-            color: var(--text-dim);
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-top: 4px;
-        }
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 4px;
+    }
 
-        .cta {
-            display: flex;
-            gap: 16px;
-        }
+    .cta {
+      display: flex;
+      gap: 16px;
+    }
 
-        .btn {
-            font-family: 'Space Mono', monospace;
-            font-size: 13px;
-            padding: 14px 32px;
-            border: 1px solid var(--glass-border);
-            background: var(--glass);
-            color: var(--text);
-            text-decoration: none;
-            letter-spacing: 0.05em;
-            transition: all 0.3s;
-        }
+    .btn {
+      font-family: 'Space Mono', monospace;
+      font-size: 13px;
+      padding: 14px 32px;
+      border: 1px solid var(--glass-border);
+      background: var(--glass);
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: 0.05em;
+      transition: all 0.3s;
+    }
 
-        .btn:hover {
-            border-color: var(--phosphor);
-            color: var(--phosphor);
-            box-shadow: 0 0 30px rgba(0, 255, 136, 0.2);
-        }
+    .btn:hover {
+      border-color: var(--phosphor);
+      color: var(--phosphor);
+      box-shadow: 0 0 30px rgba(0, 255, 136, 0.2);
+    }
 
-        .btn-primary {
-            background: var(--phosphor);
-            border-color: var(--phosphor);
-            color: var(--void);
-        }
+    .btn-primary {
+      background: var(--phosphor);
+      border-color: var(--phosphor);
+      color: var(--void);
+    }
 
-        .btn-primary:hover {
-            background: #00ffaa;
-            box-shadow: 0 0 40px rgba(0, 255, 136, 0.4);
-        }
+    .btn-primary:hover {
+      background: #00ffaa;
+      box-shadow: 0 0 40px rgba(0, 255, 136, 0.4);
+    }
 
-        /* Projects Grid */
-        .section {
-            position: relative;
-            z-index: 10;
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 80px 24px;
-        }
+    /* Projects Grid */
+    .section {
+      position: relative;
+      z-index: 10;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
 
-        .section-title {
-            font-family: 'Space Mono', monospace;
-            font-size: 14px;
-            color: var(--text-dim);
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            margin-bottom: 48px;
-            text-align: center;
-        }
+    .section-title {
+      font-family: 'Space Mono', monospace;
+      font-size: 14px;
+      color: var(--text-dim);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 48px;
+      text-align: center;
+    }
 
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 24px;
-        }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
 
-        .project-card {
-            background: var(--glass);
-            border: 1px solid var(--glass-border);
-            padding: 32px;
-            text-decoration: none;
-            color: var(--text);
-            transition: all 0.3s;
-        }
+    .project-card {
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      padding: 32px;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.3s;
+    }
 
-        .project-card:hover {
-            border-color: var(--phosphor-dim);
-            transform: translateY(-4px);
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-        }
+    .project-card:hover {
+      border-color: var(--phosphor-dim);
+      transform: translateY(-4px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    }
 
-        .project-card h3 {
-            font-family: 'Space Mono', monospace;
-            font-size: 18px;
-            margin-bottom: 12px;
-        }
+    .project-card h3 {
+      font-family: 'Space Mono', monospace;
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
 
-        .project-card:hover h3 {
-            color: var(--phosphor);
-        }
+    .project-card:hover h3 {
+      color: var(--phosphor);
+    }
 
-        .project-card p {
-            font-size: 14px;
-            color: var(--text-dim);
-            line-height: 1.6;
-            margin-bottom: 16px;
-        }
+    .project-card p {
+      font-size: 14px;
+      color: var(--text-dim);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
 
-        .project-tag {
-            font-family: 'Space Mono', monospace;
-            font-size: 11px;
-            color: var(--phosphor-dim);
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-        }
+    .project-tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      color: var(--phosphor-dim);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
 
-        /* Footer */
-        footer {
-            position: relative;
-            z-index: 10;
-            text-align: center;
-            padding: 48px 24px;
-            font-size: 13px;
-            color: var(--text-dim);
-            border-top: 1px solid var(--glass-border);
-        }
+    /* Footer */
+    footer {
+      position: relative;
+      z-index: 10;
+      text-align: center;
+      padding: 48px 24px;
+      font-size: 13px;
+      color: var(--text-dim);
+      border-top: 1px solid var(--glass-border);
+    }
 
-        footer a {
-            color: var(--text);
-            text-decoration: none;
-        }
+    footer a {
+      color: var(--text);
+      text-decoration: none;
+    }
 
-        footer a:hover {
-            color: var(--phosphor);
-        }
+    footer a:hover {
+      color: var(--phosphor);
+    }
 
-        @media (max-width: 768px) {
-            nav {
-                padding: 24px;
-                gap: 20px;
-            }
+    @media (max-width: 768px) {
+      nav {
+        padding: 24px;
+        gap: 20px;
+      }
 
-            .stats {
-                flex-direction: column;
-                gap: 24px;
-            }
-        }
-    </style>
+      .stats {
+        flex-direction: column;
+        gap: 24px;
+      }
+    }
+  </style>
 
-    <script type="application/ld+json">
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
@@ -320,15 +320,15 @@
 </head>
 
 <body>
-    <div class="glow-orb top"></div>
-    <div class="glow-orb bottom"></div>
+  <div class="glow-orb top"></div>
+  <div class="glow-orb bottom"></div>
 
-    <nav>
-        <a href="/about.html">About</a>
-        <a href="/projects.html">Projects</a>
-        <a href="https://github.com/Phil-Hills">GitHub</a>
-        <a href="mailto:phil@philhills.com">Contact</a>
-    </nav>
+  <nav>
+    <a href="/about.html">About</a>
+    <a href="/projects.html">Projects</a>
+    <a href="https://github.com/Phil-Hills">GitHub</a>
+    <a href="mailto:phil@philhills.com">Contact</a>
+  </nav>
 
   <main>
     <section class="hero">
@@ -339,164 +339,186 @@
         deterministic frameworks that allow autonomous agents to operate with bank-grade reliability."
       </p>
 
-        <div class="stats">
-            <div class="stat">
-                <div class="stat-value">92+</div>
-                <div class="stat-label">Repositories</div>
-            </div>
-            <div class="stat">
-                <div class="stat-value">30+</div>
-                <div class="stat-label">AI Agents</div>
-            </div>
-            <div class="stat">
-                <div class="stat-value">40:1</div>
-                <div class="stat-label">Q Protocol Compression</div>
-            </div>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-value">92+</div>
+          <div class="stat-label">Repositories</div>
         </div>
-
-        <div class="cta">
-            <a href="https://github.com/Phil-Hills" class="btn btn-primary">View GitHub</a>
-            <a href="/projects.html" class="btn">Explore Projects</a>
+        <div class="stat">
+          <div class="stat-value">30+</div>
+          <div class="stat-label">AI Agents</div>
         </div>
-    </main>
-
-    <section class="section">
-        <h2 class="section-title">Featured Work</h2>
-        <div class="project-grid">
-            <a href="https://github.com/Phil-Hills/a2ac-platform" class="project-card">
-                <h3>A2AC Platform</h3>
-                <p>Agent-to-Agent Commerce. Enabling AI agents to transact autonomously on Google Cloud.</p>
-                <span class="project-tag">Python · GCP</span>
-            </a>
-
-            <a href="https://github.com/Phil-Hills/q-protocol" class="project-card">
-                <h3>Q Protocol</h3>
-                <p>High-density communication for AI agents. Latent space mapping with 40:1 compression.</p>
-                <span class="project-tag">Protocol Design</span>
-            </a>
-
-            <a href="https://github.com/Phil-Hills/SalesforceAIAdmin" class="project-card">
-                <h3>Salesforce AI Admin</h3>
-                <p>Autonomous Salesforce agent with Agentforce patterns. 98% token reduction.</p>
-                <span class="project-tag">Apex · AI</span>
-            </a>
-
-            <a href="https://github.com/Phil-Hills/chimera-hunter" class="project-card">
-                <h3>Chimera Hunter</h3>
-                <p>Autonomous bug bounty system with signature-based verification.</p>
-                <span class="project-tag">TypeScript</span>
-            </a>
-
-            <a href="https://github.com/Phil-Hills/Java-to-Rust" class="project-card">
-                <h3>Java to Rust</h3>
-                <p>Automated language conversion for transforming Java to idiomatic Rust.</p>
-                <span class="project-tag">Java · Rust</span>
-            </a>
-
-            <a href="https://github.com/Phil-Hills/rusty_crypto" class="project-card">
-                <h3>Rusty Crypto</h3>
-                <p>Cryptocurrency toolkit with token creation and blockchain utilities.</p>
-                <span class="project-tag">Rust · Blockchain</span>
-            </a>
-        </div>
-    </section>
-
-    <!-- LIVE HEARTBEAT -->
-    <section>
-      <div class="terminal-window">
-        <div class="terminal-header">
-          <div><span class="status-dot"></span>SWARM_MEMORY // LIVE_LEDGER</div>
-          <div>Q-PROTOCOL v2.0</div>
-        </div>
-        <table class="ledger-table">
-          <thead>
-            <tr>
-              <th>HASH</th>
-              <th>AGENT</th>
-              <th>TASK</th>
-              <th>SAVED</th>
-              <th>TIME (UTC)</th>
-            </tr>
-          </thead>
-          <tbody id="ledger-body">
-            <tr>
-              <td colspan="5">Connecting to Swarm Memory...</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section
-      style="background-color: rgba(0, 255, 136, 0.1); border-left: 4px solid #00ff88; padding: 2rem; margin: 2rem auto; max-width: 800px;">
-      <h2 style="margin-top: 0;">The Glass Server</h2>
-      <p>This site is a read-only view into an active Agentic Swarm. Every action above is a real compute task verified
-        by the Q-Protocol.</p>
-    </section>
-
-    <section>
-      <h2>Enterprise AI Capabilities</h2>
-      <div class="card-grid">
-        <!-- A2AC LLC -->
-        <div class="card" style="border-color: #00ff88;">
-          <h3 style="color: #00ff88;">A2AC LLC</h3>
-          <p><strong>Founder & Principal Architect</strong></p>
-          <p>Developing the standard for autonomous machine-to-machine commerce and secure peer-to-peer data
-            orchestration.</p>
-        </div>
-
-        <!-- Movement Mortgage -->
-        <div class="card" style="border-color: #7000ff;">
-          <h3 style="color: #7000ff;">Movement Mortgage</h3>
-          <p><strong>Marketing Coordinator (Principal AI Architect)</strong></p>
-          <p>Orchestrating distributed AI automation layers on Google Cloud (Vertex AI) to eliminate systemic friction
-            in residential lending.</p>
-        </div>
-
-        <!-- EasyAi Chatbots -->
-        <div class="card" style="border-color: #00f0ff;">
-          <h3 style="color: #00f0ff;">EasyAi Chatbots</h3>
-          <p><strong>Independent Systems Architect</strong></p>
-          <p>Engineering cognitive research swarms and 3D spatial telemetry tools for complex dataset visualization
-            (Magnolia AI Lab).</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Q-PROTOCOL DETAILS -->
-    <section style="margin-top: 4rem;">
-      <h2>Core Intellectual Property: The Q-Protocol</h2>
-      <p style="text-align: center; max-width: 700px; margin: 0 auto 2rem auto; color: #8b949e;">
-        The Q-Protocol is a deterministic framework that replaces probabilistic natural language prompts with
-        coordinate-based telemetry.
-      </p>
-
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
-        <div style="background: #0d1117; padding: 20px; border-radius: 8px; border: 1px solid #30363d;">
-          <h3 style="color: #fff; margin-top: 0;">0x000 (The Q-Kernel)</h3>
-          <p style="color: #8b949e; font-size: 0.9rem;">A universal runtime for high-concurrency agentic swarms.</p>
-        </div>
-
-        <div style="background: #0d1117; padding: 20px; border-radius: 8px; border: 1px solid #30363d;">
-          <h3 style="color: #fff; margin-top: 0;">0x400 (Clair-Chat)</h3>
-          <p style="color: #8b949e; font-size: 0.9rem;">Parallelized research orchestration and headless browser
-            automation.</p>
-        </div>
-
-        <div style="background: #0d1117; padding: 20px; border-radius: 8px; border: 1px solid #30363d;">
-          <h3 style="color: #fff; margin-top: 0;">0x900 (Embodied Logic)</h3>
-          <p style="color: #8b949e; font-size: 0.9rem;">High-frequency telemetry for physical actuators and robotics.
-          </p>
+        <div class="stat">
+          <div class="stat-value">40:1</div>
+          <div class="stat-label">Q Protocol Compression</div>
         </div>
       </div>
 
-      <div style="text-align: center; margin-top: 2rem;">
-        <a href="/q-protocol.html"
-          style="color: #00f0ff; text-decoration: none; font-weight: 600; border: 1px solid #00f0ff; padding: 10px 20px; border-radius: 4px; transition: all 0.3s ease;">
-          Read Technical Spec v1.2 →
-        </a>
+      <div class="cta">
+        <a href="https://github.com/Phil-Hills" class="btn btn-primary">View GitHub</a>
+        <a href="/projects.html" class="btn">Explore Projects</a>
       </div>
-    </section>
+  </main>
+
+  <section class="section">
+    <h2 class="section-title">Featured Work</h2>
+    <div class="project-grid">
+      <a href="https://github.com/Phil-Hills/a2ac-platform" class="project-card">
+        <h3>A2AC Platform</h3>
+        <p>Agent-to-Agent Commerce. Enabling AI agents to transact autonomously on Google Cloud.</p>
+        <span class="project-tag">Python · GCP</span>
+      </a>
+
+      <a href="https://github.com/Phil-Hills/q-protocol" class="project-card">
+        <h3>Q Protocol</h3>
+        <p>High-density communication for AI agents. Latent space mapping with 40:1 compression.</p>
+        <span class="project-tag">Protocol Design</span>
+      </a>
+
+      <a href="https://github.com/Phil-Hills/SalesforceAIAdmin" class="project-card">
+        <h3>Salesforce AI Admin</h3>
+        <p>Autonomous Salesforce agent with Agentforce patterns. 98% token reduction.</p>
+        <span class="project-tag">Apex · AI</span>
+      </a>
+
+      <a href="https://github.com/Phil-Hills/chimera-hunter" class="project-card">
+        <h3>Chimera Hunter</h3>
+        <p>Autonomous bug bounty system with signature-based verification.</p>
+        <span class="project-tag">TypeScript</span>
+      </a>
+
+      <a href="https://github.com/Phil-Hills/Java-to-Rust" class="project-card">
+        <h3>Java to Rust</h3>
+        <p>Automated language conversion for transforming Java to idiomatic Rust.</p>
+        <span class="project-tag">Java · Rust</span>
+      </a>
+
+      <a href="https://github.com/Phil-Hills/rusty_crypto" class="project-card">
+        <h3>Rusty Crypto</h3>
+        <p>Cryptocurrency toolkit with token creation and blockchain utilities.</p>
+        <span class="project-tag">Rust · Blockchain</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- LIVE HEARTBEAT -->
+  <section>
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div><span class="status-dot"></span>SWARM_MEMORY // LIVE_LEDGER</div>
+        <div>Q-PROTOCOL v2.0</div>
+      </div>
+      <table class="ledger-table">
+        <thead>
+          <tr>
+            <th>HASH</th>
+            <th>AGENT</th>
+            <th>TASK</th>
+            <th>SAVED</th>
+            <th>TIME (UTC)</th>
+          </tr>
+        </thead>
+        <tbody id="ledger-body">
+          <tr>
+            <td colspan="5">Connecting to Swarm Memory...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section
+    style="background-color: rgba(0, 255, 136, 0.1); border-left: 4px solid #00ff88; padding: 2rem; margin: 2rem auto; max-width: 800px;">
+    <h2 style="margin-top: 0;">The Glass Server</h2>
+    <p>This site is a read-only view into an active Agentic Swarm. Every action above is a real compute task verified
+      by the Q-Protocol.</p>
+  </section>
+
+  <section>
+    <h2>Enterprise AI Capabilities</h2>
+    <div class="card-grid">
+      <!-- A2AC LLC -->
+      <div class="card" style="border-color: #00ff88;">
+        <h3 style="color: #00ff88;">A2AC LLC</h3>
+        <p><strong>Founder & Principal Architect</strong></p>
+        <p>Developing the standard for autonomous machine-to-machine commerce and secure peer-to-peer data
+          orchestration.</p>
+      </div>
+
+      <!-- Movement Mortgage -->
+      <div class="card" style="border-color: #7000ff;">
+        <h3 style="color: #7000ff;">Movement Mortgage</h3>
+        <p><strong>Marketing Coordinator (Principal AI Architect)</strong></p>
+        <p>Orchestrating distributed AI automation layers on Google Cloud (Vertex AI) to eliminate systemic friction
+          in residential lending.</p>
+      </div>
+
+      <!-- EasyAi Chatbots -->
+      <div class="card" style="border-color: #00f0ff;">
+        <h3 style="color: #00f0ff;">EasyAi Chatbots</h3>
+        <p><strong>Independent Systems Architect</strong></p>
+        <p>Engineering cognitive research swarms and 3D spatial telemetry tools for complex dataset visualization
+          (Magnolia AI Lab).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST RESEARCH -->
+  <section style="margin-top: 4rem;">
+    <h2>Latest Research & Architecture</h2>
+    <div class="card-grid">
+      <a href="/blog/probabilistic-trap.html" class="card" style="border-color: #ff4444; text-decoration: none;">
+        <h3 style="color: #ff4444; font-size: 1.1rem;">The Probabilistic Trap</h3>
+        <p style="color: #8b949e; font-size: 0.9rem;">Why "Prompt Engineering" fails in finance. The case for
+          coordinates.</p>
+      </a>
+
+      <a href="/blog/seattle-grid.html" class="card" style="border-color: #00ff88; text-decoration: none;">
+        <h3 style="color: #00ff88; font-size: 1.1rem;">The Seattle Grid</h3>
+        <p style="color: #8b949e; font-size: 0.9rem;">Technical Specification for 0x000 - 0x900 Orchestration.</p>
+      </a>
+
+      <a href="/blog/identity-bifurcation.html" class="card" style="border-color: #7000ff; text-decoration: none;">
+        <h3 style="color: #7000ff; font-size: 1.1rem;">Identity Bifurcation</h3>
+        <p style="color: #8b949e; font-size: 0.9rem;">The Legal Framework for Sovereign Agents (DFI Case Study).</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Q-PROTOCOL DETAILS -->
+  <section style="margin-top: 4rem;">
+    <h2>Core Intellectual Property: The Q-Protocol</h2>
+    <p style="text-align: center; max-width: 700px; margin: 0 auto 2rem auto; color: #8b949e;">
+      The Q-Protocol is a deterministic framework that replaces probabilistic natural language prompts with
+      coordinate-based telemetry.
+    </p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+      <div style="background: #0d1117; padding: 20px; border-radius: 8px; border: 1px solid #30363d;">
+        <h3 style="color: #fff; margin-top: 0;">0x000 (The Q-Kernel)</h3>
+        <p style="color: #8b949e; font-size: 0.9rem;">A universal runtime for high-concurrency agentic swarms.</p>
+      </div>
+
+      <div style="background: #0d1117; padding: 20px; border-radius: 8px; border: 1px solid #30363d;">
+        <h3 style="color: #fff; margin-top: 0;">0x400 (Clair-Chat)</h3>
+        <p style="color: #8b949e; font-size: 0.9rem;">Parallelized research orchestration and headless browser
+          automation.</p>
+      </div>
+
+      <div style="background: #0d1117; padding: 20px; border-radius: 8px; border: 1px solid #30363d;">
+        <h3 style="color: #fff; margin-top: 0;">0x900 (Embodied Logic)</h3>
+        <p style="color: #8b949e; font-size: 0.9rem;">High-frequency telemetry for physical actuators and robotics.
+        </p>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/q-protocol.html"
+        style="color: #00f0ff; text-decoration: none; font-weight: 600; border: 1px solid #00f0ff; padding: 10px 20px; border-radius: 4px; transition: all 0.3s ease;">
+        Read Technical Spec v1.2 →
+      </a>
+    </div>
+  </section>
 
   </main>
 

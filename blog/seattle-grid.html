@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Seattle Grid Specification | Phil Hills Research</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Technical Deep Dive: Coordinate-Based Orchestration for A2AC Swarms (0x000 - 0x900).">
+    <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        .article-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .article-header {
+            border-bottom: 1px solid #30363d;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        .article-meta {
+            color: #8b949e;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .article-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff 0%, #00ff88 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .article-body {
+            color: #c9d1d9;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .article-body h2 {
+            color: #fff;
+            margin-top: 3rem;
+            border-left: 4px solid #00ff88;
+            padding-left: 1rem;
+        }
+
+        .hex-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'JetBrains Mono', monospace;
+            margin: 2rem 0;
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+        }
+
+        .hex-table th {
+            background: #161b22;
+            color: #8b949e;
+            text-align: left;
+            padding: 1rem;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .hex-table td {
+            padding: 1rem;
+            border-bottom: 1px solid #21262d;
+        }
+
+        code {
+            background: rgba(110, 118, 129, 0.4);
+            padding: 0.2em 0.4em;
+            border-radius: 6px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="/" class="brand">
+            <div class="brand-mark">PH</div>
+            <div class="brand-text"><span>Phil Hills</span><span>AI Automation Expert</span></div>
+        </a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/q-protocol.html">Protocol Spec</a>
+            <a href="https://philhills.ai" target="_blank" style="color: #00ff41;">Labs →</a>
+        </nav>
+    </header>
+
+    <main class="article-container">
+        <article>
+            <div class="article-header">
+                <div class="article-meta">RESEARCH / ARCHITECTURE / SPECS</div>
+                <h1 class="article-title">The Seattle Grid: A Specification for 0x000 - 0x900 Orchestration</h1>
+                <p style="color: #8b949e; font-size: 1.2rem;">Detailed architecture of the Agent-to-Agent Communication
+                    (A2AC) standard.</p>
+            </div>
+
+            <div class="article-body">
+                <p>The <strong>Seattle Grid</strong> (Q-Protocol v1.2) is a spatial addressing system for distributed
+                    intelligence. It maps <em>Function</em> and <em>Memory</em> to specific hexagonal coordinates,
+                    enabling a "Shared Physics" for autonomous agents.</p>
+
+                <h2>The Coordinate Map</h2>
+                <table class="hex-table">
+                    <tr>
+                        <th>Range</th>
+                        <th>Designation</th>
+                        <th>Latency Target</th>
+                    </tr>
+                    <tr>
+                        <td style="color: #00ff88;">0x000</td>
+                        <td><strong>Q-Kernel</strong></td>
+                        <td>&lt; 1ms</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #00f0ff;">0x400</td>
+                        <td><strong>Clair-Chat</strong></td>
+                        <td>~200ms (Async)</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #ff4444;">0x900</td>
+                        <td><strong>Embodied</strong></td>
+                        <td>&lt; 5ms (Real-Time)</td>
+                    </tr>
+                </table>
+
+                <h2>Layer 1: The Q-Kernel (0x000)</h2>
+                <p>The kernel acts as a universal runtime. In traditional systems, every AI agent is a heavy Docker
+                    container. This leads to "Container Sprawl." The Q-Kernel allows thousands of stateless
+                    "Lite-Agents" to share a single execution environment, routed by K12-signed <code>0x000</code>
+                    packets.</p>
+
+                <h2>Layer 2: Clair-Chat (0x400)</h2>
+                <p>Despite the name, this is not a chatbot. It is a <strong>Parallel Research Engine</strong>. A single
+                    instruction (e.g., "Map all changes to RESPA compliance in 2026") spawns 50+ concurrent headless
+                    browser instances. These sub-agents scour the web, parse PDFs, and synthesize findings into a
+                    structured <strong>Identity Cube</strong>.</p>
+
+                <h2>Layer 3: Embodied (0x900)</h2>
+                <p>This range is reserved for physical actuators. When controlling a robotic arm or an IoT device,
+                    natural language is too slow. The <code>0x900</code> range uses high-frequency binary telemetry to
+                    ensure safety-critical response times.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer style="text-align: center; padding: 4rem 1rem; border-top: 1px solid #30363d; margin-top: 4rem;">
+        <a href="/q-protocol.html" style="color: #00f0ff;">Read the Q-Protocol Specification →</a>
+    </footer>
+</body>
+
+</html>
