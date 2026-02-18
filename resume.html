@@ -1,19 +1,230 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Phil Hills | Principal Systems Architect</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
-    content="Resume of Phil Hills: Architect of the Q-Protocol, A2AC Standard, and High-Density Agent Telemetry systems.">
-  <script type="text/javascript">
-    window.location.href = "https://philhills.ai";
-  </script>
+    content="Kernel Dump: Operational Profile of Phil Hills, Creator of Q-Protocol and Principal Architect at A2AC LLC.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --text: #c9d1d9;
+      --dim: #8b949e;
+      --accent: #00ff88;
+      --header: #58a6ff;
+      --alert: #ff7b72;
+      --section: #d2a8ff;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'JetBrains Mono', monospace;
+      padding: 2rem;
+      line-height: 1.5;
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px dashed var(--dim);
+    }
+
+    a:hover {
+      color: var(--accent);
+      border-bottom: 1px solid var(--accent);
+    }
+
+    .kernel-line {
+      display: flex;
+      margin-bottom: 0.5rem;
+    }
+
+    .ts {
+      color: var(--dim);
+      margin-right: 1rem;
+      user-select: none;
+    }
+
+    .op {
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 1.2rem;
+      color: var(--header);
+      margin: 2rem 0 1rem 0;
+      border-bottom: 1px solid var(--dim);
+      padding-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      color: var(--section);
+      margin: 1.5rem 0 0.5rem 0;
+    }
+
+    .kv-pair {
+      margin-left: 2rem;
+      display: block;
+    }
+
+    .key {
+      color: var(--dim);
+    }
+
+    .val {
+      color: var(--text);
+    }
+
+    .log-entry {
+      margin-bottom: 1rem;
+      border-left: 2px solid var(--dim);
+      padding-left: 1rem;
+    }
+
+    .alert-box {
+      border: 1px solid var(--alert);
+      color: var(--alert);
+      padding: 1rem;
+      margin: 2rem 0;
+      background: rgba(255, 123, 114, 0.05);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+        font-size: 12px;
+      }
+
+      .kv-pair {
+        margin-left: 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <p>This content has moved. <a href="https://philhills.ai">Click here if you are not redirected.</a></p>
+
+  <div class="kernel-line"><span class="ts">[0.000000]</span> <span>BOOTING KERNEL: <span
+        class="op">PHIL_HILLS_PRINCIPAL_ARCHITECT</span></span></div>
+  <div class="kernel-line"><span class="ts">[0.000213]</span> <span>MOUNTING ROOT FS: <span
+        class="op">SEATTLE_GRID_ACTIVE</span> (RO)</span></div>
+  <div class="kernel-line"><span class="ts">[0.000451]</span> <span>LOADING MODULES: <span class="op">Q-PROTOCOL v1.2,
+        A2AC, RUST_CORE</span></span></div>
+  <br>
+
+  <div style="border: 1px solid var(--dim); padding: 2rem; margin: 2rem 0;">
+    <div style="font-size: 2rem; font-weight: bold; color: var(--header);">PHIL HILLS</div>
+    <div style="color: var(--accent);">Principal Systems Architect | Google Developer</div>
+    <div style="color: var(--dim); margin-top: 0.5rem;">Seattle, WA | <a href="https://philhills.com">philhills.com</a>
+      | <a href="https://github.com/Phil-Hills">GitHub: Phil-Hills</a></div>
+  </div>
+
+  <h1>[0x00] EXECUTIVE KERNEL</h1>
+  <div class="log-entry">
+    Strategic Systems Architect and Google Developer specialized in enterprise AI orchestration and distributed
+    automation. Creator of the Q-Protocol (v1.2), a deterministic framework for operational stability that replaces
+    "probabilistic prompting" with "coordinate-based execution". Expert in AI-Native Development, leveraging advanced
+    LLM orchestration to direct the creation of high-performance infrastructure and API-driven agentic swarms.
+    <br><br>
+    <span style="color: var(--accent);">"Logic isn't code; it's a coordinate. Intent isn't a prompt; it's a packet." —
+      Phil Hills</span>
+  </div>
+
+  <h1>[0x10] TECHNICAL CORE</h1>
+  <div class="kv-pair"><span class="key">Orchestration ::</span> <span class="val">Q-Protocol (Deterministic Data Mesh),
+      A2AC (Agent-to-Agent Commerce), Hex-Grid Telemetry.</span></div>
+  <div class="kv-pair"><span class="key">Infrastructure ::</span> <span class="val">GCP (Vertex AI, GKE, BigQuery),
+      Kubernetes, Cloudflare, AWS.</span></div>
+  <div class="kv-pair"><span class="key">Development ::</span> <span class="val">Rust (Integrity-focused/Systems),
+      Python (Orchestration Logic), TypeScript, VSCode.</span></div>
+  <div class="kv-pair"><span class="key">AI & Automation ::</span> <span class="val">Salesforce Agentforce (Strategic
+      Implementation), Einstein AI, Generative AI Studio.</span></div>
+  <div class="kv-pair"><span class="key">Security ::</span> <span class="val">Identity Bifurcation Logic, Zero-Trust
+      Sentinel Daemons (reputation_sentinel.py).</span></div>
+
+  <h1>[0x20] PRINCIPAL ARCHITECTURAL IMPACT</h1>
+
+  <h2>// MOVEMENT MORTGAGE (Marketing Coordinator / AI Systems Architect)</h2>
+  <div class="kv-pair" style="margin-bottom: 0.5rem;"><span class="ts">[AUG_2024-PRESENT]</span> Seattle, WA</div>
+  <div class="log-entry">
+    • <strong>Agentforce Architecture:</strong> Led the strategic implementation of Salesforce Agentforce to automate
+    complex, multi-node fiscal workflows. Designed the "Golden Thread" data pipeline to persist borrower context from
+    Origination to Servicing.<br>
+    • <strong>Deterministic Compliance:</strong> Architected "CoC Sentinels" (Change of Circumstance) using AI swarms to
+    monitor loan telemetry in real-time, ensuring instant redisclosure compliance (TRID/RESPA).<br>
+    • <strong>Friction Elimination:</strong> Developed high-velocity data pipelines to eliminate systemic friction,
+    ensuring 100% data accuracy across distributed underwriting nodes.
+  </div>
+
+  <h2>// A2AC (Agent-to-Agent Communication) LLC</h2>
+  <div class="kv-pair" style="margin-bottom: 0.5rem;"><span class="ts">[FEB_2026-PRESENT]</span> Founder & Principal
+    Architect</div>
+  <div class="log-entry">
+    • <strong>Q-Protocol (v1.2):</strong> Invented and architected the hex-coordinate standard for maintaining data
+    integrity in high-load distributed systems.<br>
+    • <strong>Metrics:</strong> Reduced AI signal latency by 400ms per turn and achieved 40:1 token compression via
+    Latent Space Mapping.<br>
+    • <strong>Seattle Grid Orchestration:</strong> Established the Seattle Grid (0x000 - 0x900), a distributed OS
+    mapping digital cognition to physical actuators.<br>
+    • <strong>0x000 (Q-Kernel):</strong> Universal runtime for infinite agent scaling.<br>
+    • <strong>0x400 (Clair-Chat):</strong> Executive interface for "headless browser" research swarms.
+  </div>
+
+  <h2>// EASYAI CHATBOTS (Magnolia AI Lab)</h2>
+  <div class="kv-pair" style="margin-bottom: 0.5rem;"><span class="ts">[JAN_2024-PRESENT]</span> Independent Systems
+    Architect</div>
+  <div class="log-entry">
+    • <strong>GCP Sovereignty:</strong> Enforced a "GCP-Only" infrastructure policy, deploying custom LLM solutions on
+    GKE and Vertex AI.<br>
+    • <strong>Spatial Telemetry:</strong> Developed 3D spatial mapping tools to provide real-time visual telemetry for
+    complex datasets.
+  </div>
+
+  <h1>[0x30] STRATEGIC AUTOMATION (Pre-2021)</h1>
+  <div class="log-entry">
+    • <strong>Systemic Bottleneck Resolution:</strong> Directed internal development of proprietary automation tools for
+    high-volume fiscal environments.<br>
+    • <strong>Zero-Drift Stability:</strong> Managed critical technical infrastructure, achieving 100% system uptime
+    focus.
+  </div>
+
+  <h1>[0x40] EDUCATION & CREDENTIALS</h1>
+  <div class="kv-pair"><span class="key">University of Washington ::</span> <span class="val">FinTech Professional
+      Certificate (Full-stack, REST API, Blockchain).</span></div>
+  <div class="kv-pair"><span class="key">Google Cloud ::</span> <span class="val">Vertex AI Studio Certification, Image
+      Captioning, Generative AI Explorer.</span></div>
+
+  <h1>[0x50] SYSTEMS_LOG // IDENTITY_UPDATE</h1>
+  <div class="alert-box">
+    <div class="kernel-line"><span class="ts">[12.42011]</span> <span class="op">WARN:
+        IDENTITY_BIFURCATION_DETECTED</span></div>
+    <br>
+    The Agentforce certification has been removed from all architectural nodes to reflect operational reality. The
+    mastery of the logic remains embedded in the architectural layer.
+    <br><br>
+    <strong>Identity Invariant:</strong> Phil Hills (Architect) is distinct from corporate entities.<br>
+    <strong>Regulatory Reference:</strong> DFI Case C-17-2166.<br>
+    <strong>License Effect:</strong> NONE. Full and unrestricted professional standing maintained.<br>
+    <strong>Systemic Note:</strong> This establishes the legal framework for "Sovereign Agent Identity," separating code
+    execution from principal liability.
+  </div>
+
+  <div
+    style="text-align: center; margin-top: 4rem; border-top: 1px solid var(--dim); padding-top: 1rem; color: var(--dim);">
+    [END OF KERNEL DUMP]
+  </div>
+
 </body>
 
 </html>
