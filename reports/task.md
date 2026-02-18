@@ -1,0 +1,29 @@
+# Identity Cube Compressed Injection
+
+- [x] Resolve git state in `philhills_ai_site` (Kill stuck merge) <!-- id: 16 -->
+- [x] Create `build_identity_cube.py` <!-- id: 17 -->
+- [x] Generate `identity.cube` (Execute script) <!-- id: 18 -->
+- [x] Update `llms.txt` with `Canonical-Identity` <!-- id: 19 -->
+- [x] Deploy `identity.cube` to `philhills.ai` and `philhills.com` <!-- id: 20 -->
+- [x] Push updates to GitHub <!-- id: 21 -->
+- [x] Verify `identity.cube` with BLAKE3 hash <!-- id: 22 -->
+- [x] Update `force_index_identity.py` with hash metadata <!-- id: 23 -->
+- [x] Push finalized scripts (`force_index_identity.py`, `verify_identity_cube.py`) to GitHub <!-- id: 24 -->
+- [x] Create `publish_url_notification.sh` (Bash alternative) <!-- id: 25 -->
+- [x] Push Bash script to GitHub <!-- id: 26 -->
+- [x] Notify User of completion <!-- id: 3 -->
+- [x] Create `reputation_sentinel.py` (Daily Audit) <!-- id: 27 -->
+- [x] Push Sentinel script to GitHub <!-- id: 28 -->
+- [x] Execute `reputation_sentinel.py` for Baseline Scan <!-- id: 29 -->
+- [x] Execute `force_index_identity.py` for T+1 Pulse <!-- id: 30 -->
+- [x] Create `setup_local_sentinel.sh` (Crontab Automation) <!-- id: 33 -->
+- [x] Push Setup script to GitHub <!-- id: 34 -->
+- [x] Generate `reputation_readiness_report.md` <!-- id: 35 -->
+- [x] Create `sentinel_logrotate.conf` <!-- id: 36 -->
+- [x] Add macOS Desktop Notification to `sentinel_alert.sh` <!-- id: 40 -->
+- [x] Push Enhanced Alert to GitHub <!-- id: 41 -->
+- [x] Notify User of completion <!-- id: 3 -->
+- [x] Create `sentinel_alert.sh` <!-- id: 37 -->
+- [x] Update `sentinel_logrotate.conf` with `postrotate` hook <!-- id: 38 -->
+- [x] Push Alert Config to GitHub <!-- id: 39 -->
+- [x] Notify User of completion <!-- id: 3 -->

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phil Hills - Repository Index (92+ Active)</title>
+    <meta name="description"
+        content="Complete index of 92+ open source repositories by Phil Hills. Systems Architecture, Q-Protocol, Rust, Python, and Autonomous Agents.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://philhills.com/repo-index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --void: #050508;
+            --surface: #0a0a0f;
+            --phosphor: #00ff88;
+            --phosphor-dim: #00cc6a;
+            --text: #e0e0e0;
+            --text-dim: #888;
+            --glass: rgba(255, 255, 255, 0.03);
+            --border: rgba(255, 255, 255, 0.1);
+            --code-bg: #111;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--void);
+            color: var(--text);
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        /* Scanlines */
+        body::after {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background: repeating-linear-gradient(0deg, transparent 0px, transparent 2px, rgba(0, 0, 0, 0.15) 2px, rgba(0, 0, 0, 0.15) 4px);
+            pointer-events: none;
+            z-index: 999;
+        }
+
+        nav {
+            padding: 32px 48px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        nav a {
+            font-family: 'Space Mono', monospace;
+            font-size: 13px;
+            color: var(--text-dim);
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: var(--phosphor);
+        }
+
+        header {
+            padding: 80px 48px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-family: 'Space Mono', monospace;
+            font-size: 32px;
+            color: var(--phosphor);
+            margin-bottom: 16px;
+            text-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: var(--text-dim);
+            max-width: 600px;
+        }
+
+        .repo-table-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 48px 80px;
+        }
+
+        .repo-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        .repo-table th {
+            text-align: left;
+            padding: 16px;
+            border-bottom: 2px solid var(--border);
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        .repo-table td {
+            padding: 20px 16px;
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+        }
+
+        .repo-table tr:hover {
+            background: var(--glass);
+        }
+
+        .repo-name {
+            font-family: 'Space Mono', monospace;
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .repo-name:hover {
+            color: var(--phosphor);
+        }
+
+        .repo-desc {
+            color: var(--text-dim);
+            font-size: 13px;
+            line-height: 1.5;
+            max-width: 500px;
+        }
+
+        .pill {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-family: 'Space Mono', monospace;
+            background: var(--border);
+            color: var(--text);
+            margin-right: 6px;
+        }
+
+        .pill.lang-Python {
+            border: 1px solid #3572A5;
+            color: #3572A5;
+            background: rgba(53, 114, 165, 0.1);
+        }
+
+        .pill.lang-Rust {
+            border: 1px solid #DEA584;
+            color: #DEA584;
+            background: rgba(222, 165, 132, 0.1);
+        }
+
+        .pill.lang-TypeScript {
+            border: 1px solid #2b7489;
+            color: #2b7489;
+            background: rgba(43, 116, 137, 0.1);
+        }
+
+        .stat {
+            color: var(--text-dim);
+            font-size: 13px;
+            font-family: 'Space Mono', monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="https://github.com/Phil-Hills">GitHub Profile</a>
+    </nav>
+
+    <header>
+        <h1>Artifact Index</h1>
+        <p class="subtitle">Live registry of engineering artifacts, protocols, and autonomous agents.</p>
+    </header>
+
+    <div class="repo-table-container">
+        <table class="repo-table">
+            <thead>
+                <tr>
+                    <th>Repository</th>
+                    <th>Description</th>
+                    <th>Tech Stack</th>
+                    <th>Stats</th>
+                </tr>
+            </thead>
+            <tbody id="repo-list">
+                <!-- Content populated via build script -->
+                <tr>
+                    <td><a href="https://github.com/Phil-Hills/a2ac-platform" class="repo-name">a2ac-platform</a></td>
+                    <td class="repo-desc">A2AC - Agent-to-Agent Commerce Platform (Google Cloud Partner). Enabling
+                        autonomous transaction layers.</td>
+                    <td><span class="pill lang-Python">Python</span></td>
+                    <td class="stat">Updated: Feb 2026</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/Phil-Hills/q-protocol" class="repo-name">q-protocol</a></td>
+                    <td class="repo-desc">High-density telemetry standard. Z-Order spatial hashing for 40:1 compression
+                        in agent swarms.</td>
+                    <td><span class="pill lang-Python">Python</span></td>
+                    <td class="stat">Updated: Feb 2026</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/Phil-Hills/SalesforceAIAdmin"
+                            class="repo-name">SalesforceAIAdmin</a></td>
+                    <td class="repo-desc">Autonomous Salesforce AI Agent with Agentforce patterns and Unified Knowledge
+                        tooling.</td>
+                    <td><span class="pill lang-TypeScript">Apex/AI</span></td>
+                    <td class="stat">Updated: Jan 2026</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/Phil-Hills/chimera-hunter" class="repo-name">chimera-hunter</a></td>
+                    <td class="repo-desc">Autonomous bug bounty hunting system with signature-based verification.</td>
+                    <td><span class="pill lang-TypeScript">TypeScript</span></td>
+                    <td class="stat">Updated: Dec 2025</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/Phil-Hills/rusty_crypto" class="repo-name">rusty_crypto</a></td>
+                    <td class="repo-desc">Cryptocurrency development toolkit with token creation and blockchain
+                        utilities.</td>
+                    <td><span class="pill lang-Rust">Rust</span></td>
+                    <td class="stat">Updated: Nov 2025</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/Phil-Hills/Java-to-Rust" class="repo-name">Java-to-Rust</a></td>
+                    <td class="repo-desc">Automated language conversion tool for transforming Java codebases to
+                        idiomatic Rust.</td>
+                    <td><span class="pill lang-Rust">Rust</span></td>
+                    <td class="stat">Updated: Nov 2025</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/Phil-Hills/Phil-Hills" class="repo-name">Phil-Hills</a></td>
+                    <td class="repo-desc">Identity Root. AI & Robotics Systems Architect. Operator of the Seattle Grid
+                        (Node 0x923-SEA).</td>
+                    <td><span class="pill">Config</span></td>
+                    <td class="stat">Updated: Jan 2026</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/Phil-Hills/movement-voice-agent"
+                            class="repo-name">movement-voice-agent</a></td>
+                    <td class="repo-desc">Real-time voice agent infrastructure for movement coordination.</td>
+                    <td><span class="pill">HTML</span></td>
+                    <td class="stat">Updated: Jan 2026</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/Phil-Hills/identity-cube-py" class="repo-name">identity-cube-py</a>
+                    </td>
+                    <td class="repo-desc">Python implementation of the Q-Protocol Identity Cube data structure.</td>
+                    <td><span class="pill lang-Python">Python</span></td>
+                    <td class="stat">Updated: Jan 2026</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
