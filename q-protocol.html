@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Q-Protocol Specification v1.2 | Phil Hills Architecture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Technical Specification for the Q-Protocol: A deterministic framework for Agent-to-Agent Communication (A2AC) and coordinate-based intelligence.">
+
+    <!-- SEO + AI META -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Specific styles for spec page */
+        .spec-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .spec-header {
+            margin-bottom: 3rem;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 2rem;
+        }
+
+        .spec-title {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #fff 0%, #8b949e 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .spec-subtitle {
+            font-family: 'JetBrains Mono', monospace;
+            color: #00ff88;
+            font-size: 1.2rem;
+        }
+
+        .spec-section {
+            margin-bottom: 4rem;
+        }
+
+        .spec-section h2 {
+            border-left: 4px solid #00f0ff;
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+            color: #fff;
+        }
+
+        .coordinate-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: 'JetBrains Mono', monospace;
+            margin: 2rem 0;
+            background: #0d1117;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid #30363d;
+        }
+
+        .coordinate-table th {
+            background: #161b22;
+            color: #8b949e;
+            text-align: left;
+            padding: 1rem;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .coordinate-table td {
+            padding: 1rem;
+            border-bottom: 1px solid #21262d;
+            color: #c9d1d9;
+        }
+
+        .coordinate-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .layer-card {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .layer-card h3 {
+            color: #fff;
+            margin-top: 0;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        code {
+            background: rgba(110, 118, 129, 0.4);
+            padding: 0.2em 0.4em;
+            border-radius: 6px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="/" class="brand">
+            <div class="brand-mark">PH</div>
+            <div class="brand-text">
+                <span>Phil Hills</span>
+                <span>AI Automation Expert</span>
+            </div>
+        </a>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="/agents.html">Agent Roster</a>
+            <a href="/contact.html">A2AC Bridge</a>
+            <a href="https://philhills.ai" target="_blank" style="color: #00ff41; font-weight: 600;">Technical Labs
+                →</a>
+        </nav>
+    </header>
+
+    <main class="spec-container">
+        <div class="spec-header">
+            <div class="spec-subtitle">Technical Specification v1.2</div>
+            <h1 class="spec-title">The Q-Protocol: Deterministic Coordinate Orchestration</h1>
+            <p style="color: #8b949e; line-height: 1.6; max-width: 700px;">
+                The Q-Protocol is a machine-to-machine communication standard designed to transition agentic swarms from
+                <strong>Probabilistic Prompting</strong> to <strong>Deterministic Telemetry</strong>. By mapping intent
+                to
+                a unified hex-grid, we achieve a <strong>40:1 compression ratio</strong> and sub-millisecond response
+                latency.
+            </p>
+        </div>
+
+        <section class="spec-section">
+            <h2>I. The Seattle Grid: Spatial Addressing</h2>
+            <p>Instead of natural language overhead, the Q-Protocol utilizes a <strong>Hex-Coordinate Grid</strong> to
+                address memory, function, and intent. This allows for a "Shared Physics" between digital agents and
+                physical actuators.</p>
+
+            <table class="coordinate-table">
+                <thead>
+                    <tr>
+                        <th>COORDINATE RANGE</th>
+                        <th>NODE TYPE</th>
+                        <th>FUNCTIONAL DOMAIN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color: #00ff88;">0x000</td>
+                        <td style="font-weight: bold;">Q-Kernel</td>
+                        <td>Universal Runtime, Routing, & Permissioning.</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #00f0ff;">0x400</td>
+                        <td style="font-weight: bold;">Clair-Chat</td>
+                        <td>Parallel Research, Browser-Use, & Data Synthesis.</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #ff4444;">0x900</td>
+                        <td style="font-weight: bold;">Embodied</td>
+                        <td>Physical Actuators, Robotics, & Edge Telemetry.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="spec-section">
+            <h2>II. Architectural Layers</h2>
+
+            <div class="layer-card">
+                <h3>1. The Q-Kernel (0x000)</h3>
+                <p>The Q-Kernel acts as the "Operating System" for the swarm. It eliminates <strong>Container
+                        Sprawl</strong> by providing a shared execution environment for thousands of "Lite-Agents."</p>
+                <ul style="color: #8b949e;">
+                    <li><strong>Invariants:</strong> Every packet is K12-signed.</li>
+                    <li><strong>Logic:</strong> Stateless execution with state-preservation via the <strong>Cube
+                            Protocol</strong>.</li>
+                </ul>
+            </div>
+
+            <div class="layer-card">
+                <h3>2. Clair-Chat Orchestration (0x400)</h3>
+                <p>Clair-Chat is the executive interface for autonomous research. Unlike standard chatbots, it operates
+                    in <strong>Parallel Execution Mode</strong>.</p>
+                <ul style="color: #8b949e;">
+                    <li><strong>Parallelization:</strong> Capable of spawning 50+ concurrent headless browser agents
+                        (Puppeteer/Playwright).</li>
+                    <li><strong>Synthesis:</strong> Aggregates unstructured data into structured <strong>Identity
+                            Cubes</strong>.</li>
+                </ul>
+            </div>
+
+            <div class="layer-card">
+                <h3>3. A2AC Commerce Layer</h3>
+                <p>The <strong>Agent-to-Agent Communication</strong> layer is the economic engine. It allows agents to
+                    transact on the <strong>GCP Service Mesh</strong> using cryptographic handshakes.</p>
+                <ul style="color: #8b949e;">
+                    <li><strong>Settlement:</strong> Real-time tokenized ledger for machine-to-machine resource
+                        exchange.</li>
+                    <li><strong>Security:</strong> Zero-trust architecture with <strong>Least-Privilege</strong>
+                        identity voxels.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="spec-section">
+            <h2>III. The Cube Protocol: Semantic Memory</h2>
+            <p>To solve the "Hallucination/Amnesia" problem in LLMs, the Q-Protocol utilizes
+                <strong>Cubes</strong>—self-contained, reversible data objects.
+            </p>
+            <ul style="color: #8b949e; margin-top: 1rem;">
+                <li style="margin-bottom: 0.5rem;"><strong>Deterministic Replay:</strong> Every decision can be
+                    "rewound" and audited (Time-Travel Debugging).</li>
+                <li><strong>Compression:</strong> Latent space mapping allows a paragraph of "Intent" to be packed into
+                    a single <strong>K12-hashed coordinate</strong>.</li>
+            </ul>
+        </section>
+
+        <div
+            style="background: rgba(0, 255, 136, 0.05); border: 1px solid #00ff88; padding: 1rem; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: #00ff88; margin-top: 4rem;">
+            ◈ PAGE_TYPE: Technical_Deep_Dive<br>
+            ◈ PROTOCOL_VERSION: 1.2 (L8-Aligned)<br>
+            ◈ IDENTITY: Phil_Hills_Architect<br>
+            ◈ STATUS: UPLINK_ESTABLISHED
+        </div>
+    </main>
+
+    <footer style="text-align: center; padding: 4rem 1rem; color: #8b949e; font-size: 0.8rem;">
+        <div style="max-width: 800px; margin: 0 auto 2rem auto; border-top: 1px solid #30363d; padding-top: 2rem;">
+            <p><strong>Legal & Identity Invariant:</strong></p>
+            <p>Phil Hills (Principal Architect) maintains an identity distinct from historical corporate regulatory
+                records (e.g., DFI Case C-17-2166). All current operations are governed by <strong>A2AC LLC</strong>,
+                focusing exclusively on Software Architecture, Remote Command & Control (RC2), and Agentic Protocol
+                Design.</p>
+        </div>
+
+        © <span id="year"></span> Phil Hills. Built with Cube Protocol.
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
