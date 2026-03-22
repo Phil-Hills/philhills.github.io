@@ -37,6 +37,6 @@ Python, Rust, GCP Cloud Run, Salesforce Agentforce, BLAKE3 Hashing, Cryptographi
 - LinkedIn: https://www.linkedin.com/in/philhills/
 
 ## Contact
-phil@easyaichatbots.com
+phil@philhills.com
 
 *© 2026 Phil Hills. Patent Pending.*
