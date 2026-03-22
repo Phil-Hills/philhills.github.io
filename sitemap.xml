@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Core Pages -->
-  <url><loc>https://philhills.com/</loc></url>
-  <url><loc>https://philhills.com/about.html</loc></url>
-  <url><loc>https://philhills.com/cube-protocol.html</loc></url>
-  <url><loc>https://philhills.com/projects.html</loc></url>
-  <url><loc>https://philhills.com/resume.html</loc></url>
-  <url><loc>https://philhills.com/contact.html</loc></url>
-  <url><loc>https://philhills.com/code.html</loc></url>
-  <url><loc>https://philhills.com/phil-hills-seattle.html</loc></url>
+  <!-- Core Identity Pages (highest priority) -->
+  <url><loc>https://philhills.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://philhills.com/identity.json</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://philhills.com/identity.cube</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://philhills.com/ai.txt</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://philhills.com/llms.txt</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
 
-  <!-- Blog -->
-  <url><loc>https://philhills.com/blog/</loc></url>
-  <url><loc>https://philhills.com/blog/ai-systems-architecture-seattle/</loc></url>
-  <url><loc>https://philhills.com/blog/semantic-memory-lessons/</loc></url>
-  <url><loc>https://philhills.com/blog/seattle-ai-landscape/</loc></url>
-
-  <!-- Author -->
-  <url><loc>https://philhills.com/author/phil-hills/</loc></url>
-
-  <!-- Docs -->
-  <url><loc>https://philhills.com/docs/</loc></url>
-  <url><loc>https://philhills.com/docs/q-protocol-spec.html</loc><priority>0.9</priority></url>
-  <url><loc>https://philhills.com/docs/cube-protocol/</loc></url>
-  <url><loc>https://philhills.com/docs/agentic-orchestration/</loc></url>
+  <!-- Other Pages -->
+  <url><loc>https://philhills.com/q-protocol.html</loc><priority>0.7</priority></url>
+  <url><loc>https://philhills.com/resume.html</loc><priority>0.7</priority></url>
+  <url><loc>https://philhills.com/about.html</loc><priority>0.6</priority></url>
+  <url><loc>https://philhills.com/contact.html</loc><priority>0.6</priority></url>
 
 </urlset>
