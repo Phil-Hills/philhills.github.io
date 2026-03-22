@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Identity Cubes: How AI Agents Prove Who They Are - Phil Hills</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Phil Hills introduces Identity Cubes, a 1,284-byte compressed, signed payload that gives AI agents cryptographic identity. Part of the Q Protocol and A2AC Standard.">
+<meta name="author" content="Phil Hills">
+<link rel="canonical" href="https://philhills.com/blog/identity-cubes/">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Identity Cubes: How AI Agents Prove Who They Are",
+  "author": {
+    "@type": "Person",
+    "@id": "https://philhills.com/#person",
+    "name": "Phil Hills",
+    "jobTitle": "Systems Architect",
+    "url": "https://philhills.com"
+  },
+  "datePublished": "2026-03-18",
+  "dateModified": "2026-03-22",
+  "publisher": {
+    "@type": "Person",
+    "name": "Phil Hills"
+  },
+  "description": "Identity Cubes give AI agents cryptographic identity in 1,284 bytes. Part of the Q Protocol.",
+  "mainEntityOfPage": "https://philhills.com/blog/identity-cubes/"
+}
+</script>
+
+<style>
+  body{margin:0;font-family:system-ui;background:#f9fafb;color:#111;line-height:1.65;}
+  header,main,footer{max-width:800px;margin:0 auto;padding:1.5rem 1rem;}
+  header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e5e7eb;padding-top:2rem;}
+  .brand{display:flex;align-items:center;gap:.75rem;}
+  .brand-mark{width:38px;height:38px;border-radius:999px;border:2px solid #111;display:flex;align-items:center;justify-content:center;font-weight:700;}
+  .brand-text{display:flex;flex-direction:column;} .brand-text span:last-child{color:#6b7280;font-size:.85rem;}
+  nav a{margin-left:1rem;text-decoration:none;color:#111;} nav a:first-child{margin-left:0;} nav a:hover{text-decoration:underline;}
+  h1{font-size:2rem;margin-top:1.5rem;} h2{margin-top:2rem;}
+  .meta{font-size:.9rem;color:#6b7280;margin-bottom:1rem;}
+  code{background:#f3f4f6;padding:.15em .4em;border-radius:3px;font-size:.9em;}
+  pre{background:#1e293b;color:#e2e8f0;padding:1rem;border-radius:8px;overflow-x:auto;font-size:.85rem;}
+  footer{border-top:1px solid #e5e7eb;margin-top:3rem;padding-top:1rem;font-size:.85rem;color:#6b7280;}
+</style>
+</head>
+
+<body>
+<header>
+  <div class="brand">
+    <div class="brand-mark">PH</div>
+    <div class="brand-text"><span>Phil Hills</span><span>Systems Architect</span></div>
+  </div>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/blog/">Blog</a>
+    <a href="https://philhills.ai">Identity Hub</a>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h1>Identity Cubes: How AI Agents Prove Who They Are</h1>
+    <div class="meta">
+      By <a href="/">Phil Hills</a> · March 18, 2026
+    </div>
+
+    <p>
+      If you send a message to an AI agent, how do you know it's the right one? How does the
+      agent know who you are? In most systems, the answer is: you don't. Trust is assumed.
+      That's a problem.
+    </p>
+
+    <h2>What Is an Identity Cube?</h2>
+    <p>
+      An Identity Cube is a compressed, signed payload that contains everything an agent needs
+      to verify identity. It's 1,284 bytes. That's smaller than most HTTP headers.
+    </p>
+    <p>
+      Inside a cube:
+    </p>
+    <ul>
+      <li><strong>DID:</strong> A Decentralized Identifier (e.g. <code>did:cube:521714db0110e6fe</code>)</li>
+      <li><strong>Hash:</strong> BLAKE2b signature of the compressed payload</li>
+      <li><strong>Coordinate:</strong> Z-order spatial hash for topology mapping</li>
+      <li><strong>Entity data:</strong> Name, role, capabilities, trust graph position</li>
+    </ul>
+
+    <h2>Why Not Just Use JWTs?</h2>
+    <p>
+      JWTs are tokens. They assert claims. But they don't carry topology, memory, or
+      relationship context. An Identity Cube isn't just "I am X." It's "I am X, I sit at
+      coordinate Y in the topology, I have trust level Z with agents A and B, and here's
+      my cryptographic proof."
+    </p>
+    <p>
+      As agents interact more, the payload shrinks. This is K-to-0 convergence: two agents
+      that know each other well eventually communicate with nothing more than a coordinate.
+      Full context in zero tokens.
+    </p>
+
+    <h2>How to Use Identity Cubes</h2>
+    <p>
+      Every site I run serves an Identity Cube endpoint:
+    </p>
+    <ul>
+      <li><a href="https://philhills.com/identity.cube">philhills.com/identity.cube</a></li>
+      <li><a href="https://philhills.ai/identity.cube">philhills.ai/identity.cube</a></li>
+      <li><a href="https://a2ac.ai/identity.cube">a2ac.ai/identity.cube</a></li>
+    </ul>
+    <p>
+      Any agent can fetch the cube, verify the BLAKE2b hash, and establish trust without a
+      central authority. No OAuth server. No API keys. Just math.
+    </p>
+
+    <h2>The Bigger Picture</h2>
+    <p>
+      Identity Cubes are one piece of the <a href="/blog/why-i-built-q-protocol/">Q Protocol</a>,
+      which also includes smart memory (Ebbinghaus decay), relay channels, and the
+      <a href="https://a2ac.ai">A2AC Standard</a> for agent-to-agent communication.
+    </p>
+    <p>
+      The Python SDK (<code>cube-protocol</code>) includes modules for generating, signing,
+      verifying, and distributing Identity Cubes. If you're building agent systems, start
+      with identity. Everything else follows.
+    </p>
+    <p>
+      Questions? Reach out at <a href="mailto:phil@philhills.com">phil@philhills.com</a>.
+    </p>
+  </article>
+</main>
+
+<footer>© <span id="year"></span> Phil Hills. Systems Architect, Seattle WA.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>

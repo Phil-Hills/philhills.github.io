@@ -14,4 +14,11 @@
   <url><loc>https://philhills.com/about.html</loc><priority>0.6</priority></url>
   <url><loc>https://philhills.com/contact.html</loc><priority>0.6</priority></url>
 
+  <!-- Blog -->
+  <url><loc>https://philhills.com/blog/</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://philhills.com/blog/why-i-built-q-protocol/</loc><priority>0.8</priority></url>
+  <url><loc>https://philhills.com/blog/200-agents-cloud-run/</loc><priority>0.8</priority></url>
+  <url><loc>https://philhills.com/blog/identity-cubes/</loc><priority>0.8</priority></url>
+  <url><loc>https://philhills.com/blog/agentic-orchestration/</loc><priority>0.7</priority></url>
+
 </urlset>

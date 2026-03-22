@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Why I Built the Q Protocol - Phil Hills</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Phil Hills explains why he created the Q Protocol, a patent-pending framework for deterministic AI agent coordination with 37 claims filed.">
+<meta name="author" content="Phil Hills">
+<link rel="canonical" href="https://philhills.com/blog/why-i-built-q-protocol/">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Why I Built the Q Protocol",
+  "author": {
+    "@type": "Person",
+    "@id": "https://philhills.com/#person",
+    "name": "Phil Hills",
+    "jobTitle": "Systems Architect",
+    "url": "https://philhills.com"
+  },
+  "datePublished": "2026-03-22",
+  "dateModified": "2026-03-22",
+  "publisher": {
+    "@type": "Person",
+    "name": "Phil Hills"
+  },
+  "description": "Why I created the Q Protocol, a patent-pending framework for deterministic AI agent coordination.",
+  "mainEntityOfPage": "https://philhills.com/blog/why-i-built-q-protocol/"
+}
+</script>
+
+<style>
+  body{margin:0;font-family:system-ui;background:#f9fafb;color:#111;line-height:1.65;}
+  header,main,footer{max-width:800px;margin:0 auto;padding:1.5rem 1rem;}
+  header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e5e7eb;padding-top:2rem;}
+  .brand{display:flex;align-items:center;gap:.75rem;}
+  .brand-mark{width:38px;height:38px;border-radius:999px;border:2px solid #111;display:flex;align-items:center;justify-content:center;font-weight:700;}
+  .brand-text{display:flex;flex-direction:column;} .brand-text span:last-child{color:#6b7280;font-size:.85rem;}
+  nav a{margin-left:1rem;text-decoration:none;color:#111;} nav a:first-child{margin-left:0;} nav a:hover{text-decoration:underline;}
+  h1{font-size:2rem;margin-top:1.5rem;} h2{margin-top:2rem;}
+  .meta{font-size:.9rem;color:#6b7280;margin-bottom:1rem;}
+  code{background:#f3f4f6;padding:.15em .4em;border-radius:3px;font-size:.9em;}
+  footer{border-top:1px solid #e5e7eb;margin-top:3rem;padding-top:1rem;font-size:.85rem;color:#6b7280;}
+</style>
+</head>
+
+<body>
+<header>
+  <div class="brand">
+    <div class="brand-mark">PH</div>
+    <div class="brand-text"><span>Phil Hills</span><span>Systems Architect</span></div>
+  </div>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/blog/">Blog</a>
+    <a href="https://philhills.ai">Identity Hub</a>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h1>Why I Built the Q Protocol</h1>
+    <div class="meta">
+      By <a href="/">Phil Hills</a> · March 22, 2026
+    </div>
+
+    <p>
+      Every AI framework today treats agents like functions: you call them, they return output, done.
+      But real systems don't work like that. Real systems need state, memory, trust, and governance.
+      That's why I built the Q Protocol.
+    </p>
+
+    <h2>The Problem</h2>
+    <p>
+      I was orchestrating 200+ AI agents across Google Cloud Run. They could execute tasks, but they
+      couldn't coordinate. Agent A had no idea what Agent B knew. Context was lost between sessions.
+      Every interaction started from zero.
+    </p>
+    <p>
+      Prompt engineering wasn't the answer. Neither was RAG. The problem wasn't retrieval. The
+      problem was that agents had no shared understanding of topology, identity, or trust.
+    </p>
+
+    <h2>What Q Protocol Does</h2>
+    <p>
+      Q Protocol introduces three layers that don't exist in traditional AI frameworks:
+    </p>
+    <ul>
+      <li><strong>Identity:</strong> Every agent gets a DID (Decentralized Identifier). Mine is
+        <code>did:cube:521714db0110e6fe</code>. Agents can verify who they're talking to
+        cryptographically, not probabilistically.</li>
+      <li><strong>Memory:</strong> Ebbinghaus decay curves manage retention. Important knowledge
+        persists. Irrelevant context fades. No more stuffing everything into a prompt window.</li>
+      <li><strong>Topology:</strong> Z-order spatial hashing maps agent relationships into
+        navigable coordinates. Instead of searching, agents traverse. Communication payload shrinks
+        as familiarity grows, eventually converging to a single coordinate.</li>
+    </ul>
+
+    <h2>The Patent</h2>
+    <p>
+      I filed a patent application with 37 claims covering: Cube Protocol data structures,
+      Spectral Identity Verification, Ebbinghaus memory decay in agent systems, Z-order coordinate
+      mapping for agent discovery, and the K-to-0 convergence mechanism.
+    </p>
+    <p>
+      This isn't theoretical. The system runs today. 200+ agents, deployed on GCP Cloud Run,
+      coordinating through signed Identity Cubes and deterministic relay channels.
+    </p>
+
+    <h2>What's Next</h2>
+    <p>
+      The <a href="https://github.com/Phil-Hills/a2ac-ai">A2AC Standard</a> (Agent-to-Agent
+      Communication) is the open layer of Q Protocol. It defines how agents discover, authenticate,
+      and coordinate with each other. The SDK has 19 modules and is actively maintained.
+    </p>
+    <p>
+      If you're building multi-agent systems and tired of probabilistic chaos, check out
+      <a href="https://a2ac.ai">a2ac.ai</a> or reach out at
+      <a href="mailto:phil@philhills.com">phil@philhills.com</a>.
+    </p>
+  </article>
+</main>
+
+<footer>© <span id="year"></span> Phil Hills. Systems Architect, Seattle WA.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>

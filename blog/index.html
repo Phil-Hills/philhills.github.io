@@ -4,34 +4,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Insights | Phil Hills</title>
-  <link rel="stylesheet" href="../style.css">
+  <title>Blog | Phil Hills - Systems Architect</title>
+  <meta name="description" content="Technical blog by Phil Hills, Systems Architect. Posts on AI agent orchestration, Q Protocol, Identity Cubes, and Google Cloud Run deployments.">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Phil Hills Blog",
+    "url": "https://philhills.com/blog/",
+    "author": {
+      "@type": "Person",
+      "@id": "https://philhills.com/#person",
+      "name": "Phil Hills"
+    }
+  }
+  </script>
+
+  <style>
+    body{margin:0;font-family:system-ui;background:#f9fafb;color:#111;line-height:1.65;}
+    header,main,footer{max-width:800px;margin:0 auto;padding:1.5rem 1rem;}
+    header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e5e7eb;padding-top:2rem;}
+    .brand{display:flex;align-items:center;gap:.75rem;}
+    .brand-mark{width:38px;height:38px;border-radius:999px;border:2px solid #111;display:flex;align-items:center;justify-content:center;font-weight:700;}
+    .brand-text{display:flex;flex-direction:column;} .brand-text span:last-child{color:#6b7280;font-size:.85rem;}
+    nav a{margin-left:1rem;text-decoration:none;color:#111;} nav a:first-child{margin-left:0;} nav a:hover{text-decoration:underline;}
+    h1{font-size:2rem;margin-top:1.5rem;}
+    .post-list{list-style:none;padding:0;}
+    .post-list li{padding:1.25rem 0;border-bottom:1px solid #e5e7eb;}
+    .post-list a{text-decoration:none;color:inherit;}
+    .post-list h2{margin:0 0 .25rem;font-size:1.25rem;} .post-list h2:hover{text-decoration:underline;}
+    .post-meta{font-size:.85rem;color:#6b7280;}
+    .post-desc{font-size:.95rem;color:#374151;margin-top:.35rem;}
+    footer{border-top:1px solid #e5e7eb;margin-top:3rem;padding-top:1rem;font-size:.85rem;color:#6b7280;}
+  </style>
 </head>
 
 <body>
-  <nav>
-    <a href="../index.html">HOME</a>
-    <a href="index.html" class="active">INSIGHTS</a>
-    <a href="../contact.html">CONTACT</a>
-  </nav>
-
-  <header class="hero">
-    <h1>SYSTEMS OF <span class="gradient-text">REVENUE</span></h1>
-  </header>
-
-  <div class="insight-grid">
-    <a href="q-protocol.html" class="insight-card">
-      <div class="insight-meta">ARCHITECTURAL AUDIT</div>
-      <h2 class="insight-title">The Death of JSON: Why We Switched to Z-Order Telemetry</h2>
-      <div class="insight-arrow">→</div>
-    </a>
-    <a href="data-gravity.html" class="insight-card">
-      <div class="insight-meta">STRATEGY</div>
-      <h2 class="insight-title">Data Gravity is the Enemy of Speed</h2>
-      <div class="insight-arrow">→</div>
-    </a>
+<header>
+  <div class="brand">
+    <div class="brand-mark">PH</div>
+    <div class="brand-text"><span>Phil Hills</span><span>Systems Architect</span></div>
   </div>
-</body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/blog/">Blog</a>
+    <a href="https://philhills.ai">Identity Hub</a>
+  </nav>
+</header>
 
+<main>
+  <h1>Blog</h1>
+  <ul class="post-list">
+    <li>
+      <a href="/blog/why-i-built-q-protocol/">
+        <h2>Why I Built the Q Protocol</h2>
+        <div class="post-meta">March 22, 2026</div>
+        <div class="post-desc">The problem with current AI frameworks, and how Q Protocol solves identity, memory, and topology for agent coordination.</div>
+      </a>
+    </li>
+    <li>
+      <a href="/blog/200-agents-cloud-run/">
+        <h2>200 Agents on Google Cloud Run: Lessons from Production</h2>
+        <div class="post-meta">March 20, 2026</div>
+        <div class="post-desc">Cost management, cold starts, agent discovery, and what I'd do differently running 200+ agents on GCP.</div>
+      </a>
+    </li>
+    <li>
+      <a href="/blog/identity-cubes/">
+        <h2>Identity Cubes: How AI Agents Prove Who They Are</h2>
+        <div class="post-meta">March 18, 2026</div>
+        <div class="post-desc">A 1,284-byte compressed, signed payload that gives agents cryptographic identity. Why JWTs aren't enough.</div>
+      </a>
+    </li>
+    <li>
+      <a href="/blog/agentic-orchestration/">
+        <h2>Agentic Orchestration Fundamentals</h2>
+        <div class="post-meta">January 5, 2025</div>
+        <div class="post-desc">Real orchestration requires structure, supervision, and state. Not just one model playing multiple personas.</div>
+      </a>
+    </li>
+    <li>
+      <a href="/blog/semantic-memory/">
+        <h2>Semantic Memory for Agents</h2>
+        <div class="post-meta">2025</div>
+        <div class="post-desc">How Ebbinghaus decay curves manage memory retention in autonomous agent systems.</div>
+      </a>
+    </li>
+  </ul>
+</main>
+
+<footer>© <span id="year"></span> Phil Hills. Systems Architect, Seattle WA.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
 </html>

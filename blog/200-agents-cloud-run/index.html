@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>200 Agents on Google Cloud Run: Lessons from Production - Phil Hills</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Phil Hills shares lessons from running 200+ AI agents in production on Google Cloud Run, including cost management, cold starts, and coordination patterns.">
+<meta name="author" content="Phil Hills">
+<link rel="canonical" href="https://philhills.com/blog/200-agents-cloud-run/">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "200 Agents on Google Cloud Run: Lessons from Production",
+  "author": {
+    "@type": "Person",
+    "@id": "https://philhills.com/#person",
+    "name": "Phil Hills",
+    "jobTitle": "Systems Architect",
+    "url": "https://philhills.com"
+  },
+  "datePublished": "2026-03-20",
+  "dateModified": "2026-03-22",
+  "publisher": {
+    "@type": "Person",
+    "name": "Phil Hills"
+  },
+  "description": "Lessons from running 200+ AI agents in production on Google Cloud Run.",
+  "mainEntityOfPage": "https://philhills.com/blog/200-agents-cloud-run/"
+}
+</script>
+
+<style>
+  body{margin:0;font-family:system-ui;background:#f9fafb;color:#111;line-height:1.65;}
+  header,main,footer{max-width:800px;margin:0 auto;padding:1.5rem 1rem;}
+  header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e5e7eb;padding-top:2rem;}
+  .brand{display:flex;align-items:center;gap:.75rem;}
+  .brand-mark{width:38px;height:38px;border-radius:999px;border:2px solid #111;display:flex;align-items:center;justify-content:center;font-weight:700;}
+  .brand-text{display:flex;flex-direction:column;} .brand-text span:last-child{color:#6b7280;font-size:.85rem;}
+  nav a{margin-left:1rem;text-decoration:none;color:#111;} nav a:first-child{margin-left:0;} nav a:hover{text-decoration:underline;}
+  h1{font-size:2rem;margin-top:1.5rem;} h2{margin-top:2rem;}
+  .meta{font-size:.9rem;color:#6b7280;margin-bottom:1rem;}
+  code{background:#f3f4f6;padding:.15em .4em;border-radius:3px;font-size:.9em;}
+  pre{background:#1e293b;color:#e2e8f0;padding:1rem;border-radius:8px;overflow-x:auto;font-size:.85rem;}
+  footer{border-top:1px solid #e5e7eb;margin-top:3rem;padding-top:1rem;font-size:.85rem;color:#6b7280;}
+</style>
+</head>
+
+<body>
+<header>
+  <div class="brand">
+    <div class="brand-mark">PH</div>
+    <div class="brand-text"><span>Phil Hills</span><span>Systems Architect</span></div>
+  </div>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/blog/">Blog</a>
+    <a href="https://philhills.ai">Identity Hub</a>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <h1>200 Agents on Google Cloud Run: Lessons from Production</h1>
+    <div class="meta">
+      By <a href="/">Phil Hills</a> · March 20, 2026
+    </div>
+
+    <p>
+      I run 200+ AI agents on Google Cloud Run. Not as experiments, not as demos. In production.
+      Here's what I've learned about running autonomous systems at scale.
+    </p>
+
+    <h2>Why Cloud Run</h2>
+    <p>
+      Cloud Run scales to zero. That matters when you have 200 agents and most of them are idle
+      most of the time. You pay per request, not per hour. An agent that runs once a day costs
+      nearly nothing. An agent that runs 10,000 times a day auto-scales.
+    </p>
+    <p>
+      Every agent is a Docker container. Same deployment pipeline, same monitoring, same IAM
+      permissions. No Kubernetes cluster to manage. No nodes to provision.
+    </p>
+
+    <h2>The Cold Start Problem</h2>
+    <p>
+      Cold starts are real. A Python agent with heavy dependencies can take 3-5 seconds to start.
+      For orchestration workflows where Agent A calls Agent B calls Agent C, those seconds stack up.
+    </p>
+    <p>
+      Solutions that worked for me:
+    </p>
+    <ul>
+      <li>Keep base images small. Alpine + only what you need.</li>
+      <li>Use <code>min-instances=1</code> for critical-path agents.</li>
+      <li>Design for async. Don't chain synchronous calls across 5 agents.</li>
+      <li>Pre-warm with scheduled Cloud Scheduler pings.</li>
+    </ul>
+
+    <h2>Agent Discovery</h2>
+    <p>
+      With 200 agents, how does Agent A find Agent B? Not through a service registry. Through
+      <a href="https://a2ac.ai">A2AC</a>, the Agent-to-Agent Communication standard.
+    </p>
+    <p>
+      Each agent publishes an <code>agent.json</code> discovery card listing its capabilities,
+      DID, and endpoint. The orchestrator doesn't need to know every agent. It discovers them
+      through topology, not configuration.
+    </p>
+
+    <h2>Cost</h2>
+    <p>
+      200 agents on Cloud Run costs me less than most people pay for a single always-on VM.
+      The scale-to-zero model is ideal for agent fleets. Most agents spend 99% of their time
+      idle. You only pay when they think.
+    </p>
+
+    <h2>What I'd Do Differently</h2>
+    <ul>
+      <li>Start with signed Identity Cubes from day one. Retrofitting identity onto 200 agents is painful.</li>
+      <li>Build the relay layer before building the agents. Communication patterns matter more than individual capabilities.</li>
+      <li>Monitor memory usage, not just CPU. Agents that accumulate state without decay become expensive fast.</li>
+    </ul>
+
+    <p>
+      The full orchestration framework is part of the
+      <a href="/blog/why-i-built-q-protocol/">Q Protocol</a>. The SDK has 19 modules covering
+      identity, trust, memory, relay, discovery, and task lifecycle.
+    </p>
+  </article>
+</main>
+
+<footer>© <span id="year"></span> Phil Hills. Systems Architect, Seattle WA.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
