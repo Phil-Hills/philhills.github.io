@@ -64,6 +64,9 @@ jobs:
           cp -v sitemap.xml dist/ 2>/dev/null || true
           cp -v favicon.ico dist/ 2>/dev/null || true
           cp -v identity.json dist/ 2>/dev/null || true
+          cp -v identity.cube dist/ 2>/dev/null || true
+          cp -v llms.txt dist/ 2>/dev/null || true
+          cp -v phil.jpg dist/ 2>/dev/null || true
           cp -v feed.json dist/ 2>/dev/null || true
           cp -v feed.xml dist/ 2>/dev/null || true
           cp -v ai.txt dist/ 2>/dev/null || true
