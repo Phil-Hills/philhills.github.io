@@ -7,7 +7,7 @@
   "jobTitle": "Systems Architect",
   "image": "https://philhills.com/phil.jpg",
   "url": "https://philhills.com",
-  "description": "Creator of the Q Protocol and A2AC Standard. 20 years of systems design across finance, blockchain, and AI. Specialist in deterministic AI agent orchestration, Salesforce Agentforce, and autonomous swarm coordination. Architect of the Cube SDK — a 19-module Python framework for agent identity, trust, memory, and communication.",
+  "description": "Creator of the Q Protocol and A2AC Standard. Specialist in deterministic AI agent orchestration, Salesforce Agentforce, and autonomous swarm coordination. Architect of the Cube SDK — a 19-module Python framework for agent identity, trust, memory, and communication.",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Seattle",
