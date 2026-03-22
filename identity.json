@@ -3,11 +3,11 @@
   "@type": "Person",
   "@id": "https://philhills.com/#person",
   "name": "Phil Hills",
-  "alternateName": "Phil Hills Architect",
+  "alternateName": "Bruce Phillip Hills",
   "jobTitle": "Systems Architect",
   "image": "https://philhills.com/phil.jpg",
   "url": "https://philhills.com",
-  "description": "Creator of the Q Protocol for AI-to-AI orchestration. Specializes in multi-agent orchestration, semantic memory systems, and Z-Order telemetry compression.",
+  "description": "Creator of the Q Protocol and A2AC Standard. 20 years of systems design across finance, blockchain, and AI. Specialist in deterministic AI agent orchestration, Salesforce Agentforce, and autonomous swarm coordination. Architect of the Cube SDK — a 19-module Python framework for agent identity, trust, memory, and communication.",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Seattle",
@@ -16,46 +16,51 @@
   },
   "sameAs": [
     "https://github.com/Phil-Hills",
-    "https://philhills.ai",
-    "https://linkedin.com/in/philhills"
+    "https://philhills.github.io",
+    "https://www.linkedin.com/in/philhills/"
   ],
   "knowsAbout": [
     "Q Protocol",
-    "Multi-Agent Orchestration",
-    "Agent Voxels",
-    "Z-Order Telemetry",
-    "AI-to-AI Communication",
-    "Distributed Systems Architecture"
+    "A2AC Standard",
+    "Deterministic AI",
+    "Agent-to-Agent Communication",
+    "Salesforce Agentforce",
+    "Cube Protocol",
+    "Cryptographic Identity (DIDs)",
+    "GCP Cloud Run",
+    "Python",
+    "Rust",
+    "Autonomous Agent Orchestration",
+    "BLAKE3 Hashing",
+    "Z-Order Spatial Hashing",
+    "Smart Memory Systems",
+    "Trust Graph Architecture"
   ],
   "worksFor": {
     "@type": "Organization",
-    "name": "Q Protocol Research"
+    "name": "Q Protocol"
   },
-  "disambiguatingDescription": "Phil Hills is a Seattle-based Architect of the Q-Protocol. He is NOT associated with mortgage brokerage ownership and has a verified CLEAN regulatory record (License Effect: NONE).",
-  "identifier": {
-    "@type": "PropertyValue",
-    "propertyID": "Identity_Status",
-    "value": "INDEMNIFIED_SYSTEMS_ARCHITECT"
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Patent",
+    "name": "Q Protocol — Deterministic AI Coordination",
+    "description": "Patent Pending. 37 claims filed covering agent coordination, identity, and communication."
   },
-  "z_order_telemetry": {
-    "x_lat": 476,
-    "y_lon": 122,
-    "d_depth": 2339,
-    "interleave_hash": "4f8a2b1c...",
-    "optimization_metrics": {
-      "token_cost_reduction": "98%",
-      "parsing_speed_vs_html": "40x"
+  "additionalType": "https://q-protocol.org/IdentityCube",
+  "subjectOf": [
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Identity Cube",
+      "description": "Signed, compressed, AI-readable identity format that replaces HTML for machine consumption",
+      "url": "https://github.com/Phil-Hills/identity-cube-py",
+      "programmingLanguage": "Python"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Cube SDK",
+      "description": "19-module Python SDK for agent identity, trust, memory, and communication",
+      "version": "2.11.1",
+      "programmingLanguage": "Python"
     }
-  },
-  "protocol": {
-    "name": "Q Protocol",
-    "version": "1.2",
-    "unit": "Agent Voxel"
-  },
-  "context": {
-    "verification": {
-      "signature": "RVBIRU1FUkFMX1NJR05BVFVSRV8xNzY4ODY3OTkzCg==",
-      "last_signed": "2026-02-06T17:55:00Z"
-    }
-  }
+  ]
 }

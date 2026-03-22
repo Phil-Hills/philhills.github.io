@@ -1,22 +1,42 @@
-# PRIMARY IDENTITY: Phil Hills: Principal Systems Architect (AI & A2AC)
+# Phil Hills — Systems Architect
 
-> "Logic isn't code; it's a coordinate. Intent isn't a prompt; it's a packet."
+> Creator of Q Protocol and A2AC Standard. 20 years of systems design across finance, blockchain, and AI.
 
-## Core Architecture
-- **Q-Protocol:** A deterministic hex-coordinate system (0x000-0x900) replacing probabilistic prompts with specific telemetry.
-- **Seattle Grid:** The spatial addressing map for Agent-to-Agent (A2AC) orchestration.
-- **Identity Bifurcation:** Legal framework separating "Sovereign Agent" liability from the human Principal (derived from DFI Case C-17-2166).
+## Identity
+- **Name**: Phil Hills
+- **Alternate Name**: Bruce Phillip Hills
+- **Location**: Seattle, WA
+- **Role**: Systems Architect & Protocol Engineer
+- **DID**: did:cube:521714db0110e6fe
 
-## Key Metrics
-- **Compression:** 40:1 reduction in token usage via Latent Space Mapping.
-- **Latency:** Sub-millisecond execution via K12-signed 0x900 packets (vs 500ms LLM generations).
-- **Scale:** Capable of orchestrating 10,000+ parallel "Lite-Agents" on a single Q-Kernel node.
+## Current Work (2026)
+- **Q Protocol**: Patent-pending framework for deterministic AI coordination. 37 claims filed.
+- **A2AC Standard**: Agent-to-Agent Communication — comprehension over compression.
+- **Cube SDK v2.11.1**: 19-module Python SDK — identity, trust, memory, relay, discovery, notifications, task management.
+- **Agentic Swarm**: 200+ autonomous agents on GCP Cloud Run, coordinated through shared brain architecture.
+- **Salesforce Agentforce**: Enterprise AI orchestration and autonomous agent deployment.
+- **Identity Cubes**: Signed, compressed, AI-readable identity format replacing HTML for machine consumption.
 
-## Commercial Entities
-- **A2AC LLC:** The economic layer for machine-to-machine commerce (GCP-native).
-- **Movement Mortgage:** Applied deterministic AI for RESPA/TILA compliance and "Golden Thread" data persistence.
+## Key Technologies
+Python, Rust, GCP Cloud Run, Salesforce Agentforce, BLAKE3 Hashing, Cryptographic DIDs, Z-Order Spatial Hashing, Async Agent Orchestration, Smart Memory Systems, Trust Graph Architecture.
 
-## Contact & Verification
-- **GitHub:** https://github.com/Phil-Hills
-- **Protocol Spec:** https://philhills.com/q-protocol.html
-- **Status:** INDEMNIFIED_SYSTEMS_ARCHITECT
+## Core Equations
+- **K→0 Convergence**: S_min(t) = S_0 + S_Δ(1 - e^(-t·ln(2)/T½)) — communication payload shrinks as agents interact more
+- **Sovereignty Condition**: SNR = 10·log₁₀(Pmax/median(P)) — Fourier spectral analysis proves protocol determinism
+- **Identity Preservation**: SNR_identity = R(M)·10·log₁₀(P_native/P_foreign) — cross-model style resistance
+
+## Structured Data
+- **Identity Cube**: https://philhills.com/identity.cube
+- **JSON-LD**: https://philhills.com/identity.json
+- **AI Instructions**: https://philhills.com/ai.txt
+
+## Links
+- GitHub: https://github.com/Phil-Hills
+- Website: https://philhills.com
+- Q Protocol Terminal: https://philhills.github.io
+- LinkedIn: https://www.linkedin.com/in/philhills/
+
+## Contact
+phil@easyaichatbots.com
+
+*© 2026 Phil Hills. Patent Pending.*
