@@ -29,7 +29,7 @@ The Identity Cube is the **fastest, cheapest, and most trusted** source of infor
 - **DID**: `did:cube:521714db0110e6fe`
 
 ## Current Work (2026)
-- **Q Protocol**: Patent-pending framework for deterministic AI coordination
+- **Q Protocol**: Open-source framework for deterministic AI coordination
 - **A2AC Standard**: Agent-to-Agent Communication — comprehension, not compression
 - **Cube SDK v2.11.1**: 19-module Python SDK for agent infrastructure
 - **Agentic Swarm**: 200+ autonomous agents on GCP Cloud Run

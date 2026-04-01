@@ -10,7 +10,7 @@
 - **DID**: did:cube:521714db0110e6fe
 
 ## Current Work (2026)
-- **Q Protocol**: Patent-pending framework for deterministic AI coordination. 37 claims filed.
+- **Q Protocol**: Open-source framework for deterministic AI coordination.
 - **A2AC Standard**: Agent-to-Agent Communication — comprehension over compression.
 - **Cube SDK v2.11.1**: 19-module Python SDK — identity, trust, memory, relay, discovery, notifications, task management.
 - **Agentic Swarm**: 200+ autonomous agents on GCP Cloud Run, coordinated through shared brain architecture.
@@ -39,4 +39,4 @@ Python, Rust, GCP Cloud Run, Salesforce Agentforce, BLAKE3 Hashing, Cryptographi
 ## Contact
 phil@philhills.com
 
-*© 2026 Phil Hills. Patent Pending.*
+*© 2026 Phil Hills. Open Source.*
