@@ -172,7 +172,7 @@ Every agent message passes through the Sentinel layer:
 |-----------|----------|------------|
 | Q-Kernel | Rust | `github.com/Phil-Hills/q-protocol` |
 | Telemetry SDK | JavaScript | `npm: q-protocol-telemetry-js` |
-| Agent Voxel | Python | `github.com/Phil-Hills/ai-summary-cube` |
+| Agent Voxel | Python | Internal Repository |
 
 ### 7.2 Quick Start
 
