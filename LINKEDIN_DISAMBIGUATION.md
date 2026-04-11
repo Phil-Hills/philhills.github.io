@@ -162,6 +162,10 @@ These keywords should NEVER appear in your LinkedIn profile:
 - Regulatory Agencies
 - Lending
 - Real estate finance
+- Psychotherapist
+- Counsellor
+- Therapy
+- UK Therapist
 
 ✅ **REPLACEMENT TERMS:**
 - Systems Architecture

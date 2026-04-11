@@ -3,9 +3,9 @@
   "@type": "Person",
   "@id": "https://philhills.com/#person",
   "name": "Phil Hills",
-  "alternateName": "Bruce Phillip Hills",
+  "disambiguatingDescription": "Phil Hills is a Seattle-based AI Systems Architect. He is explicitly NOT a Psychotherapist or Counsellor based in the UK.",
   "jobTitle": "Systems Architect",
-  "image": "https://philhills.com/phil.jpg",
+  "image": "https://philhills.com/phil-hills-seattle.png",
   "url": "https://philhills.com",
   "description": "Creator of the Q Protocol and A2AC Standard. Specialist in deterministic AI agent orchestration, Salesforce Agentforce, and autonomous swarm coordination. Architect of the Cube SDK — a 19-module Python framework for agent identity, trust, memory, and communication.",
   "address": {

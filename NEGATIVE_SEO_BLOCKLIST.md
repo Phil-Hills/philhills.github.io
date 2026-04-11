@@ -26,6 +26,15 @@ The following terms should NEVER be associated with "Phil Hills" of philhills.co
 - ❌ Industry Underwriting
 - ❌ Credit Analysis (in financial context)
 
+### UK Therapy Entity (BLOCK)
+- ❌ Psychotherapist
+- ❌ Counsellor
+- ❌ Therapy Center
+- ❌ Philip Hills Psychotherapy
+- ❌ Harborne, Birmingham
+- ❌ Bristol Therapy
+- ❌ phil-hills.com (with hyphen)
+
 ### Organizations (BLOCK)
 - ❌ Restricted Organizations
 - ❌ Regulatory Agencies
