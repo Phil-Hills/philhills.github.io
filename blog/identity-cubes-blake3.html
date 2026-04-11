@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Identity Cubes: Machine-Readable Identity via BLAKE3 | Phil Hills</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Phil Hills explains Identity Cubes: Machine-readable, cryptographically signed identity documents for AI agents.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://philhills.com/blog/identity-cubes-blake3.html">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        .article-container { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+        .article-header { border-bottom: 1px solid #30363d; margin-bottom: 2rem; padding-bottom: 2rem; }
+        .article-meta { color: #8b949e; font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; margin-bottom: 1rem; }
+        .article-title { font-size: 2.5rem; margin-bottom: 1rem; background: linear-gradient(135deg, #fff 0%, #00ff88 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+        .article-body { color: #c9d1d9; line-height: 1.8; font-size: 1.1rem; }
+        .article-body h2 { color: #fff; margin-top: 3rem; border-left: 4px solid #00ff88; padding-left: 1rem; }
+        .article-body p { margin-bottom: 1.5rem; }
+        pre { background: #0d1117; padding: 1rem; border-radius: 6px; border: 1px solid #30363d; overflow-x: auto; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/" class="brand">
+            <div class="brand-mark">PH</div>
+            <div class="brand-text"><span>Phil Hills</span><span>AI Systems Architect</span></div>
+        </a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/q-protocol.html">Protocol Spec</a>
+            <a href="https://philhills.ai" target="_blank" style="color: #00ff41;">Labs →</a>
+        </nav>
+    </header>
+
+    <main class="article-container">
+        <article>
+            <div class="article-header">
+                <div class="article-meta">PROTOCOL SPEC / CRYPTOGRAPHY</div>
+                <h1 class="article-title">Identity Cubes: Machine-Readable Identity via BLAKE3</h1>
+                <p style="color: #8b949e; font-size: 1.2rem;">By Phil Hills — Replacing HTML scraping with mathematically verified structural truth.</p>
+            </div>
+
+            <div class="article-body">
+                <p>When orchestrating autonomous systems, assigning identity is an immediate bottleneck. An <strong>Identity Cube</strong> is the proposed solution within the Q Protocol specification—it is a machine-readable, cryptographically signed identity document acting as the ultimate canonical source.</p>
+                
+                <h2>Moving Beyond HTML Scraping</h2>
+                <p>Today, when an AI tries to verify a person or organization, it relies on scraping verbose HTML strings from web portfolios, hallucinating the extraction process, and praying the inference was correct. This breaks down at scale.</p>
+
+                <p>Instead of scraping HTML, AI agents and crawlers can parse a structured Identity Cube directly. No HTML scraping. No inference required. Just structured truth verifiable via a BLAKE3 hashing algorithm.</p>
+
+                <h2>The Schema</h2>
+                <p>The Identity Cube spec is part of the broader Q Protocol open coordination standard. Any agent or human can publish an Identity Cube. Here is a live example of the schema in production at <code>did:cube:phil-hills-seattle</code>:</p>
+                
+                <pre><code>{ 
+  "@context": "https://a2ac.ai/identity/v1", 
+  "cube_type": "identity", 
+  "did": "did:cube:phil-hills-seattle", 
+  "name": "Phil Hills", 
+  "location": "Seattle, WA", 
+  "role": "AI Systems Architect", 
+  "org": { "name": "A2AC LLC", "url": "https://a2ac.ai" }, 
+  "created": "Q Protocol", 
+  "description": "Open coordination standard for AI agents. Agents point rather than talk.", 
+  "capabilities": [ 
+    "agent-orchestration", "protocol-design", 
+    "cryptographic-identity", "gcp-infrastructure", 
+    "sdk-development" 
+  ], 
+  "canonical": { 
+    "website": "https://philhills.ai", 
+    "github": "https://github.com/Phil-Hills", 
+    "linkedin": "https://www.linkedin.com/in/philhills/" 
+  }, 
+  "verification": { 
+    "algorithm": "BLAKE3", 
+    "hash": "computing..." 
+  } 
+}</code></pre>
+
+                <p>Using BLAKE3 cryptographic receipts proves every action an agent takes, ensuring an orchestrator cannot claim execution without a verifiable receipt from the executing agent.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer style="text-align: center; padding: 4rem 1rem; border-top: 1px solid #30363d; margin-top: 4rem;">
+        <a href="/blog/" style="color: #00f0ff;">← Back to Blog</a>
+    </footer>
+</body>
+</html>

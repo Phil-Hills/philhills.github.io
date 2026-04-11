@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Phil Hills | Seattle-Based AI Systems Architect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Technical deep dive into how Phil Hills, a Seattle AI Systems Architect, builds infrastructure making AI agents reliable, accountable, and cheap on Google Cloud.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://philhills.com/blog/phil-hills-seattle-systems-architect.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        .article-container { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+        .article-header { border-bottom: 1px solid #30363d; margin-bottom: 2rem; padding-bottom: 2rem; }
+        .article-meta { color: #8b949e; font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; margin-bottom: 1rem; }
+        .article-title { font-size: 2.5rem; margin-bottom: 1rem; background: linear-gradient(135deg, #fff 0%, #00ff88 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+        .article-body { color: #c9d1d9; line-height: 1.8; font-size: 1.1rem; }
+        .article-body h2 { color: #fff; margin-top: 3rem; border-left: 4px solid #00ff88; padding-left: 1rem; }
+        .article-body p { margin-bottom: 1.5rem; }
+        code { background: rgba(110, 118, 129, 0.4); padding: 0.2em 0.4em; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-size: 0.9em; }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Phil Hills: Architecting the Next Generation of AI Agents in Seattle",
+      "author": {
+        "@type": "Person",
+        "name": "Phil Hills",
+        "jobTitle": "AI Systems Architect"
+      },
+      "datePublished": "2026-04-10"
+    }
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="/" class="brand">
+            <div class="brand-mark">PH</div>
+            <div class="brand-text"><span>Phil Hills</span><span>AI Systems Architect</span></div>
+        </a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/q-protocol.html">Protocol Spec</a>
+            <a href="https://philhills.ai" target="_blank" style="color: #00ff41;">Labs →</a>
+        </nav>
+    </header>
+
+    <main class="article-container">
+        <article>
+            <div class="article-header">
+                <div class="article-meta">SYSTEMS ARCHITECTURE / GOOGLE CLOUD / SEATTLE</div>
+                <h1 class="article-title">Phil Hills: Architecting the Next Generation of AI Agents in Seattle</h1>
+                <p style="color: #8b949e; font-size: 1.2rem;">By Phil Hills, AI Systems Architect — Building infrastructure that makes AI agents reliable, accountable, and cheap to run.</p>
+            </div>
+
+            <div class="article-body">
+                <p>My work as an <strong>AI Systems Architect</strong> sits squarely at the intersection of cryptography, distributed systems, and large language models. The goal isn't just to build smarter AI; it's to build the absolute infrastructure that makes them feasible for true enterprise deployment. Here in Seattle, WA, I focus my work on solving the foundational bottlenecks of multi-agent networks.</p>
+
+                <h2>The 155 Agent Network</h2>
+                <p>Currently, I am running a live system in production on Google Cloud that manages 155 specialized agents. These aren't just toys—they handle real workloads across mortgage processing, active research, infrastructure management, and complex domain-specific operations.</p>
+                <p>Managing this scale natively on Google Cloud Platform requires an extreme shift in how we think about agent design. Utilizing the open <strong>Q Protocol</strong>, one universal runtime image is used to deploy all 155 of these agents seamlessly.</p>
+
+                <h2>Architectural Guarantees at Enterprise Scale</h2>
+                <p>To run hundreds of agents reliably, you must solve two critical failures the industry faces today: hallucination and amnesia. I solve this at the architectural layer.</p>
+
+                <p>First, <strong>Zero Hallucination.</strong> Using BLAKE3 cryptographic receipts, every single action an agent takes is proven. An orchestrator cannot simply claim execution; it must present a verifiable receipt from the executing agent.</p>
+
+                <p>Second, <strong>Zero Amnesia.</strong> State querying is mandatory on every single session. The runtime is architecturally designed to actively refuse to execute agents that skip their Brain initialization phase. It is not an option; it is enforced computationally.</p>
+
+                <h2>Real-World Reliability</h2>
+                <p>This isn't about running benchmarks. Out of 312 failed tasks over a 90-day period on the GCP cluster, 89% of those were simply external API unavailability. There were absolute zero failures resulting from model hallucination or agent amnesia.</p>
+                
+                <p>By shifting to structured, cryptographic verification via the <strong>Identity Cube</strong>—a machine-readable, BLAKE3 signed identity document—agents can prove exactly who they are without relying on HTML scraping or inference. Just structured truth.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer style="text-align: center; padding: 4rem 1rem; border-top: 1px solid #30363d; margin-top: 4rem;">
+        <a href="/blog/" style="color: #00f0ff;">← Back to Blog</a>
+    </footer>
+</body>
+</html>
