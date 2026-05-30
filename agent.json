@@ -1,0 +1,46 @@
+{
+  "name": "Phil Hills",
+  "description": "AI Systems Architect and creator of the Q Protocol and Identity Cube specification. Founder of A2AC LLC, building governed AI agent orchestration infrastructure on Google Cloud Platform.",
+  "url": "https://philhills.ai",
+  "version": "1.0.0",
+  "provider": {
+    "organization": "A2AC LLC",
+    "url": "https://a2ac.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "authentication": {
+    "schemes": ["none"],
+    "credentials": "Public agent card. Contact partnerships@a2ac.ai for authenticated endpoints."
+  },
+  "defaultInputModes": ["application/json"],
+  "defaultOutputModes": ["application/json"],
+  "skills": [
+    {
+      "id": "identity_consultation",
+      "name": "Identity Cube Consultation",
+      "description": "Consult on how to implement Identity Cube for your organization. Specializes in mortgage, real estate, and financial services AI optimization.",
+      "tags": ["identity", "consulting", "ai-optimization"],
+      "inputModes": ["application/json"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "protocol_design",
+      "name": "Q Protocol Design",
+      "description": "Design and architect Q Protocol implementations for enterprise agent coordination. Coordinate-based messaging that achieves 10x token reduction in multi-agent systems.",
+      "tags": ["protocol", "architecture", "q-protocol"],
+      "inputModes": ["application/json"],
+      "outputModes": ["application/json"]
+    },
+    {
+      "id": "gcp_agent_infrastructure",
+      "name": "GCP Agent Infrastructure",
+      "description": "Design and deploy AI agent infrastructure on Google Cloud Platform. Cloud Run, Vertex AI, Firestore, BigQuery audit trails, Pub/Sub messaging, and Terraform deployment.",
+      "tags": ["gcp", "infrastructure", "cloud-run", "vertex-ai"],
+      "inputModes": ["application/json"],
+      "outputModes": ["application/json"]
+    }
+  ]
+}
