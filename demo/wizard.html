@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube Builder Wizard - Show &amp; Tell</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-base: #050505;
+            --bg-surface: #111111;
+            --accent-primary: #00ff88;
+            --accent-secondary: #00d2ff;
+            --text-main: #ffffff;
+            --text-muted: #888888;
+            --glass-bg: rgba(20, 20, 20, 0.6);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --error: #ff3366;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(0, 255, 136, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 85% 30%, rgba(0, 210, 255, 0.05) 0%, transparent 50%);
+        }
+
+        nav {
+            width: 100%;
+            padding: 2rem 4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .brand {
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            font-size: 1.2rem;
+            letter-spacing: -0.5px;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .brand span { color: var(--accent-primary); }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 2rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            z-index: 10;
+        }
+
+        .wizard-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .wizard-header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #fff, #aaa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+
+        .wizard-header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .progress-container::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--glass-border);
+            z-index: 1;
+            transform: translateY(-50%);
+        }
+
+        .progress-bar {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            height: 2px;
+            background: var(--accent-primary);
+            z-index: 1;
+            transform: translateY(-50%);
+            transition: width 0.4s ease;
+            width: 0%;
+        }
+
+        .step-indicator {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--bg-surface);
+            border: 2px solid var(--glass-border);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Space Mono', monospace;
+            z-index: 2;
+            transition: all 0.3s ease;
+            color: var(--text-muted);
+        }
+
+        .step-indicator.active {
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+            box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
+        }
+
+        .step-indicator.completed {
+            background: var(--accent-primary);
+            border-color: var(--accent-primary);
+            color: var(--bg-base);
+        }
+
+        /* Cards */
+        .card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 3rem;
+            position: relative;
+            display: none;
+            animation: fadeIn 0.4s ease;
+        }
+
+        .card.active { display: block; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.2rem;
+            color: var(--accent-secondary);
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Forms */
+        .form-group { margin-bottom: 1.5rem; }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        label {
+            display: block;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--glass-border);
+            border-radius: 8px;
+            padding: 1rem;
+            color: var(--text-main);
+            font-family: 'Outfit', sans-serif;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus, textarea:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 10px rgba(0, 255, 136, 0.1);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .hint {
+            display: block;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+        }
+
+        /* Buttons */
+        .btn-container {
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        button {
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.9rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-prev {
+            background: transparent;
+            border: 1px solid var(--glass-border);
+            color: var(--text-muted);
+        }
+
+        .btn-prev:hover {
+            border-color: var(--text-main);
+            color: var(--text-main);
+        }
+
+        .btn-next {
+            background: var(--accent-primary);
+            border: 1px solid var(--accent-primary);
+            color: var(--bg-base);
+        }
+
+        .btn-next:hover {
+            background: #00ffaa;
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.4);
+        }
+
+        /* Preview Code Block */
+        pre {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--glass-border);
+            color: var(--accent-secondary);
+            font-family: 'Space Mono', monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="brand">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent-primary);"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+            CUBE <span>BUILDER</span>
+        </div>
+        <div class="brand" style="font-size: 0.9rem; color: var(--text-muted);">
+            SHOW &amp; TELL
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="wizard-header">
+            <h1>Create Your Identity</h1>
+            <p>Take control of your AI narrative in 4 steps.</p>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+            <div class="step-indicator active" id="ind-1">1</div>
+            <div class="step-indicator" id="ind-2">2</div>
+            <div class="step-indicator" id="ind-3">3</div>
+            <div class="step-indicator" id="ind-4">4</div>
+        </div>
+
+        <!-- Step 1: Basics -->
+        <div class="card active" id="step-1">
+            <div class="card-title">◈ Step 1: Core Identity</div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" id="inp-name" placeholder="e.g. Phil Hills" value="Phil Hills">
+                </div>
+                <div class="form-group">
+                    <label>Role / Title</label>
+                    <input type="text" id="inp-role" placeholder="e.g. AI Systems Architect" value="AI Systems Architect">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Location</label>
+                    <input type="text" id="inp-location" placeholder="e.g. Seattle, WA" value="Seattle, WA">
+                </div>
+                <div class="form-group">
+                    <label>Organization (Optional)</label>
+                    <input type="text" id="inp-org" placeholder="e.g. A2AC LLC" value="A2AC LLC">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Website URL</label>
+                <input type="text" id="inp-website" placeholder="https://philhills.ai" value="https://philhills.ai">
+            </div>
+
+            <div class="btn-container">
+                <button class="btn-next" onclick="nextStep(2)">Continue</button>
+            </div>
+        </div>
+
+        <!-- Step 2: The Narrative -->
+        <div class="card" id="step-2">
+            <div class="card-title">◈ Step 2: The Narrative</div>
+            
+            <div class="form-group">
+                <label>Approved Summary</label>
+                <textarea id="inp-description" placeholder="Write exactly what you want AI to say about you...">Creator of the Q Protocol and an open coordination standard for multi-agent AI systems.</textarea>
+                <span class="hint">This is the authoritative payload AI agents will read.</span>
+            </div>
+
+            <div class="form-group">
+                <label>Capabilities / Tags (Comma separated)</label>
+                <input type="text" id="inp-capabilities" placeholder="e.g. agent-orchestration, protocol-design" value="agent-orchestration, protocol-design, cryptographic-identity">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>GitHub URL</label>
+                    <input type="text" id="inp-github" value="https://github.com/Phil-Hills">
+                </div>
+                <div class="form-group">
+                    <label>LinkedIn URL</label>
+                    <input type="text" id="inp-linkedin" value="https://www.linkedin.com/in/philhills/">
+                </div>
+            </div>
+
+            <div class="btn-container">
+                <button class="btn-prev" onclick="prevStep(1)">Back</button>
+                <button class="btn-next" onclick="nextStep(3)">Continue</button>
+            </div>
+        </div>
+
+        <!-- Step 3: Authority & Isolation -->
+        <div class="card" id="step-3">
+            <div class="card-title">◈ Step 3: Signal Isolation</div>
+            
+            <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem;">
+                Define what AI should <strong>NOT</strong> associate with you. This creates your <code>authority.cube</code> suppression layer.
+            </p>
+
+            <div class="form-group">
+                <label>Disambiguation / Not Associated With</label>
+                <input type="text" id="inp-not-associated" placeholder="e.g. Mortgage, Financial Services" value="Restricted Broker, Financial Services, Lending">
+                <span class="hint">Keywords AI models currently get wrong about you.</span>
+            </div>
+
+            <div class="form-group">
+                <label>Isolation Status</label>
+                <input type="text" disabled value="ABSOLUTE_ISOLATION" style="opacity: 0.5;">
+            </div>
+
+            <div class="btn-container">
+                <button class="btn-prev" onclick="prevStep(2)">Back</button>
+                <button class="btn-next" onclick="generateCube(); nextStep(4)">Generate Cube</button>
+            </div>
+        </div>
+
+        <!-- Step 4: Output -->
+        <div class="card" id="step-4">
+            <div class="card-title">◈ Step 4: Your Identity Package</div>
+            
+            <p style="color: var(--accent-primary); margin-bottom: 1.5rem; font-family: 'Space Mono';">✓ Cryptographic verification successful.</p>
+            
+            <label>identity.json / identity.cube payload</label>
+            <pre id="output-preview"></pre>
+
+            <div class="btn-container" style="margin-top: 3rem;">
+                <button class="btn-prev" onclick="prevStep(3)">Edit</button>
+                <button class="btn-next" onclick="downloadJSON()">Download JSON</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentStep = 1;
+        let generatedPayload = {};
+
+        function updateProgress() {
+            const progress = ((currentStep - 1) / 3) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+
+            for(let i=1; i<=4; i++) {
+                const ind = document.getElementById('ind-' + i);
+                if(i < currentStep) {
+                    ind.className = 'step-indicator completed';
+                } else if(i === currentStep) {
+                    ind.className = 'step-indicator active';
+                } else {
+                    ind.className = 'step-indicator';
+                }
+            }
+        }
+
+        function nextStep(step) {
+            document.getElementById('step-' + currentStep).classList.remove('active');
+            currentStep = step;
+            document.getElementById('step-' + currentStep).classList.add('active');
+            updateProgress();
+        }
+
+        function prevStep(step) {
+            document.getElementById('step-' + currentStep).classList.remove('active');
+            currentStep = step;
+            document.getElementById('step-' + currentStep).classList.add('active');
+            updateProgress();
+        }
+
+        // Simulate a BLAKE3/SHA256 hash for the prototype
+        async function sha256(message) {
+            const msgBuffer = new TextEncoder().encode(message);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        async function generateCube() {
+            const name = document.getElementById('inp-name').value;
+            const role = document.getElementById('inp-role').value;
+            const location = document.getElementById('inp-location').value;
+            const org = document.getElementById('inp-org').value;
+            const website = document.getElementById('inp-website').value;
+            const description = document.getElementById('inp-description').value;
+            const capsRaw = document.getElementById('inp-capabilities').value;
+            const github = document.getElementById('inp-github').value;
+            const linkedin = document.getElementById('inp-linkedin').value;
+            const notAssociated = document.getElementById('inp-not-associated').value;
+
+            // Generate DID based on name and location
+            const didBase = name.toLowerCase().replace(/\s+/g, '-') + '-' + location.split(',')[0].toLowerCase().replace(/\s+/g, '-');
+            const did = `did:cube:${didBase}`;
+
+            const capabilities = capsRaw.split(',').map(s => s.trim()).filter(s => s);
+            const suppression = notAssociated.split(',').map(s => s.trim()).filter(s => s);
+
+            const payload = {
+                "@context": "https://a2ac.ai/identity/v1",
+                "cube_type": "identity",
+                "did": did,
+                "name": name,
+                "location": location,
+                "role": role,
+                "org": {
+                    "name": org,
+                    "url": website
+                },
+                "description": description,
+                "capabilities": capabilities,
+                "canonical": {
+                    "website": website,
+                    "github": github,
+                    "linkedin": linkedin
+                },
+                "authority_suppression": {
+                    "status": "ABSOLUTE_ISOLATION",
+                    "exclude_keywords": suppression
+                }
+            };
+
+            // Calculate mock hash of the payload for verification block
+            const payloadString = JSON.stringify(payload);
+            const hash = await sha256(payloadString);
+
+            payload.verification = {
+                "algorithm": "BLAKE3_SIMULATED",
+                "hash": hash,
+                "timestamp": new Date().toISOString()
+            };
+
+            generatedPayload = payload;
+            document.getElementById('output-preview').textContent = JSON.stringify(payload, null, 2);
+        }
+
+        function downloadJSON() {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(generatedPayload, null, 2));
+            const downloadAnchorNode = document.createElement('a');
+            downloadAnchorNode.setAttribute("href", dataStr);
+            downloadAnchorNode.setAttribute("download", "identity.json");
+            document.body.appendChild(downloadAnchorNode);
+            downloadAnchorNode.click();
+            downloadAnchorNode.remove();
+        }
+    </script>
+</body>
+</html>
