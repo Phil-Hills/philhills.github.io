@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[moussa cisse]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      8,
+      8
+    ],
+    "encoding": "base64",
+    "data": "H4sIAMTCW2oC/4WSQU/jMBCF/4rlMyltCgX1hrjAAYS03FYocpxpM9TJRJ7xSqXqf19Pmgohscv1zfOz3+c52CGSkKdQ/YHISL1dG4sN9IKyL3yqoVjM5vbiU8yGg+VUv4MXNXeUmJ3xyAzqc0laijp5aTGYBwyBP/UqxaCzVmTg9eXlkD2tWmaeOrUxpejhe4tDdfgITqBRSzkvV8X8pljcvi5u14vr9bKczcubZblUo+yHMUgi9A3220poQF9x6joX9/aoWdRLrjV1Oun5xNOp0712MsjGmXOG2eA2xSz2pna8A6ldCKZB9vlExscXZoiYczDsTZPACI1P0Zu/o1U7vwvY7zgPfx/sT3QijPOJsQajBPgK2xTmhaJsKCBpyf+knoBOoRP5f4TePebcx2kHzDM1YI9virADcY0TNzLcUOzcuBbj6pyXa/w26oYIfN6x7QcOKkPvScGqlonC6krV1nFbubCliNJ2Ovv1cFder+zx+BdnVyv4swIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "b6583ae7c7760d7c96f4497b89795eea04cb35a1bb53ecf6042a684eca0f3904"
+  }
+}

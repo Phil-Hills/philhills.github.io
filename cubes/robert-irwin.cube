@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[robert irwin]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAL/CW2oC/4WST2/bMAzFv4rgc5wmwfJnueXWXIZi220YDFlmYq6yKFB0Ci/Id5/ouCgGtNv18ccH8pHXIjIJOfLVBTghhWJvCmwgCMpQur6GcjlfFLM3MQPXIvX1L3CiMFMNLAb5BYNytpeWWCtPLXrziN6nN73q2WutFYlp//AQM9MqMnfUKZaoZwfvIxaVcAxWoFFktVhtysW2XO6+L3f75Xq/2s4/r7fb3VpBGeJoJAyhwXCuhCK6KvVdZ3kobupFQfJa0053PXd8ve901J0MJmNNjqnDkFFz6JOw9WiDyd0J+GIl54ZJZuYFfePxBCa2OdUz29gCz4wNjRHwcEFN2MScNIVsIYO2NOCHcVyd7r1Ea+uePYbnlIs/rsX/EmQY69Md1BjFw98HMaV5IpYTeSQN4h+u99An0+k6H5gejtn3OP2J+UINFLefGnMHYhsrdsz5RNzZ8XXG93p9wPG01EWG9PqH598YVYbgSA+oWm0TbD6p2trUVtafiVHaTmvfHg+r9aa43f4Aw7qVftcCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "d77da34277bff749c2368af8bd68f3b964ee92b70855fd6b6fb809400c638de6"
+  }
+}
