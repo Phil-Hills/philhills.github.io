@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[jk simmons]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIALvtWmoC/4WSzW7bMBCEX4XQOVJkJ3EK33zLD1AESG5FIayotbkxyRXIVQHH8LtXKytIi6btdebjkDvcY9EnFrbsmx+YMnEs1qagDqOQHEo7tFguqrq4+BBH4FjkoX1FKwq/7k2mEDhmpWAQx0n1J0fe3JH3v+jNkLx6TqTP68vLfmScIpXloFjmIVn8HAFSwiYEwU6RZb1clfVtufjyUl+t69X66qZaXNf17UJBOfRTkCSMHcVdI9yTbfIQAqRDcdIsjjIONU901scTD9VjZZ7PM12YllM0DxxBHETzSKH1+OFSNmAc7Zw/GLDWAwXszCZgIjviYGVsQ1+jl/9ZVwt27ynu82h9Oxb/qyfh5M8layyJx9/bNqV54iRb9sQ65T9Sz43OoXP1fwnd3I+59/MKmK/cYXH6rh0GFOhAYCpxyynAtBXT5rzv1vRvHPqE+X3Fdm/Uq4zRsv6Oai1kXF2r6iC7BvyOE4kL6j3fbZY3q+J0+gn5BKZLsgIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "b4988eb957dec87526bb9f1f7aaa414e608b1b9d3d8c697214160914fc9b7aca"
+  }
+}

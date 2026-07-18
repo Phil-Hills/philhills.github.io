@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[trojan war]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAMHtWmoC/4VSwW7bMAz9FULnOrXTLC1y62ntpSjQADsMg6HItKVGMg2J3uAF+feJjotiWLddHx8f+R55UkMkJkO+/o4xOerVDpRrsGfHU2HGAxbVqlRX72AmnFQaD69oWMgc6VX38ENHYemRLUXBn63z8OC8T+94PUYvNcs8pN319ZA5VigrQ0FoicZo8GOKdsIwETVjI5R1ud4W5W1R3e3Lm1253W2q1V1VbW5vhMjTgJf9sG9c39VMgzN1GkPQcVJn0aKes6nF0QXPHXuLsL+4+qIjuAQaWhr7RnMOSHvALAS5ufXOMLSRAnyOiEcIU3bpqZuuIKLJLZwH5+48pZgwayWHHQK1wBbnJWWnP1M8aHP0rj+mXPp6Uv9LLeJcX7IXWccefz8CFPBMkVvyjsT8P1QvQS+iy0X+Inr/mHUfl8+AJ2pQnb9JtAFZ57z0nG1LMej5WeaHenu5+ZwUhojp7fO6n24QGHtDcjTBDjrhdiOo1cnW2ncUHdsgtZeH+/WnrTqffwG3eRxLyQIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "92070765c3d97fab288f7d2ba323754ab9f23ba62762d0f38bc2bdcadb70e4e6"
+  }
+}

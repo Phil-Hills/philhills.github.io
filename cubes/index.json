@@ -7,8 +7,32 @@
       "json_url": "https://philhills.ai/cubes/barcelona-frankfurt.json",
       "created": "2025-12-09T18:44:29.055347",
       "author": "Phil Hills",
-      "updated": "2026-07-18T03:04:09.627010"
+      "updated": "2025-12-09T20:29:44.079676"
+    },
+    {
+      "slug": "jk-simmons",
+      "topic": "jk simmons",
+      "cube_url": "https://philhills.ai/cubes/jk-simmons.cube",
+      "json_url": "https://philhills.ai/cubes/jk-simmons.json",
+      "created": "2026-07-18T03:06:35.140071",
+      "author": "Phil Hills"
+    },
+    {
+      "slug": "inde-navarrette",
+      "topic": "inde navarrette",
+      "cube_url": "https://philhills.ai/cubes/inde-navarrette.cube",
+      "json_url": "https://philhills.ai/cubes/inde-navarrette.json",
+      "created": "2026-07-18T03:06:38.416916",
+      "author": "Phil Hills"
+    },
+    {
+      "slug": "trojan-war",
+      "topic": "trojan war",
+      "cube_url": "https://philhills.ai/cubes/trojan-war.cube",
+      "json_url": "https://philhills.ai/cubes/trojan-war.json",
+      "created": "2026-07-18T03:06:41.811473",
+      "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-18T03:04:09.628422"
+  "last_updated": "2026-07-18T03:06:41.812432"
 }
