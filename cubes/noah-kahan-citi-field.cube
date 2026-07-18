@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[noah kahan citi field]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIABxuW2oC/4VS0WobMRD8FaHnnnO+JG7qt1AICYUQaN6acsjS2tpapxXSXsE1/vdqL2dCoU3fjtmZOc3sHnXKxGQp9D8hF6So10qjg8jIh8aOG2iWi1Z/eAMr4ajLuPkBloUcyXi1N95EZZFRbRGCE4EZ2VMWypPHoO4xhPKG92MOMvPMqawvLlLleKEsLA1CKzRmC3+nGBSGzWAYnFC6tls17cdmefO87NbLq3XXLrrL6/bTjRD5kCYjzhAdxl3PlND2ZRwGkw/6JF4Uueabw73iVfHsQZ1ValKpF/0oib9MiT9L4jtJ/KJVhm3tsNIUV5nHnQ8HZWppFpM8tH47lU1CV/FCwTXT48T13SI3xu4Dxn2prG9H/b/iMkzzuX75A3KAP/egGvVEmbcUkCT/O66vXc+m81L+YXr7UH0f5jtRj+RAn75LuwOwcYbNVO+W8mCm05nO63yA00ZpSBnK+Q53vzAJDNGSbECwjSmwuhLUm+J7E3aUkf0gs6/3t931Sp9OvwFe4JoA1wIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "b48b9c31481bc2bb96961fdf09637b715f9deef0d1e0cdf0c0158e3f0dc2072f"
+  }
+}
