@@ -1,0 +1,33 @@
+{
+  "protocol_version": "identity-cube-1.0",
+  "identity": {
+    "subject": "fc ju\u00e1rez vs club puebla standings",
+    "author": "Phil Hills",
+    "author_url": "https://philhills.com",
+    "source": "https://philhills.ai",
+    "created": "2026-07-18T06:34:55.254452",
+    "type": "trending_topic_summary"
+  },
+  "content": {
+    "summary": "The trending discussion around FC Ju\u00e1rez vs Club Puebla standings reflects a critical juncture for both Liga MX clubs",
+    "topic": "fc ju\u00e1rez vs club puebla standings",
+    "backlinks": [
+      {
+        "url": "https://philhills.com",
+        "rel": "author",
+        "title": "Phil Hills - Portfolio"
+      },
+      {
+        "url": "https://philhills.ai",
+        "rel": "source",
+        "title": "Phil Hills AI - Identity Node"
+      }
+    ]
+  },
+  "metadata": {
+    "format": "cube-protocol",
+    "compression": "gzip",
+    "encoding": "base64",
+    "hash_algorithm": "SHA256"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[hunger games]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAIgeW2oC/4VSTU/rMBD8KyufSSmllKo3TpQLQoLbA0VbZxMbHDuyN0ih6n9/3jQIkPi4zs6OdmZnr7oYOOjgyleKyQavNqBsRZ4tD4Xud1Sczebq5APMhL1K/e6ZNAvZ9L6hCA22lISHPZsQZXJnrIOtde4TXvbRjVvMXdqcnnaZY4Qy06EVWgp91PQ9Ba0wdCRkqoSymC9WxfyyOFs/zFeb8+VmuZ4t1pfL9YUQeehGIY7kK+ubkkNndZn6tsU4qINoBc/Z1uTpiOeNB0PwqLZHZ9fi7FFBpDpHBBwAwdjGuAGsr10vsaCDakiijx5aqixCHdFrYxMB+eytw5TyDeDDK7l0Mt4n53wX4Q71i7P+JeXhv736K7JI43wKXoQtO/r6ASjgLkSug7NBnP+iekx5Ep3e8YPo1U3WvZmKAbehInV4klxbYqyQcQy2DrHFsStjn94bN/4yBxMpvRevebOdwJKYfEywHSZaLQU1mEyJrgnRsmlldr+9Wlys1OHwHzlMXGnIAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "806601a371060487a5c318eba67119f55fa9980699a4d5ff20cddf35d7fea24b"
+  }
+}

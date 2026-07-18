@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[fc ju\u00e1rez vs club puebla standings]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      9,
+      9
+    ],
+    "encoding": "base64",
+    "data": "H4sIAI8eW2oC/5WSX2vbMBTFv8rFz3PqeHE28lYKox3bCKwPg60YWb6J1Mq+RroqpCHffbqqw9axP+z16Nwj6XfusZg8MWly7SP6YGksNlDYHke2fCh17LBcLqri1Q8xGY5FiN09ahbzTsN9/BarCpcen+AxgHaxgyli5xQEVmNvx32QCBXZkJehrbEOrq1zP+lt9E7ODPMUNhcXU/IYsSw0DWILFL3G31uUFYf2qBh7sdRVvS6rN+Xy7W213rxebZpmUTerVVOLkQ9TDmKP+Xkt02R1G+IwKH8oTpJFI6cfz9991tPErUE4T0Fvg45BsIHyFMce3l3B+5c0roTG9hca4HHnEsAACrS3bLVyCeOoOXqEHXnoiA18sHsFH79koplUfuZ/Uu+UfnB2fAhp7uux+Bdlj/l87krutOzwZWlQwpY878hZElh/SX0uZg6dG/xD6OVNyr2Z1ww+UY/F6U6qGJBVr1jlLhKcQeXNy9t53t9cPw2Tx3Be4/2TnUTGUZPQEK1TAdcrUY0KplVuTwm/GeTs8/Vl3ayL0+k7JnGzsxYDAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "0a459df65a5a076f9a510cee243115299a581a422e9d25ae4abd7d76dbd7fcf2"
+  }
+}

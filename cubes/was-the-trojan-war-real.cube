@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[was the trojan war real]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIAIseW2oC/4VSwW7bMAz9FUHnOU3S1l1z6629DAUWYIdhMBiZidTKoifRCbIg/z7ScVEM2Nab8PT4yPfIk+0zMTmKzR5zCZTsytjQYuLAx8oNG6wWs7n99A4K4WTLsHlBx0o+QDHs0XCmF0jmANlkhKglMLCnrKRnH6J5DDGWd7wZctQ/z9yX1dVVLxyvlJmjTmmFhuzw7xQIynDSibFVynK+rKv5XbX4vJ7Xq+ub1e1idndfX98vlMjHfhTijKkNadcw9cE1Zeg6yEd7Vi1KLA4nexdcKtZiTWqGLFXm54CFJSRDW3PwKLbz6H198f5NvGscMCZgfChMOTh54l6kjbYISTQMk3HQc9jL+KY4TxGy1KVW5caBdb4P4t2Ae40hvRbhfT/Zj+LMOP5PS9EegSP+uR1TmWfKvKUYSFP5j+plA5PotKp/iD48ie7TdD/mC7Vozz808w4ZWmAYQ99S7mA8qfHs3g5z3DN1fcbydp+7X6FXGJMj3aZiGyhY3yjqofgG4k6iZ9/p39fHh+Vtbc/n39fxQfXvAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "2fe01eb427d1603a32868637a2322a0f0a48232d933de5eddaa442a742485dcd"
+  }
+}
