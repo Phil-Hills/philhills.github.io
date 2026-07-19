@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[sabrina ionescu]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJEXXGoC/4WST2/bMAzFv4qgc5066ZYsueXWXIoC3W0YDFpmYjb6Y0jUAC/Id5/oeCgGrO2VfHzS+5EXPcTAwQTb/MKYKHi9U5o69Ew8Via3WC0Xtb57KxbBRafcvqJhESdoI3lQZRaTySKFzH2I0nzuyapHsja91ZscrfR65iHt7u+HoulFsjDBiSyFHA3+XwIkChMRGDuRrOrVuqo31XL7va53y81utVw81Jvtty8i5HGYjDii78ifGg4DmSZl5yCO+ipewXNJNse61cvEyxzrcIulKClQBZYjX9Rq7zCSAS+lIyYhB1a1kM7ILVirBgsjxjtlcixvsx3L+ClD7NSxoJGvyU/eAdiCOVvy51T6Py76M2ARp/6MXbyJLf7LX1XqOUQ+BktBcn/gemM8m87LeMd0fyi+h/ky1FPoUF9/ClWHDB0wTFhLYgfTsUwH9ffkpk0GN8QbP+mfftMgZfQmyL6kVqDietpmD6lvwJ5CJO7dtKXH/errWl+vfwDPthN6yQIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "2fe61b852416bc3aadc391f7ccaefe4ff81652a28f095043cdeac51253bc1634"
+  }
+}

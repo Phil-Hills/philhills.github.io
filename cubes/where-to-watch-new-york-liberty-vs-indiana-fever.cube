@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[where to watch new york liberty vs indiana fever]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      8,
+      9
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJQXXGoC/52S32vbQAzH/xXh5zp1vC5heevLaGCUwvoyxjDns5JTc7477uQEL+R/38l1KIX9gL1KX30lfaRzEaJnr71tjhgTeVdsoKAOHROPpR5aLJeLqrh5C2bBuUhD+4KaRXwyGBHYw0mxNuDwBKOPB7DUYuQRjgnIdaScgh3mJuKlBjY+SvWTIQsPZG16izdDtJIzzCFtbm9D1hiRLLTvRZb8EDX+XqJIFDqiYuxEUlf1qqzW5fLTc1VtlutNfbdYr+rlh2krHsNkxBHzkG7fsA+kmzT0vYpjcREv7zivPu/9Gs8VzwbB0N7YEVQGoylIR+iFwhAStMgnRAecdY8ZyjeB8mWGolwH25nKZ6ECKkPMnRIlaZZNrxPdQBfpmI3aUbymoWXG/2XfKn2w5A4pG3w/F/9iHXHKzxeT5sQW358OSnjykXfekhdkf3F9Pc9sOt/xD6b32+y7nb8OHn2HxeWHHKRHVp1iNV1k52NGLqXTs17feXoC34eI6frV+58UJIxOewErsVYlXN1J1KhkGmX3PhKbXnJfH+7rj6vicvkF8oxU1SUDAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "ed809fbb0bcd1e2f564098a988c4d53d8d590c416ea7f129f4ead38fe2ab2425"
+  }
+}
