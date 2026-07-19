@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[technology news]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAPtyXGoC/4VSwU4bMRD9FctnNoQkBJEbN7hUSOWGqtXEO1m7eD2WPRu0jfLveMxWLVKhR795fjPz3px0TMRkyLdHTNlR0DulXYeBHU+NGffYXC2W+uIPWAgnncf9TzQsZEZjA3nqJxXwNQsVRraUpPhonVf3zvu/8HZMXmqWOebd5WUsHCuUhaFBaJnGZPDfFHDCMAmBsRPKarnaNsub5ur2abndbW52q/VivVnfruvQPMUqxAlD50LfMkVn2jwOA6RJn0WLApfN5rXe8fLj6eNaKuEALmQFqqPBBQisIHQqQXSdnxQeyR9LA1UbXBT6wReDKmKxPH3p4TFnFcGgooNyIdARuFiuOEHIB0pFt69Ti8Yn3u7BvHgXXnKpP5/0/7wsjaU+JyLarozxMRrVqEdKfCDvSCz5QvXd/ll0zukT0buHovswH436Rh3q8w8xfECGDhiq47I11Duqt/b7GmvINMRUHJuPsv/losAYDEmUgu0h43YjqIVsW/A9Jcd2kNr3+7vV9Vafz2+QzZrE5AIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "a633c2d26e7753b528d06a1c9deac0c531f5e6e42bbe4c39c10708b375c21df4"
+  }
+}

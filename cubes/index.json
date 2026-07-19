@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "pittsburgh-pirates",
-      "topic": "pittsburgh pirates",
-      "cube_url": "https://philhills.ai/cubes/pittsburgh-pirates.cube",
-      "json_url": "https://philhills.ai/cubes/pittsburgh-pirates.json",
-      "created": "2026-07-19T00:17:18.051958",
+      "slug": "latest-news",
+      "topic": "latest news",
+      "cube_url": "https://philhills.ai/cubes/latest-news.cube",
+      "json_url": "https://philhills.ai/cubes/latest-news.json",
+      "created": "2026-07-19T06:47:16.289458",
       "author": "Phil Hills"
     },
     {
-      "slug": "sabrina-ionescu",
-      "topic": "sabrina ionescu",
-      "cube_url": "https://philhills.ai/cubes/sabrina-ionescu.cube",
-      "json_url": "https://philhills.ai/cubes/sabrina-ionescu.json",
-      "created": "2026-07-19T00:17:21.307984",
+      "slug": "stock-market-today",
+      "topic": "stock market today",
+      "cube_url": "https://philhills.ai/cubes/stock-market-today.cube",
+      "json_url": "https://philhills.ai/cubes/stock-market-today.json",
+      "created": "2026-07-19T06:47:19.409790",
       "author": "Phil Hills"
     },
     {
-      "slug": "where-to-watch-new-york-liberty-vs-indiana-fever",
-      "topic": "where to watch new york liberty vs indiana fever",
-      "cube_url": "https://philhills.ai/cubes/where-to-watch-new-york-liberty-vs-indiana-fever.cube",
-      "json_url": "https://philhills.ai/cubes/where-to-watch-new-york-liberty-vs-indiana-fever.json",
-      "created": "2026-07-19T00:17:24.762130",
+      "slug": "technology-news",
+      "topic": "technology news",
+      "cube_url": "https://philhills.ai/cubes/technology-news.cube",
+      "json_url": "https://philhills.ai/cubes/technology-news.json",
+      "created": "2026-07-19T06:47:23.343930",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-19T00:17:24.763095"
+  "last_updated": "2026-07-19T06:47:23.344940"
 }
