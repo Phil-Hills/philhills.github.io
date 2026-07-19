@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[orioles vs astros]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIADUUXWoC/4WSTW/bMAyG/wqhc53G3ppkuaWnFthHgfW2DoYsM5ZaWTQkukAW5L9PdB10A9b1Sj56JT7iUQ2RmAz5+hljchTUFpRrMbDjQ2HGBotysVQXr8UMHFUam0c0LDBFRx4TPCfQiSMlgfXIlqK076zzcOO8/6Nej9FLzzIPaXt5OWTGCrIw1AuWaIwG/41oJ4SJqBlbQapltSqW66L8dF9utuXVtlwvNh+qdbURkA/DFMQRQ+tCVzMNztRp7HsdD+okWRQ4zzYP9lLPJ+4twoP69jrebhrvQUGv2dhxAKsTNJjfjKDhfAFMF4AL8EU/UoTPqLsR4VonbLT3F5BcF9z+IKieXij8myYbbZ68C08pEz+O6j1zEaf+7F/SHXv8+yOggDuKvCfvSAT8J/VF9hw6/8obobvbnHs7Lwl8pRbV6afo7ZF1q1lPfvcUsz05Ou3WefumL6V+iJjOS9j9coOUMRgSr1JrssTVR6lm9bbWvsvO2PbS+36zq65W6nT6DeujXpvUAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "f59ad46a40a5695ef4a21b16dadba33cce3382c995714cb5ff578539db6d9487"
+  }
+}

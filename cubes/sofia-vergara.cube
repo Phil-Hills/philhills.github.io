@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[sofia vergara]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIADwUXWoC/4WSQW/bMAyF/4rgc5zGRpN2uQW7tJeiQIddhsGgZcbmKomGRA/Igvz3iY6HYkC7XR8/PomPPBdjZGHLrvmJMRGHYm8K6jAIyam0U4tltd4UqzcxA+ciTe0PtKJw4iOByd09RFAQJhk4aul5IGceyLn0pjdTdFobRMa0v7kZMzMosrbsFUs8RYvvI0BK2Igg2ClSb+pdubkrq09fqvt9td3Xt+vtfV1t7hSU0zgbScTQUegb4ZFskybvIZ6Ki3pxkDzXMtRVzx0v81Bfr0OtjAxoKKNkzWd27FuCUB48RrIQDNj8QEor47lDtzIQOpM9I475XZziykT0QCEZMB17ChDEHKmfIs6/1E+9m2QL9tVReE25+u1c/C+5iHN9yV+dSRz+vQhTmmeOcmRHrAH8w/Ua9mK6bOUD08Nj9n1cDsQ85RiKy3eN16NABwJzvkeOHuabme/qz+XNK2U/aobLAfa/aFQZg2VdnGotJNzdqjpAGhpwPUeSwc/rejjU211xufwGQnNSXNACAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "365c608d2b1155f208198f2343e515864b9f22a7a0856bcf931aa6518aa5bddf"
+  }
+}
