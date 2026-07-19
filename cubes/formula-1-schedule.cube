@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[formula 1 schedule]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      10,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJa/XGoC/4WSwWoCMRCGXyXk3FV3sdZ681L0UoR6K2WJ2dGkZneWZLZgxXdvJq5IaW1hT/98+8N8maNsPRJqdOUH+GCxkTMhbQUNWTpkuttAlg9G8u4aRuAoQ7d5B00Mb9HXnVMiF0EbqDoHTKuODHqer4x1YmGdC9e87LzjmSFqw2w4bCNjGBlorBkL2HkNvyPKMqE9KIKKkWJUTLLRQ5Y/rvNilo/jN5jm49E0Z5AObSoiD01lm11J2Fpdhq6ulT/IE3dhQ3G5frNzHv9YGxBPP7YTNgglWoh1jVXOHcSlWaTmO+Fh66KclJhkIw1uy9oovXe22YeIvB7lf3I8pHmvmOstOfjuWmRihZ626Czyjn+0nn32pb34G6XzZexd9ocgnrECeXpjgzWQqhSppJCXVOk20v1cLiy9Gtath3A5tN2nbTmGRiMb5GyjAkzGnBoVTKncDr0lU/PsZTEv7ifydPoCSrOY07gCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "3ee03d145bd94e14ca6f6bb655f0cf000408f5292798d632198adb764b0d6810"
+  }
+}

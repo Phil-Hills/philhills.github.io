@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[facebook instagram outage]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJ2/XGoC/4WSwW7bMAyGX0XQ2U5jo02R3HIZmkOHAuttKAxaViwtkihI9IAsyLtXdF0UBbb1Jvz8SIo/eZExIaFC1/3WKVsMciekHXQgS+daTb2um9VaVh9iAS4yT/0vrYjhIyjdI56EDZlgTOAFTuWhOQkmMpgYezLWiQfrXP7Quyk5jhmimHc3N7EwhpGVQs9Yxikp/XcELBMqaSA9MNKu2029vq+b7XPT7prbXdusmuZu224ZpHOcC1HSYbBh7AijVV2evId0lleuhYHKjMuAb3rJ2Itsx2CPVkEgMTrswS0jCusjqNJfPGoCER3QEZPPVTFDuYn7iG+LP5U4vBtUFTxnHUadKgFhEM+mjDGUNAziEZIy84/5g1863IM6ORtOuZA/L/IrR5Oe48teuIslpz8vSNTiCVOZxFlkY/5T9W0JS9FlW/8ouj+UuofliMR3HLS8vrDtvlg3AMHsO9sH813Nt/d+nfOq0cdUfFuOdPxjI8s6KGSjWesh680tqway6cCNmCwZz7EfD/v2biOv11eFLVkj9AIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "7231782544efe5efcc7355c56cf0c96cc7218b2171745c84693ff10e6765fc06"
+  }
+}

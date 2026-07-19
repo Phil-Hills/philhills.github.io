@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "latest-news",
-      "topic": "latest news",
-      "cube_url": "https://philhills.ai/cubes/latest-news.cube",
-      "json_url": "https://philhills.ai/cubes/latest-news.json",
-      "created": "2026-07-19T06:47:16.289458",
+      "slug": "formula-1-schedule",
+      "topic": "formula 1 schedule",
+      "cube_url": "https://philhills.ai/cubes/formula-1-schedule.cube",
+      "json_url": "https://philhills.ai/cubes/formula-1-schedule.json",
+      "created": "2026-07-19T12:14:14.814081",
       "author": "Phil Hills"
     },
     {
-      "slug": "stock-market-today",
-      "topic": "stock market today",
-      "cube_url": "https://philhills.ai/cubes/stock-market-today.cube",
-      "json_url": "https://philhills.ai/cubes/stock-market-today.json",
-      "created": "2026-07-19T06:47:19.409790",
+      "slug": "ai-data-center-public-opposition",
+      "topic": "ai data center public opposition",
+      "cube_url": "https://philhills.ai/cubes/ai-data-center-public-opposition.cube",
+      "json_url": "https://philhills.ai/cubes/ai-data-center-public-opposition.json",
+      "created": "2026-07-19T12:14:18.058852",
       "author": "Phil Hills"
     },
     {
-      "slug": "technology-news",
-      "topic": "technology news",
-      "cube_url": "https://philhills.ai/cubes/technology-news.cube",
-      "json_url": "https://philhills.ai/cubes/technology-news.json",
-      "created": "2026-07-19T06:47:23.343930",
+      "slug": "facebook-instagram-outage",
+      "topic": "facebook instagram outage",
+      "cube_url": "https://philhills.ai/cubes/facebook-instagram-outage.cube",
+      "json_url": "https://philhills.ai/cubes/facebook-instagram-outage.json",
+      "created": "2026-07-19T12:14:21.115929",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-19T06:47:23.344940"
+  "last_updated": "2026-07-19T12:14:21.117016"
 }

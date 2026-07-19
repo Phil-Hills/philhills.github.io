@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[ai data center public opposition]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJq/XGoC/41SwW7bMAz9FcLnOY2NJsty6629DAXW2zAYskzbXGVTkKgCaZB/n+i6KAp0666P7z2J7/Fc+MDCll3zhCESz8URCupwFpJTaVOLZbXZFl/ewEw4FzG1v9GKkg1BZ8SAzWMM4FPryAJ7z5FEDbPWJBk5KPt+JAe35Fx8w5sUnM5GER+PV1c+c0albCxPSoucgsWPKYaUYQMawU4p9bbel9uvZfXtoaqP1fWxOmy2u8NhVytRTn4xkoBzR/PQCHuyTUzTZMKpuKgX50VmWfd8wbPiYURoUxiQ56yDDiczd9BzABOEerJkHFCWOkcDzhbBGm9acjkFjEAR+oROpQYGx21mR7XLGpDsnZ+NEpLVzID75bP6t//NuDX2Mds/xiz4eS4+yzTgMl+b0cdIHL6vCEq45yA9O2KN5h+uLzWspmtffzG9ucu+d+s1wXfusLj80uAnFKNrLsnnYCezHNhyhK9nupTNkw8YX691eCavcM6ctVLFWhNxf63oaOLYGDdwIBknnf24val3++Jy+QMd8yPD/QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "e25f986fa47e8f02efcfd3d86553cad41ae7806d1721264336d04475faf2d8f3"
+  }
+}
