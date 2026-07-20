@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[independiente del valle - emelec]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAIdpXWoC/41SwWobMRD9lUHnrrN2Uqf1LYdAfAmBhF5KWWTt2FKj1Qhp1uAa/3s0ypoQ2rQF6fLmzZPmvTmqmIjJkO/2mLKjoFagXI+BHR8aM26wmc9a9ekNLISjyuPmJxqu5NBjxNC7Ukbo0cNee4/QAA7o0UivHtlSEvaDdR7unPf5De/G5KVmmWNeXVzEwrFCmRkahJZpTAb/TNFOGCahZuyFsmgXy6a9bhbtU9uu5l/LmV1dtvPLL0LkQ6xCnOTLYdcxRWe6PA6DTgd1Ei0qgwSe5nzFS8eTRTh3Qe0C2sL6t+m/1enFzTHDbbUArNtZXy5n0BDdnlh7SK4YlQ7gAtyaUfeUnA71jyL+v9ZutHn2Ljzn0vD9qP5lZcJanwKRxxx7fJ9M0X+gxFvyjsSRv6i+uj+JTjF9IHqzLrrraYngnnpUpx/i94Cse826Gr6lNOi6V3X3zttZM6YhJsznJd39clFgDIYkE8E2OuPySlCrs+203xVT2Q5Se7y7WXxeqtPpBRSaYyf0AgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "2985495e28df85fb4f3894cbdb615a61177ce373feda3d4e86b8b6fae36fc7c9"
+  }
+}

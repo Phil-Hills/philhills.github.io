@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[john cena]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAIppXWoC/4WSQW/bMAyF/4rgc5w6XpeiuRW7tDsMBbbbMBiMTEdqZVGg6A1ZkP8+0XFRDOu26+PHB/KRpyoxCVkK3Xfk7ClWO1P5HqN4OdZ22mO9WTfV6lUswKnK0/4JrSj8RC4aixEUgkkcscqPzgdz70PIr3o3cdCaE0l5d3WVCuMUWVsaFcs0scW3EfBKWEYQ7BVpm3ZbNzd123xpmt3mdte265vt9eb2nYJyTLORMMbex0MnlLzt8jSOwMfqrF4Upey0LHTRS8dHXehDWcgwjuBjNmASFpvoIYSjeXE0gz9MjCuT2JdeX0r9hEbIOJ/NOAXxA1gs0xoLjMgmJygmpbOEPmDWuCGYH4xZQpFX89w65h+57sE+F+Q5l8rXU/W/HBnn+nINdfUS8PezmNo8EstAwZPG8Q/XS/SL6XKjv5jePRTfh+VVzCfqsTp/07BHFOhBYE57IB5h/p75w15+cD4wjYkv2Wj98NMnlTFa0tBV20PG7bWqDrLrIByIvbhRa5/v79r32+p8/gWL+0wV2gIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "c2934317b9b747bcd8db3b6b7ef0e82c49f8671d8d20ac6273e5c82a5ef00476"
+  }
+}
