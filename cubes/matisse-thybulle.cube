@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[matisse thybulle]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAHJqXmoC/4VSQW7bMBD8CsGz5ch24xi++ZYcGgRIbkUhrKi1tTXFFchVAdXw38uVFQQFmvZGzAyHnNm92D6ysGNf/cSYiIPdG0sNBiEZCzfUWKyWpV18gFlwsWmof6ATFXcglBIaacd68B5VC4O0HJV9acmbR/I+feDVEL1yrUif9nd3fda0Klk67lSWeIgO/y4BUoWLCIKNStbleluUD8W6fFvt9pv7/aZcPuw2q930axn7yUgihobCqRLuyVVp6DqIo72qFwfJ0eZcNzzf+DrneptzLQwEcxiSRPAEoTh0GMllLDd4xKTdgTc1pDNKDd6b3sOIcWEoGTDv75vpfUNh+pyeP+uwBnf2FM4pC75d7P86izjxc/NqTuLxzxGYwrxwlCN7Yo3+D9dbzbPpPI9PTA9P2fdp3g7zzA3a63cttkOBBgSmZo8cc0q9Oi3V+9pNw+Suj7cGlT/9ol5hDI61MsVyrbj9omgLqa3AnziStJ1yr4+H9f3WXq+/ARdXrSLNAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "b441ff124a0c0869da7732a35ea0be1582faf4b16f525f7296b16c3740a34ebb"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[angie katsanevas]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAHtqXmoC/4WST2/bMAzFv4qg85ymzp92uWWnFgOGAt1tGAxFZiwusmhIVIA0yHef6DrdBqzbRYfHn57ER571EInJkm+OEBNS0BulsYXAyKfK5h1Ut7O5/vBLLMBZp7z7AZYFNqFDUAfDyQQ4miSsyewoSvXJoVcP6P1vepOjl5pjHtLm5mYojBNkZqkXLFGOFv6OGBTCRjAMrSD1vF5X87uqnn+9vd8sVpvFx9nyfrWsFwLyaRiNOEJoMXQN04C2SbnvTTzpi3hR4NLa1NerXm5sx74+v/WlMCmjSlw9hoKrPXY5grI5Fmv2J3V9QrUZFJNyEJXDzlXlzh49qEjloKA+RXOk8XPyl/cy3Bl78BgOqQDfzvp/mUUY61PyYo7s4c8RqEo9UeQ9eSRp/R+urzFPptM83jHdPhbfx2k71BdqQV++S7A9sGkNmzHZPcXejAszLtV17cZhUj9ESNft615wEBmCJclTtJ1JsF6K6kxyjfEdRWTXS+35YVuv1vpy+Qk2QjKQzQIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "2cfb9842f1d269ff00bc750158ab42d3273ad2e575934bc659f3e28a1e934977"
+  }
+}

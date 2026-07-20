@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "usa-today",
-      "topic": "usa today",
-      "cube_url": "https://philhills.ai/cubes/usa-today.cube",
-      "json_url": "https://philhills.ai/cubes/usa-today.json",
-      "created": "2026-07-20T12:39:31.877891",
+      "slug": "matisse-thybulle",
+      "topic": "matisse thybulle",
+      "cube_url": "https://philhills.ai/cubes/matisse-thybulle.cube",
+      "json_url": "https://philhills.ai/cubes/matisse-thybulle.json",
+      "created": "2026-07-20T18:35:30.783180",
       "author": "Phil Hills"
     },
     {
-      "slug": "marcello-hernandez",
-      "topic": "marcello hernandez",
-      "cube_url": "https://philhills.ai/cubes/marcello-hernandez.cube",
-      "json_url": "https://philhills.ai/cubes/marcello-hernandez.json",
-      "created": "2026-07-20T12:39:35.819443",
+      "slug": "seth-halvorsen",
+      "topic": "seth halvorsen",
+      "cube_url": "https://philhills.ai/cubes/seth-halvorsen.cube",
+      "json_url": "https://philhills.ai/cubes/seth-halvorsen.json",
+      "created": "2026-07-20T18:35:35.139504",
       "author": "Phil Hills"
     },
     {
-      "slug": "kevin-hart",
-      "topic": "kevin hart",
-      "cube_url": "https://philhills.ai/cubes/kevin-hart.cube",
-      "json_url": "https://philhills.ai/cubes/kevin-hart.json",
-      "created": "2026-07-20T12:39:40.236118",
+      "slug": "angie-katsanevas",
+      "topic": "angie katsanevas",
+      "cube_url": "https://philhills.ai/cubes/angie-katsanevas.cube",
+      "json_url": "https://philhills.ai/cubes/angie-katsanevas.json",
+      "created": "2026-07-20T18:35:39.485423",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-20T12:39:40.237245"
+  "last_updated": "2026-07-20T18:35:39.486826"
 }
