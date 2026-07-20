@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[kevin hart]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIAAwXXmoC/4VSy27bQAz8FULnyJGV1G19y81BgSJAeysKgVrREut9CLtUANXwv3epyAiKNu1tMRzOkjM8F2MMEkywzTPFxMEXeyi4Iy8sc2mmlsrtpipuXsFMOBdpan+QESWf6Jk9DBhFWTjJEKLiTwNbOLC16RVvpmi1NoiMaX97O2bOoJSNCU5pKUzR0N8pyMowkVCoU0pd1buyel/W1ddtvb/7uL+vNvXdbrv9oESZx0VIIvmOfd9IGNk0aXIO41xcVCt4yUutG73guePTstEhbwSRHLJPgJB9cuwzG9B3kDsTJ222M1x/gCP3UyTIzb0NLVrIdYqSFVx+3YAhS23U8eEYIgycoJs9OjZZnhJ5Q4D5s2V8nfZPf1s0J8v+lHLp27n4n5+RlvqaisqyWPo9HijhKUQ5BstBbfmH6ksEq+ia1RuiD49Z93G9GfgcOiou39V0R4IdCi6uZxscLme0nNr1GJegg1NTrjfZ/+RR4WxSULMVazHR7l7RAdPQoO1DZBmc1r4cHup3u+Jy+QXPqj424wIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "619e89f33efdbc34c4460e096598572c1c479a5ed218c498d5ed2ff8428aa5f0"
+  }
+}

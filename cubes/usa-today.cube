@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[usa today]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAAMXXmoC/4WSQW/bMAyF/4qgc5wm7pa0ueXWXoYC7U7DYDAyG3OVREOiN3hB/vtE10ExrNuuj09P4qd3sn1iYce++Y4pE0e7M5ZajEIyVm44YLVeruziTSyGk83D4Rs6UfOQwQi3MKoJBuk4qfzQkTd35H1+05sheZ11In3eXV31xdOpZek4qC3zkBy+bwFSh0sIgq1a6lW9qVbbql49revd9e3uer282W5vbtdqlLGfgiRhbCkeG+GeXJOHECCN9qxZHKXsNC/0qpcTnx/35kkXWhgwBU+gWFwmghQ84M0+YCIH0bRAfjQRf+QeekwLQ9lcrjPtgAWLIcmG45GLNL1KH/EHtQO4F0/xJZfJl5P9H6WE03xmrakkHn+HbirzwEme2RPrsv9IfQU7h84/8JfQ/X3JvZ+LYD5xi/b8VVEGFGhBYGL5zCnA1I2pP5eGTd/HoU+YL0U7/qReZYyOlZpqB8i4+aBqB7lrwB85kXRBZ493+/rjxp7PvwBYjiLDuAIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "4261806a969f45cf52c8fa199cc77760a0f3f85a2f427ff97426b980b30d2321"
+  }
+}

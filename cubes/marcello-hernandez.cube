@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[marcello hernandez]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAAcXXmoC/4WSzW7bMBCEX2Whc+TYsuM2vuXmHBoESG9FIdDkWtyGPwK5SqEYfvdyFRlBgaS9zn4acWf2VPUpctTRtS+YMsVQ7aAig4GJx1oPB6xXi2V19S4W4FTl4fALNQvsVdLoXASLKahg8FVoNbCNSeaPlhzsybn8rrdDcjKzzH3eXV/3hbGCLHT0guU4FNePEUVC6ISK0QjSLJttvfxSN8vvq2a3vt2tbxZfV7ebzVpAHvvJiBMGQ6FrOfak2zz48vKxOotXDFyWmzd708sX3y6b7S+bgVUZkurJuBHQY+rQQJEUlBg9hWICR+qGhEAByi5oxivQqmd6UVx+DmowhEFjht/EFixlMJTLSBcEp/fK8z4P9qD0s6PwnAvy41T9L8iE03yuQ+yJHf7dC9TwGBMfo6MoefzD9S372XQu6RPTu/viez8fDTxEg9X5p6TtkZVRrKa4jzF5Nd3RdGuXa5wajr5PmC9H2b1SL3JJL0qPoh1Uxu1G1FKMbZXrYiqxepk97e+am211Pv8BPPfBiOQCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "9e38cd45746284cfbc13816952335a16616ca9efa8c86529da5e47de7804b4ff"
+  }
+}

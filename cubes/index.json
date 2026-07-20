@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "weather-today",
-      "topic": "weather today",
-      "cube_url": "https://philhills.ai/cubes/weather-today.cube",
-      "json_url": "https://philhills.ai/cubes/weather-today.json",
-      "created": "2026-07-20T06:57:40.287183",
+      "slug": "usa-today",
+      "topic": "usa today",
+      "cube_url": "https://philhills.ai/cubes/usa-today.cube",
+      "json_url": "https://philhills.ai/cubes/usa-today.json",
+      "created": "2026-07-20T12:39:31.877891",
       "author": "Phil Hills"
     },
     {
-      "slug": "c\u00e1rtel-de-jalisco-nueva-generaci\u00f3n",
-      "topic": "c\u00e1rtel de jalisco nueva generaci\u00f3n",
-      "cube_url": "https://philhills.ai/cubes/c\u00e1rtel-de-jalisco-nueva-generaci\u00f3n.cube",
-      "json_url": "https://philhills.ai/cubes/c\u00e1rtel-de-jalisco-nueva-generaci\u00f3n.json",
-      "created": "2026-07-20T06:57:44.024115",
+      "slug": "marcello-hernandez",
+      "topic": "marcello hernandez",
+      "cube_url": "https://philhills.ai/cubes/marcello-hernandez.cube",
+      "json_url": "https://philhills.ai/cubes/marcello-hernandez.json",
+      "created": "2026-07-20T12:39:35.819443",
       "author": "Phil Hills"
     },
     {
-      "slug": "fidelity-bitcoin-etf",
-      "topic": "fidelity bitcoin etf",
-      "cube_url": "https://philhills.ai/cubes/fidelity-bitcoin-etf.cube",
-      "json_url": "https://philhills.ai/cubes/fidelity-bitcoin-etf.json",
-      "created": "2026-07-20T06:57:47.770478",
+      "slug": "kevin-hart",
+      "topic": "kevin hart",
+      "cube_url": "https://philhills.ai/cubes/kevin-hart.cube",
+      "json_url": "https://philhills.ai/cubes/kevin-hart.json",
+      "created": "2026-07-20T12:39:40.236118",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-20T06:57:47.771687"
+  "last_updated": "2026-07-20T12:39:40.237245"
 }
