@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[fidelity bitcoin etf]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAOvGXWoC/4WSQWvbQBCF/8qypxQqRzWOVXxLSk1yaQM19FCKWK3G2mlWO2J3VOoa//fuKHJDIUmvbz497XszRz1EYrLk658QE1LQG6WxhcDIh8KODRTvFqV++yRm4KjT2PwAywLv88BnXTXIljAo4L3wZmRHUYh7h17dovfpSa/H6GXmmIe0ubwcMuMEWVjqBUs0RgvPIwaFsBEMQyvIslyui7IqluWuXG+uqs2qWlRVuareC8iHYTLiCKHF0NVMA9o6jX1v4kGfxIsC53hztkc9f7FzoLbnfF8xgfocscsZb+asuzgmVhfbm92HNwqTMioNxH/HH39ZZ0IHmTMttGo7hlZdTG+SJ7xWX2Psg8fwkDL07aj/V1eEaT6XLj9A9vBv+6pQ9xR5Tx5JUr/i+tjwbDqv4gXT67vsezcfh/pELejTd+m0BzatYTOVuqfYm+lepps6X920R+qHCOl8fN1vHESGYEm2JVpjEqxXojqTXG18RxHZ9TL7cnu9vFrr0+kPr5YmqcwCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "b9a5699e10651b34cc3a49c6b944f54a01998c250f10496c7370467942573277"
+  }
+}

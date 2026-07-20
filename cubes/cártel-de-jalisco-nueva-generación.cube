@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[c\u00e1rtel de jalisco nueva generaci\u00f3n]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAOjGXWoC/51STUvDQBD9K8ueFEybxrZCb+LB6qEU9KYSpptps3azE3YnQi3972bSiBT8AK9v3rzd9+btdR2IyZDL3zBES17PlLYFera8S0yzwmQ0SPXFF9gS9jo2q1c0LGTz3KQpjgKjUwWqV3A2GlK+wTdQG/QYwFjhrC+96EDDJQXZXJbWqbl1Ln7heROczErmOs6Gw7rllEIZGKqEFqkJBr+ngBWGCQiMhVCyNJsm6VWSpY/pdDa5mo3HgzQbj0YTIfKu7oQ4oC+s3+RMtTV5bKoKwk4fRIs8t7Z7z0e83XgsUd2c+r7vfS8637envtXZzf3i9lxFBl9EBVGRR0Xr7hfy6H+CXIHZOuu3sV1+2uu/ggvYzfv45WHLDk/voBK1pMBrcpbE/y+qx6x70f4oP4he37W6d3191IIK1IcXSbdChgIYunjXFCo4Nkpa99nL7qJU1QHjZz0377YWGL0huZtgK4g4HQtaQixzcBsKlstKZg/z62wy1YfDB31fVPruAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "b3a147c712452baec9543caeeac51d0e4ef3170cc4afed444ea6af2277dd297e"
+  }
+}

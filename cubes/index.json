@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "independiente-del-valle-emelec",
-      "topic": "independiente del valle - emelec",
-      "cube_url": "https://philhills.ai/cubes/independiente-del-valle-emelec.cube",
-      "json_url": "https://philhills.ai/cubes/independiente-del-valle-emelec.json",
-      "created": "2026-07-20T00:19:19.430138",
+      "slug": "weather-today",
+      "topic": "weather today",
+      "cube_url": "https://philhills.ai/cubes/weather-today.cube",
+      "json_url": "https://philhills.ai/cubes/weather-today.json",
+      "created": "2026-07-20T06:57:40.287183",
       "author": "Phil Hills"
     },
     {
-      "slug": "john-cena",
-      "topic": "john cena",
-      "cube_url": "https://philhills.ai/cubes/john-cena.cube",
-      "json_url": "https://philhills.ai/cubes/john-cena.json",
-      "created": "2026-07-20T00:19:22.764193",
+      "slug": "c\u00e1rtel-de-jalisco-nueva-generaci\u00f3n",
+      "topic": "c\u00e1rtel de jalisco nueva generaci\u00f3n",
+      "cube_url": "https://philhills.ai/cubes/c\u00e1rtel-de-jalisco-nueva-generaci\u00f3n.cube",
+      "json_url": "https://philhills.ai/cubes/c\u00e1rtel-de-jalisco-nueva-generaci\u00f3n.json",
+      "created": "2026-07-20T06:57:44.024115",
       "author": "Phil Hills"
     },
     {
-      "slug": "carson-hocevar",
-      "topic": "carson hocevar",
-      "cube_url": "https://philhills.ai/cubes/carson-hocevar.cube",
-      "json_url": "https://philhills.ai/cubes/carson-hocevar.json",
-      "created": "2026-07-20T00:19:26.316310",
+      "slug": "fidelity-bitcoin-etf",
+      "topic": "fidelity bitcoin etf",
+      "cube_url": "https://philhills.ai/cubes/fidelity-bitcoin-etf.cube",
+      "json_url": "https://philhills.ai/cubes/fidelity-bitcoin-etf.json",
+      "created": "2026-07-20T06:57:47.770478",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-20T00:19:26.317439"
+  "last_updated": "2026-07-20T06:57:47.771687"
 }
