@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[dante dowdell]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAIa5X2oC/4WSQW/bMAyF/wqh85zGzuoNuRXoob0UBbrbMBiyzFhaJdGQ6BZZkP8+0XFRDOi2m/D46Yl84klNiZgM+e4FU3YU1R6UGzCy42Nl5h6rerNVn97FApxUnvufaFjgQUdGGOh1QO8F1DNbSlJ6tM7DnfM+v+vdnLzULPOU91dXU2GsIBtDQbBMczL4MaKdECahZhwEabZNW22/VE39rf66b6739Xaza3dtvROQj9NixAnj4OLYMU3OdHkOQaejOosXle4jr0Nd9HLjdhnq9jIUuAwarButP1ZMc3kbSmIeR4QDEfe6MGmOsTwBvTbP8GopIyQ0xRoCvWAohwwuAltcOpNGPkxP7nsXn3Opfj+p/6WVcKmvmYuzY49/hg8VPFLiA3lHMvQ/XC8Br6brT/zF9Oa++N6vSwEPNKA6/5BIA7IeNOsl0wOloJc9WXbpbduWb6QwJcxvSzf+cpPIGA3JZ4nW64ztZ1GtzrbTfqTk2AapPd3dNNetOp9/A9+O8irEAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "bc0b1cf66aeeb5da6ab1eec50f510c62b6c1980c35e309fe7aaae8d427dde210"
+  }
+}

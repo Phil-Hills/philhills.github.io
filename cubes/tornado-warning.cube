@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[tornado warning]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAH25X2oC/4VSQW7bQAz8CqFzlMhC7Ka++eZcggDprSiE1YrWbiMtF1wqqWv4710qCoIWSXodDgfDGZ6KyCRkaWiekJOnUGyh8B0G8XIs7dRiubqsios3MBNORZran2hFyUIcTEfwbDj40CvVTOKIdXjv/AB7PwzpDW8mHnTmRGLaXl3FzHFKubQ0Ki3RxBbfpxivDMtoBDul1FW9KasvZb36trrZ1uttlf1WN9frr0qUY5yFhDF02V0jFL1t0jSOho/FWbUoSL5sOesFzxs7+OcwSL4P/uAxgTgjYKAzoUemKYGRkVJ0yN7CE7HgL3AmQYsYdM1lr0AMPnuwahzaIzznE/IGsOkMX0CktKQ3W/wg2dbYx8GHx5Tn30/F/5JknOdLH6rtZcC/i4ES7rPlAw2eNJBPVF/CX0SXlj4Q3d1m3dvlZeCOOizOPzTuESUfLGbO+0A8mvmL5k97/cW5YhojY3p9yf63jwpjsKRFKtaahJtrRXPYrjFDT+zFjTp72O/q9aY4n/8AdxfrkeICAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "060a555abb1ac3e2a4c08bd30741ad0676ff2de1936e71a37e989296e49344fd"
+  }
+}
