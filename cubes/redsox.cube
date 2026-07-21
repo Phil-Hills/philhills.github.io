@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[redsox]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAPa6XmoC/4WSQU/jMBCF/4rlc1PSaCnQG3sCaUEIuCEUTZxpbXA8kT1BlKr/HU8ahJCAPebNy5Pne7PTfSQmQ75+wZgcBb1S2rUY2PG2MEODxWJe6tmnmA07nYbmCQ2LOWKb6FUcMLClKNqNdV5dOO/Tp14P0cvMMvdpdXTUZ48Vy9xQJ7ZEQzT4vQWcOExEYGzFUpXVsihPimpxX5arxdmqrOZVuTg9OxEjb/sxiCOG1oVNzdQ7U6eh6yBu9V6yKHBeaNrmoOc/7i2qv5SYgrrFVt3Rq4KIClSWostK5rXGJKTAqwYSNuC9YoRu/GqVC1PATF1BSmDskJA5zVTes0fOzxHPFTxRVP8QNgOOT5YXfuXZgHn2LjynLD/s9P/4RRznUwsS6djj1zpUoW4o8pq8I8HwS+oB+RQ6dfND6Pllzr2c7kNdU4t6/yiQO2RogWGkvKbYwXgy41l9HN5YbCYTD1RlvnlzvcgYDEl9ognc5R9RLSRbg9/kPth2Mru7OK+Ol3q/fweIDNWxzwIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "f7d5e9dbf70fd7a4ca7e2870750802de9b748fb1975a3cb5549ecc752146049c"
+  }
+}
