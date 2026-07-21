@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[pablo carreno busta]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAApmX2oC/4WSQW/bMAyF/4rgc50m7uoGuXW9tJehQHcbBoOWmYirLAoSPSAN8t8nOh6KAVt3Ex4/POg98lTFxMKWffcTUyYO1c5UNGAQkmNtpx7rzWpdXb2LBThVeep/oBWFI/SejYWUMLDppyygOEziOCnw7MibR/I+v+vdlLzOnEjMu+vrWBinyMryqFjmKVn8OwKkhE0IgoMizbpp6/Vd3Wy+bppds93dbld37aa92SooxzgbSfngQOHQCUeyXZ7GEdKxOqsXBynplmgXXX8+R3tYon3WaIayATNQluI0UXY4mJcIobxMqXKPWUsEb4pfEU30cMR0ZRJaPgR6K/iek3E0lzH/5IMSe7CvnsJrLsy3U/W/0hLO86V69Sfx+OcOTG2eOcmePbFm/8D10vNiuizkH6b3T8X3abkQ84UHrM7ftdkRBQYoabTaknyE+Wjmw/p9evM2eYzpUp7OD28UVcZgWXemWg8Z20+qOsiuA3/gROJGnb083je3bXU+/wIUl8bc0QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "b7817c8fdc5a559530cb33c3f3e736a58ec09a46d66f331d71b4cb3fe882bae2"
+  }
+}
