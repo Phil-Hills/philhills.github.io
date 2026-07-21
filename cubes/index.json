@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "red-sox",
-      "topic": "red sox",
-      "cube_url": "https://philhills.ai/cubes/red-sox.cube",
-      "json_url": "https://philhills.ai/cubes/red-sox.json",
-      "created": "2026-07-21T00:18:54.453564",
+      "slug": "thom-tillis",
+      "topic": "thom tillis",
+      "cube_url": "https://philhills.ai/cubes/thom-tillis.cube",
+      "json_url": "https://philhills.ai/cubes/thom-tillis.json",
+      "created": "2026-07-21T06:46:39.067975",
       "author": "Phil Hills"
     },
     {
-      "slug": "esmerlyn-valdez",
-      "topic": "esmerlyn valdez",
-      "cube_url": "https://philhills.ai/cubes/esmerlyn-valdez.cube",
-      "json_url": "https://philhills.ai/cubes/esmerlyn-valdez.json",
-      "created": "2026-07-21T00:18:58.277055",
+      "slug": "in-n-out",
+      "topic": "in n out",
+      "cube_url": "https://philhills.ai/cubes/in-n-out.cube",
+      "json_url": "https://philhills.ai/cubes/in-n-out.json",
+      "created": "2026-07-21T06:46:43.185562",
       "author": "Phil Hills"
     },
     {
-      "slug": "redsox",
-      "topic": "redsox",
-      "cube_url": "https://philhills.ai/cubes/redsox.cube",
-      "json_url": "https://philhills.ai/cubes/redsox.json",
-      "created": "2026-07-21T00:19:02.201897",
+      "slug": "marcello-hernandez",
+      "topic": "marcello hernandez",
+      "cube_url": "https://philhills.ai/cubes/marcello-hernandez.cube",
+      "json_url": "https://philhills.ai/cubes/marcello-hernandez.json",
+      "created": "2026-07-21T06:46:47.055323",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-21T00:19:02.203038"
+  "last_updated": "2026-07-21T06:46:47.056546"
 }

@@ -3,15 +3,15 @@
   "descriptor": "IDENTITY_CUBE|TREND[marcello hernandez]|PUBLISHED",
   "cube": {
     "dimensions": [
-      10,
+      8,
       11,
-      5
+      6
     ],
     "encoding": "base64",
-    "data": "H4sIAAcXXmoC/4WSzW7bMBCEX2Whc+TYsuM2vuXmHBoESG9FIdDkWtyGPwK5SqEYfvdyFRlBgaS9zn4acWf2VPUpctTRtS+YMsVQ7aAig4GJx1oPB6xXi2V19S4W4FTl4fALNQvsVdLoXASLKahg8FVoNbCNSeaPlhzsybn8rrdDcjKzzH3eXV/3hbGCLHT0guU4FNePEUVC6ISK0QjSLJttvfxSN8vvq2a3vt2tbxZfV7ebzVpAHvvJiBMGQ6FrOfak2zz48vKxOotXDFyWmzd708sX3y6b7S+bgVUZkurJuBHQY+rQQJEUlBg9hWICR+qGhEAByi5oxivQqmd6UVx+DmowhEFjht/EFixlMJTLSBcEp/fK8z4P9qD0s6PwnAvy41T9L8iE03yuQ+yJHf7dC9TwGBMfo6MoefzD9S372XQu6RPTu/viez8fDTxEg9X5p6TtkZVRrKa4jzF5Nd3RdGuXa5wajr5PmC9H2b1SL3JJL0qPoh1Uxu1G1FKMbZXrYiqxepk97e+am211Pv8BPPfBiOQCAAA="
+    "data": "H4sIANcVX2oC/4WST0/DMAzFv0qUMx2lsCHttts4gJDghlCVJV5rSOIoSZHKtO9OXDohJP5IveT51yf72QcZImXSZNs3iAnJy7WQaMBnzGOlhx1UF4tann2JBTjINOxeQGeGnYoarCXRQ/TKG3hnWg25p8j1+x6t2KK16Utvh2i51ucc0vr8PBSmZ2ShyTGWaCiuPyMKmdARVAbDSFM3q6q+rpqLx3q1virf9aJeLi+bSwbzGCajHMEb9F2bKaBu0+BK56M8shf5XIabJ/vUyx+3p8m2p8lEr5KIKqCxowAHsQMjiqREidGhLyZij90QQaAXk60LFItfeTgw41kBsfijHafeuJXfQ9wp/WrRv6aCPB3kf6FFmOpz9GyP2cL3HYhK3FPMe7JIPPsfrp85z6bzQn4x3dwU35v5QMQdGZDHZ07WQVZGZTVFu6fo1HQz012dLm/aJrkQIZ0OsHvHwDJ4Tbwz1nYqweqK1bKEvlW2o4i5d1x72G6a5Uoejx+MgFth0AIAAA=="
   },
   "hash": {
     "algorithm": "SHA256",
-    "value": "9e38cd45746284cfbc13816952335a16616ca9efa8c86529da5e47de7804b4ff"
+    "value": "9afb7837218338d04c8e8e05b2bee08ecfffaa355d98ff5155481f9a495143cd"
   }
 }

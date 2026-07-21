@@ -1,16 +1,16 @@
 {
   "protocol_version": "identity-cube-1.0",
   "identity": {
-    "subject": "marcello hernandez",
+    "subject": "thom tillis",
     "author": "Phil Hills",
     "author_url": "https://philhills.com",
     "source": "https://philhills.ai",
-    "created": "2026-07-21T06:46:47.055323",
+    "created": "2026-07-21T06:46:39.067975",
     "type": "trending_topic_summary"
   },
   "content": {
-    "summary": "Marcello Hernandez has rapidly emerged as a prominent figure in contemporary comedy, primarily",
-    "topic": "marcello hernandez",
+    "summary": "Thom Tillis is a prominent Republican United States Senator representing North Carolina, first elected in 2",
+    "topic": "thom tillis",
     "backlinks": [
       {
         "url": "https://philhills.com",
