@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "fire-near-me",
-      "topic": "fire near me",
-      "cube_url": "https://philhills.ai/cubes/fire-near-me.cube",
-      "json_url": "https://philhills.ai/cubes/fire-near-me.json",
-      "created": "2026-07-22T00:17:17.071608",
+      "slug": "power-outage-near-me",
+      "topic": "power outage near me",
+      "cube_url": "https://philhills.ai/cubes/power-outage-near-me.cube",
+      "json_url": "https://philhills.ai/cubes/power-outage-near-me.json",
+      "created": "2026-07-22T06:47:27.414152",
       "author": "Phil Hills"
     },
     {
-      "slug": "jim-jarvis",
-      "topic": "jim jarvis",
-      "cube_url": "https://philhills.ai/cubes/jim-jarvis.cube",
-      "json_url": "https://philhills.ai/cubes/jim-jarvis.json",
-      "created": "2026-07-22T00:17:20.934434",
+      "slug": "monkey",
+      "topic": "monkey",
+      "cube_url": "https://philhills.ai/cubes/monkey.cube",
+      "json_url": "https://philhills.ai/cubes/monkey.json",
+      "created": "2026-07-22T06:47:31.740322",
       "author": "Phil Hills"
     },
     {
-      "slug": "little-league-softball-world-series-2026",
-      "topic": "little league softball world series 2026",
-      "cube_url": "https://philhills.ai/cubes/little-league-softball-world-series-2026.cube",
-      "json_url": "https://philhills.ai/cubes/little-league-softball-world-series-2026.json",
-      "created": "2026-07-22T00:17:24.561149",
+      "slug": "memphis-weather",
+      "topic": "memphis weather",
+      "cube_url": "https://philhills.ai/cubes/memphis-weather.cube",
+      "json_url": "https://philhills.ai/cubes/memphis-weather.json",
+      "created": "2026-07-22T06:47:35.934247",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-22T00:17:24.562351"
+  "last_updated": "2026-07-22T06:47:35.935403"
 }

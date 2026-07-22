@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[power outage near me]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAH9nYGoC/4WSQU8jMQyF/0qUM1PaUWml3rjBBSEtN1iN3IyZBJI4m3hYdav+942HqdBKLBzz8uU5fvZRp0xMhnz3hrk4inqntOsxsuNDY8Y9NqvFUl98iBU46jLuX9CwwIl+Y1Y0MgyoIkJWAYWHkS1lIe6t8+rGeV8+9G7MXu4scyq7y8tUGSvIwlAQrNCYDX6OgBPCZATGXpB22W6a5bZp24flZrfe7trtYr1ar65aAfmQJiPOGHsXh44pOdOVMQTIB30SL4pc25t7e9friweLqtSWjFW/RswH9fRpu09auaJAJawVogOvzqXUVOpCFTdE8CJAVC4E7F39ez300wcF+irLPZjX+vq1VOjxqL/LLuN0P09ACjj2+O8oVKPuKfMzeUcSwReu73HPpvNc/mN6fVt9b+dNUXfUoz79lIADMvTAMCX8TDnAtDzTgp1XcBoqhZSxnDdx+OOSyBgNSZ6i7aHgZi2qhWI78ANlxzbI3Y+b6/Zqo0+nv6Rii/TZAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "80409082dd8673c927e1d27da56094f6e272cb302532bb07eb205eb8afcfadee"
+  }
+}

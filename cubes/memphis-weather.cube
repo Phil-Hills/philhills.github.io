@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[memphis weather]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAIdnYGoC/4VSy04DMQz8lShntpSltKI3bnAAIcENoVWadZtAEi+JA1qq/jvxslVVicfNmhlP4rG3sotIqNE17xCTxSCXQtoWAlnqK51XUJ1NpvLkABbBVqa8egFNLPbgO2OT+ABFBiJLVSaDkcl7Y524ts6lA97k6JgzRF1anp6WbmdYMtHoWZYwRw0/S5RlhY7lMWhZUk/reTVdVHX9OJ0vZ4vl+cXk8nxWzxYspL4bjChCaG3YNISd1U3K3qvYyx17YaAy2TjWN146bo/HEqVcR3jLRep6ocTeUQyOos1QKmEpCWM3pkjaPihfGBVagevyhEhQMgYRFOUIw++49ZcMV0q/OhteU+GftvK/zCIM/Jg8e1tycLwCUYl7jLRGZ5FH/8P1O+bRdNzHL6ZXN8X3ZjwOcYctyN0zB+uBVKtIDcmuMXo13MtwU/urG5aJvouQ9se3+bQdwxA0csCMrVSC+YxRo5JplNtgtGQ8cw/XV/XFXO52X0zjFp/MAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "9621c11b73cdc244f18c75bafe40cffec26fc7c63efb1a8d820a851442b5b8b4"
+  }
+}
