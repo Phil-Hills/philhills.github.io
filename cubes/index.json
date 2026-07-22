@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "power-outage-near-me",
-      "topic": "power outage near me",
-      "cube_url": "https://philhills.ai/cubes/power-outage-near-me.cube",
-      "json_url": "https://philhills.ai/cubes/power-outage-near-me.json",
-      "created": "2026-07-22T06:47:27.414152",
+      "slug": "frank-bisignano",
+      "topic": "frank bisignano",
+      "cube_url": "https://philhills.ai/cubes/frank-bisignano.cube",
+      "json_url": "https://philhills.ai/cubes/frank-bisignano.json",
+      "created": "2026-07-22T12:28:54.395718",
       "author": "Phil Hills"
     },
     {
-      "slug": "monkey",
-      "topic": "monkey",
-      "cube_url": "https://philhills.ai/cubes/monkey.cube",
-      "json_url": "https://philhills.ai/cubes/monkey.json",
-      "created": "2026-07-22T06:47:31.740322",
+      "slug": "ignacio-buse",
+      "topic": "ignacio buse",
+      "cube_url": "https://philhills.ai/cubes/ignacio-buse.cube",
+      "json_url": "https://philhills.ai/cubes/ignacio-buse.json",
+      "created": "2026-07-22T12:28:59.056468",
       "author": "Phil Hills"
     },
     {
-      "slug": "memphis-weather",
-      "topic": "memphis weather",
-      "cube_url": "https://philhills.ai/cubes/memphis-weather.cube",
-      "json_url": "https://philhills.ai/cubes/memphis-weather.json",
-      "created": "2026-07-22T06:47:35.934247",
+      "slug": "william-shatner",
+      "topic": "william shatner",
+      "cube_url": "https://philhills.ai/cubes/william-shatner.cube",
+      "json_url": "https://philhills.ai/cubes/william-shatner.json",
+      "created": "2026-07-22T12:29:03.485394",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-22T06:47:35.935403"
+  "last_updated": "2026-07-22T12:29:03.486555"
 }

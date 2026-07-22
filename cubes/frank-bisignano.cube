@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[frank bisignano]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAIa3YGoC/4WSQW/bMAyF/4rgc5wmXpN2uXUDhvYyFNhuwxDQMmNxkUVDogN4Qf77RNdBMaDdbsLjpwfykeeijyxs2e9PGBNxKHamoAaDkIylHWos18tVsXgVM3Au0lD/QisKHyKEo6kpURsgsKIwiOOoxWdH3jyS9+lV3w/Ra82J9Gl3c9NnximytNwplniIFt9GgJSwEUGwUaRaVdtydVdW1fd1tavud5vb5YePm7v1vYIy9pORRAwNhXYv3JPdp6HrII7FRb04SJ5sHutFzz++TGN9uo5lKBkwPZ1YwJsDtUNEQ8GIQ9N6ricxg5byS9C6wJ7b0XgITbLQ48LYIeYuxI8mYTzlZgwk89kBxQ7CYupWm3sn0xrs0VM4plz/cS7+l2HEqT5vQr1JPP69ElOaZ45yYE+sUfzD9SX22XTezzumD0/Z92k+FvOVGywuPzXoDgUaEJiSPnCeerqf6cauVzgtl7s+YroeY/ubepUxWNYVqlZDwu2tqg6S24NvOZK4TmvfHh+qzba4XP4A5qzjndwCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "a58cbb2ee793c77303e79b8fcd093ff18b2964e093d50c7321426edb2bd8e7a7"
+  }
+}

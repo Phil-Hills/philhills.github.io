@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[ignacio buse]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAIu3YGoC/4WSzW7bMBCEX4XguXIcIVZT35JTfAkMtLeiEFbUWtqG4hL8SaEafvdyZRVBgbS9zoxG3G/3rH3gxIZt+4ohEju9V5p6dInSXJncYXW72eoPb2IJnHXM3Xc0aQkPDgyx6nJEyUFOIwdxjiNZ9UTWxje9zcGKN6bk4/7mxpfMKJGN4UlikXMw+H4ESBImICTsJVJv66bafqzq+sttva/v97tPm+2uuWvuJZhmvxSlgK4nN7SJPZk25mmCMOuLdLFLZax1pqtevjisMz2WmRRFBSqAp97OCicMQ+lSRwz5lcCpAvCEUdCBVaXMlby3MGNQP0ZWI0RlwKccsFexwKITGSi/lAfKe95j2IF5seReYjG/nvX/mAVc/JW8FFOy+OcKVKWOHNKJLbGM/o/WK+a1dN3HX0ofDqX3sF6GeuYe9eWbgJ0wQQ8JFrInDhMsx7Ic1O+TW5bJkw9XfOIPP8mLjM6wrEy0DiI2d6IWlmMLduBAaZzE+/z0UO8afbn8AoVYp8rJAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "f2d8d706d8277bf9ef5ceedf69954931014fac6a6af8a6bf696dff949f569c36"
+  }
+}

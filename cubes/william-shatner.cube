@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[william shatner]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAI+3YGoC/4WSQW/bMAyF/wrhc52mbputuRW7tBswFGiBHYbBoGUm4iKJhkSvyIL890mOi6LAuh1Ffnrge+ShGqKoGHHtL4qJJVRrqLinoKz72owd1ReLZXX2WszAoUpj95OMFviZnWP0kCxqoFhQHNVKLM0Hyw7uMpFe6+0YXelZ1SGtz8+HzNiCLIz4giUZo6G/I8iFMJFQqS9Is2xW9fJD3TRPF826uVkvLxdXH68vb64KqPthEtJIoeewbVUGNm0avce4r45FS4JmZ7OtUz3/+DbbejzZOgO1BJxhNoBGJUJHSWEX5DnAJj8tJ+DQk+POEQwSNeIeHcgGPuGgyAE+o6cETwv4wnGX4WnCMtA7OXZodo7DLuX+90P1v9wiTf05/aLN6ujtGqCGhzzaRhxLsf8P1VPUs+i8k3dEb++z7v18IPBVeqqOP0q4nhR7VJzSzSl5nG5muquXy5sWKn6IlF4OcPubh1KmYKSsrdQ6TLSalmox2RbdViKr9aX3eHfbXK+q4/EPMPIqPNACAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "997bf79a499a0f208cf73474da0923bccb82f99894c45d071b727bbe2d78cf6c"
+  }
+}
