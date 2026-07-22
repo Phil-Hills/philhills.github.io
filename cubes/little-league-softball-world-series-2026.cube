@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[little league softball world series 2026]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIABQMYGoC/5VSTWvDMAz9K8anDZY2DV3HeuuthTIKKewwRnActfHqRMFWNrrS/77ISRmDfbCbeXp68nvSSTYOCTXa7BWcN1jLuZCmgJoMHSPd5hBNRrG8+QQ7wkn6Nn8BTUy2hsiCsKD2LQiPO8qVteINnS2EB2fAiyROZqyhWirRcdemNFYsjbX+E89aZ7lWEjV+Ph43HadkykhjxTSPrdPwPUUZZmgHiqBgCs+M4rsoSbZxPJ/czZPp6HY2mUzvmUjHJgiRg7ow9T4jbIzOfFtVyh3lmbWwps7y4LfHu45tCWLde173ntOL58fgOe09X63X6WN6HbwL44USl1kizAq/CI9/hpgrfbCmPviu8ekk/wrNQagP0fNQ0436ugMRiQ062qE1yN5/Ue1zHkSHhfwgulh1uqvhbMQDFiDPz5xsBaQKRSpEu0NXqXBJ4dou9xi2iVXjwF/Ocv9uGoah1sg5MpYrD7Mpo6XyZabsHp2hsuJaulwktzN5Pn8AnVHnWOYCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "bf8e12905b4f7e94788e7885ab7e801abed55b0ab902aee831c0109445ff9b54"
+  }
+}

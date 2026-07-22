@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "tornado-warning",
-      "topic": "tornado warning",
-      "cube_url": "https://philhills.ai/cubes/tornado-warning.cube",
-      "json_url": "https://philhills.ai/cubes/tornado-warning.json",
-      "created": "2026-07-21T18:25:01.008459",
+      "slug": "fire-near-me",
+      "topic": "fire near me",
+      "cube_url": "https://philhills.ai/cubes/fire-near-me.cube",
+      "json_url": "https://philhills.ai/cubes/fire-near-me.json",
+      "created": "2026-07-22T00:17:17.071608",
       "author": "Phil Hills"
     },
     {
-      "slug": "california-minnesota-medicaid-funding-freeze",
-      "topic": "california minnesota medicaid funding freeze",
-      "cube_url": "https://philhills.ai/cubes/california-minnesota-medicaid-funding-freeze.cube",
-      "json_url": "https://philhills.ai/cubes/california-minnesota-medicaid-funding-freeze.json",
-      "created": "2026-07-21T18:25:06.387774",
+      "slug": "jim-jarvis",
+      "topic": "jim jarvis",
+      "cube_url": "https://philhills.ai/cubes/jim-jarvis.cube",
+      "json_url": "https://philhills.ai/cubes/jim-jarvis.json",
+      "created": "2026-07-22T00:17:20.934434",
       "author": "Phil Hills"
     },
     {
-      "slug": "dante-dowdell",
-      "topic": "dante dowdell",
-      "cube_url": "https://philhills.ai/cubes/dante-dowdell.cube",
-      "json_url": "https://philhills.ai/cubes/dante-dowdell.json",
-      "created": "2026-07-21T18:25:10.363613",
+      "slug": "little-league-softball-world-series-2026",
+      "topic": "little league softball world series 2026",
+      "cube_url": "https://philhills.ai/cubes/little-league-softball-world-series-2026.cube",
+      "json_url": "https://philhills.ai/cubes/little-league-softball-world-series-2026.json",
+      "created": "2026-07-22T00:17:24.561149",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-21T18:25:10.364726"
+  "last_updated": "2026-07-22T00:17:24.562351"
 }

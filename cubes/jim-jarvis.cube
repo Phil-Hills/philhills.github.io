@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[jim jarvis]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIABAMYGoC/4WST0/cMBDFv4qVM1lC2C5ib9yAQ4XUqhdURRNndjOL44nsCShd7XfHY4JK1X/XNz8/ed6bYzEGFrbsmmcMkdgXW1NQh15I5tJOLZYXq6o4+ykm4FjEqT2gFYUPNJgDhGeKSsEkPQfVH3py5pac+6A3U3A660XGuD0/HxPTK7KyPCgWeQoW/4wAKWEDgmCnSF3Vm7K6Kuv6a1VtL662dbW6vlyvL9cKyjxmIwnoO/L7Rngk28RpGCDMxUm92EtaatnoTU8v7tNG93kjE3AMGBMTDZiRae/Bi4nz0LIzvDPfyAoHAl9iUCCFKLMB3xmbPt2ZF3Q7CHhmXnqOaGKCZ5N8yUsgH8mCc3P+rX7u9zhbsE+O/FNMo8dj8b/4Aub5UoLakjj8tQ1TmgcOsmNHrCn8w/Ut8cV0qeYvpjd3yfduORHzmTssTt814wEFOhDIIe84DJCvJl/W++3lXnnQqN9PcP+DRpXRW9b2VGsh4iZ320PsG3D7FL30g86+3N7UnzbF6fQKGL7dZdICAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "b6c6b5ee5a58bda6b6fe941036626c2289bcc27d0d84161fdcb2b01512a3170a"
+  }
+}
