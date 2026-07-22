@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[red sox game]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAGMKYWoC/4WSQU/jQAyF/8oo56a0EZSqN/YE0u4KLdwQipyJmzFMxtGMs6JU/e+MQxBaid09zvOXF/vZx2KILGzZ178xJuJQ7ExBLQYhOZR2bLBcL1fF4lPMwLFIY/OEVhSO2JrEL6aDHpWDURxHrdw68uaavE+fej1GrzUnMqTd2dmQGafI0nKvWOIxWvwaAVLCRgTBVpFqVW3K1WVZVffr7a6qdtXl8mKzPd+uFZTDMBlJxNBS6GrhgWydxr6HeChO6sVB8ljzTO96/uLeofnGSTiYX3m8O35ZGDD5HSk/f8ATR/MdoRszBgkb8N7sIwTrKOHCZNdESY39wXQYMOaGTaIu0J4sBDGUfxsxydSmdvVVkg3YZ0/hOeXiw7H4X3IRp/qcvxqTePxzEaY0txxlz55YA/iH63vYs+m8lb+YXt1k35v5PsxPbrE4PWq8PQq0IDDlu+fYw3Qy01l9HN60Uu6HHMfH/XWvNKiMwbIuTrUm57w5V9VBcjX4Li9DXK+1u+ur6mJTnE5vobIAwc8CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "9431f24d4ee49e9398103f6dad2248d2c4bc814b717535b2db662c8cbf749b17"
+  }
+}

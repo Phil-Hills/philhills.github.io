@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[valencia c. f. - cd eldense]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAGwKYWoC/42ST2/bMAzFv4qg8+wm3pZ2uRX7g/YyFFixyzAYtMzYXGXRkOgOWZDvPtFxUAzY1t6Ex5+exEce7BhZ2LGvHzEm4mC3xlKLQUj2hZsaLNblyr56EjNwsGlqfqAThR/BY3AExpVmV5rCuNagz3BCvQaT9BwVvOvJmxvyPj3p9RS91nqRMW0vLsbM9IqUjgfFEk/R4d8RICVcRBBsFalW1aZYXRZVdb++2lbV9vWmXK3fVZdXCsp+nI0kYmgpdLXwSK5O0zBA3NujenGQ3OXS4knPN+57NBFdrpjcKk8ZiqZB+YkYzNdz/+/LT6WB0ObDh9J8PEVgekimgxgwYmsSdYF25CC/oT/SD7wgwwbcg6fwkDL77WCfyyziXF+S13dIPP45gvzGHUfZsSfW1v/jeop5MV3m8Q/T69vse7ssivnMLdrjdw12QIEWBOZkdxwHmHdn3q/zBs7D5GGMmM6L2P2iUWVNXUemWgMJN29UzdH2NfiOI0k/aO3LzXX1dmOPx9/KUae32AIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "739c6ef0ed27351e607fbf45ed3e198481a41b108d6a0d25ee9bb03d6f485327"
+  }
+}
