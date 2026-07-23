@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[aubrey plaza]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAOYIYmoC/4WSTW/bMAyG/4qgc52mWpcGueXWXoYA7W0YDFpiY676mj4KuEH++0THRTGg227Gy1ePyZc8yZhCCTrY/hVTpuDlTkgy6AuVqdN1wO5mtZZXH2IznGSuw0/Uhc1Qh4STiBbegH1QyxgSVw4jWXFP1uYPva/Jcm0sJebd9XVsnpEtKx0c23KoSePnFiB26IRQ0LBFrdWmW9916svTjdqp7U6p1VZt1ndbNpYpzqCS0Bvyx76ESLrP1TlIkzwzK/jSxlpmuujtxf4y04FnEpQFiBaTI9+sYu8wkQYvQDdwbkVvRGseDYG/al8+U2aoncT7n8VzSGLEJKqnXxWFQTCxIQxaarlPc7fc3GeBDqBfLPmX3IrfT/J/ASa0F8q8BgZTsfjnPkQnDiGV52ApcA7/oF4yX6DLcv4C3T807sNyJuJbMCjPPzhlhwUMFJhjblE4mC9nvq73+5s3G1zkSJczPL5RZBm9DpwiawNk3NyyOkIee7DHkKiMjmuP93v1dSPP59+r4Z9L1gIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "88ed29207ec61ddc2e08b9a8d22b54d6aca7a90115cfdd4254b042af1b645a83"
+  }
+}

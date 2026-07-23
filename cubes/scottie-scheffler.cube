@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[scottie scheffler]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAO8IYmoC/4WST0/DMAzFv0qUMx1rBwN22w0uCAkkDghVWeouhjSuEhdpTPvuxKUTQuLP1f7lOe/Ze91HYrLk6zeICSnoldLYQGDkXWGHDRTlbK5PvooZ2Os0bF7AssDJEjOCStZB23qIApuBHUVp3zn06hq9T1/1eoheeo65T6vT0z4zTpCZpU6wREO08DNiUAgbwTA0glTzalnML4pq8VBWq+pytShnV2eLsloKyLt+FOIIocGwrZl6tHUaus7EnT6IFgXO3iZjn/X84n4ydn80dqLYgRqyTOqHPFw9UvSNuqWZKtWWfCsIJmVUQx0GE1i1lH2oPCBhkhl+N/5JvvBrdhtjXz2G15SJp73+L6sIY39KXNSRPXyPXhXqjiK35JHE8h+qn/FOotMefhFd32Tdm+kscgwN6MOzBNoBm8awGRPNEXRmvJTxmo73Ni6Ruj5COp7d9h17KUOwJKuS2sYkWJ5J1ZnkauO3FJFdNy7oel2dL/Xh8AEcRKA2xgIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "959215a0a348083b77d0ff6293b83d137ed4641d70e87a549c3692a010e7b31b"
+  }
+}
