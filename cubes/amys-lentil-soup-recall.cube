@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[amy's lentil soup recall]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      8,
+      8
+    ],
+    "encoding": "base64",
+    "data": "H4sIADxcYmoC/4WSQUsDMRCF/0rIxYtb27Wt2ltvLYIIehNZ0uy0O5rNhGRWqKX/3cy6IoLaU+DNlzeZlznoEInJkqveICYkrxdKYw2ekfeF7TZQTEZjff4tZuCgU7d5AcsCm3Z/lpSTolOJuqAiWOOc3DEdNxSFum9ydYXOpW+96qKTWsMc0uLiImSmEWRkqRUsu0ULvyMGhbARDEMtSDku58X4qigvHyfXi/JyMZuPprPxzexGQN6H3ogj+Br9rmIKaKvUta2Je30UL/Kcpxjm+9TzjWU/3y2ybcAr9MgoLZVRb+Q6zxkbJla0VSmAxS1a5YiTCJiPyXTUv0FanopsY+yrQ/+aMvh00KciitDXh6ClCbKDn4mrQt1T5C05JJn0H9fPVAfTIf4/TJfr7LselkLdUQ36+Cw5tsCmNmz6ILcUW9PvSb9LX9vW/x21IUL6WrrdOwaRwVuSHxJtYxLMp6I2JjWVcTuKyE0rtYfVspzN9fH4AfL9yrfEAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "444a62b52ed54461afe684042f5cc63cc86a47572907dc797fc562d8d0c18111"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[kylie kelce taylor swift relationship]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEBcYmoC/5VSXW/bMAz8K4Ke59T10rTIW99aFBgKNG9rYcgyE2mRRUGiNrhB/ntF20Ux7At7FHl3FO94kiEioUbXfoeYLHq5FdL24MnSWOncQXW5quWnj2IBnGTK3TfQxODj6CyIIzgNgtToMIr0w+5JRHCKimIyNrCAymQwMuXRWCfurHPpo97m6LhniELaXlyEgjEMWWkcGJYwRw2/hyjLCB1BEfQMaepmU9XXVfN5d3mzbdbbul6tr26azZqBNIZJiCL43vpDSxisblMeBhVHeWYt9FT2XZad64WxM2XJhSUmlniWD5MDD5MDu9mBp18ceJbluS8eF5qgImN5QAIRcueKTNIxk/WjUL4XKYDOM3f6Lw/6L687pY/O+mMqrK8n+S9vC537S0I80ZKDn6MSlXjESHt0Ftmiv6jOcSyiS25/EL29L7r3y2mJL9iDPL9wAAOQ6hWpKYE9xkFN1zZd5PvNTqHjECKk99M9vM4GgNfIIXGtUwnm4I1KplXugNGSGbj3dHfbXG3k+fwG7oGynwoDAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "c37b5f47943780c8bead13bd40d49ea27d789fffe2534be0bbc7e783d82298b5"
+  }
+}

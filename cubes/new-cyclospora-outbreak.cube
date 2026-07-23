@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[new cyclospora outbreak]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAERcYmoC/4WSQW/bMAyF/4rgc52mXppsueXWXoYC220YDFpmLC6yaEj0Ci/If5/oOigGrO2V/PQovsdzMUQWtuzr3xgTcSj2pqAWg5BMpR0bLO9W6+LmtZiBc5HG5hdaUTjgs7GT9ZwGjmB4lCYinPQJjOI4KvTkyJsH8j691usxeu05kSHtb2+HzDhFVpZ7xRKP0eL/ESAlbJ4k2CpSrattud6V1afvd5/31Wa/3qzuq92XaqegTMMsJBFDS6GrhQeydRr7HuJUXFSLg+QNl/Ve6vnFwbyxoKFk7BizoPjJgEnUBTqShSBmGBtP1jgEL85kZYsx3Jg2wnMebkB0UjbbHCP3Vww6DJYwGQjt/Gf94gcON2BPnsIpZe7HufjI0Yhzf8lFZ5B4/DcgU5onjnJkT6zGvKP6EsIiuqT1hujhMes+LidkvnKLxeWn2t6jQAsCs+9Hjj3MVzVf3vU256i5HyKm64l2f2jQcraMNVCtNZBwu9Gqg+Rq8B1HEtdr79vDobrfFpfLXxV/zI7yAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "7a7962fe50791bd3434ef5f2f7649bd9a30ccc03aa664bf4468597ef767f7955"
+  }
+}
