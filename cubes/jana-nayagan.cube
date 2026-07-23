@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[jana nayagan]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      10,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIALS4YWoC/4WSzU7DMBCEX8XyhQspbaAB9cYNOKBK9AYo2jrbxmB7I3uDVKq+O940CCHxc539Ms7M7l53kZgMufoNY7IU9EJp22Bgy7vC9GssZpOpPv0SM7DXqV+/oGGBXyCACrCDLQThoOeWokyWrXXqxjqXvvS6j05mLXOXFmdnXWZaQSaGvGCJ+mjwZwSsECYiMDaClNOyKqaXRXm+mlaLi2oxKyfz+eyqHP6Yd91gxBFDY8O2ZuqsqVPvPcSdPogXBc6xxkxHPX+xalExRq+e9J3Euz/GO33SiiOE5ICzn9pE8moFPseElNklUufwZHhbnvqpnjWYV2fDa8rDx73+r46Iw3wsVYwtO/zerirUkiJvyFmSVH+4HhscTceqfzG9vs2+t+PS1T01qA/P0plHhgYYhtI2FD0MdzDcyuc1DXsi30VMn0e1fbedyBgMyTZEW0PC6kLUFlJbg9tStNx6mT3cXJfzSh8OH3SY0VikAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "9c51f2a3b67e1adcf1651c57aab2548985c79e40c05c1f1890e283a40715cb13"
+  }
+}

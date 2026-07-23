@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[meteorite crater]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAKy4YWoC/4WSQW/bMAyF/wqhc516WepuufXWHjYU2G7DYMgyY2mVTYOii2VB/vtE1UWxod2uj49P4keezMwk5Ci2j8gp0GT2YEKPkwQ5Vm7psHq3qc3Fi5gNJ5OW7gc6UfOIgsRBEBxbQVavXcQTa/Xehwi3Icb0orcLR615kTntLy/n7PFq2Tga1ZZoYYevW2xQh2PMb/Vq2dbbpqqvq+37r3Wz3zX7ereprz5ef2jUKMe5BAnj1IdpaIXm4Nq0jKPlozlrFk2SR1vnetJzx6e/5kpgGWFAijQEZyP0ODMmZZbgQDxiD90RxCP4/Cg/YiSXeUEYZ+sE6AD4U0pUbhMOOYIKxXQBaXG+fFd/9xbVzrqHGKaHlA3fTuZ/FBlLfd2FhgeJ+OdSoIJ7YjlQDKQw/pH6BH4NXTf0RujNXc69W+8FPlOP5vxdUeepbG/FFtbKzJYTKmf2fIhlvTQ+s9X68CvMKuPkSJeoWmcTNjtVvU2+tXFQXH7U2pfbm+1VY87n3yVmcWDfAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "a434f1f084727dd824d5c69139d7955401354a19abacad4f6b95d868b5777fc2"
+  }
+}

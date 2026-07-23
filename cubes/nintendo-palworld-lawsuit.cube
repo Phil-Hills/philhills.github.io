@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[nintendo palworld lawsuit]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      9,
+      9
+    ],
+    "encoding": "base64",
+    "data": "H4sIALC4YWoC/4VSQW7bMBD8CsGz5ahKqiS+5ZZcCgPNrQ6EFbWSWFNagVzacA3/vVxFQRAgbY6aHY5mZ/asJ09Mhlx1QB8sjXqjtG1wZMunzMQas2/rXK/ewUQ46xDr32hYyKMdGceG1ATuSN41ysExRMvyCCL35IW27a1Tj9a58I5X0TuZ9cxT2FxdTYnTC2VtaBBaoOgNfk4BKwzjERgboRR5UWb5bVZcP+fl5qbc5Hfr66K8v70TIp+mWYh9MmvHrmKarKlCHAbwJ30RLZJNeFnwFRfny14rBSpEf7AHcMp4aDnJqA4GVG0yEb18zn6iR5UidSmhlKiiNsmqJtY1Nmqnt7TfxTzH+yHNjpZ71cUxrHZaeZhs406qRiOqMPsWm1/mXIPZOzvuQ2L+OuuvcvU4z5d25C+WHX6sSWVqS55bcpYknv+ovlaxiC6d/UP04SnpPi2npH5Qg/ryIuEPyNAAw5x+S36A+brmC3y70blwGiaP4e1Uuz92EhhHQ1KrYDUELG8E7SH0FbiOfIp5kNnPx4fie6kvl7/yVnLJ+gIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "9b51d730acd43d3f40d4567fc5ba15377f7e717dd99ff0a1dd9513052b82e36e"
+  }
+}
