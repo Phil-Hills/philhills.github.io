@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[chapecoense x flamengo]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAAReYWoC/4VSwW7bMAz9FUHnOXXSNsVyKwYU7WUosN7WwWBkxlIriYJED8uC/PtEx0FRYOsOujy+90Q+8qBTJiZDvvuJuTiKeqO06zGy431jxi02y0WrP72BlXDQZdy+oGEhGwsJDWEsqH6pnYeAcSBRwMiWsnAerfPq3nlf3vBuzF5qljmVzcVFqhwrlIWhILRCYzb4dwo4YZiMwNgLZdWu1k1706wun9p2s/y8Wa4XN9fLy6upd96nyYgzxt7FoWNKznRlDAHyXh/FiyLXAefpTnhVPFlUZ5WaVOpZf3k38t088rNW1g3W18dFcRVW2ZhFiIG4ZgteQexVSZRZ4OKG6HbOQKxzSpvi/3GmWzCv3sXXUmnfD/p/GWac6vMm5AvHHt+vRDXqsTa0I+9IovjA9RT7bDrv5x+mtw/V92G+GfWVetTHHxJ0QIYeGKakd5QDnM5ITu18jNNyKaSM5XyTw2+XBMZoSJYh2BYKrq8EtVBsB36g7NgGqX27v11dr/Xx+AchDIr24wIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "72b5027694a3b3b1ef223b6d924939fe18c87b8493e678f051db081988d7c0b1"
+  }
+}

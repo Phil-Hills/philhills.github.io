@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[larry david]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAAFeYWoC/4VSXWvbQBD8K8c9W44sxy7Vm6EPCZQSaN9KEee7jbXNfYi9VYpq/N97q8iEQtI+Cc2MRjuze9YDJU42+e4ZKGOKulUaHURGnio7HqHarGu9egWL4KzzePwJlkXsDdGknHlGJzIzcp9IiIcevbpD7/Mr3o3kheuZh9ze3AxF04tkbVMQWU4jWXhbYlAUlsAwOJE0dbOv6g9Vs/1W1+3mY7vZrpvb3W67FSFPw2zEBNFhPHWcBrRdHkMwNOmLeKXIJdUS6QUvX3yeI32SSCvFPSgsQrTqEIDQmqjKsODQxJX6RchAK2UsJ3lEp0qjbrQCYlZ2pPJ79pMyQgSM5U1dR5rHlKneKPJo7JPH+JQL9/2s/1ccwcwv9Ysvsoe/96Aq9ZCIH5PHJPn/4frS9WK6LOUd08N98b1frkN9SQ705Ye0G4CNM2zmeh8TBTMfzHxU17ObN5rCQJCv13f6jYPAEG2aS2qljAz7W0F7k/vO+FMqxfdBuK93h2a315fLH16LatXNAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "85430f4d362d0d976f41b76d9436bdf560971428bcf1741cadfeaf28725c1076"
+  }
+}

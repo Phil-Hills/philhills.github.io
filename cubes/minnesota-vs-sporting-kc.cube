@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[minnesota vs sporting kc]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIAAheYWoC/4VSwU7jMBD9FctnUtJ0KdAb4kK12hUS3ABFjjOpTR2PZU9Apeq/4wmpYKXd5WbNvPfG897sZYhIqNHVLxCTRS9XQtoWPFnaFXpooJjPSnnyWcyAvUxD8wyaGNxb7yEhKfGSRAoYyfqN2GrmqIEMRkbdGuvEjXUufdbrITruGaKQVqenIWMMQ2Yae4YlHKKGv0OUZYSOoAhahlRltSzK86Ja3Jflan65qsrZ2fxyUV0wkHZhFKIIvs0frAmD1XUa+l7FnTywFnrKK077fdQz496AOLLEyBKP8tfXpe+OS/+8fpQiQpedzEhBmWnsxridUNk6bQP/Nb9bgV0eJToLeb/cHkcnbvaKtBlCEg3QK4Af/85Dv7O6UXrrrN+mDHzYy++sjTD2p4B4iCUHfyYlCnGbZ3ToLLJD/1H9SGMSnWL7h+jVOuuup2MSv7EFeXhi/3sg1SpSYwAdxmwFU8cbPF7pmDn2IUI6HuvmzQYug9fIGXGtUQmWP7hqVDK1chuMlkzPvbubq+psKQ+HdwHKUI/8AgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "84c75f6f1fb99e2a77529534514fa5baea46caf6c48cff0d834af45f3ec772fd"
+  }
+}
