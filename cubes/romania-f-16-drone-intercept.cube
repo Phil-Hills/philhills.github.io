@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[romania f-16 drone intercept]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAHGuY2oC/42ST2/bMAzFv4qg85wmbuJ2ueVStJei6HobBkOW6YitLBoSXSAL8t0nOi6CAd2f6+Pjk/gjj3qIxGTJ1+8QE1LQW6WxhcDIh8KODRSrxVJ/uYjZcNRpbF7Bspgj9SagUV2xqlQbKYDCwBAtDCx9ZmRHUZxPDr26R+/TRa/H6KXmmIe0vboasseJZWGpF1uiMUd9bjEoDhvBMLRiKZdlVSxvinL9srrdltV2c7NYf11db27FyIdhCuIIocWwr5kGtHUa+97Egz5JFuWvB55nPOu548WBimBz5TJbZqWoUyaoMZzZdAjtTKA5qOczl6DuBEyHe5cb1StwUpRZK+QJw/SH/+HYGPvmMbylbP5+1P/iFmGqz/TlIWQPv69BFeqJInfkkWT8v6SeUc+h807+ELp7yLkP87WoR2pBn34I3B7YtIbNRLej2JvpgKYj+zjDaaHUDxHSxzXuf+IgMgRLsjbRGpOgWovqTHK18XuKyK6X2rf7Xbmp9On0CwRrAzjdAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "1a43b6334fb8b8fb1d5cced6f3f51860840b141d1f3f5c87d3b9a448e7db03d6"
+  }
+}

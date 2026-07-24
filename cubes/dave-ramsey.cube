@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[dave ramsey]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAHquY2oC/4WSQWvbQBCF/8qis+XIIlWCb4YekksJbW+liPFq7J1md0fsjgKu8X/vjqwQCml6E2+eHvu+mXM1Jha27PsXTJk4VltT0YBRSE61nfZYb9ZNtXoTi+Fc5Wn/C62oeYAXNAlCxpPaYBLHSQdPjrx5IO/zm95PyevMiYx5e3MzFo9Ty9pyUFvmKVl83wKkDpsQBAe1tE3b1c1d3d5+39xv27tt062b+03XdWqU0zgHScI4UDz2wiPZPk8hQDpVF83iKKXVUumqlz8+a6WvcyVD2YBxdHS+fMeDn5QCeLMLmMhCNAeKEK1KYyHIEXyBtCpEBmLjOMvKQBzMtf9qfpi+4x10e7DPnuJzLrMf5+p/qBLO8wW45pJ4/Ju8qc0TJzmwJ9bGH6Re6S6hyxr+Ebp7LLmPyz2YLzxgdfmpPAMKDCAwAz1wCjCfyHxGr4c275DDmDC/3tvxN40qY7Ssm1JtDxm7W1UdZNeDP3IicUFn3x527aeuulz+AHhcKTK/AgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "2eb6e660aeac382e9916f140a532b4a36eefc29c7cd64ee353b01fe0a31d3ba6"
+  }
+}
