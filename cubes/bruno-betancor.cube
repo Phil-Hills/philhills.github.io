@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[bruno betancor]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAN9ZY2oC/4WSwW7bMAyGX4XQeU5TI06A3NpTexkKbLdhMGSbsbjKkiBR27Ig7z5RdVEM6LabQX4m9H/kRYXo2Y/e9t8xJvJOHUHRhI6Jz82YB2xuN1v14a1YgItKefiGIws8xOw8DMjajT4KqTOb8lV6T4YsPJC16a3e52ilZ5hDOt7chMIYQTajXwRLPscR30c0CTFG1IyTIO223TfbQ9PuPt+2x3Z/3B423a7ruoOAfA51EEd0E7m5Zx9o7FNeFh3P6iqzvOMSbE31Ui9/3NdU92sqoAQaiqqFXIFBuwkMzcaegdzJZjGjLZxozhHhB7EhB2wQog40FQp/Bl1fAHePoCPXx8lb3jc46PHZkntOpf3lov5nLGLtr95lNLHFPxcADTz5yCdvyUvwf0x9kbwOXbfxl6ElTQOP62XARz+hun4VrUtJM2nW1evJx0XXY6kH9XpydZV+CRHT6+XNvyhIGYsJ0VX16IT7nVSNTqbXdvaxGF6k9+nhru326nr9DZcODifJAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "8225dc1ff45d04a510050d9ee8e2f5da3af6146fd0d45598270b0e73728015c5"
+  }
+}

@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "princess-donut-dungeon-crawler-carl",
-      "topic": "princess donut dungeon crawler carl",
-      "cube_url": "https://philhills.ai/cubes/princess-donut-dungeon-crawler-carl.cube",
-      "json_url": "https://philhills.ai/cubes/princess-donut-dungeon-crawler-carl.json",
-      "created": "2026-07-24T06:46:14.424989",
+      "slug": "affray",
+      "topic": "affray",
+      "cube_url": "https://philhills.ai/cubes/affray.cube",
+      "json_url": "https://philhills.ai/cubes/affray.json",
+      "created": "2026-07-24T12:25:59.661033",
       "author": "Phil Hills"
     },
     {
-      "slug": "barcelona",
-      "topic": "barcelona",
-      "cube_url": "https://philhills.ai/cubes/barcelona.cube",
-      "json_url": "https://philhills.ai/cubes/barcelona.json",
-      "created": "2026-07-24T06:46:19.407078",
+      "slug": "sharks",
+      "topic": "sharks",
+      "cube_url": "https://philhills.ai/cubes/sharks.cube",
+      "json_url": "https://philhills.ai/cubes/sharks.json",
+      "created": "2026-07-24T12:26:03.485089",
       "author": "Phil Hills"
     },
     {
-      "slug": "kennewick-fire",
-      "topic": "kennewick fire",
-      "cube_url": "https://philhills.ai/cubes/kennewick-fire.cube",
-      "json_url": "https://philhills.ai/cubes/kennewick-fire.json",
-      "created": "2026-07-24T06:46:23.800952",
+      "slug": "bruno-betancor",
+      "topic": "bruno betancor",
+      "cube_url": "https://philhills.ai/cubes/bruno-betancor.cube",
+      "json_url": "https://philhills.ai/cubes/bruno-betancor.json",
+      "created": "2026-07-24T12:26:07.545557",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-24T06:46:23.802083"
+  "last_updated": "2026-07-24T12:26:07.546693"
 }
