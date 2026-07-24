@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[boca vs o'higgins]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIADCvYmoC/4WSzU7rQAyFX2U0GzakpBEtut3BqmwACXYXFE0mbsYwGUczTqVS9d1vnKbiIvGztT8f2cdnr7tITJZ8uYWYkIJeKY01BEbeZbavIJvPcn3+URyAvU599QqWBa7IGrVNis4cNg2GJLDp2VGU9oNDr9bo/X/1so9eeo65S6uLi25gnCAzS61gifpo4WvEoBA2gmGoBSnyYpnlV1lx+ZTnq/nValHM5nm+XPwRkHfdKMQRQo2hKZk6tGXq29bEnT6IFgUebpsOO9aHiScH6jSlaky2T2KQMpH6UKtnfTNdfn+2Pl7+rFUXcZhHv1MRtuS3kE68w8QU0RqvNkRcGe/H/WSdb32sjH3zGN7SQPzd6998izD2J/dFHdnD5zeoTD1Q5A15JDn/B9Wj1ZPo9JNvRK9vB93bKSLqjmrQhxcxtwU2tWEzuruh2JoxNWOyTtkbH0ptFyGdIti8YydlCJbkAaNDJsHyUqrOJFca3wx+smul97i+LhZLfTj8A/d7KsTSAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "943cda475693500e71cd79b92d5ca00929e0ec571e39f12fd64f73fa9a2e8cc7"
+  }
+}

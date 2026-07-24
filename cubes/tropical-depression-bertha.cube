@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[tropical depression bertha]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIACyvYmoC/4VSy27bQAz8lcWeLUdRHCfwLUUOyaFFgOZWFAK1oiUm+xB2qQCq4X/vUpZhFGib63A45Ax50EMMHEyw9QfGRMHrndLUomfiqTBjg8X1utSrC5gJB53G5g0NC5ljGMiAVS0OEZNoqAYj9yBdMHIfovBeerLqiaxNF7weo5Vazzyk3dXVkDm9UNYmOKGlMEaDf6cACcNEBMZWKFVZbYvyrqg2r2W5u77bbe7XN/dldXMrRJ4GPO2LviXf1Sx712l0DuKkj6IVPGeTi8MTnjtezw4fLw6/zA5XClTKPriw9IGtakZW5AYwvB+tSlNidCvVQfQYczlR52mfpTwrYBklUuSVzRbUV5hUNW8q4z6PtgHzbsm/p0z9cdCfRRlxri8HkTHEFv+8jCrUS3azD5aCJPIf1VP6i+hypn+IPjxn3eflfdS30KI+/pS8HTK0wDAHvg/RwfxR89ed/3K+cXBn/1LvftEgMHoT5JKCNZBwuxG0h9TXYLsQiXsnte9PD9XtVh+PvwGaODdW7gIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "5a32e944af8f34c625d6be9be8209594adf90c08b50599c740c7bfeb4f99ff18"
+  }
+}

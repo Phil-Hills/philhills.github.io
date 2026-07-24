@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[cooper flagg]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIACivYmoC/4WST2vcQAzFv4rwOd44Zv+QvYVCSS4l0N5KMfJY65nueGRm5JbNst+9I69DKKTp9enNG+knnYsxsrBh3/yimByHYg+F6yiIk1NpppbKu1VV3LyJ2XAu0tT+JCNqNswjRTh47Hv14SSWo1aerfPw6LxPb3ozRa81KzKm/e3tmD1WLSvDg9oST9HQ+xZ06jCRUKhTS13V27LalfX6W1Xt73b79XpVb+7vNzs1ymmcgyRS6FzoG+HRmSZNw4DxVFw0i4PksZaZrnp+8ek602edCVwChJ4CRZQMCD1Y11tIxjJ7aDEdSVr0HjLKNGYqN/A7w/IniGS4D+6FOsAEYglyByDo85fggipzn9rWeyhbNEfvwjHl4vdz8T90keb6sgANduLp701ACc8c5cDesRL4IPVKewld1vKP0IennPu0HAh84Y6Kyw/lO5Bgh4Iz4APHAa83o3f1ennzTnkYI6XXA+xf3KgyBcO6OdUyaNquVbWYbIO+5+jEDlr7+vhQb7bF5fIHuVfGZ9ACAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "cb0ccb073a8386ddc6704a63c5497ccda53f649867fc6f2abc3493be933803b5"
+  }
+}
