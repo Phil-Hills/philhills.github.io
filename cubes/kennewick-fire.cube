@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[kennewick fire]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAD8KY2oC/4VSQW7bMBD8CsGz5aiqo7a+5VIkKFAEaG5FIVDU2tyY5ArkqoFr+O/lKnKDAGl75MxwyJndkx4TMVny3U9IGSnqrdI4QGTkY2WnHqp361qvXsAiOOk89Y9gWcQHiBGe0B7UDhOI0kzsKAl379CrW/Q+v+DdlLxwjnnM26ursWicSNaWgsgyTcnC2xKDorAJDMMgkqZu2qr+UDWbh7rdbtpt8379sa4/XTci5OM4G3GCOGDcd0wj2i5PIZh01Gfxosgl2JLqGS83HhyoL3+SfS7JVsqoZEYc/FFBtsYbLo6qT1N2c/SV6sGaAEUXzCMldXlVza+qHXlPT3JGzgr3EVn6lm8K/3aXvbEHj/GQC/39pP/XXYKZXyYg1sgeXo9CVeqeEpfvIEkF/3B9rnsxXebyF9Obu+J7t+yI+koD6PMPKTgAm8GwmRveUQpmXpt5tS7LNw+VwpggX3Zw/wtHgSFakhIF602GdiOoM9l1xu8pIbsg3Lfbm+a61efzb9BuE6rTAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "885c0f9ebd4526bb1249417dd153bed53be9f4b2bf44b1a96b81417cbe2ebaa0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[barcelona]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      8,
+      8
+    ],
+    "encoding": "base64",
+    "data": "H4sIADsKY2oC/4WSQU/jMBCF/4rlc1NCVdKlN+ACF4QEN4SiieM2A47HsidIpep/x5OmQivY5Wa9eX7j+Tx7HSIxGXL1u40Jyeu10thaz8i7wgyNLc7npZ59idmw12loXq1hMTcQjXXkQUwwcEdR5IcOnbpF59KXXg/RSa1jDml9dhaypxPL3FAvtkRDDvvZAigOEy2wbcWyKBdVUa6KxfKprNbLan1+OV+Wq3L1R4y8C2MQR+tb9NuaKaCp09D3EHf6IFnkOc80DXTU843r00AzxZ1V79hE8KwMBGRwijbqBvKBPGbHYwD0M4VJgQo298qqczt1aqvGtrPxRXL6RqwB8+bQv6Vced7r3whFO9YnzpKK7OzfwFWhHijyhhySDPqf1CPUKXSi/4/Qq7ucezctgbqn1urDi2DsLUObiYwcNxR7GPdi3J3Tdo1fR32INp2WbPuBQWTrDQmpI5lkq6WoHaSuBreliNz1Unu8vVpcVPpw+ATT75sYtAIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "8c6f9a2e1d62cbbb37607529b83438176554862cd27685d0f2e25342655c6717"
+  }
+}

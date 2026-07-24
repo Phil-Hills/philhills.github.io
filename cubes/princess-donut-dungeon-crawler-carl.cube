@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[princess donut dungeon crawler carl]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIADYKY2oC/5VSXWvcMBD8K0LP9eViHLe5t5A8JFDKQfPWFLMn7VlqZK2QVimX4/57JcchBPpBX2dnR5qZPcoQiUmRG54wJkteboS0Gj1bPjQq77A5X63lhzewEI4y5d0PVFzJIVqvMCWhyWcWOvsRyQsV4afDKBREV9chs6FYF7bGOnFrnUtv+JALq8wMc0ibs7NQOKZSVoqmSkuUo8LfU8BWhooIjLpS2nXbN+uPTdvdr/tN12/Ou1XXdpefLiuRD2EW4oheWz8OTMGqIeVpgniQp6pFnovbxeoLXjYe5PbV7M1s9mYxe72YvS5mH6SIuC9hCibBBoWxo3EHEShkB1GA1yUcy1aBKzAo5cBOqMVny/P36m/+I9gdqEdn/WMqO9+O8l9BRpznSx31PcsO3/ciGrGlyHtylmoef1F9yX4RXUr6g+jVXdG9W65IfCGN8vS9pj0hgwaGOe49xQnmw5qP7/U854ZpCrEEslzp+GxDhdErqj1WbAcJ+66iBpIZwI1UojZTnX29vWovenk6/QKzNig99QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "51e6bd0297c71d03f7f73b2367b253a12ddfa3432fa6b6b9cb57a7a34f1a36f2"
+  }
+}
