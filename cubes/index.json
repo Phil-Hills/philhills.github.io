@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "boeing-747",
-      "topic": "boeing 747",
-      "cube_url": "https://philhills.ai/cubes/boeing-747.cube",
-      "json_url": "https://philhills.ai/cubes/boeing-747.json",
-      "created": "2026-07-25T00:20:19.673000",
+      "slug": "musafir-cafe",
+      "topic": "musafir cafe",
+      "cube_url": "https://philhills.ai/cubes/musafir-cafe.cube",
+      "json_url": "https://philhills.ai/cubes/musafir-cafe.json",
+      "created": "2026-07-25T06:42:23.244680",
       "author": "Phil Hills"
     },
     {
-      "slug": "nick-aldis",
-      "topic": "nick aldis",
-      "cube_url": "https://philhills.ai/cubes/nick-aldis.cube",
-      "json_url": "https://philhills.ai/cubes/nick-aldis.json",
-      "created": "2026-07-25T00:20:23.366606",
+      "slug": "bogdan-guskov",
+      "topic": "bogdan guskov",
+      "cube_url": "https://philhills.ai/cubes/bogdan-guskov.cube",
+      "json_url": "https://philhills.ai/cubes/bogdan-guskov.json",
+      "created": "2026-07-25T06:42:27.294901",
       "author": "Phil Hills"
     },
     {
-      "slug": "savannah-bananas",
-      "topic": "savannah bananas",
-      "cube_url": "https://philhills.ai/cubes/savannah-bananas.cube",
-      "json_url": "https://philhills.ai/cubes/savannah-bananas.json",
-      "created": "2026-07-25T00:20:27.501911",
+      "slug": "hawaii-hurricane-fausto",
+      "topic": "hawaii hurricane fausto",
+      "cube_url": "https://philhills.ai/cubes/hawaii-hurricane-fausto.cube",
+      "json_url": "https://philhills.ai/cubes/hawaii-hurricane-fausto.json",
+      "created": "2026-07-25T06:42:30.813443",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-25T00:20:27.503463"
+  "last_updated": "2026-07-25T06:42:30.814566"
 }

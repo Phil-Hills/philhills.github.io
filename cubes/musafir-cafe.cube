@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[musafir cafe]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAM9aZGoC/4VSwW7bMAz9FUHnOs281BtyK3ZpDx0KrJdhGAxGZmK2sihI1IAsyL9PdF0UA9rt+t7jA/n4TjYmFnbs+1+YMnGwW2NpwCAkx8aVHTYfVmt78QpWwcnmsntEJyqeSoY9JeNgj6qDIiMnZe5H8uaGvM+veF+SV24UiXl7eRmrZlTJyvGksswlOXxbAqQKlxAEB5W067Zr1p+a9uph3W037bb9uGo3m+7zvLEc42wkCcNA4dALR3J9LtME6WjP6sVB6lnLTc94nbhbbvpSbzIJ9zUaI2zARI7FQzIDHUjAm2XeRA+y5zRdmJioupA/VvV3Lg81QeNGCAG9gTCYzI7q4IQDwbyk7vRWjjtwT57CU67kj5P9X24JZ35JX41JPP79BtOYe051UU+s5//D9TnqxXT5yTum17fV93Zph/nKA9rzTw13QoEBBOZ0NR2YCzOX6qV280N5ignzS/sOvykqjMGxvk2xHWTsNoqOkMce/IETyTgp9+3mur3q7Pn8BwXaZBfNAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "ba03d042dae28a6fb24550aeaac9c879d5f61ffe21e100cf1d62dba61055b6ab"
+  }
+}

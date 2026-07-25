@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[hawaii hurricane fausto]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIANZaZGoC/4WSQU/jMBCF/4rlMylpWrooNy6rckFIcAMUuc60nsXxRPZkUan638m46aKV2OX65vOz3/McdB+JyZJvfkNMSEHXSmMLgZH3hR02UMxnpb74FEfgoNOw+QWWBXbmzSAqN8SI1gRQWzMkJjliBnYUBbp36NUavU+fejNEnw2Y+1RfXvYj4wSZWeoESzREC18jBoWwEQxDK0hVVqui/FFUV4/lql5W9aKcXc8Xy+VCQN732YgjhBbDrmHq0TZp6DoT9/ooXhR4TDjFO+njiUcHKsPqWa9PUdd/ov7MUZ+1wqQCsbLjZPTwexXB0i7gO7TKJGXU+eL8GLH7prqNsa8ew2sauaeD/q6qCHk+FS53IHv4u3lVqHuKvCWPJIn/43pqdzKdvuEfpje3o+/ttBvqjlrQxxfpswM2rWGTC91S7Exel7xS56XLf0hdHyGdd2/3jr3IECzlwmopI8FqKaozyTXG7ygiu05mD+ub6mqlj8cPz7OnbMsCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "d45a4c020be54b1c44892ffa08b93f28ae5e4c9981a9825cab3d5424f3614d10"
+  }
+}

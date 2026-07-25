@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[bogdan guskov]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIANNaZGoC/4WSQW/bMAyF/wrh85y6RpqiuXWXtZeiwLbTMBiyzNpsZNGQ6HZpkP8+UXFQDOi2kyDy6UnvEw/FFFjYsmteMERiX2yhoA69kOxLO7dYXq6q4tN7MQkORZzbZ7Si4pb7znjo57jjFxWaWQYO2nocyMEdORff680cnPYGkSluLy6mpBlUsrI8qizyHCx+LDGkChvQCHYqqat6U1bXZX31rdps1/W2vl7VN+ub6lKFsp+ykQT0Hfm+EZ7INnEeRxP2xVG92EvKtYQ61dOJz6dQX3IooAhp8/2txR2M9As7SDoh40CXKPA6MAwmQjATdW4PLaYwCAbON0O+GV5JBvL5abr/EF9r7M6R38XU/XEo/ocrYO4v0NWZxOGf9KGERw7yxI5YU//D9UR4MV2+4i+mt/fJ936ZCnjgDovjT2U6opjOiMlQnziMJg9KHqbzuOV/5HEKGM9T17/RpGX0lpVZpmMibtZaTXiHxrieQ2I4au/r3W19tSmOx9/1BLNRxQIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "5b9cbe810b34da9f75cc7785c8dee4a8e2dabfed9587124339a544eed8cbd01b"
+  }
+}
