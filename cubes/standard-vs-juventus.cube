@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[standard vs juventus]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIADb9ZGoC/4WSQU8bMRCF/4rlMxuSlASaGze4VEjlVqrVxB5ig71j2eNUaZT/Xs+yUVuJ0stK++bz8/jNHHXKxGQo9HvMxdOgN0p7iwN7PnSmbrFbzOb64rfYgKMudfuChgUuDIOFbNW+qJe6b1AtwkNlR1mIB+eDuvMh/KH3NQepOeZUNpeXqTFOkJmhKFihmg2+j4AXwmQERivIcr5cd/Prbrl6XNxsFqvN4ma2urr+/GktIB/SaMQZB+uHXc+UvOlLjRHyQZ/EiwZunU9ve9PbiUeH6nxKJZehoHp698VPWmVMGUv7KwrUjxZXOCiwlFqPqpDxEFRE66F9I6pmoUwNXHPTS0uEXZMuxn6lvY+i3YJ5DX54LQ36dtT/izLjWJ8GIhd4Dvj3ZFSnHloPzxQ8SSIfuL6lP5lOY/qH6e19872fFkd9IYv69F3yjshggWEM/JlyhHGXxn07b+Q4Y4oS6nkxdz99EhkHQzIT0bZtKOsrUR0U10PYUfbsotS+3t0uV2t9Ov0CQ2544OgCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "954b6796b3a69873aa015a07128c2ce7914fdee74c1a479fc776477bac91edfa"
+  }
+}

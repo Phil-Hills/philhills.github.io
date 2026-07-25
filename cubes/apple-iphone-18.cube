@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[apple iphone 18]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      6,
+      6,
+      14
+    ],
+    "encoding": "base64",
+    "data": "H4sIADL9ZGoC/4VSwU4CMRT8laZnF1kiCNy44cWQ6E3Nptt90Eq3r2lfTZDw7+5blhgT0aSnmdlpZ3aOMkQk1OiqD4jJopdLIW0DniwdCp1rKMrRWN58g53gKFOu30ETi1UIDoQNBj2Ics5SlclgZHJjrBNr61z6xqscHXOGKKTl7W3oNIYlI40tyxLmqOF3ibKs0BEUQcOSyXgyK8b3xWT6XM6X5XRZ3o3ms0W5mLKQDqE3ogi+sX5XEQarq5TbVsWDPLEXeuqSDbHOePfFswFBEFvxKlfnhJsh4asUNomLo/BIQiWhfHc8Zq+hEV2pTdZ0I+rMZP8SvvhKX7XSe2f9PnX8y1H+10+Enh9aZm9LDn7WLQqxwUhbdBY55h+u50oH06H7K6arh873YRiCeMQG5OmNS2yBVKNI9S1uMbaq30a/n8vC+h+HbYiQLkPbfdrAMHiNXCZjtUowu2PUqGQq5XYYLZmWuaf1ajKdydPpC/2kS1W4AgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "a5bd89bf90a75b10f20f54c9153e1648e4b818a54ec81213edd63e6fd58af967"
+  }
+}
