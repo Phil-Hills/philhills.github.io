@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[savannah bananas]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEsBZGoC/4WSTW/bMAyG/4qgc506xpJiuXWn9jIUaG/DYNASE2nVhyHRBbIg/32k4+wDWDfIB5l89IJ8yZMeS6ZscujfsFSfk94p7S0m8nRszDRgs161+uZXkIGTrtPwDQ0JXOENUgKnBkh8qrAwkctFsk/OB/XgQ/gt3k8lSM4RjXV3ezsy4wRZmRwFq3kqBv+OgBfCFARCK0jXdtumvWu6zUvb7jr+7labdv1xvRaQjuMsRAWT9enQUx696esUI5SjPotWTsStLX1d4vzixaF6vvb26dKbgoIKkvLJ4siC/IzbrjhACIoQoiIHpByTBS3ufUKr6pgLVcUsFgKfIt9uFBVIdZ9L5KLkx3pi9yH81Jurl2LfM3kA8xp8eq0MfDnp/5lacM4voxFxTwH/nJFq1BMXu8/BZ/HmH6qXOSyiy8DeEb1/ZN3HZX3U52xRn7+K8xEJLBDM1osXMG/UvHXXvZynneNYsF7X8/DdjxLGZLLMVGLi2vaDRNl810M45OLJRck9P9x3m60+n38A/qToG+4CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "d6e2aea05a1ab484a9d31a0b27631e91c0e261f096e65cdf5d6996d4aeb02c0d"
+  }
+}

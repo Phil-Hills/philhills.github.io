@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[boeing 747]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      10,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEMBZGoC/4WST0/DMAzFv0qUM926MjaxG5zggobgBqjKUncNS+MqcUFj2ncnzjoQ4t+xz78+x8/eyc4joUZbvoAPBp1cCGkqcGRom+l+BdlklMuTTzECOxn61TNoYniFYNxazKdzplRPDXrWl42x4spYGz71sveWaw1RFxbjcReZhpGRxpaxgL3X8DOiDBPagyKoGCnyYpbl86w4u8/zRZEvJuej2fw0z9N7adslI/LgqvjCkrAzugx92yq/lXv2QkdxqGGigx7/uG9AXH5MdSJUXcdZYzaxsd2KjcNXJ1QQFLlHedsDOIE1f6a+3OZ7MCulN9a4TYilh538LwgPqT7EybaGLHzNVWRiiZ5qtAZ5nj9cD9kNpkPIv5heXEff62HZ4gYrkPsnTqsFUpUileKq0bcq7T/dyPGK0oaw7TyE4zGt30zHMjiNvIcUjQowm7LaqNCUyq7RG2part1dXRRnM7nfvwN47OJnnAIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "a60fea758ac77ae47c68e0a2af7c4fd21d5544911dd82db7bbfaf74d3ec2722b"
+  }
+}

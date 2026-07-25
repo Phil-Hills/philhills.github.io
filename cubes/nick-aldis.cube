@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[nick aldis]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEcBZGoC/4VSwW7bMAz9FUHnOnXd1QNyy629FAXa2zAYisxYbGTRkKgWWZB/n+i4WIt2G6DT4+Oj3iOPeorEZMl3LxATUtBrpbGHwMiHyuYtVFerWl/8AQvhqFPePoNlIQe0e2V8j0lYJrOjKPiDQ69u0ft3eJejl5pjntL68nIqHCeUlaVRaIlytPA1xaAwbATD0AulqZu2qr9Xzc1TXa+b8q5X123b1q0Q+TDNQhwh9BiGjmlC26U8jiYe9Em0KHAxtTg646XjXhxtxJEqzyiHg/MHFSFNxTP0aodDjqAwqJLeDpLkZrx6LQz2ZdSFsjmWsVy63sarPoNiKmJJukYMMln+Kd/6HOTW2H3R2qdS+nHU/wsuwlxf4hdZZA8f96Aq9UCRd+SRxP8/VM9ZL6LLUv4iurkrunfLcah76kGffkq6I7DpDZs53h3F0cz3Mt/U29XNG6VxiucQpT78wklgCJYkOMG2JkH7TVBnkuuMHygiu1Fqj7eb5qbVp9Nv0BRFgcwCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "dfc78f040b6251c9413858dd80351f34386db7969eed1301b13c8e00f17cba9e"
+  }
+}
