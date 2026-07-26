@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[ryan gosling]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIALxSZWoC/4VSwW7bMAz9FcHnOnW9NsVy62ntZSi23YbBYGTG5iqJhkQN8IL8+0THQTGg3W7Ce08PfI88VlNkYcuu+4UxEYdqZyrqMQjJXNu8x/pm01RXr2ARHKuU9z/RiorjDMEMnByFQXWQZeSozPNIzjySc+kV73J0yo0iU9pdX09FM6pkY9mrLHGOFt+WAKnCRgTBXiVt027r5r5ut9+aZtc2u5t2c/vxw939MrHM02IkEUNfpuuEJ7Jdyt5DnKuTenGQEmvNdMbLjy+a6dM5k6FkwJSaPIUiNRB6Y3MsnuJmc/E2BxpyREPBFAKjAAVfXlfGQRywKPuMRtiMxS4H0rbBFRisdUC+5NGJdcC3St2DfSnvl1TI78fqfyVGXPh1FWpM4vDvnZjaPHOUAzti7eIfrufeV9N1Qe+YPjwV36f1VMxn7rE6/dCmPQr0ILBUfeDoYbme5cIuN7hsl/0UMV1OcfhNk8IYLGvPiu0h4fZW0RHS2IEbOJKMXrmvjw/t3bY6nf4ADqaDyNoCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "09e58444dca9228cfc0a8319ccbd68805c993d89697820efa5d8af680f3d5aef"
+  }
+}

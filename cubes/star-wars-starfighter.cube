@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[star wars starfighter]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIALhSZWoC/4WSQW/bMAyF/4rg85w6Rud1ufXWXoYCHbDDMBiMzNhcJdOg6A5ZkP8+0XURDFi7m/H06Vl8j6diElb2HNpnlEQ8FjtXUIejkh5LP++x3G6q4sNFzMCpSPP+J3o1OCmI+wWSnH0dqB8UxS7ArAOLIQ8DBXdHIaSL3s4S7GxQndLu6mrKzGDIxnM0LPEsHv+NABnhBUGxM6Su6qasPpV187WqdnW1q242n5vt9c3WQD1Oi5EKjh2Nfas8kW/THCPIsTibF4+a51uHe9HzjUcb7psN93gZzgkeclhuEsochaNTdjqg80JKHkJWwPsAFLFzaQKfjzjuQV2iOAdQFvec82TXQ8Tlhfagd9Pcg38KND6lTH0/Ff9LT3A5XzuwP5AG/LsMV7oHFj1wILYQ3nF9CXw1XZt5w/T2Pvver8vivnCHxfmHRRxRoQOFJeMDS4Rlf5Yde93CpVaOk2B6Xcb+N00m4+jZyjNtDwmba1MHSEMLoecc/RCXyu5u649NcT7/AW1PdGDcAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "1d42b443fb3fe4ffb3717590728b69c17904d85dbea5cb4b5cdb50b8af5882ab"
+  }
+}

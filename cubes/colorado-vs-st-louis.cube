@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[colorado vs st. louis]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIALVSZWoC/4WSQU/kMAyF/4qVMy2lQJHmhvYCElohwW1BVZp6poG0rhx30Oxo/jtxKYKVgL1Vz59f42fvzcgk5CjUW+ToaTArML7FQbzsMjc1mJ3khTn6EBOwN3FqntCJwqmX2LYE2whRcgg0+agNdpKOWJHbzge48iF80uuJg9Y6kTGujo/HxHSK5I56xSJN7PBrxHolHKMVbBUpi7LKiousrO6LYlUWq+I8vzgtTqsTBWU3zkbCOLR+2NRCo3d1nPre8s4c1IsGSfMtw73pqeO+Q3gwvz5GzOEuzXijMz4YmA2BcZ2yAyGQhHs1igg2VWidvqFl21vxDthvbeAdNCgvmAoJn5+nr/kxysa65+CH55ioP3vzv+gY5/qyAP2Dl4D/bgIyuCWWNQVPmsAPrm9pL6bLWr4xvbxOvtfLpcBvatEcHjXfHsW2Vuwc8Jo4BTJPrAf2foLzTqkfGeP7JW7++lFlHBzp5lRrbMTqTNXOxq62YUPspeu1dnd1WZ5X5nB4Bbr3m6nZAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "c34c7a983bd4acda3f627ab91209248da9c027431cf7888296632355cad9c2ec"
+  }
+}
