@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[game of thrones]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAGf7ZWoC/4VSwW7bMAz9FUGXXWo3MZYUya2ntocNRdfbNhiMTdtaJdGg6AFZkH+f6LjYBqzb9b3HJ71HnuzIJNSQr78jJ0fR7o11LUZxciya6YDFulzZq19gFpxsmg7fsBEV9xDQUGdkYIqYVAqTDMRKPg7Om3vn/W94PbFXbhAZ0/76esyaQSVlQ0FliSZu8O8ScKpoGEGwVUm1qrbF6qaots/rar/e7TfrcrfaVZsbFcpxnI2EMbYu9rXQ6Jo6TSEAH+1ZvShKTrbEuuB54m6J9XyJdWUgGsyzpoMokI6mZQhgErLDZKCFMX/IdEzB3CFxj+apfCrNB2Bx8V0yX+z8H33+jdYO0Lx4F19S5j+f7P9aYpz5pWv1duLxz9JNYR6JpSPvSMP+w/VS7GK6bOAN09uH7PuwnIP5SC3a81etMqDkIgTmLjviAPOFzFf0emfz+iiMjOn13PofblQYY0O6JMUOkHD7XtEB0lCD74mdDEG5T/e31WZrz+efLKrgOb4CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "42c1f2d56c19797c0bcd0b712d991a972a0da64c251b92aa0d1c28df32e9ef47"
+  }
+}

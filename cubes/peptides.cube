@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[peptides]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAGP7ZWoC/4WSzW7bMBCEX2Whs+XYSqo0vuWWXIIA7a0IBIpcm9tQJEGuWqiG3z1cRUZ/kKTXmQ9D7uweq5gCBx1c9wNTpuCrHVRk0DPxVOuxx3q73lSr32IBjlUe+++oWeCIkYuXhVEj25BEfbTk4I6c+0PvxuTEs8wx7y4uYmGsIGsdBsFyGJPGtxFFQuiEitEI0myatt5c1037ddvstje7q+v156a5uWwF5CnOQZzQG/KHjkMk3eVxGFSaqpNkBc9lpGWeV11+vswDCWPCXAhQkFQk4yY4x8EcB+Shp6AtDpQ5TSsY0JAmjytQ3sBPdM5jziswuC+qAZUhlyYYtFXkM4T9/FkJ+7fLXulnR/45F+Pbsfpfdwlnf9mAhBI7/HsVUMNjeXwfHAWp4IPU17qX0GUv74Te3pfc++U64CEYrE5PUvCArIxiNTe8D2lQ88HMR3U+u3mpYZCmz9d3+EVRZPQ6SNei9SpjeyWqVdl2yh1CIraDeF/ubptPbXU6vQDBS+F4zQIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "d923eb9c462c3a3951eafc37e9dbbb9507777203b72502da5d32f8dfc474a010"
+  }
+}

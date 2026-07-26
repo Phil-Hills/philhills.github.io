@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "robert-downey-jr",
-      "topic": "robert downey jr",
-      "cube_url": "https://philhills.ai/cubes/robert-downey-jr.cube",
-      "json_url": "https://philhills.ai/cubes/robert-downey-jr.json",
-      "created": "2026-07-26T06:50:43.337140",
+      "slug": "peptides",
+      "topic": "peptides",
+      "cube_url": "https://philhills.ai/cubes/peptides.cube",
+      "json_url": "https://philhills.ai/cubes/peptides.json",
+      "created": "2026-07-26T12:19:47.822936",
       "author": "Phil Hills"
     },
     {
-      "slug": "powerball-winning-numbers",
-      "topic": "powerball winning numbers",
-      "cube_url": "https://philhills.ai/cubes/powerball-winning-numbers.cube",
-      "json_url": "https://philhills.ai/cubes/powerball-winning-numbers.json",
-      "created": "2026-07-26T06:50:46.671599",
+      "slug": "game-of-thrones",
+      "topic": "game of thrones",
+      "cube_url": "https://philhills.ai/cubes/game-of-thrones.cube",
+      "json_url": "https://philhills.ai/cubes/game-of-thrones.json",
+      "created": "2026-07-26T12:19:51.909257",
       "author": "Phil Hills"
     },
     {
-      "slug": "apple-iphone-upgrade-program",
-      "topic": "apple iphone upgrade program",
-      "cube_url": "https://philhills.ai/cubes/apple-iphone-upgrade-program.cube",
-      "json_url": "https://philhills.ai/cubes/apple-iphone-upgrade-program.json",
-      "created": "2026-07-26T06:50:50.317059",
+      "slug": "tour-de-france-today",
+      "topic": "tour de france today",
+      "cube_url": "https://philhills.ai/cubes/tour-de-france-today.cube",
+      "json_url": "https://philhills.ai/cubes/tour-de-france-today.json",
+      "created": "2026-07-26T12:19:55.686714",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-26T06:50:50.318249"
+  "last_updated": "2026-07-26T12:19:55.687793"
 }

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[tour de france today]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAGv7ZWoC/4WSQU/cQAyF/4qVSy+bZTdiQ7s3LgUuCIm9oSpyJt5kyiSOZhykdLX/nfEQhCoVeoz9+U38nk/Z6FnYsKteyAfLQ7aHzDY0iJU5N1NN+Xa9yVYfxQicsjDVv8mIwsKTh4bg6HEwBMINzsrjJB17JR466+DWOhc+6tXknfY6kTHsLy7GyHSKrA33ioUoa+jfCFoljCcUahQpNkWZb67yojxsi/32x363W5ffy6vtpYIyj0lIPA2NHdpKeLSmClPfo5+zs2rxIHG9Zbe3epw4dASHZb+fab8VmNm4KPItQM9BwMZRawCHBlo/kbbgxuunDq7ABjCTjy+Lm8HgKPYFRaHWcY0OcGosReHkTfqxr0yt0TzHJ55DhJ5O2f9M9JT6SxT6gBVHf2cCOTywlyM7y+rFF6pvvi+iS0CfiF7fRd275WTgnhvKzr/U6Z4EGxRMVh/Z95iuKF3a+y2mdLkfPYX3k2z/2FHL0SrWDLVWY6AyJdxh6Cp0LXsrXa+9x9vrYldm5/MrSz3i9uICAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "bfb474fc33ec40404d94e16aba9f36a9a6efd570d5c0e520a1392cdc6be6b40d"
+  }
+}
