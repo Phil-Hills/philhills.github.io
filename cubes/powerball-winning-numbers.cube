@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[powerball winning numbers]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEauZWoC/4VSwW7bMAz9FULnOXWDxkVz6629DAHW2zoYssxEWiVRkOgFWZB/n+i62Aas6/Xx8ZF8j2eVMjEZ8v0PzMVRVFtQbsTIjk+NmQZsrlet+vQbrISzKtPwHQ0LOdER86C9h6OL0cUDxCkMVUya9MSWstB21nl4cN7/gfdT9lKzzKlsr65S5VihrAwFoRWassF/U7QThsmoGUehrNt117S3zbp7arvtpt3edKvu9npzdydEPqVZiDPGsW7ZMyVn+jKFoPNJXUSLItcblwNf8drxZBGSzbogPKvde9c+K6j9xRWR8CeY5xTQBSgi0B64ygQqDAV1NhZHYMyhwJ68p6MooTZ2XlU2+9DaQZsX7+JLqcyvZ/WRlRnn+hKITHHs8e9koIEdZa4bORJH/qP66v4iusT0juj9Y9V9XL4HPtOI6vJN/A7IetSsZ8P3lIOeH2p+ure3nDOmkDKWt+88/HRJYIyGJEnBhppOdyOo1cX22h8oO7ZBal8e7tebTl0uvwDaB1w07QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "3b5028338e0a597402fd4cec02fec0d995af2e34b3b5d922c211fdcea7817b7f"
+  }
+}

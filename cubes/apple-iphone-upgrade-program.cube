@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[apple iphone upgrade program]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEquZWoC/41STWsbMRD9K0LnrrNx6g31zbfkEgx1T6UsY+3YUqPVCGm2xTX+7x3Ja0KhX6CDGL15o/fenHVMxGTI998wZUdBr5V2AwZ2fGrMtMfmftHqd29FAZx1nvZf0XABQ4welYuWAqopHhMMqIRVLmPpg4ktpYLcWufVk/M+v9X7KfnyZpljXt/dRcHYAlkYqu2ZpmTw9xBwBWESAuNQIMt22TXtY7Psdm23XrVyFg/3j+3qQwHyKVYiThgGF449U3Smz9M4QjrpS+GiwCJz1nitS8fOotpcdW6rzk+zzu1Vp6LDQexT0i5d5QYqyxgYvQs4qAhsFZOi70HmKhY6L3/OfOMbaUCvIIQJvD8t1M66alL94f+4vAfzKrNes4A/n/W/XE1Y3+dsyiDHHn8NSTVqS4kP5B0Vc/7Ceg1iJp0T+wPp5ll4n+ddUi+iW1++FOtHZBiAoXp/oDRCXa+6grclrXHTGBPm264ef7hYyhgMlVBLbQ8Zu/elaiHbHvyRkmM7lrePT5vlqtOXy0/nZGwa+wIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "2bdcbfcda346a56d594e9aea90edc0ddd1fc6cda00920babdc89afacada2895d"
+  }
+}

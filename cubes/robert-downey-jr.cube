@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[robert downey jr]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEOuZWoC/4VSwW7bMAz9FUKXXerUTVIXyK3ADukOQ7HtNgyGLDOxWlk0KHqFF+TfJzouigHrdn18euJ7fCczMAk5CvVP5OQpmh0Y32IUL1PhxgaLm1Vprt7ATDiZNDZP6ETJTA2yQEsvESd4YuXaUTpinT52PsDeh5De8HrkoLNOZEi76+shczqlrBz1Sks0ssO/U6xXhmO0gq1S1uW6Ksq7Yl19K6vdbbnbblabzd3Ndt5apmEWEsbY+nishQbv6jT2veXJnFWLomRri68Lnl98ufj6ePH1iVeQxMY2gU1AEYEOsKcQphei9kOCnpJA3n/AEPI/cPDHkTFdgQWHARvWfcE6oTmheY334muse84izykTvp/M/+JinOdL6CruJeCf6UMBj8RyoOBJXf9D9ZLwIrqc4h3R+4es+7AUAz5Ti+b8QzPtUWxrxc6hHoh7O3dl7tNr4+Y75sBySq/FO/7yg8IYHem1FGtswmqraGdTV9twJPbS9Tr7ur9f31bmfP4N958U1cgCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "bc8b6b44bba53fb5e670440b5f37a804fe34f2fcb661c74ce6bb3b806f827508"
+  }
+}
