@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "peptides",
-      "topic": "peptides",
-      "cube_url": "https://philhills.ai/cubes/peptides.cube",
-      "json_url": "https://philhills.ai/cubes/peptides.json",
-      "created": "2026-07-26T12:19:47.822936",
+      "slug": "rockies-vs-brewers",
+      "topic": "rockies vs brewers",
+      "cube_url": "https://philhills.ai/cubes/rockies-vs-brewers.cube",
+      "json_url": "https://philhills.ai/cubes/rockies-vs-brewers.json",
+      "created": "2026-07-26T18:17:42.214835",
       "author": "Phil Hills"
     },
     {
-      "slug": "game-of-thrones",
-      "topic": "game of thrones",
-      "cube_url": "https://philhills.ai/cubes/game-of-thrones.cube",
-      "json_url": "https://philhills.ai/cubes/game-of-thrones.json",
-      "created": "2026-07-26T12:19:51.909257",
+      "slug": "mathieu-van-der-poel",
+      "topic": "mathieu van der poel",
+      "cube_url": "https://philhills.ai/cubes/mathieu-van-der-poel.cube",
+      "json_url": "https://philhills.ai/cubes/mathieu-van-der-poel.json",
+      "created": "2026-07-26T18:17:46.226972",
       "author": "Phil Hills"
     },
     {
-      "slug": "tour-de-france-today",
-      "topic": "tour de france today",
-      "cube_url": "https://philhills.ai/cubes/tour-de-france-today.cube",
-      "json_url": "https://philhills.ai/cubes/tour-de-france-today.json",
-      "created": "2026-07-26T12:19:55.686714",
+      "slug": "kerry-v-mayo-all-ireland-final",
+      "topic": "kerry v mayo all ireland final",
+      "cube_url": "https://philhills.ai/cubes/kerry-v-mayo-all-ireland-final.cube",
+      "json_url": "https://philhills.ai/cubes/kerry-v-mayo-all-ireland-final.json",
+      "created": "2026-07-26T18:17:49.885163",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-26T12:19:55.687793"
+  "last_updated": "2026-07-26T18:17:49.886318"
 }

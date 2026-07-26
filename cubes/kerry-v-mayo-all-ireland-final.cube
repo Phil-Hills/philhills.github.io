@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[kerry v mayo all ireland final]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAE1PZmoC/42SQW/bMAyF/wqh85wmWeumueUyNCg2FFhv62AoMhNxkUVDogt4Qf77TNdFUaDddn18fBI/8mTaxMKOQ/WEKRNHswZDNUYh6QvX7bBYzObm06s4GE4md7tf6ETNR0yphydobM9gQwBKGGysYU/RBu20nXhO6r33FOCWQsivetWloDUv0ub1xUU7eLxaZo4btWXuksP3LZbU4RJawVoty/myLObXxbJ8WKzWi+v15c1stbpalJ/VKH07BknCWFM8VMItuSp3TWNTb86axVGGQacpn/Wh48Ej+L5l8SjkbABOYAcejlp9Gh7N3cThq3LYhFBsJw5flMOjgSE5U9bw0MP4gwx1hyAMJCOQ8Tf/x3Rn3TFQPObB/uNk/sVwaNf6tAl9iiTg25VAAfecZM+BWFH8JfUZ+xQ67eeD0M12yN1OtwPfuEZz/qmgGxRbW7Ej6T2nxo7nNJ7cy1GOy+WmTZhfbvPwm1qVMTrWFaq2sxnLS1W9zb6y4cCJxDda+367WV6V5nz+A4LTQHvrAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "5f37049456fc80eb46acb862bfd7da34be8261d4317fc3c0b0db24700600bb71"
+  }
+}

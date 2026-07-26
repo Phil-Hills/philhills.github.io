@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[rockies vs brewers]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEZPZmoC/4WST0/DMAzFv0qUEwc6tjLGtBuchgQIATdAVZp6a7a0rhwXNKZ9d+KuEyDx59Y+//wUP3urG0JGiz57BQoOaz1T2hVQs+NNYtscktFgqI8/xQhsdWjzFVgWmNCuHQT1GlRO8BZdhDYtl0hSvyudV3Pn/Rc9a8lLrWRuwuzkpIlMKcjAYiVYwJYs/IwYJ4QlMAyFIOkwnSTD8ySdPI6ms9H5bJwO0tF4enomIG+azogJ6sLVy4yxcTYLbVUZ2uideGHNcbh+sr0eOx5LUIcu1XWpZ33/Oe7lftxnrQgW8SMyimMPgY1uCkm1TZxHum/MKv5eg1m2oC5NgNx4r46694nx70Hmxq69q9chIk9b/V9wBF29j1/sHXv4vgeVqDskXqB3KPP/4brPujftl/KL6cVV9L3qj0TdYgF69yLpVsCmMGy6eBdIlenuprutw/V1G8WqIQiHI1y+u0ZkqC3KBkTLY3KTsailCWVm/BLJcVlJ7WF+kZ5N9G73ATHcRbTUAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "e03365fe5d949c9b151635b643a550e873ef531a7028b8f91f49cefd4a12df93"
+  }
+}

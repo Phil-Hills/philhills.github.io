@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[mathieu van der poel]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEpPZmoC/4WSQW/bMAyF/wrh85wmRudsuRXYoT10KLDdhsFQZCZiK4mGRHdwg/z3iY6HYsPWXR8/Pek96lQNiYUt++4ZUyaO1Q4q6jEKyVTbcY/1ZrWu3r2KBThVedw/ohWFgxFHOMKzidBjgoHRK29GcZyUeHDk4Za8z696NyavMycy5N3V1VAYp8jKclAs85gs/h0xpIRNaAR7RZp109brbd20Xzcfdpvt7rpdNU37cdsoKNMwG0nC2FM8dsID2S6PIZg0VWf14igl3pLtopcT939keyjZgDIY+DSKdVDKO2DW2owHO1lPWeBHacpPkNDyMdIL9mAycETgA4hDCFygngNFU27U9+lz3qpyb+yTp/iUC/TtVP2vuoTzfFmAXkDi8fdNQF3CJDmwJ9YG3nC9tL2YLmv5h+nNXfG9Wz4KfOYeq/N37TegmN6ImQs+cCpJ9ej8v379wHmnHIZ0aVTnxxcaVMZoWTen2t5kbK9VdSa7zvgjJxIXdPbl9qZ531bn80997PJU2AIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "576d1544a21abb97f9b96048c1a939f85255658d5eef426b70062e7242a43aa2"
+  }
+}
