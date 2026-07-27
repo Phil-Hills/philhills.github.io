@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[donald trump iran war]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIABICZ2oC/4VSwWobMRD9FaFz19k6qV18C/QQX0Kghh6assjSeDWJViNG2hbX+N+rWW8IhTS9vnl6mvfmnXRiKmQpdD+BM1LUG6XRQSxYjo0d99B8XLT6wytYCSedx/0T2CJkR9EEpwqPQ1LIJqpfhuWBGYsnFsqDx6DuMIT8incjB5n5UlLeXF2lyvFCWVgahJZpZAtvUwwKwzKYAk4oy3a5atp1s1zv2vWmbTfXN4vPFbteC7Ec0yRUGKLD2HeFEtouj8Ng+KjPokWxVH+zuQteX+w8qOTZZFCP+svF6W5yuhWn3ww/apWxj3hAyMqoBIzkFB2UB+x91QSneqBEAQtaE1SFppxlL1nj3Qz3xj4HjM+5sr6f9P8yY5jmc/LyA5YAf59ANeqBuBzqQiTW31G9xDyLzvf4h+jttupu54qoe3Kgzz8k2AGKcaaYKdkD8WCm1kzNeunedEwaEkN+qWD/G5PAEC3JyQTb1zOsbgT1JvvOhJ4Yix9k9vXudvlppc/nP1E8pFXSAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "4eb3bddb3d84d54f69c509a5bc2e8b87246940a3092456b3bb78a1a223a50c26"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[meteor showers]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAAoCZ2oC/4WSQW/bMAyF/4qgc516XucMufXWHjYU2G7bYDAyG2mRREGiG2RB/vtEx8VWoN1uwuPHB/GRJ50yMRnywxPm4ijqjdJuxMiOj42Ztti8W7X66o9YgZMu0/YnGhY4ICNlVSwdqoOQMLGlLLUH67y6c97/pQ9T9lKzzKlsrq9TZawgK0NBsEJTNvg6Ak4IkxEYR0G6tuubdt1066/tetO2m65ftR/79c17AfmYZiPOGEcXdwNTcmYoUwiQj/osXhS5DrZMddFrx6cXUynIqAwkdk/A1UdB4UyRgjPgVbJYnxhBHSxWME4BM01FXaIpV6pOFij6o9pHOsTarb7rak3iNf9TvvV6mFswe+/ivtTyt5P+X3gZ5/qyArF27PHlLlSjHijzI3lHksE/XC95L6bLYt4wvb2vvvfLkajPNKI+/5CE60wwAsMc8SPlAPPdzLf1fH3zVimkjOX5CHe/XBIZoyHZnWhbKNjfiGqh2AH8jrJjG6T25e62+9Dr8/k3dw2eWNQCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "cc10e07b793ece8fef652d5962a027924dfc455ff1ef66c8937daec0eb8af377"
+  }
+}

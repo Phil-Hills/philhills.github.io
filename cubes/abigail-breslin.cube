@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[abigail breslin]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      6,
+      6,
+      14
+    ],
+    "encoding": "base64",
+    "data": "H4sIAA4CZ2oC/4VSTU/rMBD8K5bPTckr0EJvfSe4PCHBDaFo42ybfdjZyN4glar/HW8ahJD4uK1mJiPPZA62jyzs2FcvGBNxZ9fGUoOdkOwLN9RY/JmXdvYBZsHBpqH+j05UDDXtgLypIyZPnUphkJajkndtZm7I+/SBV0P0yrUifVqfnfVZ06pk7jioLPEQHX4tAVKFiwiCjUoW5WJZlKtisXooV+uyXJ+X84vy6vL6XIWy70cjidg11O0q4Z5clYYQIO7tUb24k5xsinXC8xebKdbfU6yZgc5sAkZy+QCXDVOaGUoGzLu5Gc1NM2C+Mh4GL7QFh/pUfYzS31RWg3vO53PK/OPB/lZRxJGfilZvEo+fGzeFueMoW/bEmvQH11Ork+lU/zemm9vsezttwfzjBu3xSXsMKNCAwFjklmOAcR7jhN5HNv47Dr2WN21t90q9wtg51hIVqyHh8kLRFlJbgd9xJGmDcvc3m8Xl0h6Pb/X5a+S7AgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "ec7301992b1e2cb834c09dc83358d236e251169d9db79a88a8914cc2430139a5"
+  }
+}
