@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[what time is big brother on tonight]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIADOkZmoC/5VSy27bMBD8lQUvvVSOojZ261tySi5FgObWFAJFrUU2lJYllw1cw/9eriIjCNIHep2dGXJm96BCJCZDvv2BMTma1BaU63Fix/vK5A6r81Wt3j6DhXBQKXff0LCQH61mYDciuASdG6ArjhYj0ARMkxssi1xnthRFcGudh2vnfXrG2xy9zCxzSNuzs1A4VigrQ6PQEuVo8PcU7YRhImrGXihN3ayrelM1m7u63jb1tn63+rA5ry8+CpH3YTbiiFPvpqFlCs60KY+jjnt1FC+auKRdoj7hRXFnEU4q+J4x7uH+Zf6rkv/qVf57BRF3vhSWoIwgWXp8k6AY5ShWgUL2Okq58j/5zn8022nz4N30kIrmy0H9q8mI83zZh7zn2OPLxUAFtxR5R96RFPIX16fyF9NlS38wvbwpvjfLGcEn6lEdv0rdI7LuNeu57x3FUc+XNV/f6T7nFdMYIqbTmQ4/XRAYJ0OyEsE6nXD9XlCrk221H6j0akeZfb6+bC7W6nj8BUufUI72AgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "9b49c51db5e3c35a0d9b36ab765374524b12eaac5db9a9618c30a696c1cdcc46"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[007 first light patch notes]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIADCkZmoC/41Sy4obMRD8FaFzxitPHBt820vYhRAWsrdsGGRN21JWUgupFXCM/z1qrU0e5HWc6uoadVWdZMpIaNBPXyAXh1FuhXQzRHJ0HEzdwbBcKPnqO9gIJ1nq7jMYYrJSG7F3uZDw7mBJJE3GiogEhdd0JYuZiQ/WeXHnvP8Bn2r2PLNEqWxvblLjWKYsDAamFazZwO8p2jHDZNAEM1NGNa4HtRnGzaNS21FtlVpsVqvXyyUT6Zi6EGWIs4uHiTA5M5Uags5HeWYtjNSuvJz4greNRwviuiVmV0wtbJXQGWucxVP34G334N2vHjxJkbJrSs4fRSEIRewzBtHuCzU2P4VuthrXVrpk0ysJTPX9u7+bn/kfTu+0efYuPpfG/XiS/3I2Q59f8uH/OPLwc1BiEA+YaY/eIRv0F9WXMC6il9T+IHp733TvL3US73EGef7E9gcgPWvS3f895qB7w3oLrz3tkWNIGcq1roevLjEM0SBHxNhOF1ivGLW62En7A2ZHNvDsw93t+GYtz+dvcABzWP4CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "a288ef3f7812e2843683f0e3f44dbe822c01d466e0a5b6d78b0ff8b6b3a4c7f8"
+  }
+}
