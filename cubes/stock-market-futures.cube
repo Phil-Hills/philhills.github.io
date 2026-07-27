@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[stock market futures]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAP9VZ2oC/4WSQU/jMBCF/4qVMykltGXbGze4rJDY2wpFE3uaeOt4ovFktaXqf8cTgmAllr0+f372vDenYmASshTq38jJUyx2pvAOo3g5lnZssLxaLIuLdzEDpyKNzS+0onDK1w+mBz6gmP0oI2NSHkbpiJV46Hwwdz6ED3o9ctCzTmRIu8vLITOdIgtLvWKJRrb4OQJeCcsIgk6RalltyuVNWd38uKp262+76+1iuVqtt1sF5ThMRsIYnY9tLTR4W6exz78+Fmf1oih5vHm2Vz3fePxkNgOMJglEB+z8M7oLg39sB7HFUhgcOqNuDFaSoSb4FiQ/asA04xHZCJkhj9ZBQkOc5YQhTPr0V/3aV7E2YA/Bx0PK0M9T8b8YGafzuQx9wEvAv1sxpXkglj0FT5rGF66vyc+mc0X/ML29z77389KY7+SwOD9p1j0KOBCYwt4T9zDt0bRrb9s49Uv9kId+W8r22Q8qY7SkLarW5BA3K1VznF0NoSX20vVTd3e31XpTnM8v/zn2tOQCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "68a898c4c008adaf7d05dbfd5a6cb7fabfba4187791ed0f287978b1e4ba45a37"
+  }
+}

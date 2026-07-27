@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[ohio state fair]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAANWZ2oC/4VSXWsbMRD8K4uefY59dezit1AoSR/aQPJWyrGnk61tdNpDHwHX+L9Xq1wIhaZ91OzsaGd2z2oKnFiz655NiMRe7UHRYHyidGp07k2zXq7U4g0shLOKuf9pdBIyW2KICZOBA1IQKuZkOUjx3pKDW3IuvuFdDk5qNqUp7q+upsKxQllqHoUWOQdt/k5BEoYOpvw3CKVdtdtmtWva3eO63V9/3G8+LDfrXduuhZhOUxVKwfiB/LFLPJHuYh5HDCd1ES32qTibbb3gpePRGvgm1h6qtc/FGlAEhBLYSL50AHqf0YF5loc1bgDy8IldHvscF7V7AWUC0ujcCeJUGsoM4ETwSy4Q+qFOKUO9k2WP+smRf4ql/v2s/pddMLU+b0C0KTnz5yqggXsO6cCOWCL4h+pL3LPovJd3RG/uiu7dfCTwlQejLj8k4NEkHDBhTfjAYcR6N/W2Xq+vLpXHKZj4eoTHXzQJbLxmWZ1gPUaz3QhqMdoO3ZEDJTtK7eH2pr3eqsvlNxEwc2bUAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "37769422d0c92dd98f3f235782d938649507aed8d56e9e7b2a51a9b23d9fb5d6"
+  }
+}
