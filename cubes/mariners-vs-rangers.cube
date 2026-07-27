@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[mariners vs rangers]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAE2jZ2oC/4WSTW/bMAyG/4qg85wmXpesufXWHlYUa27rYMgyY7OVRUOis2VB/vtExf0CthbwwSAfviJf8qCHQEyWXLWDEJG8XiuNDXhG3hd2rKFYzOb600swAQcdx/oBLAvcm4A+1apdVMH4Nv0KbkbuKAhw26FTV+jcq3g1Bie5jnmI67OzITGdIDNLvWCRxmDh34hBIWwAw9AIUs7LZTFfFeVqs/i6LtN3MbtYfZ4vzgXk/ZCFOIBv0LcV04C2imOfWt/ro2iR5zTdNNopnio2Hah7/e3VgN9PA95rldVUxNbjFiEqTiyKSgQVcGdc2Ksa+BeAz7m71C07UM9qJpVLYgO/TXYmt/WOo7Wxjw79Y0zMj4P+yMEAOT/tQfQxvf92IapQtxR4Sw5JjHhH9WT6JDpt5z+il9dJ93o6F3VDDejjT7G5BzaNYZN93lLoTb6gfGVPd5hXS/0QID6dY/sHBwmDtyQLlFhtIizzejsTu8q4lgJy10vu7uqy/LLUx+NfvF5WfN4CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "7eaa94bcfab12e3c344fc88e2dd58fccd3744b1fac9b3c6fba605f5eae359f74"
+  }
+}

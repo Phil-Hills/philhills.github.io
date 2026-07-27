@@ -1,16 +1,16 @@
 {
   "protocol_version": "identity-cube-1.0",
   "identity": {
-    "subject": "boeing 747",
+    "subject": "mariners vs rangers",
     "author": "Phil Hills",
     "author_url": "https://philhills.com",
     "source": "https://philhills.ai",
-    "created": "2026-07-27T18:28:34.125165",
+    "created": "2026-07-27T18:28:29.973014",
     "type": "trending_topic_summary"
   },
   "content": {
-    "summary": "The Boeing 747, often dubbed the \"Queen of the Skies\" or the \"",
-    "topic": "boeing 747",
+    "summary": "The \"Mariners vs Rangers\" trend signifies the intense rivalry between the Seattle Mariners and the Texas",
+    "topic": "mariners vs rangers",
     "backlinks": [
       {
         "url": "https://philhills.com",

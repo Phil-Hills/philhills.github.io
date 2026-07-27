@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[dark money]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAFajZ2oC/4WSQU/cMBCF/4rlc7OEtCzbvSFxgEuFBDdURY4zWQ/reCx7UrSs9r83k4QiBG2v731+8ryZo46JmCz5+hekjBT0VmlsITDyobBDA8X5qtRf3sQROOo8NE9gWeDWpL3qKcBBKDOwoyT6nUOvbtD7/KbXQ/LiOeaYt2dncWScICtLvWCZhmThc8SgEDaBYWgFqcpqXZSXRXX5cL7ZVpvt182qqsrv5VpAPsQpiBOEFsOuZopo6zz0vUkHfZIsCjwOtUw06+OL6z8TqQTdWItiUpE8MlrjVY5zoHp2kECxAzV/W1GnumH2MKtArFrM1lOGViKEjEPj0a6mD8p/PjbYGLv3GPZ5tB6P+n+NJZj8pXeJRfbwfgGqUHeUuBtHIBn8H6lzyUvoso2/hF7djrm3y1WoH9SCPv2UWntg0xo2U68dpd5MhzId0+u5TaukPibIr1e3e8EoMgRL0qFojcmw/iaqM9nVxu8oIbtevPubq+pirU+n3+6grvnFAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "44a35f76f0c3ffb5414dee34aa32a2f6aab1f83a91bbb3b86b36655c39fbbf0d"
+  }
+}

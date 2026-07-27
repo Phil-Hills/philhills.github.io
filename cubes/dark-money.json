@@ -1,16 +1,16 @@
 {
   "protocol_version": "identity-cube-1.0",
   "identity": {
-    "subject": "boeing 747",
+    "subject": "dark money",
     "author": "Phil Hills",
     "author_url": "https://philhills.com",
     "source": "https://philhills.ai",
-    "created": "2026-07-27T18:28:34.125165",
+    "created": "2026-07-27T18:28:38.220906",
     "type": "trending_topic_summary"
   },
   "content": {
-    "summary": "The Boeing 747, often dubbed the \"Queen of the Skies\" or the \"",
-    "topic": "boeing 747",
+    "summary": "Dark money refers to political spending where the source of funding is not disclosed to the public.",
+    "topic": "dark money",
     "backlinks": [
       {
         "url": "https://philhills.com",

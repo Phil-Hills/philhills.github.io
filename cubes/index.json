@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "george-michael",
-      "topic": "george michael",
-      "cube_url": "https://philhills.ai/cubes/george-michael.cube",
-      "json_url": "https://philhills.ai/cubes/george-michael.json",
-      "created": "2026-07-27T12:58:35.251237",
+      "slug": "mariners-vs-rangers",
+      "topic": "mariners vs rangers",
+      "cube_url": "https://philhills.ai/cubes/mariners-vs-rangers.cube",
+      "json_url": "https://philhills.ai/cubes/mariners-vs-rangers.json",
+      "created": "2026-07-27T18:28:29.973014",
       "author": "Phil Hills"
     },
     {
-      "slug": "stock-market-futures",
-      "topic": "stock market futures",
-      "cube_url": "https://philhills.ai/cubes/stock-market-futures.cube",
-      "json_url": "https://philhills.ai/cubes/stock-market-futures.json",
-      "created": "2026-07-27T12:58:39.044599",
+      "slug": "boeing-747",
+      "topic": "boeing 747",
+      "cube_url": "https://philhills.ai/cubes/boeing-747.cube",
+      "json_url": "https://philhills.ai/cubes/boeing-747.json",
+      "created": "2026-07-27T18:28:34.125165",
       "author": "Phil Hills"
     },
     {
-      "slug": "ohio-state-fair",
-      "topic": "ohio state fair",
-      "cube_url": "https://philhills.ai/cubes/ohio-state-fair.cube",
-      "json_url": "https://philhills.ai/cubes/ohio-state-fair.json",
-      "created": "2026-07-27T12:58:43.417221",
+      "slug": "dark-money",
+      "topic": "dark money",
+      "cube_url": "https://philhills.ai/cubes/dark-money.cube",
+      "json_url": "https://philhills.ai/cubes/dark-money.json",
+      "created": "2026-07-27T18:28:38.220906",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-27T12:58:43.418373"
+  "last_updated": "2026-07-27T18:28:38.222196"
 }
