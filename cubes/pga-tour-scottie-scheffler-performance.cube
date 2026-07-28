@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[pga tour scottie scheffler performance]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIACuhaGoC/5VSQY4aMRD8iuVLLjssDFk24cYpcImQ2FsUjTyeBnvxuC27JxJB/D1uM4hE2myUk6VyddlV1WcZIhJqdM0PiMmil0shbQeeLJ0qPbRQzSZT+XAHM+Es09C+giYmh4MShEMUSSORhXwa2O8dRBEg7jH2ymtgBTWQwcgzW2OdWFvn0h1vhuj4zhCFtHx8DJljmDLR2DMt5Uey0JsUZZmhIyiCjin1tF5U0+eq/vQyq5fz2XL+eVI/PU/rmol0CkWIIvjO+kNDGKxu0tD3Kp7khbXQUzY8ur3ieWI3mtzdTH5IIoLOzN/dCvSCDIjtl5V44WyMSqKFbAQKngJGypM9Jir/4ef/L8xW6aOz/pjy2Lez/Fd4Ecr9WAE/acnBn12ISmzzv/boLHIG76he8x5Fx2L+IrraZN3NuDziK3YgL9854R5IdYpUibhYK/tUdu62laVV7EOEdFvOw08bGAavkbtjrFUJFh8ZzUGbRrkDRkumL42tV/XTQl4uvwDzTR8/7AIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "1bd5b54c7a25cb38b718ff3f61d152f57f5d6cf6d519476209c4a024ead3daad"
+  }
+}

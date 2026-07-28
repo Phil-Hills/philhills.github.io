@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[mikie sherrill]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIADKhaGoC/4VSy27bMBD8lQXPlWIrrh345ltyaBDUzakoBJramFvzIZArA67hfw9XURAUyOMmzIyGO7N7Vn2KHE107RFTphjUGhR1GJj4VJlhh9W8nqlvb2ARnFUedn/RsIg9HQghW0yJnBOlHtjGJNyDJQe3Bc5veDskJ5xl7vP66qovGiuS2kQvshyHZPB9iSZRmISasRNJM2uW1WxVNTe/5s36er5eLOvVzWqxaETIp3404oSho7BvOfZk2jx4r9NJXcQrBi7BplQvePnjx5hqO6UCyqChVOUpFDFsPCYyOkAfHTEZKp9mSOUVdifImI7lMdAZ2CI81tsafmKfMBdeMx0Rnko/Mp+M836JO20OjsIhF/r3WX1VWsKRn6oXa2KH/+8AKniIiZ/KzFGyf+L60vNkOi3kA9PNXfG9m44D7mOH6vJHmvXIutOsx2pLYK/Hexlv6vXqxm1GL928Ht/+H/UCYzBRdibYTmdcLgS1OttWu31MxNYLt73dNN+X6nJ5Bq9KaO3MAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "ee6ecee507efa2be3c1b399bbbdac329934b7cd6e83cf8fb3093817aa2e38cae"
+  }
+}

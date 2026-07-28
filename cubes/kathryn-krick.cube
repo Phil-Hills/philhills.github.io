@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[kathryn krick]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAC+haGoC/4VS0WrcMBD8lUXP8cXnpJfj3kJfEgIl0L61wehknbW1rDUrucU57t+jdXyEQpq8iZnZQTO7RzUwJTLk6z+WI1JQO1DY2JAwTYUZ97ZYr0p18QZmwVHFcf/bmiTiTifHU4CO0XQi1GNyxEI9OvRwh97HN7we2QvnUhri7vJyyBonkpWhXmSRRjb2fYlGURi2OtlGJFVZbYrypqi2P9bV7mq9u75aleV2vb0RYZqG2SixDQ2Gtk40oKnj2PeaJ3USLwop51pCveJ54mEJ9SChACNoOJvAAduRLWCAebgfiPMUfHWMMaEO0GPIL54u4G8uzU/A1lAb8Nk2cCAGZxl+qcxg7lyHHFb+Kl97t8+9Np3H0MXM/jyqz/pjO/PLFsQZk7f/rgMKeCROB/JIUsMHrq+VL6bLbv5jenuffe+XM4Fv1Fh1epKSe5t0o5OeW84N9Hq+nPm6zvc3L5b6gW08n2H7jIPANhiS5gXb62g314I6HV2tfUuMyfXCfb+7rb5s1On0AsnDt//WAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "93dd1f6203d0f48414761b935ffefed24ac41d4a9fcc3610c3b6c3fae8aef9cb"
+  }
+}
