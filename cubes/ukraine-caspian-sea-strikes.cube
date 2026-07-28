@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[ukraine caspian sea strikes]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEL1Z2oC/42ST2/bMAzFv4qgyy516nhrFuRW9NJehmLdTsNgMDJjc5YlQ6QHZEG++0THwTZg/66Pj0/ijzzZMUWJLvr6KyamGOzOWGowCMmxcNMei/WqtDc/xGw4WZ72X9CJmqc+AQU0DngkCIYRDEuiHlnbYJIuJjU+d+TNI3n/k15PyWutExl5d3s7Zk+nlpWLg9o4Tsnh7y1A6nAJQbBRS1VWm6J8W1TbD2W5W29363K13bwu7yo1ynGcgyRhaCi0tcSRXM3TMEA62rNmxSB5ymXEi547Pl5GfMUmoct142NoiwShxeuoRiC1KDnWvJ+YFQQwo7ChYKRD87Dgecl4EraZtMnxvcmwqA10IAc5GEIzf1V/9h9w9+B6T6Hn7P10sv+CmXCuLyvRd0g8/robU5jnmOQQPUVl8pfUC/8ldFnUH0Lvn3Lu03JB5l1s0J4/K/EBBRoQmJEfYhpgPqr58K6nOW85DmNCvl5o+41GlTG4qLtUbQ+MmzeqdsBdDb6NiaQbtPbyeF/dbez5/B2PGLV78QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "9c1844dfb6fa5bf26cd70f9831eb8e2c5524d83731d2fe7cb6d20a8f17479d2b"
+  }
+}

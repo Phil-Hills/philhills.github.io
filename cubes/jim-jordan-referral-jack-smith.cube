@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[jim jordan referral jack smith]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEr1Z2oC/41Sy27bMBD8lQXPlaO4tWP4llviQxEguTWFQFFraR2KFJarFK7hfy9XkRG06AvQRcPZIWdmT2bgKNFFX70iJ4rBbMFQg0FIjoUbayyuF6X58A5mwsmksT6gEyUfqIdD5MYGYNwjs/VwsO4FUk/S6aQdpYus3IeOPNyR9+kdr0b2etaJDGl7dTVkTqeUhYu90lIc2eHvKZaU4RitYKOUZblcF+VNsdw8leX2epO/xepmtfq4UaIch0lIGENDoa0kDuSqNPa95aM5q1YMko3OLt/wPPHUIVymYJqCZ7PL1ne/WN+p9Ue1/mwgiznkkMBCojbQnpwNAs7b1EGN8g0xgGRpjy0lb4VeEWxoprfqJf8XcJ3/PIWXlOlfTuZfgTJO53MtehWJx5/7gQIeIss+eoqay19U3zqYReey/iB6e5917+dFgs+xQXP+qqn3KLaxYqfY95F7O+3WtH+XDZ2ajv3AmC6L2n6nQWEMLmozitU24fqTol1OubK+jZxz6vXs8e52uVqb8/kHr6qipPgCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "7c42cb10e11c967ff43441d3245b861a4d7be43c6dac6d8a37ccbb64e9c29cc5"
+  }
+}

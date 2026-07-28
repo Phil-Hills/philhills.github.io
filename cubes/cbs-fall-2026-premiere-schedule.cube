@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[cbs fall 2026 premiere schedule]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEb1Z2oC/42ST2/bMAzFvwqhc53aQZcZuXUFhvYyBEhv62DIMhOplUyDkgukQb77RMdpMWD/ro+PT+KPPKqBKZEh37wiR0e9WoNyHfbJpUNhxhaLalGqqw8xG44qju0zmiRm00bYae9hWS5XMDAGh4wQjcVu9CitekyWWMwb6zzcO+/jh96M7KVmUxri+vp6yB4rloWhILZIIxv8vUU7cRhGnbATi/yiKD8Xy/qxLNdVva5uFvWqrqpajOkwTEGJse9cv28SDc40cQxB80GdJIv6lCedxzzruePRIly6IKJmY2FHDE/q7ssWvr4D2FwAbGcATwoYdz7TiqAhjxSohzEiT/+R5/+TYqvNi3f9S8z+70f1L2qMU31mL2+55PHXJUABG+K0I+9Ihv9L6hn0HDpv5A+htw8592E+F/hGHarTD0EbMOlOJz2xzfCCPl+QXNnlDqd1UsgE4uUc929uEBl7Q4JftFZHXN2IanW0jfZ7YpdskNr2/nb5aaVOp58JG4CV3gIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "0410b7057f01c9c0e055c00acaecdc86af39bb1fccffd8546ab89a2432a9fd7d"
+  }
+}
