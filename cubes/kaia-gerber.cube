@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[kaia gerber]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJxQaGoC/4VSy27bMBD8FULnyHFdWwl8C3JIggJF0PZWFMKKWouM+RCWyxaq4X8vV1ETFEjb68xwwJmdUzVS5Kija78jJRtDtVeV7TGw5anWucP63WpdXbyCRXCqUu6eULOIj2BBDUgdksggs4kkxKOxTt1b59Ir3mZywhnmMe0vL8eiMSJZ6ehFlmImjW9LwIpCEwJjL5LNetPU66t6c/1l3ey3V/tds7rebbfvGxHyNM5GTBh6G4aW42h1m7L3QFN1Fq8YuKRaIj3j5cUHiXQ3R7pQbFD1kAfDSCoeVMojko89OnVrQz+pW4Ifh0i9gtCrLicbMCUPQX0qAL74GEjqYMm7SWFi6JxNpsSQj8q/3qiyA310NhxT4b6eqv9VRzjzywHE17LDPy+havUYiQ/R2SgN/MP1ue3FdDnLX0xvHorvw7IP9bF0U52/Sb8eGXpgmAsuHXmYJzPP6vfw5ptGP1Jpbdnf8NOOAmPQUS4nWAcJm62gpUjTghsiWTZeuM/3N5tdU53PvwBO5nm1zwIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "a0446eedfa17f5a671fa92b9577c27da1b33703b379710c930bde1973ec3399d"
+  }
+}

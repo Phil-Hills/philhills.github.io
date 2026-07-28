@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[mark henry]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAKFQaGoC/4WSQU/jMBCF/8rIZ1LSCArqjVs5gJAWaQ+wilxnGps6nsieLApV//t60iCEll2ubz4/z7yZg+ojMRny9W+MyVFQa1CuwcCOx8IMWyyWi1KdfYgZOKg0bF/QsMCdjnuwGOIolB7YUhT9wToPG+d9+tDrIXqpWeY+rc/P+8xYQRaGOsESDdHg14h2QpiImrERpCqrVVFeFdX1Y7laX1yvy+VieVWVl5WAPPaTEUcMjQttzdQ7U6ehyx2P6iheFDgPNU900vOLO5loIxOBS6AhR9S5kEHYuXaICC6ItsMkgWkPrxET+/wH6NBAkh9btqDZemRn0hm85vT8CBENtcG9YQM6wbN6tAg/Kfpmalj6+zvRrTb77L1PufR0UN8lGHGqz3sQW8cePy8ECnigyDvyjiSI/7ieQp9N5+38w/TmNvvezlcC99SgOv6SmDtk3WjWU847ip2eDmc6rvfzm1ZLXR9PoUq9fXO9yBgMyQJF2+qEqwtRrU621r6l6Nh2UvuxuakuV+p4/AM5P7lo1QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "cb798078b6511624def7c7153e83abf2acbc7dd17de0cbe5382c2d19dbb2f3a3"
+  }
+}
