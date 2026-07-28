@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[cbs evening news viewership decline]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAC70aGoC/5VSwW7bMAz9FUHnOnXdJQty64YB7aUo0N6GwZBlJuIqi4JEp8uC/PtEx0UxoNuwm/D4+MT3yKOOiZgs+XYPKSMFvVEaewiMfKjs2EF1taj1xRtYCEedx+47WBay7bKCPQQMOxXgJas9wkvRchhVD9ZjAGk3IztK0vDg0Ktb9D6/4e2YvNQcc8yby8tYOE4oC0uD0DKNycL7FIPCsAkMQy+Upm5WVf2xatZPV+tNs9ws68V1XdfrayHyIU5CnCD0ZeqWKaJt8zgMJh30SbQocHE7Wz3jpePJgfr86VF9me3ei10s9n9ESAjBCmhUxl3ALVoTWJnQqzxmNiWG/p1oLgp/GkSxMzyNJ9P8R7Cdsc/l/ZxLz9ej/leQCab6vA75D9nD73tRlXqgxFvySJLHX1TP2c+i85L+IHpzV3Tv5itS99SDPn2TtAdg0xs2U9xbSoM5H5Yc3+t5ThumISbIr1e6+4lR4JI7yR4F60yG1QdBncmuNX5HCdkNUnu8vWmWK306/QJsA36G9QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "2f8d18dfcd88cf9f740c0e9a3d9ca7c08c2dd2e652c62b581696621777d9d568"
+  }
+}

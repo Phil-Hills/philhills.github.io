@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[thyroid medication recall]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIADL0aGoC/4WSwU7kMAyGX8XKeTsMZWZAc+MGF4QEt2VVpamnyZLUUeIidUfz7huXjhDSsqjqxf78O/bvo4qJmAz55g1TdjSoPSjX4cCOp8qMLVaXq7X68REswFHlsf2NhgVmOyVyHQTsnNFcJCCh0d5LkR7ZUhLs0ToPd877/BFvxuQlZ5lj3l9cxMJYQVaGgmCZxmTw34h2QpiEmrETpF7Xu2p9XdU3z5c3+3q7325Wm6vy7QTkKc5CnHDo3NA3TNGZJo8h6DSpk2jRwGXGZcD3eKl4tgjnKpirgA7w8vXgLwqs660vP2fQYJLjQniIY+tLtUXt2UJpZzAN4ELUhkU8lMGKTIbeU1uEpvnh0vHbRbfavHo3vOZC/jyq7xabcM4v9kgXxx4/+wQVPFLiA5U3yX7+o/ruxSK6mPaF6O190b1fbgkeqEN1+iXbD8i606zn9R8oBT2f13yC5yOdHacQE+bzrfZ/XJQwDobEIYm1OuNuI1Grs22076lYYIPknu5u6+1OnU5/ASqFkXr7AgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "99b5ee5839b5939fe10bb7bf4835ef8164e073658157422cd93df55b138f549b"
+  }
+}

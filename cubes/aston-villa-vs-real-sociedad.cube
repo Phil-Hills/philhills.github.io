@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[aston villa vs real sociedad]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIACr0aGoC/42STW/bMAyG/4qgc50mRpIGueWwor0MxVpsh2EwaImJtMqiIdHZsiD/faLrohiwr6PIl6/IhzzrPhGTodAcMWVPUW+V9hYjez5VZmixWszm+uotWARnnYf2KxoWMWSmqI4+BFDHrBJCUJmMRwtW6mBgR0mUD84HdVeE+S3eDClIzjH3eXt93ReNE8nMUCeyTEMy+HsJeFGY8iWjFUk9r9fV/KaqN0+LzbZebZfr2fxmuVhtRMinfjTihNH6eGiYem+aPHQdpJO+iBdFLmNOM77ES8WTwzKYKRnVJ6wyQi4z75MvRuGkWuRviFHtRhQfRxQQrfogLB4nFlfKYbAKWN2ifff91svLR/UJsivNlMqxR2npf7C2YJ6Dj8+5iD+f9b8wJhzz0zLkI88Bf92KqtQDJd5T8CQ0/uL6Qn4ynVb0B9PdffG9n45HvSeL+vJFWHfIYIFhhL2n1MF4T+PNvV7luF/qCvT8epyHH76XMEZDskWJtZBxvZSoKzQbCAdKnl0nuce7Xb1a68vlJ7eaJKHsAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "f9ecd1b91ed450af0d405f260f27c59e675ab70407e4f0fb12489831880a897d"
+  }
+}
