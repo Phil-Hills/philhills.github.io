@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[strait of hormuz]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJdGaWoC/4VSwU7jMBD9lZHPpIQAreitJ8oFVSq3FYomjtt4cTyRPdmqVP13PCaAkJbdY948v8x7b05qCMSkydV/TIiWvFqCsq3xbPlY6LExxdWsVBdfYCKcVByb30azkCMHtAy0g45CP74KF0dOHzLddNbB2joXv/B6DE5mHfMQl5eXQ+J0Qplp6oUWaQza/J2CVhg6GGTTCqUqq3lRLorq7qksl1eLZbWY3dxe310vhMjHIQtxML61fl8zDVbXcex7DEd1Fi3ynKxNvt7x9OKpM7D99LbO3sBGQNDBstXoLsBjCHSAQ9olHPAIScqnWNJ/gNPzjUSKHu5HtwOmjK0CNoJtDQL6Nu8oK/0UZYP6xVn/EhPh10n9L7pg8nwqQMQtO/O9CShgQ4F35CxJAv9QfU97Ep1q+UF09ZB0H6YjgUdqjTo/S769YWyRMQe8S8Yw302+rY/ry51SPwQTP45w/2oHgY3XJM0J1mA08xtBO4xdjW5PqYuul9l2vapu5+p8fgMNE2Yp1AIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "0a678cd546be84c4902fb17fcf2a19afcd32e9b39aeaf4b817be1d8f5066b692"
+  }
+}

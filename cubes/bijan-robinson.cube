@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[bijan robinson]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJNGaWoC/4VSwU7cMBD9FctnsoQAS9nb9gQXhNreEIocx7sZcDzReIyUrvbf8XiDUCXaXt97fp73Zg56ImS06Ns3RxEw6I3S0LvAwHNlU+eqi1Wtzz7BLDjomLoXZ1nEHbyYoAg7CDE/z0qTeEAS7nEAr+7A+/iJt4m8cAPzFDfn51PWDCJZWRxFFjGRdV9LDIjCkjPsepE0dbOu6puquf1V15uLm01zubq8/Xa9LjPzPBUjJhd6CPuWcQLbxjSOhmZ9FC8MnIMtqU54fvG9pPqxpFIQlVG5qhFCFqvt6AhsFmRo56L0ZrzaIXJnvFeTN7OjM2UT5Y/Zzyo6esv/KyM+A+wHP1eMKYdQlELIVBlXpvu6087YVw/hNWb66aD/1yG5wi+bEGtg7/5ciarUIxLv0ANKFf9wPdW+mC77+Yvp9j773i+3oh6wd/r4LEWPjk1v2JSmd0ijKedTTuzjCMtycZzo1Knw+98wCeyCRVlhqcdEt74SdDBxaI3fIwEPo3A/77bN9Vofj++9DrX+2wIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "558af02d0835434b4d519b8ce7ade39af05b93d165bf789048cc38aac3e2b19f"
+  }
+}
