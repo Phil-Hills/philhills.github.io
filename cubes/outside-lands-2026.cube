@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[outside lands 2026]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAICiaWoC/4WSQW/bMAyF/4qgc506aeqhufXWAkVXYLsNgyHLjM1VFg2JGpAE+e8TVWfFgHW7vvfpCXzkSc+BmCy59ieEiOT1TmnswTPyobKpg2q9qvXVu5iBk46p+wGWBabEMXvKGd9Htak3jdAm8UhB/JcRnXpA5+K73qbgxBuZ57i7vp4zMwqysjQJFikFC39HDAphAxiGXhD5s6o/VZu7r3Wz297tbprVTX27Xa8F5MNcgjiA79EPLdOMto1pmkw46LNkkec83DLZm55ffF4me/o9mcKobAo5id1BGXXJVCXzSg3gIRgWJeLgcY/WeFZgQsa7dDyqPkGGFXJpozz7uMTO2FeH/jVm5NtJ/6+0AMVfqpd4ZAd/7kBV6oUC78khyez/SH3reQldFvJB6P1jzn1cDkQ9Uw/6/F2anYBNb9iUavcUJlNuptzV5fLKNmmaA8TLAQ5HnEUGb0n6Fa0zEZqtqKOJY2vcQAF5nMT78nC/uW30+fwLwQuy6dACAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "844d6d4b2114d2df7a1982408e72c23b9f6f0c709656876ad37c96cc4c0d25dd"
+  }
+}

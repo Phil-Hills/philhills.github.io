@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[danny welbeck]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAHiiaWoC/4WSQWvbQBCF/8qgs+W4wnFj3wItJJcSaKGHUsRoNfZuvdoRu6MW1/i/d2etEAJpexPzPr3ZeTPnaowsbNi3Pykmx6HaQeV6CuLkVJupo/rdclUtXooZOFdp6n6QEYV7DOEEv8h3ZI4K4iSWo0pP1nl4cN6nl3o7Ra+aFRnT7uZmzIxVZGl4UCzxFA29jaBTwkRCoV6RZtVs6tX7utl+WW126+2uuVuut+u727WCchqLkUQKvQuHVnh0pk3TMGA8VRf14iB5rnmoaz3/8aEM9fU61ALEEnwMB++ShRzYnpJGhR72zNKh9xQX4BIgPLeC0gr6ifIX2KzlTsklbQZuGNEIYOjLK5V8M8kOzdG7cExZ/Xau/pdcpKLP+auzE0+vFwE1PHGUPXvHGsA/XK9hz6bzVv5iev+YfR/nA4FP3FN1+a7xDiTYo2DJd89xwHIz5a6eL6+slIcxXlNV/fDbjVqmYFjT1FqHiTZlrRaTbdEfODqxg2qfH+6b2011ufwBcgsi3dACAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "f153eb3f6462d20f01c1e57c82d0591778656b2aa000c87a47a1a8d3afcfb280"
+  }
+}

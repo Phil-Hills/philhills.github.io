@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[jared leto]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAHyiaWoC/4WSQWvcMBCF/4rwOd64Tuole/MtKaUE2lspZizP2kpkjRmNG5xl/3s1jkMoTduT4M2nJ82bOWUTk5Al3/xEjo5CdjCZ6zCIkyW3c4v5h12RXbyJCThlcW4f0IrCD8DYGY9CSsEsA7Hq94Pz5tZ5H9/0ZmavtUFkiofLyykxgyI7S6NikWa2+D4CTgnLCIKdImVRVnmxz8ubb0V1uL45XJW7Yl8V+ysFZZlWI2EMnQt9IzQ528R5HIGX7KxeFCQ1tXX0oqcbn9aOPqeOjIsGzDh7cUewmN419YjsLASTLiILuIB8YXpPLXi/GEZLfXDPiTwSmyEZ1BY6HBdTPwF3+ZMLIf3GgBU9bHoLef2vfu/PQFuwj96Fx5hK30/Z/wJkXOvbGNTWicff52Fyc08sR/KONId/uL5kvpluw/mLaX2XfO+2JTFfqMPs/ENTHlGgA4E15hTKCOverLv1un3rZGmcGOPrEvbPblIZgyWdn2otRKyuVR0gDg34ntjJMGrt621dfqyy8/kXAVI+xNQCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "231ccd34d9d8a1fbeff1c1a3eb8b26f20d9258270be2ff9598ed9297dc7f7eb1"
+  }
+}
