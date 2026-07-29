@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[buffalo bills new uniforms]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAN5DamoC/4WST2/bMAzFvwqhc5ym3ppuubWn9jIUWG/tYMgyHWuVTYGSMqRBvntFxUEx7E8Bn8gfn8X3eFCeKZIh1+yQg6VJbUDZDqdo474yqcXqcrlSi/diBg4qpPYnmihwm/peO4LWOhdgwl+QJtsTj0GmdIoDsXAPg3VwJ9B7vUnspDfE6MPm4sJnZhBkaWgULFBig39HtBXCMOqInSD1ql5Xq+uq/vp4+WWTv9V6WX+6zlUB494Xocg4dXbaNpG8NU1I46h5r46iRVPMS84bnup54nFAOE9BZsQpHbNXEBIzpVPjWd3OTtz+4cSzAs8261m3B8YduR0G0GUWep2FPJrkiugCOgyWEfIkJN/l7cKiLCDv/djxVpsXZ6eXkNGng/rIYcbSn3OS39jo8PfAoIIH4tiTsyRG/Uf1FMosOqf3D9Gb+6x7P18VfKMO1fGHxDBi1HltXXKQvXQ5tHKM53Mt0dPoGcP5arev1ksZJ0OSSLFKB1x/luqgw9BotyW2cRil9/3upr5aq+PxDQjpltIFAwAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "7d68e4b443f8057e58c8a5a8c4d21197c86d8a73c392375221fec28aca51e33f"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[real betis - lyon]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIANVDamoC/4WST2/bMAzFv4qg85zGRptsuXWnFiiKYuutHQxZVmKusihQdAAvyHev6DgoBvTP9fHHJ/GRBx0JGS36eu8oAQa9URpaFxh4LOzQuKJcLPW3NzEDB52G5q+zLDA541XjGJIqlB+zQ4bNwB2SlB868OoGvE9vej2Ql1rHHNPm4iJmphNkYbEXLOFA1r2PGBDC5mfZtYJUy2pVLNdF9eOx/L4p15ur9aJcVmVZCshjnIyYXGgh7GrGCLZOQ98bGvVRvDBwnm0e7KTnjsfOqXOXmrrUs/4l0/6cp73L0z5rFQlyD/hRkdvmFDOsWkh2SBJoUmkgwuHkY1REeQyyDZMJKTcoCHv0eynfT1+Wtz6MtjH2xUN4SZl4OuivoiQ31eeFiDuwd/9vJrs/IPEWPaAk8onrKf3ZdF7TB6bXt9n3dr4adY+t08c/knfv2LSGzRT4Fqk30yFNx3Y+x2nH2Edy6XyVu38QRXbBomQpWmOSW12K2pnU1cbvkIC7Xmq/b66rq5U+Hl8BeqgLNuUCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "edec443064aab10fc327f57289665a000ff31e09517915d4a287149e365c53ab"
+  }
+}

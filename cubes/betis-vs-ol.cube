@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[betis vs ol]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIANlDamoC/4WS0UvkMBDG/5Uhz3btrl719s2DAwVRQd9OKWk63eZMMyWZeqzL/u+XiV3kQD3I0/d988H8Mjs1BmIy5OoXDNGSV2tQtkXPlreFmRoslotSHb2LKbBTcWp+o2EJN8g2wksEchLTE/cUxLjrrYNL61x81+spOPF65jGuj4/HlOklsjA0SCzSFAx+HNFWEiagZmwlsipXVVGeFavvD8vzdXrlcnFaVsuTSoK8HXMRB/St9ZuaabSmjtMw6LBVe+kiz2mreaU3PU089AiHKchT8Kh+HPa8vX5UELBLvJIJnMI21YSYgCSAQB3wH4IEdrA+tcPPKdCI2kNHxI12mVOu/YBfo82zs/45Ju/XTv2PV8Dsz9Sl17LDf/FDAXcUuCNnSdb+ovUN8Vw6/8UnpRdXqfdqPgq4oRbV/kmgDsi61awz1Y7CoPOd5Fs6XFv+SBrGgPFwdJtXO4qM3pCAz2x0xOpU1F7HvtZuQ8FyP4h3f3mx+lap/f4vUjbURsQCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "2ca4c0f9bfea8be916858686d8356acc1d73eb5eb878ef77af6173ea9f4894ae"
+  }
+}
