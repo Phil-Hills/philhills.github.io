@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[james comey motion to dismiss]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJnzaWoC/42SzW7bMBCEX2XBs+U4cmKjvqUNgjiHIkB7KwqBptbWJqRWIFcFXMPvXi6joC36e50dDjkf92SGyMKOffMFYyLuzQYMtdgLybFy4w6ry/nCzL6L2XAyadw9oRM1P9mACRwHPEJgyREgDC2lQCnpQTtKx1Gtjx15uCfvf9CbMXqddSJD2lxcDNnTqWWeI9WWeIwOf2+xpA4X0Qq2aqkX9aparKv6zcfLerO83izX8+V6tV6UCnIcSpBE7FvqD43wQK5JYwg2Hs1Zs7iX3HMq+aLnEw+l5DstOQPpEPYcA0a4e7uFW4oZBccZdDbBnjy2YH9FAbY8QW/8L2w765499c8puz+dzL8wRSzzCbbeROLxZ+pQwSNH2bMn1rZ/SX0hO4VOX/CH0Jttzt1O2wHvuUVz/qwsA4ptrdgCU4HZsjBlqV7XrvwfhyFiet2+w1caVMbesf6SajubcHWlambcNdYfOJJ0QWcf7m/q65U5n78BGVsWss0CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "7437fc1e0a26c9ed131c070c714d8b0d3da3dec754e9587d9b7753f8ffb7cd6c"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "protocol_version": "identity-cube-1.0",
+  "identity": {
+    "subject": "bsx stock",
+    "author": "Phil Hills",
+    "author_url": "https://philhills.com",
+    "source": "https://philhills.ai",
+    "created": "2026-07-29T12:35:41.309754",
+    "type": "trending_topic_summary"
+  },
+  "content": {
+    "summary": "Boston Scientific Corporation (BSX) is a leading global medical technology company, consistently attracting investor and",
+    "topic": "bsx stock",
+    "backlinks": [
+      {
+        "url": "https://philhills.com",
+        "rel": "author",
+        "title": "Phil Hills - Portfolio"
+      },
+      {
+        "url": "https://philhills.ai",
+        "rel": "source",
+        "title": "Phil Hills AI - Identity Node"
+      }
+    ]
+  },
+  "metadata": {
+    "format": "cube-protocol",
+    "compression": "gzip",
+    "encoding": "base64",
+    "hash_algorithm": "SHA256"
+  }
+}

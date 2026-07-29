@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[iraq]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAKHzaWoC/4WST2/bMAzFv4rgc5y6buOhufXWHFYU2G7DYNAyY3GVRE2iN2RBvvsk10U3YH+OevzpSXzkuQqRhTXb/hvGROyrvapoRC8kp1rPA9bX26bavIkZOFdpHr6glgWO8LXUYRbDsShPhqx6IGvTm97P0ZaaEQlpf3UVMmMKstXsCpZ4jhr/jAAVQkcEwbEgbdN2dfOubu8+Xrf7m93+drftuqZp7woop7AYSUQ/kp964UC6T7NzEE/VpXixl9zO2suLnm8cci8bBcqD5CjUdxKTT5G0Ue8xcWABR+CVwUgCE25URAfkU6aOrMGqwORF8VFNlgewy3fK678mNYB+tuSfUxY/nav/JRNxqa/5FkMSi78HrWr1xFGObIlLg/9wfQlzNV1T/4vp/SH7Hta5q0cesbp8LvE5FBhBYMnvyNHBsgrLurwu1DIydiFiet2r6QeFIqPXXAZTtAESdrdFNZBMD3binK1xpfbh4b7dddXl8hO+FGnBpwIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "3a12cfc9a9578d8c1f9b61642d6566e1bd70c8a949ebe9b03ab8bc76db0c1716"
+  }
+}
