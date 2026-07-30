@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[spencer jones]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEKYamoC/4WS3WobMRCFX2XQdddZ/9QtvjOUkpQSAs1dCIusHXuVaDXLaLbgGr97NMqaNpC2t+d8OmjOzMkMTEKOQvMTOXmKZgPGtxjFy7Fy4w6r+aw2H36LGTiZNO6e0InCacDokOGJIiYF7SgdsVp3nQ9w7UP4Q29GDup1IkPaXF0NmekUmTnqFUs0ssP3EeuVcIxWsFVkUS/WVf2pWtb3db2Zf97M69lquVou5wrKcShBwhhbHw+N0OBdk8a+t3w0Z82iKHmuaahXPb/4MQ31TYcCn8CNnEMkHMHCJQ5KHAzs8zOfrXbErEGXefZJidzu3gcEm8BGuP36Hb6w3YvquTcnM9jG8lNNerfNnXXPwcfnlN2Hk/lfe4zFn3agyV4Cvl0GVHBHLHsKnrSEf6S+Fj6FTpv5S+j2JufeTEcCt9SiOT9qxT2Kba3Y0vGeuLflbsptXa6vrJX6gTFdjvDwyw8q5z5I21ZtZxOuV6p2NnWNDQdiL11fVna9XXxcm/P5BSdtFuTUAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "99ecf441284ca97db87b3fd27c5954908bd0e28eaf48ca079a4c97b059f13c82"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[fox news today]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAEmYamoC/4WSQW/bMAyF/4qgc506zpYWueUytJeiwHobBkORmZiLJBoSvdUL8t8rqm6LAu0G6PT46YF85EkPkZgsufY3xIQU9EZp7CAw8lTZcQfVclHrizcxAyedxt0vsCzwnh5VgD9JMXVmEtKM3FOU2n2PTt2gc+lNb8fopNYzD2lzeTlkphdkYckLlmiMFj5GDAphIxiGTpCmbtZVfVWt6oe63iyvN8urxfWqWTWlZ56GYsQRQofh0DINaNs0em/ipM/iRYHzYPNUz3r+8S1Pdfc6lcpUwiSgm1RxS8rkpxIeAu7RmsBqT7lvhUFtPUSRlIcOzYUaImZfzF+7EbKjQi6BlG4+znBn7NFhOKZc/nHS/8ssQqnPyYs1soP3K1CVuqfIe3JIMvo/XJ9jnk3nfXxiur3Nvrfzbag76kCff0qwHth0hk1JNkfjTTmXclIvR1eWSX6IkF5u7/AXB5EhWJKVibYzCdZfRO1N6lvjDhSRey+17zfb5utan89PbJyeJcsCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "ceac11cbf8911e9d948ca3fa9008f5c38a0397e4715a1dd3a01a01e7e2366b7f"
+  }
+}
