@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "wine",
-      "topic": "wine",
-      "cube_url": "https://philhills.ai/cubes/wine.cube",
-      "json_url": "https://philhills.ai/cubes/wine.json",
-      "created": "2026-07-30T06:47:51.650529",
+      "slug": "marketaxess",
+      "topic": "marketaxess",
+      "cube_url": "https://philhills.ai/cubes/marketaxess.cube",
+      "json_url": "https://philhills.ai/cubes/marketaxess.json",
+      "created": "2026-07-30T12:30:00.639588",
       "author": "Phil Hills"
     },
     {
-      "slug": "outside-lands-2026",
-      "topic": "outside lands 2026",
-      "cube_url": "https://philhills.ai/cubes/outside-lands-2026.cube",
-      "json_url": "https://philhills.ai/cubes/outside-lands-2026.json",
-      "created": "2026-07-30T06:47:55.976403",
+      "slug": "brad-dalke",
+      "topic": "brad dalke",
+      "cube_url": "https://philhills.ai/cubes/brad-dalke.cube",
+      "json_url": "https://philhills.ai/cubes/brad-dalke.json",
+      "created": "2026-07-30T12:30:04.622370",
       "author": "Phil Hills"
     },
     {
-      "slug": "marilyn-monroe",
-      "topic": "marilyn monroe",
-      "cube_url": "https://philhills.ai/cubes/marilyn-monroe.cube",
-      "json_url": "https://philhills.ai/cubes/marilyn-monroe.json",
-      "created": "2026-07-30T06:47:59.824737",
+      "slug": "ainsley-earhardt",
+      "topic": "ainsley earhardt",
+      "cube_url": "https://philhills.ai/cubes/ainsley-earhardt.cube",
+      "json_url": "https://philhills.ai/cubes/ainsley-earhardt.json",
+      "created": "2026-07-30T12:30:09.023641",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-30T06:47:59.825877"
+  "last_updated": "2026-07-30T12:30:09.024785"
 }

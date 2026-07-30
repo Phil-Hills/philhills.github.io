@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[marketaxess]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAMhDa2oC/4VSwW7bMAz9FUHnOnWTNutyy609rCjQ3YrBkGU25iKLAiUXzYL8e0nHwzag2y46vPf0wPfIo01MhTyF5hU4I0W7MRY7iAXLofJjC9XVorYXv0ARHG0e2+/gi4oHx3so7g1yVpkbS0+sxGOPwdxhCL/hzchBub6UlDeXl0k0vUoWngaVZRrZw8cSh6rwDK5Ap5JlvVxX9adqVX+9Wm5W9aauF+vV55vbWxWWQ5qMCkPsMO6aQgl9k8dBRj7Yk3pRLJJqjnTG5ceXKdJWIxnMxpkATh0MBAnNFNGbwmcoBVdeiAcjj3nBN+gqjBIGTAY/MhaEfGESo5hjOBhPnIglgWkpdkLBALwTp2lknfCDUlvn9wHjPgv3fLT/K5Fh4udVqC+WAH/uxFTmkVhGD0jaxT9cz73PpvOC/mK6vRff+/lSzAN1YE/ftOlB0nSuuKlq7ctNxzMd2M8TnLZLQ2JJPV/i7gcmhUEq1boVa12G9bWivct948KOpOZ+UO7pbru8WdvT6R0mwLHm2QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "cbe30c228bc60b837ebcc56fcfeabeb9aa194d87e7ea8d8c43bff3d0e52f3e2a"
+  }
+}

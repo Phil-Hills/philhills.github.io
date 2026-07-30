@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[ainsley earhardt]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIANFDa2oC/4WSQW/bMAyF/4qgc506TpdhueUwoL0MBbbbMBi0zMRcJNGQ6A5ZkP8+0XVRDFi76+OnB/HxXeyYWNixb58wZeJod8ZSj1FIzpWbOqzWq9revIoFuNg8dT/RicJAMXs8G4Q0QOpFWZhk4KTTx4G8uSfv86veTsnrbBAZ8+72dizMoMjKcVAs85Qc/hsBUsIlBMFekaZutlX9sdrU39bNblPv6k+rutls79YKynmcjSRh7CkeW+GRXJunECCd7VW9OEpZbdnrWS8v9sten5e9DGUDpsQVKBbc7AMmchCNoMcn0uzMWDLkCL7EdGM6zGJOkX9FA/rUcTVwkfgwf0z/8VZ+HbiTp3jKBfh+sf/LK+E8X1JXcxKPf8dvKvPISQ7siXXtd1yfI15Ml1u8Ybp/KL4PSzPMF+7RXn9oqAEFehCYUz1wCjCXZS7US+XmQ3IYE+aX5h1/06gyRsd6LtU6yLi9U3WAPLTgj5xIhqCzr/f75sPWXq9/ABEB4p/JAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "cf540dbd57300418b13c25769248a3dfb25af72f807409ea85ec014d056f21dc"
+  }
+}
