@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[marilyn monroe]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      6,
+      6,
+      14
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJ/zamoC/4VSy07DMBD8FcvnpoRSWuiNG0UCIcENoWjjbBtT2xutHaRS9d/xhiCExOM6Mx7vzO5Bd0yJDLnqFTlaCnqltG0wJJv2helrLE6npZ58gVlw0LGvX9AkEXtg6/ZBeQpMKEroU0ss3H1rnbq2zsUvvOrZCdem1MXVyUmXNa1Ipoa8yCL1bPBnCVhRGEZI2IhkVs4WRbkszsrHcrGaL1fnl9OL2Xx5thRh2neDUWIMjQ3bKlFnTRV7n6fe66N4UUg52JjqA88vbsdUt0OqiaqJg7oj9qBuEAJmgvO7SGGiGD3YEBUE1YcOGJxDl8eTAeS/n1uqweycDbuY6aeD/q8VxoEfuxVrmxx+L1kV6j6PtSFnScL94fpR5Gg6Nv6L6dU6+67H7ecOGtTHZ6nOY4IGEgzdbaSb4SCGo/k8q2Fd5DvG+Hld2zfbCYzBkCxFsBoiLuaCthDbCtyW2KbWC/dwfTU7X+jj8R1nM8IvrQIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "c9bb7ac278dc1b43778930f20507f2c832d78903c72e6cbc3641b02d07536c2a"
+  }
+}

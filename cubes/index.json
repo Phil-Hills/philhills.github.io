@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "spencer-jones",
-      "topic": "spencer jones",
-      "cube_url": "https://philhills.ai/cubes/spencer-jones.cube",
-      "json_url": "https://philhills.ai/cubes/spencer-jones.json",
-      "created": "2026-07-30T00:18:10.434331",
+      "slug": "wine",
+      "topic": "wine",
+      "cube_url": "https://philhills.ai/cubes/wine.cube",
+      "json_url": "https://philhills.ai/cubes/wine.json",
+      "created": "2026-07-30T06:47:51.650529",
       "author": "Phil Hills"
     },
     {
-      "slug": "jamie-ding",
-      "topic": "jamie ding",
-      "cube_url": "https://philhills.ai/cubes/jamie-ding.cube",
-      "json_url": "https://philhills.ai/cubes/jamie-ding.json",
-      "created": "2026-07-30T00:18:14.138908",
+      "slug": "outside-lands-2026",
+      "topic": "outside lands 2026",
+      "cube_url": "https://philhills.ai/cubes/outside-lands-2026.cube",
+      "json_url": "https://philhills.ai/cubes/outside-lands-2026.json",
+      "created": "2026-07-30T06:47:55.976403",
       "author": "Phil Hills"
     },
     {
-      "slug": "fox-news-today",
-      "topic": "fox news today",
-      "cube_url": "https://philhills.ai/cubes/fox-news-today.cube",
-      "json_url": "https://philhills.ai/cubes/fox-news-today.json",
-      "created": "2026-07-30T00:18:17.832320",
+      "slug": "marilyn-monroe",
+      "topic": "marilyn monroe",
+      "cube_url": "https://philhills.ai/cubes/marilyn-monroe.cube",
+      "json_url": "https://philhills.ai/cubes/marilyn-monroe.json",
+      "created": "2026-07-30T06:47:59.824737",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-30T00:18:17.833412"
+  "last_updated": "2026-07-30T06:47:59.825877"
 }

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[wine]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJfzamoC/4VSy27bMBD8FYJny1HcWEF9yy25FAESIIeiEFbkSmJDcQVymcA1/O/lKgrSAn0cOTs74MzOSc+RmAz59gVjchT0QWlnMbDjY2Vyh9XlttabD7AQTjrl7jsaFvKrCyhzyDxSFOR+dF7dOu/TB97m6GU2Ms/pcHExF84olK2hSWiJcjT4Zwo4YZiIwGiFsqt3TVVfV5/qx7o5XF0f9pfbZl/vd5+FyMd5EeKIwbowtEyzM23K0wTxqM+iRYGLndXLG142noqXjYKgwBsayTujOizBwIDKYnQvaFUfaVI9xqnsl+cQYca0UYVtkwJV8uwpB6tGl5iiM+CLoFUme84R/PJB+c+v2XVgnr0Lz6mAX0/6f1lFXOZr4iLo2OPv0atK3VPkvpggsfwP1bd4V9H1Dn8RvbkrundrE9QXsqjP3yTQCRksMCyJ9hQnWMqxFOi9YssRaZojpvemDT/cLDAGQ3IqwTpI2FwJOkIaW/BDiZHHSWYPtze7faPP55+h1SNsuQIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "01c89eb87cbf27ab70a6e7eb83487a1d77f4c2d4b37941cc10bee46f2893b138"
+  }
+}
