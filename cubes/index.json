@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "marketaxess",
-      "topic": "marketaxess",
-      "cube_url": "https://philhills.ai/cubes/marketaxess.cube",
-      "json_url": "https://philhills.ai/cubes/marketaxess.json",
-      "created": "2026-07-30T12:30:00.639588",
+      "slug": "rocket-classic-leaderboard",
+      "topic": "rocket classic leaderboard",
+      "cube_url": "https://philhills.ai/cubes/rocket-classic-leaderboard.cube",
+      "json_url": "https://philhills.ai/cubes/rocket-classic-leaderboard.json",
+      "created": "2026-07-30T18:28:35.210347",
       "author": "Phil Hills"
     },
     {
-      "slug": "brad-dalke",
-      "topic": "brad dalke",
-      "cube_url": "https://philhills.ai/cubes/brad-dalke.cube",
-      "json_url": "https://philhills.ai/cubes/brad-dalke.json",
-      "created": "2026-07-30T12:30:04.622370",
+      "slug": "trump-white-house-ballroom-lawsuit",
+      "topic": "trump white house ballroom lawsuit",
+      "cube_url": "https://philhills.ai/cubes/trump-white-house-ballroom-lawsuit.cube",
+      "json_url": "https://philhills.ai/cubes/trump-white-house-ballroom-lawsuit.json",
+      "created": "2026-07-30T18:28:39.052546",
       "author": "Phil Hills"
     },
     {
-      "slug": "ainsley-earhardt",
-      "topic": "ainsley earhardt",
-      "cube_url": "https://philhills.ai/cubes/ainsley-earhardt.cube",
-      "json_url": "https://philhills.ai/cubes/ainsley-earhardt.json",
-      "created": "2026-07-30T12:30:09.023641",
+      "slug": "travis-hunter",
+      "topic": "travis hunter",
+      "cube_url": "https://philhills.ai/cubes/travis-hunter.cube",
+      "json_url": "https://philhills.ai/cubes/travis-hunter.json",
+      "created": "2026-07-30T18:28:43.704355",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-30T12:30:09.024785"
+  "last_updated": "2026-07-30T18:28:43.705475"
 }

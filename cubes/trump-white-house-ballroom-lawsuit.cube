@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[trump white house ballroom lawsuit]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIANeXa2oC/41STW/bMAz9K4LOc+q6Tdbl1lt6KQoswA7rYMgyY7GVRUOiVmRB/vtEJ0VRoPu4Pj4+ku/xoKdITJZ8+xNiQgp6rTT2EBh5X9ncQXW5qPWnN7AQDjrl7gksC5ljHif14pBBOcoJVGe8j0Sj8uYlZWTpNpkdReE/OPRqg96nN7zN0UvNMU9pfXExFY4TysLSKLREOVr4mGJQGDaCYeiF0tTNqqo/V1f19vJm3dysr74s6mWzvF4JkfcTnPaG0GMYWqYJbZvyOJq410fRosDl2POlJ7x0bB2oR72d7/0237v58N5HrSLsip2KSRmVcAi4Q2sCKw+D8arHNOXSbssQiNArCoqLeARLJYb9vKZs9f/+dsY+ewzPqbR8P+h/+Rlhrp9TkXHIHt7Hoyr1QJF35JHElr+oniI4i56z+oPo7V3RvTv/krqnHvTxh5g+ApvesJld31Eczfxe8wu+PukcNI1ThPT6q8MvnASGYEniFKwzCVbXgjqTXGv8QBHZjVL7urltlit9PP4GVxA6b/sCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "d6e699f3577c7028521cd66de83da28148f870eb328ac4051157e8b4ed9a0683"
+  }
+}

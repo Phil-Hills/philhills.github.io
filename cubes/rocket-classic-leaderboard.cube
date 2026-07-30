@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[rocket classic leaderboard]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIANOXa2oC/4VSXWvjMBD8K0LPdeo4bVryVu6lhXKUu76Vw8jyJtJF1prVukca8t9P6ziEQj9eZ0ezmpnd656Q0WKoX4GSx6hXSvsWInveFXZooJjPSn1xBjNhr9PQ/AXLQia0W2Blg0nJWxXAtEANGmrllRnYIQnvyfmg7n0I6YzXAwWZOeY+rS4v+8xxQplZ7ISWcCALH1OMF4YlMAytUKqyWhblTbEon+e3q+p2tbieVfNycXUjRN71oxATxNbHTc3Ye1unoesM7fRBtDByNjk5POL5xbMD9evo8sfk8vHsUhGsc3SKURmV0+x8zBqKTNzmLSrtEkOn/nl2PirOUtlaDzlJ/woq9Q4IFK5PC7LwZoCL8cPyv+8TbozdBh+3KVNf9vq7RAnG+dSLrPEc4H1BqlBPSLzG4FGC+UL1WMIkOrX1iejdQ9Z9mK5I/cQW9OGPxN4Bm9awGXNfI3VmPKzx+E7nOVadgyNIpyvdvPleYIgWpVDBGpNgeSWoM8nVJmyQcvKdzH7f31XXS304/AeEFL8N9QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "5a4fdf9837bfe42b4f67734110f3eeb4757d660a3a471051448c26e81f226eb7"
+  }
+}

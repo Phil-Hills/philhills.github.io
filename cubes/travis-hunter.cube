@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[travis hunter]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIANuXa2oC/4WST0/kMAzFv0rUMx3K/APNjdtwWSHBbbWq3NQ02UnjKHEZymi++8adIrQS7F6q6vnXV/vZpyJEYtLk6leMyZIvdqqwLXq2PJZ6aLC8WVTF1aeYgVORhuY3ahaYI7zapMzgGaOAMLChKKVHY53aW+fSp14P0UnNMIe0u74OmTGCLDT1giUaosavEbBC6IjA2AqyrJbbsrotV9Xzzd1uebdbrxa31Xq12QjIY8BLi+hb67uaKVhdp6HvIY7FWbwot+15Huqi5y+eL0Ptp6FUfgPVRRp82+R/H7KVypE57FC9EHEDzilg45DxSh1zUm5UETV13r5jm5moTDbBN42Bc8jgFB+pPMKogssPSKohNlPP0uKXuTagD876Q8rVn6fifzlGnOrzNsTZssO/16JK9UiRX8hZkjj+4XqJfjadd/SN6f1D9n2Yz0X9oBaL8y8Ju0eGFhimtHMoPUwXNF3Zxx1OC6Y+REwf59i92yAyek2yRtEaSLhdi2ogmRpcR9Gy6aX2tL9fbrbF+fwHNlsuG94CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "cb615e694f12ffe35a09511fec4a015e2a1ab3e7d1ad531e413bfe86897fb1be"
+  }
+}
