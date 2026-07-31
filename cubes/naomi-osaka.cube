@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[naomi osaka]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAELqbGoC/4WSzW7bMBCEX4Xg2XL8FzfwLacmPaQBmlsQCGtqLbEmucSSaqAYfvdwZRVBgbS9znwccGf3pCNTJkOu/oWcLAW9U9o2GLLNQ2X6PVbL+ULPPsQCnHTq9z/RZIEDkLeKEhxBMOhzRyzGY2edurPOpQ+97tmJ1+Uc0+7qKhamE2RuyAuWqGeDnyNghTCMkLERZLVYbavFl2q9fFre7Nar3Xozv77ZLNdbAfMQx6DMGBob2jpTtKZOvffAgz5LFoVcpppGuujlxcM40ncZSdmkQJWSvA2FVN8gQsCEIh0wSWPgVAkJBYwOBuSZei1duUExGmqDfcNGHYhVh6wivSIfeqda8Dgrcs/qK0Noxg/L/z6pdA/m6Gw4puI9n/T/KmQc/WkRkmuzwz83oir1SJwP5CxJE/9IvbQ+hU7r+Uvo7X3JvZ/uRD1Qg/r8Ij17zNBAhrHo0oWH8XTG8/p9gONuyUe+tCp++2ajyBgMyQZF20PC7UbUDlJXg2uJbe68eD/ublfXW30+vwO/ghuq1wIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "210857525d6d89185c1206a6b9767fcfdad490bd77bee9183f0d5dd025ac8162"
+  }
+}

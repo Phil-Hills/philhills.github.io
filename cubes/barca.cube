@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[barca]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAErqbGoC/4WSQU/jMBCF/4rlMyltKF3UG4u0gssKib0tq2jiTGpTxxPZE1C26n9fTxqEkIC9vvn85HlvDrqPxGTIV88Yk6Ogt0q7BgM7Hgsz1FisFkt99iZm4KDTUD+hYYFriAYEgIEtRZHurfPq1nmf3vRqiF5mlrlP2/PzPjNWkIWhTrBEQzT4MQJOCBMRGBtBymW5KZbfiovVr9XV9qLcrsvF1apcX5YC8thPRhwxNC7sKqbemSoNXQdx1EfxosB5n3mZk55fPOrvss6jVn3EhjoXILAfVcQ2x6OY1I+Ba/Lqxg+1EhY9BThTbFG5bOqMeughuGSzA7WYJFPwqiXiGrxXRh7uA70EtfMk0jh9WX74Ls4azN67sE9Z/X3Q/4sv4jSfSxBHxx7ft6EKdU+RW/KOJIUvXE+Jz6ZzNZ+YXt9l37v5OtRPalAf/0jGHTI0wDCF3FLsYDqY6ahez27qlbqcdnq9vt1f14uMwZC0d0ol4WYtqoVkK/A7io5tJ7OH2+vycqOPx3/6pJVWzQIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "12d7b29be88275ef4c4045416b9457cb17ed6107ff64d82c57af7e638882f0cb"
+  }
+}

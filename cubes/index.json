@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "gen-x",
-      "topic": "gen x",
-      "cube_url": "https://philhills.ai/cubes/gen-x.cube",
-      "json_url": "https://philhills.ai/cubes/gen-x.json",
-      "created": "2026-07-31T12:33:37.329952",
+      "slug": "naomi-osaka",
+      "topic": "naomi osaka",
+      "cube_url": "https://philhills.ai/cubes/naomi-osaka.cube",
+      "json_url": "https://philhills.ai/cubes/naomi-osaka.json",
+      "created": "2026-07-31T18:32:34.584136",
       "author": "Phil Hills"
     },
     {
-      "slug": "gen-z-years",
-      "topic": "gen z years",
-      "cube_url": "https://philhills.ai/cubes/gen-z-years.cube",
-      "json_url": "https://philhills.ai/cubes/gen-z-years.json",
-      "created": "2026-07-31T12:33:41.762587",
+      "slug": "f35-crash",
+      "topic": "f35 crash",
+      "cube_url": "https://philhills.ai/cubes/f35-crash.cube",
+      "json_url": "https://philhills.ai/cubes/f35-crash.json",
+      "created": "2026-07-31T18:32:38.569687",
       "author": "Phil Hills"
     },
     {
-      "slug": "omny",
-      "topic": "omny",
-      "cube_url": "https://philhills.ai/cubes/omny.cube",
-      "json_url": "https://philhills.ai/cubes/omny.json",
-      "created": "2026-07-31T12:33:48.294174",
+      "slug": "barca",
+      "topic": "barca",
+      "cube_url": "https://philhills.ai/cubes/barca.cube",
+      "json_url": "https://philhills.ai/cubes/barca.json",
+      "created": "2026-07-31T18:32:42.812452",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-31T12:33:48.295315"
+  "last_updated": "2026-07-31T18:32:42.813470"
 }
