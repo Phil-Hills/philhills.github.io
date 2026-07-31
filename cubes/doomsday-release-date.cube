@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[doomsday release date]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      10,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJVGbGoC/4WSzW7CMBCEX8XyuYHwl1Ju3OBSIZVbqSLHWbCLk7Vsp1KKePd6QxCqROl1/O3YM94Ttw4DSjT5FzivseYLxnUJddChTWRTQDIapPzpJkbgxH1TfIIMBJeIlS9FyxwYEB5YKQLQgGiCQkfIRmnDVtoYf9Pzxhk6UyFYvxgObWQUIQOJFWEeGyfhPiI0EdJBvKokZJyOsyR9TiajbZotZtPFaDJ4mWXz+ZzA0NrOKDioS10f8oBWy9w3VSVcy8/khXWI+fpwFz1ObBUwqxzF2t1PuuNMeybY1Zt13hHZm1gQCYJZqtZ3/vQaAh42Vwh5NLo++ki9n/h/TcVxOu/7pht0MPC7eJawDbqwR6ORAj9wvZTbm/a/8Ifpch191/1isFcsgZ8/qM4KgohpRNfnHl0lul3p9um6cd0XYmUd+OviHb61JRlqiVQmaUVsJpuSqoRXuTAHdDqois7eVsvxLOPn8w9PQYGayAIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "52b37b9277b9cfd78fe359f63192bcae190d984121089faca6fbcdeafd83ed03"
+  }
+}

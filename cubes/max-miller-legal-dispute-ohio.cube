@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[max miller legal dispute ohio]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJJGbGoC/41SQW7bMBD8CsFLL5YjO47T+JZbckgbNO2pKASK2kjbkFqCXAV1Df+9XFpBUKBtep2ZHXJm96BDJCZLrnmGmJBGvVMaOxgZeV/ZqYVqtaz14hXMgoNOU/sdLIvYmx/Ko3MQlYPeONVhChODogFJBs3EA0WR3g/o1E3Wple8maITbmAOaXd2FrJmEMnSkhdZoila+LPEoChsBMPQiWRdr7dVfVmdrz7X293FZreql+f11ftNicD7UIw4wtjh2DdMAW2TJu9N3OujeNHIOecc8oTniS8P6hOECClzhvEZ1F2OfVdiL1R8obKn+phjv0vqkgeVzfpMSK2nXjii5YXCpMC3kdBBp3AsX5Of/FedrbFPDsenlNVfD/qt+iIUfl6CvITs4PdtqErdU+RHcvmJ3MI/XE+Nz6bzav5ien2bfW/nq1EfqAN9/CYde2DTGTal5EeK3pRDKsf2co5lr+TDXJ/w/U8MAsNoSbYnWGsSbDeCDiYNjXE9ReTBC/dwc72+2Orj8RfiI2eo5QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "79e1188c418d5f5aa25174c6870f5fb8c44749fbc038f6d6915e78e5988bd282"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[chino hills shooting]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJlGbGoC/4WSQW/bMAyF/wqhc50maeIOuRW7pIcNBdrbUBiKzERabdGg6AJZkP9eUXFRFNi6K/npUe+RJzMwCTnqmlfkFCiaDZjQYpQgx8qNO6wWs7m5+ihm4GTSuPuNThR2PkQCH7ouQfJEEuJBeTuKJ1biITdhq8BHvRm5054XGdLm+nrITNGYOeoVSzSyw78jNijhGK1gq8hyvqyr+W11s3ia15v1arO4na1Xy/rbSkE5DkVIGGObf9cIDcE1aex7y0dzVi2Kku1N3i71/OLJI3wv/raf/AHjPscFQmBB2B6CgxBdiQjEWwFybmTGFijCD3uEm8VV+YpO/iq1nXUvXYgvKUO/TuZ/KTGW/pS1DgjS4efQoYIHYtlTF0jNfqF6CXYSnTbwD9G7+6x7P90E/KQWzflZo+xRbGvFliz3xL29nIme0vuxlfVRPzCm95s7/AmDljE60iVpbWcT1mWF3ibf2O5AHMT32nvc3i3XtTmf3wAH+NANwwIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "3280f37bd329a20e992272153177259edba33344ec053b698b62b750eab3f479"
+  }
+}
