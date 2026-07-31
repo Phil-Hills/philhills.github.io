@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[streamer games]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAE3qa2oC/4VSwU7jMBD9FctnUkIKhe2NG1xWSLu31SpynGk8i+2J7EmlUvXf8YQgQGJBsiLnzcvLzHtz1GMiJku+3UPKSFFvlcYeIiMfKjt1UF2san32BhbCUeep+weWhZw5gQmQ1FCeWZhmYkdJag8OvbpD79/h7ZS81BzzmLfn52PhOKGsLAWhZZqShc8pBoVhyx8ZeqE0dbOp6utqffG7rrdNOT9W6/Xm5rIRIh/GWai0GHuMQ8s0om3zFIJJB30SLYpcBlumesHLF78+TKUSjAly4SmjMg4Rd2hNeYM9+YmLbQrlMCRjGfegQO5sMIZyO1PWGalAwifoVXdQ7ACT6kHE5k6lsc/t7Ix99Bgfcyn/Oerv7Esw15cQRBrZw8c0VKUeKPGOPJK48IXqi+OL6BLNf0Rv74vu/bIm6if1oE9/xeMAbHrDZjZ5RymYeXPm7XrdvzlXCmLz6xoOTzgKDNGSpCdYZzJsLgV1JrvW+IESsgtzZne3zdVGn07PBecaXdYCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "ccec81e7d4ad08d95bf4b85e5dccfee21a0739d600c8f88bcff89e74aed71ce3"
+  }
+}

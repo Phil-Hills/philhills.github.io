@@ -1,16 +1,16 @@
 {
   "protocol_version": "identity-cube-1.0",
   "identity": {
-    "subject": "fire near me",
+    "subject": "streamer games",
     "author": "Phil Hills",
     "author_url": "https://philhills.com",
     "source": "https://philhills.ai",
-    "created": "2026-07-31T00:20:21.954541",
+    "created": "2026-07-31T00:20:29.336842",
     "type": "trending_topic_summary"
   },
   "content": {
-    "summary": "The search query \"fire near me\" consistently trends due to a confluence of environmental factors, technological",
-    "topic": "fire near me",
+    "summary": "Streamer games represent a significant evolution in interactive entertainment, characterized by their design",
+    "topic": "streamer games",
     "backlinks": [
       {
         "url": "https://philhills.com",

@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "rocket-classic-leaderboard",
-      "topic": "rocket classic leaderboard",
-      "cube_url": "https://philhills.ai/cubes/rocket-classic-leaderboard.cube",
-      "json_url": "https://philhills.ai/cubes/rocket-classic-leaderboard.json",
-      "created": "2026-07-30T18:28:35.210347",
+      "slug": "fire-near-me",
+      "topic": "fire near me",
+      "cube_url": "https://philhills.ai/cubes/fire-near-me.cube",
+      "json_url": "https://philhills.ai/cubes/fire-near-me.json",
+      "created": "2026-07-31T00:20:21.954541",
       "author": "Phil Hills"
     },
     {
-      "slug": "trump-white-house-ballroom-lawsuit",
-      "topic": "trump white house ballroom lawsuit",
-      "cube_url": "https://philhills.ai/cubes/trump-white-house-ballroom-lawsuit.cube",
-      "json_url": "https://philhills.ai/cubes/trump-white-house-ballroom-lawsuit.json",
-      "created": "2026-07-30T18:28:39.052546",
+      "slug": "lawsuit",
+      "topic": "lawsuit",
+      "cube_url": "https://philhills.ai/cubes/lawsuit.cube",
+      "json_url": "https://philhills.ai/cubes/lawsuit.json",
+      "created": "2026-07-31T00:20:25.665736",
       "author": "Phil Hills"
     },
     {
-      "slug": "travis-hunter",
-      "topic": "travis hunter",
-      "cube_url": "https://philhills.ai/cubes/travis-hunter.cube",
-      "json_url": "https://philhills.ai/cubes/travis-hunter.json",
-      "created": "2026-07-30T18:28:43.704355",
+      "slug": "streamer-games",
+      "topic": "streamer games",
+      "cube_url": "https://philhills.ai/cubes/streamer-games.cube",
+      "json_url": "https://philhills.ai/cubes/streamer-games.json",
+      "created": "2026-07-31T00:20:29.336842",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-30T18:28:43.705475"
+  "last_updated": "2026-07-31T00:20:29.337949"
 }
