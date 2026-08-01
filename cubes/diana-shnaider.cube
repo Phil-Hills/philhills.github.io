@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[diana shnaider]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIABw4bmoC/4WSQW/bMAyF/wqhc5062ZoVuRXYob0MxbrbMBiMrERcZcmg6AFekP8+UXFRDGi3ox8/PZOPPJmRkySbQvfLcaYUzQ4M9S4KydzYae+a9ao1V69iAU4mT/ufzorCPWFEyD5iIVhJnMQn1tqjpwD3FEJ+1buJg9a8yJh319djYbwiK5sGxXKa2Lq3ESQlLDsU1yuyaTfbpr1t2vW39e1u/WnXtqu23d58qD3LPFYjYRd7isdO0ki2y9MwIM/mrF4pShlsmeqilxef61RPy1RAGRAYR+rDDEy5eMHXKedCQUnw4LJmhwGKVyzwGHB2fAV24vJrKY9KRHSMdCCLUeClIagNAUUQ72rH+v12rHu0z4Hicy7l7yfzvxjZ1fqyDLUmCe7vrUADj4nlkAIlTeMfrpfkF9NlRe+Y3j0U34flXOBL6p05/9CsByfYo2AN+5B4wHpB9cpe7rDuNw0jXyLV+vE3jSq7aJOGptoes9t+VNVj9h2GY2ISP2jt6f5uc7M15/MfDnwRZN4CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "8e0b53c40372a808a0874ef726f70a6d1d9e3896514d6cff933def4148c51809"
+  }
+}

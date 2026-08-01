@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[spacex rocket moon crash]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIABg4bmoC/4WSzU7rMBCFX2Xk9U1JCkRVd+xgg5BggXRBketMG1M7E9kTLqXqu+MxqdAVf9vj7xxrzsxeDYGYDLnmGUO01KslKNtiz5Z3hRlXWFSzUv35EBOwV3FcPaFhgeOgDb5AILNFBk/Ugwk6duLRI3cUhLrprINL61z80JsxOHnrmIe4PDkZEtMJMjPkBYs0BoNfI9oKYQJqxlaQeTmvi3JRlNVdtVhW9fK8np2Vp4tqLiDvhhzEAfvW9puGabCmiaP3OuzUQbKo5zTiNN+7nhx3HcLRBdkFD+pWhr7/PPSDgoDr1GQigZPT+kQy0Bo0tDYaHVpsj77IeoPwz3IuK2f/1uhKm62z/TYm8O9e/dZgwPw+7UE+sezw/4VAATcUeE3OkhTxQ+p76VPotJ1vQi+uUu7VdDNwTS2qw6PU7JF1q1nnntcUvM5nlE/teIx5teSHgPF4k5tXO4iMvSFZhWgrHbE+E7VL9TTabSikMr283V5ezM9rdTi8AUF8K+PjAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "9dee3deee911e5602bf1670c4cbd6d970cc5ba3b99689c3b86a172c3c167307f"
+  }
+}

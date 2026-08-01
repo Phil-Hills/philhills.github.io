@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[ford recalls]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIABQ4bmoC/4WSQW/bMAyF/wqhyy51agdLlubWy9BehgLdbRgMRWYsrZJoSHSKLMh/n+g62Ap07fXx8ZP4yJMaEjEZ8u0BU3YU1RaU6zCy42Nlxh1WzaJWV3/FYjipPO5+oWEx7yl1kNBo77P49MiWklQerPNw517p7Zi81CzzkLfX10PxWLEsDAWxZRqTwbct2onDJNSMnViW9XJd1Zuqbr43m22z3q6Wi82X1U3diJGPwwTihLFzsW+ZBmfaPIag01GdhUWRy1jzTC966fj6z0xg9QEBA6YeO9AZNAwSVZZGf4QLHSb6VWnb+xLNpFiEMjYFYlcYvdORP2Uoj87tYGx5AmOPGZ4dWzigdcbj9HvBvRXwTpsn7+JTLsUfJ/VRoAmn+rwWATv2+Ho/UMEDJd6TdyS5vEN92cEMnZf1H+jtfeHez2cD36hDdf4pqQdk3WnWU+xlvKCnS5qu7XKP06YpDAnz5Sz7324QGaMhSVy0nc64/iyq1dm22veUSpBBao93t8vVWp3PfwCL87Ad5gIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "6dab00ccc3ab8add6ee0823f566e43b66b36e5c1d3d6110a8dfab0c3a5b371d1"
+  }
+}
