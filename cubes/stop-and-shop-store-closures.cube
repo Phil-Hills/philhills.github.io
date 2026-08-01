@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[stop and shop store closures]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIADiWbWoC/42SQW/bMAyF/wqhw05x6gStG+TWW3sZCqQ7DYWhyGykVRYNii6QBfnvo1wX3YC128n206dn8pEnMzAJOYrtC3IOlMwWTOgwSZBj5cY9VqtlbRbvogInk8f9D3RS4Cw0gE0dZK8v+sUILlIeGXO5Z0fxxIW89yHCbYjxN70dOZYzLzLk7cXFoIwvyNJRX7BMIzv8O2JDIRyjFewKsq7XTVVvqnr1UDfby2a7apabZnO9uiqgHIfJSBhTF9Kh1cqDa/PY95aP5ly8KIm2Off4quuNXenxC+y0wwVY0Mz6kJSDA5NDPoLzNiSgAdmKOoN1TDmDeISvxPqwWZATfEtBS4WdaMV5AWFKYirjf6LcW/ccQ3rOCn8/mX9FxzidzwMoPwoS8c9JQAX3WuATxUAlgU9cX9OeTeexfGB6c6e+d/PCaAIdmvNjybdHsZ0VOwX8RNzbaYemPXvbxGmm1A/a9NtCHn6GociYHJXJFW1vMzaXRfU2+9bGA3EQ30/zur1ZXzXmfP4FotGwVOACAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "35955999724d1ace3156003c4b11d3e1d42021f037c2d9349b03dd869389b546"
+  }
+}

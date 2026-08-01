@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[naomi watts]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIADKWbWoC/4WSQU8jMQyF/0qUM1OmXRgtvbEnuCAkkDggNHIzpsmSxKPEAypV/ztxmNUuErDX55fn+LP3ekzEZMj3z5iyo6jXSrsBIzveNWbaYLNctPror1gMe52nzW80LOYIFJx6AeYsNpjYUpLCtXVeXTjv/9H7KXmpWeYxr4+Px+KxYlkYCmLLNCWDn1vAicMkBMZBLKt21TXtz6Zd3rbd+qRbL9vFquvOfpyKkXdjDeKEcXBx2zONzvR5CgHSTh8kiyKXqeaR3vXy4qqOdCcjKZcVKJMcOwPe7xQY48EFHNQvEbMtSumQs3qxlFGVXlMq3ZSBhJgUxEElNKWLKqgFWsVR//IJvg2YJ+/iUy61+73+H66EtT5Dl1zHHj/SV426psSP5B3J1N+kvhOeQ+dVfBF6fllyL+ebUFc0oD48CNOADAMwVKiPlALUM6mn9OfY6h4pjMJtvrntqxtFxmhItiXaBjJ2J6JayLYHv6XC3Aap3Vycr047fTi8AYgUZ/nDAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "a59a04b2c41fe0c12324d8df309ddc5e7398cef50bbdf83cf4c4bff3b5a2bd69"
+  }
+}
