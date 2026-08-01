@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "naomi-osaka",
-      "topic": "naomi osaka",
-      "cube_url": "https://philhills.ai/cubes/naomi-osaka.cube",
-      "json_url": "https://philhills.ai/cubes/naomi-osaka.json",
-      "created": "2026-07-31T18:32:34.584136",
+      "slug": "kcrg",
+      "topic": "kcrg",
+      "cube_url": "https://philhills.ai/cubes/kcrg.cube",
+      "json_url": "https://philhills.ai/cubes/kcrg.json",
+      "created": "2026-08-01T00:18:35.852886",
       "author": "Phil Hills"
     },
     {
-      "slug": "f35-crash",
-      "topic": "f35 crash",
-      "cube_url": "https://philhills.ai/cubes/f35-crash.cube",
-      "json_url": "https://philhills.ai/cubes/f35-crash.json",
-      "created": "2026-07-31T18:32:38.569687",
+      "slug": "indiana-fever-schedule",
+      "topic": "indiana fever schedule",
+      "cube_url": "https://philhills.ai/cubes/indiana-fever-schedule.cube",
+      "json_url": "https://philhills.ai/cubes/indiana-fever-schedule.json",
+      "created": "2026-08-01T00:18:39.562399",
       "author": "Phil Hills"
     },
     {
-      "slug": "barca",
-      "topic": "barca",
-      "cube_url": "https://philhills.ai/cubes/barca.cube",
-      "json_url": "https://philhills.ai/cubes/barca.json",
-      "created": "2026-07-31T18:32:42.812452",
+      "slug": "munetaka-murakami",
+      "topic": "munetaka murakami",
+      "cube_url": "https://philhills.ai/cubes/munetaka-murakami.cube",
+      "json_url": "https://philhills.ai/cubes/munetaka-murakami.json",
+      "created": "2026-08-01T00:18:43.013234",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-07-31T18:32:42.813470"
+  "last_updated": "2026-08-01T00:18:43.014427"
 }

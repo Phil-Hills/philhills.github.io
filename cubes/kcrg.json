@@ -1,16 +1,16 @@
 {
   "protocol_version": "identity-cube-1.0",
   "identity": {
-    "subject": "indiana fever schedule",
+    "subject": "kcrg",
     "author": "Phil Hills",
     "author_url": "https://philhills.com",
     "source": "https://philhills.ai",
-    "created": "2026-08-01T00:18:39.562399",
+    "created": "2026-08-01T00:18:35.852886",
     "type": "trending_topic_summary"
   },
   "content": {
-    "summary": "The Indiana Fever\u2019s 2024 WNBA schedule has become",
-    "topic": "indiana fever schedule",
+    "summary": "KCRG refers to KCRG-TV, an ABC-affiliated television station licensed to Cedar",
+    "topic": "kcrg",
     "backlinks": [
       {
         "url": "https://philhills.com",

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[munetaka murakami]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAGM7bWoC/4VS0WrcMBD8FeHn+OK7S49wb3lLAgmB5qWUYtby3lm1pDXSquAe9+/V6hxCoUmfBLOjkWZmT9UUiEmTbX9hiIZ8tVeV6dGz4bnWqcN6vWqqq3cwE05VTN1P1CxklzwyjKBcCvlwRsiQeKAg45fBWHVvrI3veJuCldnAPMX99fWUOYNQVpqc0CKloPHfFCgP6IDA2Atl02x2dXNbN+vXptmvb/c321Wz3m62N0LkeSpCHND3xh9bpsnoNibnIMzVWbTIc/a2GLvg+cbTm7GnxZgyUYHKgfXmaChF9QgTeIwo2AGjxAdWdRCxA2vVZGHGcKV0CvlxtnO+zYMJfaE48OpAISOoXmmcSX2DsfxYPvhhsh3o0Ro/xsz4fqr+l2TAMl/6EHXDFv8uRtXqhQIfyBqSQD5RvYS/iC4tfSB695B1H5alUc/UY3X+IXG7bKoHhpJ3TsBB2aOya2/bWComN4VLqjI//jaTwOg1SZGCSY67UvMAcWjBHikYHpzMvt7fbb7sqvP5D8MQY9rkAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "a4d017385cb0b3bce7a74ca7dc012215cc8a95726426a525f3f3a0d70a238152"
+  }
+}
