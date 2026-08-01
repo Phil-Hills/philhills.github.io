@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[christian bale]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIANvjbWoC/4VSwW7UMBD9FcvnZrvZLgvsrXBpL6gSSBwQiibONB7qeCJ7UrRd7b/jyaZUSAWOee/5Zd6bOdoxsbDj0DxiysTR7o2lDqOQHCo3tVjVq7W9eAGL4Gjz1P5AJyp2PlEWgmhaCKhKmMRzUu7OUzA3FEJ+wZspBeW8yJj3l5dj0XiVrBwPKss8JYevS4BU4RKCYKeSzXqzq9bvqnX9pd7s67f7q3q1rd9vr+aZ5TDORpIwdhT7Rngk1+RpGCAd7Em9OEoJtqQ64+XFx9+pPpRUhrIB46n34WDAuQA0YGe+Ysi+fAunC/OzFFTYhI77SE+FvudU3mRD+oeMZsCSv1N9GcVA7IwkiLnIBhB6nLubB3y91hbcQ6D4kAv97Wj/V2PCmV+WodYkAf/ciqnMHSe550CsbfzD9dz8Yrqs6C+m17fF93Y5F/OJO7Sn79p1KQA6EJjLPseeo+qVPd/hvF8exoT5+Rz7JxoVxuhYt6hYCxl3W0U9ZN9A6DmR+EG5zzfXmzc7ezr9AqXS5sPeAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "4a0d7b2f6d2dcd2870001c546d1cfde02aa973f030b79dd7cc7eb2592c48505c"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[rickie fowler]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIANfjbWoC/4WSwU7DMBBEf8XymZQ2QCm99YLKBVXADaHIdTbNUicb2RtQqfrveN0ghFTgZs2Ox5rn3evOE5MlV7yBD0itniuNJbSMvMtsv4ZsMhrrs28xGvY69OtXsCxmj3aLoCp6d+DFaHquyctoVaNTS3QufOtF753MauYuzM/Pu+ipxTKy1IgtUO8tnLYYFIf1YBhKseTjfJqNZ9l48jTJ55PreX49ml3ObvILMfKuS0HsoS2x3RRMHdoi9E1j/E4fJItajr2GUkc93ng4lrpNpc6UadWigdg0HiKwCoKgMk5tyFViwKBs7+Mz7HbKqK8HVXpQlT3Ek6oxcUjaSXJrY7cO222I0+e9/o+UhzQfeEsysoOf4FWmVuS5Iockhf9IPcIdQodf+CV0cRdz74aFUPdUgj68CM4G2JSGTeJZkW9M2pG0R1+blr6Qms4fKcp884GdyNBaEm6irU2A6aWotQl1YdyGPHLdyOxxucivpvpw+AS3OMi/wAIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "1629a64e1c6459ffdf53922ca68c6c4f9adabb35f09e8daa30a24508202c9248"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[netflix fortitude movie lawsuit]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIANTjbWoC/42ST0/DMAzFv0qUMx1dGRvajQtiF4QEN0BVlnqrIY2rxAXGtO9OXDoB0vhzff75JX72VreBmCy58hlCRPJ6rjRW4Bl5k9luCdl4lOujTzEBWx275SNYFtgDrxy+qhWFVO4qUA09IyhnXmKHLK2m45qCwNc1OnWJzsVPveyCk1rN3Mb58XGbmFqQkaVGsEhdsHAYMSiEDWAYKkGKvJhm+VmWj2/HxXw8mxeT0Sw/mU2mAvKm7Y04gK/Qr0umFm0Zu6YxYaN34kWe06TDmB966ritQe271L2+Gqa+ODz1vVY2maRIFfkv0EI0bzgFbdyRMl6hr6BNtolWK3T9wP2n/pnt0tgnh/4pJv5uq//KMkBfHzYibyE7+L4alanr9OCKHJJE8ovrR/yD6bCnH0zPF8l3MRyRuqIK9O5BAm+ATWXY9ImnSRvT31V/e/vr7JdMTRsg7o90/YatyOAtyVJEW5oI04motYl1adyaAnLdSO3m8rw4nerd7h3z2vOI9AIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "c8db4d7732787a5f6389f4d73f3bcaf7bf7c727c649d4a9e2dc7ab9f8c558b16"
+  }
+}
