@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "ford-recalls",
-      "topic": "ford recalls",
-      "cube_url": "https://philhills.ai/cubes/ford-recalls.cube",
-      "json_url": "https://philhills.ai/cubes/ford-recalls.json",
-      "created": "2026-08-01T18:16:52.875901",
+      "slug": "general-hospital",
+      "topic": "general hospital",
+      "cube_url": "https://philhills.ai/cubes/general-hospital.cube",
+      "json_url": "https://philhills.ai/cubes/general-hospital.json",
+      "created": "2026-08-02T00:19:56.156946",
       "author": "Phil Hills"
     },
     {
-      "slug": "spacex-rocket-moon-crash",
-      "topic": "spacex rocket moon crash",
-      "cube_url": "https://philhills.ai/cubes/spacex-rocket-moon-crash.cube",
-      "json_url": "https://philhills.ai/cubes/spacex-rocket-moon-crash.json",
-      "created": "2026-08-01T18:16:56.403812",
+      "slug": "jacob-degrom",
+      "topic": "jacob degrom",
+      "cube_url": "https://philhills.ai/cubes/jacob-degrom.cube",
+      "json_url": "https://philhills.ai/cubes/jacob-degrom.json",
+      "created": "2026-08-02T00:20:00.204027",
       "author": "Phil Hills"
     },
     {
-      "slug": "diana-shnaider",
-      "topic": "diana shnaider",
-      "cube_url": "https://philhills.ai/cubes/diana-shnaider.cube",
-      "json_url": "https://philhills.ai/cubes/diana-shnaider.json",
-      "created": "2026-08-01T18:17:00.006530",
+      "slug": "charlotte-fc-chicago-fire",
+      "topic": "charlotte fc - chicago fire",
+      "cube_url": "https://philhills.ai/cubes/charlotte-fc-chicago-fire.cube",
+      "json_url": "https://philhills.ai/cubes/charlotte-fc-chicago-fire.json",
+      "created": "2026-08-02T00:20:04.123127",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-08-01T18:17:00.007660"
+  "last_updated": "2026-08-02T00:20:04.124306"
 }

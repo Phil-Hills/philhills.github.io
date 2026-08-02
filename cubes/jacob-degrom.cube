@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[jacob degrom]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIADCNbmoC/4VSwU7cMBD9lVEuvZDFRHRb7Y1egKogpPZWVdHEmU28OJ7InlRaVvvv9WSDEBLQ63tvnv3ezKEYIwtb9vVfislxKDZQuJaCONmXdmqovFiZ4uwFzIJDkaZmR1ZUvEPLDbTURR5Uh5P0HJV56J2HG+d9esHrKXrlepExbc7Px6zpVbKyp/HEU7T0tgSdKmwkFGpVUplqXZqvpal+GbOpzMaYVWUuTfVFhbIfZyOJFFoXulp4dLZO0zBg3BdH9eIgOdaS6YTnie9LpuucCVwChFzT4EKWwtZ1UyRwAe5wxxF+EHYTwTdM1KD3ZxDJchfcE7WACTgQ8BakJ0gjR/k0/0w/8lZ5DdpH78JjyuTvQ/G/siLN/FK5Gjvx9Lp7KOEhv7tl71gzf+B66ncxXRbxjunVbfa9XU4C7rml4vhHGx1IsEXBudItxwHnK5kv6fnW5i3yMEZKzyfXPblRYQqWdVeKNbnS9aWiPaa+Rt9xdNIPyv28uao+r4vj8R/OS1emwgIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "571394b2e1944cf018c6f2d1a0f1381aa0263799ced02cfdf16c11fc9f358857"
+  }
+}

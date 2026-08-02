@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[charlotte fc - chicago fire]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIADSNbmoC/41Sy27bQAz8lYUuvVSOrKZu4VsQIEguRYDmVhQCvaK026yWApeq4Rr+9y5lpUaAvq7D4ZCc4bEYmYQsheY7cvIUi60pfItRvBxKO+2wXK+q4u0FzIRjkabdN7SiZOuAA4mg6awpjXXeQk+m84zaBpM4YiU+Oh/MvQ8hXfBm4qA1JzKm7dXVmDlOKStLg9ISTWzx9xTwyrCMINgqpa7qTVl9LKv6qaq2dbWtrlfr+t26/qBEOYyzkDDG1se+ERq9bdI0DMCH4qRaFCVfuZx4xnPHk0PDaHPF2ADJmR3KHjGa21+3390aiG0Gztff5euNg2R64IiMrUm+j77L1SwColOy2aajEGifl7lIvUkmAjPt5511xf9weQf2Ofj4nDL3y7H4l6uMc33JRud4Cfg6pDzlkVjyhp7UnL+onoNYRJfE/iB685B1H5ZXMp+oxeL0Va0fUKAFgdn7jniA83fpB7786Bw3DSNjennV/ocfFcZoSUNVbAcJN9eK5gRcA6En9uIGrX2+v6nfb4rT6SeBWQGQ+gIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "5eae65d7922ac6f661ec1cde10a922555140ef98d087c34d9e9193eae016b2db"
+  }
+}

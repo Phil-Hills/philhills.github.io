@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[general hospital]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIACyNbmoC/4WSQW/bMAyF/4qgc5zaQWOsueW09FIU6G7DYCgyG3GVREGiN2RB/vtE10UxYN2Oevz4ID7yolMmJkt++AG5IEW9UxpHiIx8bux0hKZbt3r1Llbgost0/A6WBT5BhGy8clQSsvHCmokdZak+OvTqgN6Xd32YspeaY05ld3OTKuMEWVsKghWasoW/IwaFsBkMwyjIpt30TfupaTdf2nbX3e22/brb9ne3vYB8TrMRZ4gjxtPAlNAOZQrB5LO+ihdFrqMtc73qtePzMtdhmUthUUYVCBjrYx8gozVRjebMGEAVMklRqi0r9dOhdSrlykKGUVFU+5RrEN1KdfOv5BMfhXc09sVjfCkV+HrR/wsrw1xfIhdzZA9/Zq8a9UiZn8kjycz/cH3NdzFdFvGB6f6++t4vZ6EeaAR9/SaJBmAzGjZzpM+Ug5kvZb6mt3ubt0ihhlTezu70C5PIEC3JrkQ7mgL9rajOFDcYf6KM7ILUng77zbbX1+tvCpy60MYCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "919801e48192408d8f76aff1b825d13ce979384a59d6939b7db672614a60b3aa"
+  }
+}
