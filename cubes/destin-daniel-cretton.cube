@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[destin daniel cretton]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAHDobmoC/4WSQU/cMBCF/4qVM1lCBBHsbVUOcKmQ2ltVRV57Np5ieyJ7QrWs9r/jSYJQpZYePf78PO/NnKoxEZMh379Aykix2qoKLURGPtZm2kN9tWmqi49iAU5Vnva/wLDAFjJjVFZHBK9MAuaiUh7oiR0lQZ4cevWA3uePej8lL3eOeczby8uxME6QjaEgWKYpGfg7olGI8pdmsIK0TdvVzW3dtN+bbnt9t22bTXfXXjXXAvJxnIU4QbQYh55pRNPnKQSdjtVZtChy8beaW+rlxf1i7n4x92UxpzArrRwOzh+VNsZrDGDVLkBCo6M6oA/KYioBUbpQufQJ8XdChnLS0aqSuZ2MnApDQ8TX4kL6lLY+zXSvzbPH+JwL9eNU/S/DBPP9Ogn5AdnDnyNRtXqixAfySBLFJ6pL7KvoOp9/iO4ei+7jujLqK1mozj8l6ACsrWY9J32gFPS8RfOmve/iPFwKY4L8vpLDK45ShmhIRii1vc7QzQN2Orte+4FKyC7I3beHXXvTVefzG7k45HTiAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "0b7134f5da6d24faad317d8f1c01bb7e87e40c39a8ba44cb0eb79ac130f4d7af"
+  }
+}

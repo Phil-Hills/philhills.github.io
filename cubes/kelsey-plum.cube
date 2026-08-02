@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[kelsey plum]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAGzobmoC/4VS0YrbMBD8FaHnc86Xu5g2b3m7o3AE2rdSzFreWGpkyaxWBTfk36t1XI7CtX2dmR1pZveiJ4ocTfTtD6TkYtB7pV2PgR3PlckdVg+bWt+9gUVw0Sl339GwiM/oE85q8nkUGWS2kYQ4WufVs/M+veFtJi+cZZ7S/v5+Khorko2Jy3iKmQy+LwEnCkMIjL1ItvW2qeoPVb39Ujf7p4/7h2aze9zV9ZMIeZ4WIyYMvQtDy3Fypk15HIFmfRWvGLikWiPd8DLx6RbpWCIplxQo6wbrS0aKowtlQB1GJGcgCHTCJMWBVx2kM3IH3pc6YEa6UyZTeZ7LMKjEQGrIQL06lYrki/Kjd0rswJy9C+dUuK8X/b/SCBd+rV58HXv8cweqUsdIfIreRcn+D9dbz6vpupC/mB5eiu/LehnqNfaor9+k2REZemBYqi1pR1iOZTmo3ye3bDOOE90KFH746SaBMZgoOxOstIrNslELybbgh0iO7Sjc5+fDdtfo6/UXQQu4NckCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "8a1ee02374e0345397b88276af2f469579b52df521cd7986a46a2d1fbb8c8bd4"
+  }
+}

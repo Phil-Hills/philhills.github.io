@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[zendaya net worth]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      6,
+      6,
+      14
+    ],
+    "encoding": "base64",
+    "data": "H4sIAHTobmoC/4WSzU7DMBCEX8XyhQspIZQIeusNLggJTiAUuc62NjjZsN6AQtV3x5sGVUj8XGc/jz3j3eqOkNFiqN6AosdWL5T2NbTsechsv4LsdJbr44OYgK2O/eoZLAv8AW1tBqNaYPWOxE5g07NDkvGt80Fd+RDiQa96CjJzzF1cnJx0iXGCzCw2gkXsycLPiPFCWALDUAtS5EWZ5RdZXtzn5WJ+uSjms/ysyMtSQB660YgpvdO3m4qx87aKfdMYGvROvLDllG0KttfTiYd9sKN4iKZ8VEatCV77dCAMKoIh66BWo+uxIliH1Eu6Rzkg1QDD+AiZ/lrWytiX4NuXmIjHrf6vHIJxPlUs7p4DfO9aZeo22a8xeJSMf7ju+5xMp+J/MV1eJ9/raQ/UDdagd0/SYMppasNmrHCN1JhxNcb1+Vqw8dew6Qji155tPnwnMrQW5W9EW5kI5VxUZ6KrTNggeXaNzO6ulsV5qXe7T/6sxVG3AgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "7f52bc537ac3e4510793ffd02d02535c827ec1ebd9403f9c88d57c2b6a75990a"
+  }
+}

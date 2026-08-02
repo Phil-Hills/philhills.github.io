@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "general-hospital",
-      "topic": "general hospital",
-      "cube_url": "https://philhills.ai/cubes/general-hospital.cube",
-      "json_url": "https://philhills.ai/cubes/general-hospital.json",
-      "created": "2026-08-02T00:19:56.156946",
+      "slug": "kelsey-plum",
+      "topic": "kelsey plum",
+      "cube_url": "https://philhills.ai/cubes/kelsey-plum.cube",
+      "json_url": "https://philhills.ai/cubes/kelsey-plum.json",
+      "created": "2026-08-02T06:49:16.535004",
       "author": "Phil Hills"
     },
     {
-      "slug": "jacob-degrom",
-      "topic": "jacob degrom",
-      "cube_url": "https://philhills.ai/cubes/jacob-degrom.cube",
-      "json_url": "https://philhills.ai/cubes/jacob-degrom.json",
-      "created": "2026-08-02T00:20:00.204027",
+      "slug": "destin-daniel-cretton",
+      "topic": "destin daniel cretton",
+      "cube_url": "https://philhills.ai/cubes/destin-daniel-cretton.cube",
+      "json_url": "https://philhills.ai/cubes/destin-daniel-cretton.json",
+      "created": "2026-08-02T06:49:20.692104",
       "author": "Phil Hills"
     },
     {
-      "slug": "charlotte-fc-chicago-fire",
-      "topic": "charlotte fc - chicago fire",
-      "cube_url": "https://philhills.ai/cubes/charlotte-fc-chicago-fire.cube",
-      "json_url": "https://philhills.ai/cubes/charlotte-fc-chicago-fire.json",
-      "created": "2026-08-02T00:20:04.123127",
+      "slug": "zendaya-net-worth",
+      "topic": "zendaya net worth",
+      "cube_url": "https://philhills.ai/cubes/zendaya-net-worth.cube",
+      "json_url": "https://philhills.ai/cubes/zendaya-net-worth.json",
+      "created": "2026-08-02T06:49:24.032066",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-08-02T00:20:04.124306"
+  "last_updated": "2026-08-02T06:49:24.033169"
 }
