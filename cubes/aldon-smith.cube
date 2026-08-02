@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[aldon smith]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAMOJb2oC/4WSQW/bMAyF/4qgc5067palueVStMBQFOhuw2AoMhNzkURDott5Qf77RNVFMaDrru99ehAfedJDJCZLrn2CmJCC3iiNHQRGnio77qBaLmp98SZm4KTTuPsJlgU2rqOgkkfuBTMj9xTFeOjRqVt0Lr3p7RideD3zkDaXl0NmekEWlrxgicZo4X3EoBA2gmHoBGnqZlXV66puvi3Xm+WXzdX1YrVeNvUnAXkaShBHCB2GQ8s0oG3T6L2Jkz5LFgXOU80jvej5xbaM9CgjKUzKqFySx5BJtcfDGEFhUBGsCPc3X1WPiSlOF5nDnIFuUsdAz0HtKYqp4JeFgXO7xik2Tt6Z0kr50jst7ow9OgzHlL3vJ/2/1iIUf+5ecpEd/L0EVakHirwnhyTDf5D6UvQcOm/kH6Hbu5x7N5+GuqcO9PmHVOuBTWfYlG5zD96UaykX9XpzZZ3khwjp9fQOv3EQGYIlWZpoO5NgVVbam9S3xh0o5p68eI+32+bzSp/PfwAdLG0YygIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "33e8d57472bcbe81c83c4e4c736fd3a4d27a706c2b6b2b42c5986341a31a7d58"
+  }
+}

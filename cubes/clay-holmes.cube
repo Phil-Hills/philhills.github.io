@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[clay holmes]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIAMCJb2oC/4WSQW/bMAyF/wrhc50mTud1uQW7pJeiwHYphsGQZSbSIomGRHfwgvz3ibaHrUC3Hf3e87P5kZeij8SkyTUvGJOlUOygsB0GtjyWemix3KzWxc1vMQcuRRrab6hZwtqpEQw5j0liamBDUYwnYx0crHN/6M0QnXiGuU+729s+Z4xEVpq8xBINUePbEWUloSMqxk4i1bqqy/V9ua4+b+53m/e7bb2q6rsP260EeeynIo4YOhtODVNvdZMG71Uci6t0UeA81TLSrOc3PspIh2kksAkUZEjehpyEvcdotQoiHTEJMeWgVQlb5Rz0lrXBeAN6iPmz7EZIGF/y10ElYIOgHWUFjhSnx0f8Ds8Uz/CswhlnhNN/voG2VfrsbDin7H25FP9DGXHyl4VIr2WHrzcDJTxR5CM5S0LkH60z/aV0WdNfSvcPufdhuRd4pA6L61fh7ZFVp1hNwDMCr+YTkjP7dYjTjsn3caYr/umH7UXGoEk2KZogr+9ENSqZRrkTRcvGi/fpsK/e1cX1+hNouYi93wIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "820fd7d470e890b946cfa89d553afffc98fba7e3d3c86334b261dbf3ba9ff350"
+  }
+}

@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "mark-cuban",
-      "topic": "mark cuban",
-      "cube_url": "https://philhills.ai/cubes/mark-cuban.cube",
-      "json_url": "https://philhills.ai/cubes/mark-cuban.json",
-      "created": "2026-08-02T12:18:43.197386",
+      "slug": "clay-holmes",
+      "topic": "clay holmes",
+      "cube_url": "https://philhills.ai/cubes/clay-holmes.cube",
+      "json_url": "https://philhills.ai/cubes/clay-holmes.json",
+      "created": "2026-08-02T18:17:36.264933",
       "author": "Phil Hills"
     },
     {
-      "slug": "lpga-leaderboard",
-      "topic": "lpga leaderboard",
-      "cube_url": "https://philhills.ai/cubes/lpga-leaderboard.cube",
-      "json_url": "https://philhills.ai/cubes/lpga-leaderboard.json",
-      "created": "2026-08-02T12:18:46.814718",
+      "slug": "aldon-smith",
+      "topic": "aldon smith",
+      "cube_url": "https://philhills.ai/cubes/aldon-smith.cube",
+      "json_url": "https://philhills.ai/cubes/aldon-smith.json",
+      "created": "2026-08-02T18:17:39.681204",
       "author": "Phil Hills"
     },
     {
-      "slug": "detroit-tigers-schedule",
-      "topic": "detroit tigers schedule",
-      "cube_url": "https://philhills.ai/cubes/detroit-tigers-schedule.cube",
-      "json_url": "https://philhills.ai/cubes/detroit-tigers-schedule.json",
-      "created": "2026-08-02T12:18:50.245404",
+      "slug": "max-scherzer",
+      "topic": "max scherzer",
+      "cube_url": "https://philhills.ai/cubes/max-scherzer.cube",
+      "json_url": "https://philhills.ai/cubes/max-scherzer.json",
+      "created": "2026-08-02T18:17:43.318183",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-08-02T12:18:50.246399"
+  "last_updated": "2026-08-02T18:17:43.319206"
 }

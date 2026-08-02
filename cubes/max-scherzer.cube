@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[max scherzer]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAMeJb2oC/4WSQU/jMBCF/4rlc1Oalu1WvbEnkAAhsTe0iibOUBscT2RPVluq/nc8JhVCAvb65vOz3/Mc9BCJyZBv/mJMjoLeKu06DOx4X5mxxaqeL/TsXczAQaexfULDAvfwTyVjMb5gFA5GthRlcmedV5fO+/SuN2P0MrPMQ9qenQ2ZsYLMDfWCJRqjwc8RcEKYiMDYCbJcLNfVYlMtlr/rzbb+uT1fzVf1pt6sBOT9UIw4Yuhc2DVMgzNNGvse4l4fxYsC51hTpjc9n7jJme6nTDMFqqPeBQisHik/TrmgbuCJorpG2I2ofkHCFryfKZcyfbpPlftUlwkmZV2poWif9daCefYuPKc8fDjo//UUscyntsXYscePtatK3VHkR/KOJO43rm/VTqbTH3xhenGVfa+mbVC31KE+/pEye2TogKG0mZvqoSxIWaLTmpUPpH6ImE7btntxg8gYDEltorW50fW5qBaSbcDvKDq2vczuLy+WP9b6eHwFrYy8Fb0CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "81f9428c954876fbe2fe6a807a66cfbdde50329945885dbf0b0ae0c9d94e8d33"
+  }
+}
