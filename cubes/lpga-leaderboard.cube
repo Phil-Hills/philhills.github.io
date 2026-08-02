@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[lpga leaderboard]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAKY1b2oC/4WSQW/bMAyF/4rgc53GRpYFueW0FhiGAOttGAxaYmKtkihI9AYvyH+f6HjoBrTb9fHjk/jISxUTMWly3XdM2VKo9qqyBgNbnmo99lg3q3V19yIW4FLlsf+GmgV28QzKIRhMPUEywsLIAyWpHgfr1IN1Lr/o3Zic1AbmmPf397EwgyArTV6wTGPS+DoCVgidEBiNIO263dbrXb1un5p23+z2m+1q12zeNzsBeYqzEScMxoZzxxSt7vLoPaSpuooXBS6jLXPd9NLxNKD6ePxw+HM2ZbMCZaYA3uo7VT7harYelbE5OpgUJ9DP5RnFpTtrSlgaglGZYX4+KzqpEvkJs4QNTv0gj2H+qXzsrUD7YutseM4F+HKp/hdgwrm+rEHMLTv8ex+qVkdKfCJnSXL4h+st88V0Wc4bpofH4vu4nIr6RAar61dJ2SODAYY55hMlD/P1zBf2+wbnzZKP6ZaO1M8/bRQZgyYJULQeMm43og6Qhw7cmZLlwUvt88OhfbetrtdfcfagzNoCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "ae0a4181dd069696bb02a08f464aba4f19c8d38580f65a205f56cab64f25bd3b"
+  }
+}

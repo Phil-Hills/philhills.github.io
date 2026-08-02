@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[mark cuban]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAKM1b2oC/4WSQW/bMAyF/4rgc5wmbpdluRW7tIcNBbZbURi0zNhcJNGQ6AJpkP9e0XVQDFu3m/D46YF85KkYIgtbdvUzxkQcip0pqMUgJMfSjg2W6+WqWLyLGTgVaWx+oRWFPcSDySAEpWCUnqPqDz05c0fOpXe9HqPTWi8ypN3V1ZCZXpGlZa9Y4jFa/DsCpISNCIKtItWq2pSrbbmqfq6r3Xq7u7lerr98vt5uFJTjMBlJxNBS6GrhgWydRp87PhZn9eIgeah5ojc9//imE33ViUxEDxSSAZPZRElxdzQXT7Onboy4yJzlLtALtgaUbnLHOUygiCZ/iTjkHzjGhaHwjEk4vyC0xmNLMHWrzf0ZZwP24CgcUi49nor/xRdxqs9LUFsSh79vw5TmgaPsOTeoKfzD9S3x2XRezQemt/fZ934+EfOdWyzOT5qxR4EWBKaQ9xw9TFczXdbl9qa9ss8ZpcsJdi80qIzBsiatWgMJNzeq9pD6GlzHkaT3Wvtxd1t92hTn8yuMGCzz0gIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "61e0f615f41bb7fdff11f802cc63a4f79b5c110b18666b69f2d06ac0a5fc4f9b"
+  }
+}
