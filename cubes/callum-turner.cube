@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[callum turner]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAKqQcGoC/4WSQU8bMRCF/8rIZzZsthDR3CgXuFRIcKvQyvEOsYnXs7JnQWmU/87MZhGqRNvrm89Pfm/mYIZMTI5i+4q5BEpmDSZ0mDjwvnLjBqvlojZnn6IAB1PGzQs6VtjZGMceeMwJs4J2ZE9ZR/c+RLgNMZZPvR1z1JlnHsr6/HwQxiuycNQrVmjMDr9GbFDCZbSMnSJN3ayq+qqqvz0um/Xl93XTLJp6tby4UpD3w2TEGVMX0rZlGoJry9j3Nu/NUb0oseSaQ510eXFzCvU4hYJQwMKPHDgUD9YxZXjzBN4WKIy2C3EPORRMwARSaB8SJodnsEv0luBZeC8eEnDAGOUj0+f0L18WuLFuJ9SuyPTXwfyvsIzTfK5dnQNH/LN/qOCeMj9TDKS5/+F66ng2nZfxF9PrO/G9m+8CflKH5vikrfbItrNsp1olfm9Pp6Ln9HFw0yalkYzl4+62v8OgspRHui/VNrbg6kJVqdu3Nm5JFuF7nT3cXjeXK3M8vgMRsRxWxwIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "e4412a3c86c223b07a2123a588d4de03bdd8b6266ba3040a4393de4e8b2da0a1"
+  }
+}
