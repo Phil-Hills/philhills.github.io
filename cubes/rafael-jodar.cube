@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[rafael jodar]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAIfecGoC/4VSy27bMBD8FULnyvEjcQLfckt6KIKmt6IQ1tRaXIfiEkuqhWr438uVFQQFkvbI2eGQMzunKgpntuybnyiJOFQ7U1GLIVMeazvssV4tltWnN7AQTlUa9ke0WckCB0BvjtyCKA+G7Fh08uTImwfyPr3hzSBeZy7nmHZXV7FwnFIWlnulJR7E4vsUIGVYQcjYKmW9XG/r5V293Hxb3e02q93mZrG8vt3cbpWYxzgJZcHQUuiazJFsk4a+Bxmrs2pxyMXW7OmClxtfL54+qydDyYBx1Dk/1pmH8rR5jhAoOXMcArGYIlGOJnoYUcwvx8ZBMgKRWj8a7FG6cglUJ1EX6EAWyqP6Rf3Reynuwb54Ci+pDL+fqv+lJjjN5+xVmLLHv5dgavPEkg/sidX8P1QvQc+i80Y+EL1/LLqPczfMF26xOv/QaHvM0EKGKdsDSw9TXaZKvZZuWif3UTC9dq/7TVFhDJZ1aYrtIeH2WtGSq2vAdyyUXa+z54f79c22Op//AGYFw5rLAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "1ba9cc50acf05e6a236fbeaadeffeeac8c6165a58c18cb8922a2e63af24ad0ee"
+  }
+}

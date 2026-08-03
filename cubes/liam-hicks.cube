@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[liam hicks]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAILecGoC/4WSS2/bMBCE/8qC58iR7cZQdcvNAYoiQHsrCoGi1uY2fAjkqoVj+L+XKyt9IH0cNTP8oJ3dsxpT5Gii675iyhSDakHRgIGJT5WZeqzWq1rd/BRL4Kzy1H9BwxJ2pD1YMk9ZUnpiG5Poj5Yc7Mm5X/RuSk48yzzm9vZ2LBkrkZWJXmI5TsngnyOaJGESasZBIpt6s6vqpqq3H9dNu12323rV3DXb5q0E+TTOIE4YBgrHjuNIpsuT9zqd1EVYMXAZapnoqpcX72SivUwElEFDqchTKEF4YcHMgm/EloL4B8xSnnbQ64y9dg4MJeMw3xSbCpncCRKaeAz0jAPoH+AsPKPZWExAYf51ob/uttfmyVEoHy18Oqv/dZlw9peNCJbY4e+rgQoeY+JDdBSlkn9Qr/Uv0GVPf4HePxTuw3Iv8D4OqC6fpXCPrAfNem78EJPX8wnNZ/ZyiPOSox/TtVLxj880iozBRKlfNOl590ZUq7PttDvGVNbhxfuwv9/c7dTl8h156kc73wIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "7a3f12f3a7456d79fa8aaed443eba2eec4836b98613fc8c1c4b0232e3f686105"
+  }
+}
