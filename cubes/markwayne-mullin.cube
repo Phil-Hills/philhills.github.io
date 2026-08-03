@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[markwayne mullin]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIALHeb2oC/4WSQW/bMAyF/4rgc52q3ppuufXWHroVy3YaBoOW2UiLJBoSncEL8t8nuu6KAWt7Ex4/PZCPPFZDIiZDvj1gyo5itVGV6zGy46k2Y4f1xUpXZ89iAY5VHrufaFjgAGn/C6aIKozeuygsjGwpSfXeOq9unPf5WW/H5KVmmYe8OT8fCmMFWRkKgmUak8H/I+CEMAmBsRek0c261h9q/e6r1ptGb/TF6kpfXn1sBORpmI04Yexd3LVMgzNtHkPpe6pO4kWRy2jLXI96+XH3d667eS7lsgL1BYex885AVN+iKy2oLZdOstpiBKakEg4Js0QVd+rz3oOlAGfKwkGEUjs4GrOfVMZ0KN+huM6NSl8v5dmB2ZfnPhfg+7F6K7+Ec33Zgpg79vjvOlSt7inxA3lHEsMrro+RL6bLbl4wvb4tvrfLpahP1GN1+iEhB2TogWFO+YFSgPl45gN7OsF5sRQkv6dL3P12g8gYDcn6ROsg4/q9qBaybcHvKDm2QWrbm+vmcl2dTn8AntHGNtkCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "e61f51b05aed54f581eca2eecbcbf5205bb5d6782fb16c630b279a996e04adb7"
+  }
+}

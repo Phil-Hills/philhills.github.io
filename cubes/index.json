@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "clay-holmes",
-      "topic": "clay holmes",
-      "cube_url": "https://philhills.ai/cubes/clay-holmes.cube",
-      "json_url": "https://philhills.ai/cubes/clay-holmes.json",
-      "created": "2026-08-02T18:17:36.264933",
+      "slug": "silver-alert",
+      "topic": "silver alert",
+      "cube_url": "https://philhills.ai/cubes/silver-alert.cube",
+      "json_url": "https://philhills.ai/cubes/silver-alert.json",
+      "created": "2026-08-03T00:19:53.678521",
       "author": "Phil Hills"
     },
     {
-      "slug": "aldon-smith",
-      "topic": "aldon smith",
-      "cube_url": "https://philhills.ai/cubes/aldon-smith.cube",
-      "json_url": "https://philhills.ai/cubes/aldon-smith.json",
-      "created": "2026-08-02T18:17:39.681204",
+      "slug": "amber-alert",
+      "topic": "amber alert",
+      "cube_url": "https://philhills.ai/cubes/amber-alert.cube",
+      "json_url": "https://philhills.ai/cubes/amber-alert.json",
+      "created": "2026-08-03T00:19:57.356746",
       "author": "Phil Hills"
     },
     {
-      "slug": "max-scherzer",
-      "topic": "max scherzer",
-      "cube_url": "https://philhills.ai/cubes/max-scherzer.cube",
-      "json_url": "https://philhills.ai/cubes/max-scherzer.json",
-      "created": "2026-08-02T18:17:43.318183",
+      "slug": "markwayne-mullin",
+      "topic": "markwayne mullin",
+      "cube_url": "https://philhills.ai/cubes/markwayne-mullin.cube",
+      "json_url": "https://philhills.ai/cubes/markwayne-mullin.json",
+      "created": "2026-08-03T00:20:01.705792",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-08-02T18:17:43.319206"
+  "last_updated": "2026-08-03T00:20:01.706866"
 }
