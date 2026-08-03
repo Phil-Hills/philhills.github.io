@@ -1,0 +1,33 @@
+{
+  "protocol_version": "identity-cube-1.0",
+  "identity": {
+    "subject": "what is a data breach",
+    "author": "Phil Hills",
+    "author_url": "https://philhills.com",
+    "source": "https://philhills.ai",
+    "created": "2026-08-03T06:59:57.535717",
+    "type": "trending_topic_summary"
+  },
+  "content": {
+    "summary": "A data breach occurs when unauthorized individuals gain access to sensitive, confidential, or protected",
+    "topic": "what is a data breach",
+    "backlinks": [
+      {
+        "url": "https://philhills.com",
+        "rel": "author",
+        "title": "Phil Hills - Portfolio"
+      },
+      {
+        "url": "https://philhills.ai",
+        "rel": "source",
+        "title": "Phil Hills AI - Identity Node"
+      }
+    ]
+  },
+  "metadata": {
+    "format": "cube-protocol",
+    "compression": "gzip",
+    "encoding": "base64",
+    "hash_algorithm": "SHA256"
+  }
+}

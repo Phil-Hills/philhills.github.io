@@ -10,29 +10,29 @@
       "updated": "2025-12-09T20:29:44.079676"
     },
     {
-      "slug": "silver-alert",
-      "topic": "silver alert",
-      "cube_url": "https://philhills.ai/cubes/silver-alert.cube",
-      "json_url": "https://philhills.ai/cubes/silver-alert.json",
-      "created": "2026-08-03T00:19:53.678521",
+      "slug": "what-is-a-data-breach",
+      "topic": "what is a data breach",
+      "cube_url": "https://philhills.ai/cubes/what-is-a-data-breach.cube",
+      "json_url": "https://philhills.ai/cubes/what-is-a-data-breach.json",
+      "created": "2026-08-03T06:59:57.535717",
       "author": "Phil Hills"
     },
     {
-      "slug": "amber-alert",
-      "topic": "amber alert",
-      "cube_url": "https://philhills.ai/cubes/amber-alert.cube",
-      "json_url": "https://philhills.ai/cubes/amber-alert.json",
-      "created": "2026-08-03T00:19:57.356746",
+      "slug": "tornadoes",
+      "topic": "tornadoes",
+      "cube_url": "https://philhills.ai/cubes/tornadoes.cube",
+      "json_url": "https://philhills.ai/cubes/tornadoes.json",
+      "created": "2026-08-03T07:00:01.217743",
       "author": "Phil Hills"
     },
     {
-      "slug": "markwayne-mullin",
-      "topic": "markwayne mullin",
-      "cube_url": "https://philhills.ai/cubes/markwayne-mullin.cube",
-      "json_url": "https://philhills.ai/cubes/markwayne-mullin.json",
-      "created": "2026-08-03T00:20:01.705792",
+      "slug": "daredevil",
+      "topic": "daredevil",
+      "cube_url": "https://philhills.ai/cubes/daredevil.cube",
+      "json_url": "https://philhills.ai/cubes/daredevil.json",
+      "created": "2026-08-03T07:00:05.010079",
       "author": "Phil Hills"
     }
   ],
-  "last_updated": "2026-08-03T00:20:01.706866"
+  "last_updated": "2026-08-03T07:00:05.011220"
 }

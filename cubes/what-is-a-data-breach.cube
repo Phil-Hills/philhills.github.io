@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[what is a data breach]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAG08cGoC/4VSwW7bMAz9FcLnOHXTOdlyy629FAW62zAYssxEXGXRkOgUaZB/n+h46AZs3fXx6VHvPZ6LIbKwZd8cMSbiUGyhoA6DkJxKO7ZY3i6rYvEOZsK5SGP7A60o+dUZAUpgoDNioI1orNMHZhTHUSlPjjzck/fpHW/G6HXmRIa0vbkZMscpZWm5V1riMVr8O8WQMmxeJdgpZVWt1mX1uazuvlbrbf1lW2+W9V29ud0oUU7DJCQRQ0fh0AgPZJs09r2Jp+KiWhwk+5vNXfH8Yve7KWBrx5jg1WGAMVx90Bt2QFn2SN1ofIKDoQDGWkwJhCFhSCR0xAXkHftrisYvgCNo9jnFbEE/qX/6MNDW2BdP4SVl1rdz8b8AI07zuQbdQOLxzz6ghCeOsmdPrDl8oHrNfBady/mH6O4h6z7M9wKP3GFx+a4p9yhGTU0x7zn2Zjqh6cx+HeLULPdDzAHO93h4o0FhDJa1P8Vak3D9SVFnkmuMP+QuxPU6e77frep1cbn8BAyHPZ7fAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "5ebf9bc563fbc0d2d2203373a6164c7f5fe58434c1ab5cb3dec55f2a846dd4a0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "protocol_version": "identity-cube-1.0",
+  "identity": {
+    "subject": "daredevil",
+    "author": "Phil Hills",
+    "author_url": "https://philhills.com",
+    "source": "https://philhills.ai",
+    "created": "2026-08-03T07:00:05.010079",
+    "type": "trending_topic_summary"
+  },
+  "content": {
+    "summary": "The term \"daredevil\" is currently trending, primarily referring to the Marvel Comics character Matt Murdock,",
+    "topic": "daredevil",
+    "backlinks": [
+      {
+        "url": "https://philhills.com",
+        "rel": "author",
+        "title": "Phil Hills - Portfolio"
+      },
+      {
+        "url": "https://philhills.ai",
+        "rel": "source",
+        "title": "Phil Hills AI - Identity Node"
+      }
+    ]
+  },
+  "metadata": {
+    "format": "cube-protocol",
+    "compression": "gzip",
+    "encoding": "base64",
+    "hash_algorithm": "SHA256"
+  }
+}
