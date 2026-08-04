@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[google images]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAP6KcWoC/4VSwU7jMBT8FcsXLk0JUclCb5ygF4TE3lYoenVeY4PjF9kvSKXqv+OXBi1I7HKdGY894znoIRKTId+8YkyOgl4r7VoM7HhfmHGLxcWy1Iu/YBYcdBq3z2hYxB1R51G5HjpMIoSRLUWhHqzz6s55/wlvxuiFs8xDWp+fD1ljRbI01Iss0RgNfi8BJwoTERhbkVRlVRflVVGufpf1evVrXdXLy+uyXl2LkPfDZMQRQ+tC1zANzjRp7HuIe30ULwqcc82hTng+cXsKtZlCLZSHMRiLrXJBVWV5sVARe3AhKVCDeyUGr/LzBwrZS9FOnc6fJZUQorHTY+TubwvbgnnxLrykzP456J8Kijjxc83i7Njj175VoR4o8o68I8n5H9dTp7PpXP4/TG822Xcz70DdU4v6+CQt9sjQAsNU445iD9M0pvl8DGz6udxRxPSxs+7NDQJjMCT/I9gWEtYrQS0k24DvKDq2vXCPdzfVZa2Px3fZLG67twIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "aff6cd041b8ea90dbaf7afff2b1cab491d9fcdb1f7a6124c045a45e1e3dea70c"
+  }
+}
