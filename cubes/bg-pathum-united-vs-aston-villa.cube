@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[bg pathum united vs aston villa]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIAP7bcWoC/41SXWvjMBD8K4te7uWcuk4bSt5SKG2hlMDlno7DrO2NpassCWmVkgv57yfZLqVwX6+zs7O7M3sSzlu2rdX1gXxQ1og1CNWRYcXHoo0NFZeLUnx+BxPhJEJsflDLmdz04JBlHCAaxdTBIQAGtgYOSmvMrRhZWp/JW6k0PCQ8vON19DrXJLML64sLlzgyUxatHTIt2Ohb+j0FVWa0njCNzpSqrFZFeVOUV7vLar1crstqcb1c3qyuMpGPbhRiT6ZTpq/ZOtXWIQ4D+qM4Zy1rOF06nznhqWMnCaJLG6UucJ6KQBjSkXuvkpQ+QkP8SmRgJ1FpNN2nALf3sJ2s+TpZk2C4M71WQcLW06DIwxNhHwlC8hc22bdxz7zWf7rbYPuilXkJif/tJP7lpqexPmeSZynW9DEcKGBrPe+tVjab8hfVKYBZdE7qD6Kbx6T7OL8RPNuOxPl7tnwgxg4ZR8/31g84ftb4fW//OcZsh+R8eHvT/qdyGSbT2hzm6BcGmqKWGGSNurdesRxy7cvDprpeifP5F/Wzcfv2AgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "dfce5bbe527118b69d56d5bac4103bffc0f3e65dde90f24f6b17c402b97ba5c2"
+  }
+}
