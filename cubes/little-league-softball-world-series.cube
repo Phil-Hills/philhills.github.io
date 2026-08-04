@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[little league softball world series]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIADkwcWoC/5VSXWvbQBD8K4eeI0cRjmn8lrcEQgk40IdSxOq01m1zuhV3qxTX+L/3VpZJC/2gcE+zs7M3s3ssxsjCln3zhjERh2JrCuowCMmhtFOL5c2qKq7ewUw4Fmlqv6IVJXsS8Wg8Qj+hSbyXFrw33zj6ziSMhEnbYRLHURueHXnzQN7/hDdT9FpzImPaXl+PmeOUsrI8KC3xFC3+ngKkDBsRBDul1FW9KasPZbV+qaptXW2ru1W9ruvNnRLlMM5CEjF0FPpGeCTbpGkYIB6Kk2pxkOx2sXrGc8eLQ/N0tvt0tru72P00293Ndg0lAyG/MIG/MpS1YgDJ4YI3e0gyklj3HpVkbwGGPNDsOZqeos8CPXbmZv6vfu8/km7BvnoKryn3fD4W/0o24lxf9qPzKE/5dVGmNM8cZc+eWAP6i+p5GYvosrU/iN4/Zt3H5azMR+6wOH3R+AcU6EBgzj9HMsB8afM1Xu51XjkPY8R0Odv+O40KY7Csi1WshYSbtaIOkmvA9xxJ3KC13cN9fbspTqcfNMGrswYDAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "1d521e06c9bd5a7a12b2c77cdbe694effdbd7fc28f9b54886c54393247a00f7d"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[jackie young]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIADUwcWoC/4WSQW/bMAyF/4qgc526XhN0ufXW7jAU2C7DMBi0zNhqZNGg6A5ukP8+0fFQDOi2o/ieHsiPPNmRSchRqF+Qk6do98b6FqN4mQs3NVjcbEp79VbMhpNNU/OMTtT8DO7o0cw0xU59MElPrMpT74N58CGkt3o9cVCtFxnT/vp6zJ5eLRtHg9oSTezwfQt4dThGEGzVUpXVrijvivL2a1nuq3Jfbjfbuw8fqxs1yjwuQcIYWx+7Wmj0rk7TMADP9qxZFCWPtc50qecfny4zfdOZjE8GTDtHGLwzGdcBk4KCYBpIR5QGQjBjgBn5yvzMmMJsGB110b9iaw7Epkc2o38hyZ+YAhrQzCTAkvsy3QTcLh1rg+9BbfI7+HhMWfx+sv+DyLjo6yo02EvAP3diCvNELAcKnpTFP1Iv3NfQdUF/Cb1/zLmP66mYz9SiPf9Q0gMKtCCwoM5MBliuZ7mw3ze4bJeGkS+EVe9e/ahljI50h1rL2HF3q9UeUl9D6Ii99INqXx7uq+3Ons+/AOsZ7pbaAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "7340eccf0440e559a5fc6ea8e6dbe7812a3d56b9665db951a4d3fd839b2e06bb"
+  }
+}

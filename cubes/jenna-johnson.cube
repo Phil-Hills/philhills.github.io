@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[jenna johnson]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIADIwcWoC/4VSwW7bMAz9FUHnOXXcLOhyC3ZpeygKbLeiMGiZiZRIokHJBbIg/17R8VAM6Lbre48PfI8864EpkyHfviEnR1FvlHY9xuzyqTJjh9VyUesvH2ARnHUauwOaLOIDxgjqQDamMl2EMGZLLNSzdV7dO+/TB96O7IWzOQ9pc3MzFI0VycJQEFmikQ1+LgEnCsMIGXuRNHWzruq7ql79rOtNU2/qZtGsvi2XtyLMp2Eyyoyxd3HfZhqcadMYAvBJX8SLYi655lBXvEw8TqEer6HUdxuQj/SWju6kXFKgSmvBxTKotoVyBqJAO0xSIXjVgfdMFFQP0SAriL0yJT3SnmGwyNN6ss2nFXZgjt7FYyrsy1n/rzLGiZ+LF2eXPf55AVWpZ+K8I+9Ikv/D9drybDqf4y+m24fi+zB/hnqiHvXlVXoNmKGHDFOxO+IA07NMD/X75aZbUhj4Wpvw+19uEBijIbmYYB0kXK8EtZBsC35P7LINwv243zZf1/pyeQc9xg7syQIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "dd6dcede315fa4d5972c0d55eb3d26e4685a338e0639992bca31f4ea16db3fa5"
+  }
+}
