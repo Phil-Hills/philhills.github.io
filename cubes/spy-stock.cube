@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[spy stock]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      10,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAH4vcmoC/4WSTW/CMAyG/0qUM+WjY4z1xg0uExJcpjFVITU0a1p3iTupQ/z3xaUTmvZ1ff36TfzYJ1k7JNRo0zdw3mAlEyFNBhUZaiPd7CGaDMdycBWD4SR9s38BTWz2dSt8iCjYpBrK0bG8zo0VS2Otv+pp4yzXcqLaJ6NRHTw5W4YaS7Z5bJyGny3KsEM7UAQZW+JxPIvG82g83U7mSXyfTObD+GZ+N+2+S23dBZGDKjPVMSWsjU59U5bKtfLMWVhRmKkf6KKHjm0OgsCVYnedbSdFYGTxtTHK2lY4OARcglBs1o8DQdxidAGue5pf+oZmr3RhTVX4UHk6yf9QOOjqPVBONWThK1kRiTU6OqA1yBP9kXqh14f2mH8JXaxC7qrftnjADOT5mXmVQCpTpDpgB3Sl6g6gO5LPM+p2hGXtwH9e0/Hd1CxDpZE3wdpeeZhNWc2Vz1Nlj+gM5SXXNstFfDuT5/MHm1OOt50CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "75353e2965fe2f786d5dbcc54e2add1e54bb03b523100adba53798d6f433228d"
+  }
+}

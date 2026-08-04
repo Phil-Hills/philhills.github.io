@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[pima county sheriff lawsuit]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAHovcmoC/42ST2/bMAzFvwrh85wmWRJkuRW7tJchQHsbBkORaYurLBoSncEL8t0nOi6KAvt3ffzpiXzkpegjC1v21RljIg7FAQqqMQjJWNrhhOVqsSw+vIkZuBRpOH1HKwr31BmwPAQZITmM1DTgzY80kOgzM4jjqODRkYcH8j696dUQvdacSJ8Od3d9ZpwiC8udYomHaPH3iCElbEQjWCuyXq535XJfLjfPq/1h/emw2iy2H1fb/U5BGfvJSCKGmkJbCfdkqzR0nYljcVUvDpKnnEe86fnFs0M46pifb2M+vR8TIjY5PBAGAymXMAE34Kh1ZY63IY/gsTUejJUccYI+ZrdIfgQKZ/bn3M3UoTb0H5mejH3xFF5SZr9ein9lGHGqz5vQf0g8vl8JlHDkKA17Yo3iL6632GfTeT9/ML1/zL6P8+HAF66xuH7ToDsUUxsxU9INx85MtzTd2+tFTsvlro+YXg+z/Um9yhgs6wpVO5mEu42qziRXGd9yJHGd1p4e7tfbXXG9/gLj2OXP6AIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "6ea1c56ae6911be42d8e738b0433134ea5b6912418d253c80993486aaf83236d"
+  }
+}

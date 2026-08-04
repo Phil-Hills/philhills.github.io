@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[rico verhoeven]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAIIvcmoC/4WSQU8bMRCF/4rlMxvCQiKaG1IPIKQKtYhLW61mvZN4iHdnZc9S0ij/vZ7NIoQE9Pre87Pn8+xtH1nYcaieMCbizq6MpQY7IdkVbqixOJvN7cmrmAN7m4b6EZ1oOJJjkw97xifsNAmDeI7q3XkK5ppCSK96NcSgnhfp0+r0tM8Zr5GZ41ZjiYfo8P0IkCZcRBBsNFLOy2UxvyzmF/dnl6vyy6osZ8vF+flioUHZ9WORROwa6jaVcE+uSkPbQtzZg3ZxJ3mwaaqjnk9816keXqYylAyYr4M4bzKwNSZFBcFsyW1rfsZ4Yv5kQGFnwLkA1GJjIJlf9t6juc03G16PD9L736dWg9sG6rYp2z/39n+UIo7+xFqrSQK+hW4Kc8dR1hyIddhPWo9gp9LpBz4ovbrJvTfTNphv3KA9/FaULQo0IDCyXHNsYVyQcYle1mz8Pm77eESo/uYv9Spj51g/SbUaEi4vVPWQfAVhw5HEt+r9uL4qF0t7OPwDkEeMGL0CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "ee3d63d4d229484f6ffdcf9f1aaf3f4e12e9ba62ba8b1b594ec966d9821c7ffc"
+  }
+}
