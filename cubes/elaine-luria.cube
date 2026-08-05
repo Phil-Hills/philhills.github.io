@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[elaine luria]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAKmBcmoC/4VSTWvjMBT8K0KXvaxdN21CmlsOCy0spbTbvSyLeZFf47eV9Yz0XMiG/PfqOS6l0I+bmBmPNaPZ2z6ysGNfP2FMxMGujKUGg5DsCjdssDgtK/v9FcyCvU3D5h86UTF6oIDGD5FAdTBIy1GZm5a8uSTv0yteD9Er14r0aXVy0mdNq5LScaeyxEN0+L4ESBUuIgg2KplVs0VRLYtq/quqVqcXq/lZuVyeVecXKpRdPxpJxNBQ2NbCPbk6DV0HcWcP6sVBcqwp0xHPX/w4ZvqpmQwlA8GsO4zk8qFnT0KO8hFCYx44Zsbcl3elucU+Ysp+IPSESpnfFLcUCL6NF9L/v9fZBtyjp/CYMvlnb7/qKOLIT02rMYnHt5WbwtxwlId8W9aon7gea51Mp/4/MF1fZd+raQnmmhu0h79aZIcCDQiMTWonMI5jHNDLxMbH4047elna9j/1CmNwrE+k2AYSLs4VbSG1NfgtR5K2U+7ucj2bL+zh8AzXAIWwuQIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "ed5d4283bdf3c160fe2c7606fdb0b5a14c8c8fda910c490838243cde879f4af5"
+  }
+}

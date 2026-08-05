@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[jazz chisholm jr.]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAK2BcmoC/4WSzW7bMBCEX4XguVJkoXZa39JekhyKAOmtKIQVtTbXIbUCSQWQDb97ubKCoEB+rrPDIefjnvQQOLFh1zxjiMS93ipNHfaJ0lSYscViVVb6y6uYDScdx/aAJon5AMejMpaiZefVIZRihjFZDjJ+sOTULTkXX/VmDE5mNqUhbq+uhuyxYikNe7FFHoPBty1A4jABIWEnlrqqN0X1rajWv6tqu/q+XV+X69V1VddiTNMwB6WAfUf9vkk8kGni6D2ESZ8li/uUuy3FLno+cS/Ffr4Uuw+loqigV+hy80C7KaepH2DBU1Yzxx1GIQhOtRCxBefU4GDCoHaZhbxFrn6XWQvmyVH/FLPjz0l/xijgPF9ISzolh/8jV4V64JB27Iil6gepF6xL6ML/ndCbu5x7t6yD+sUd6vNfAekxQQcJZpK5s4d5Q+Ytetmz+fPYD+ECS+b7Iw0iY29Yvkg0Ibj5KqqFaBtwew6UrJfZ4+1Nvd7o8/kfx/eLU74CAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "08e3841623bf32b3614e7e14385e561eaffe1c5a7c77a2bdd985a22813f556f4"
+  }
+}
