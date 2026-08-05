@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[barry manilow concert postponed kentucky]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAMzccmoC/5WSwW4TQQyGX2U0Fy5suoQ0RLkFLq0EqBKIC0WryaybMZkdj2a8RUuUd2e8u6VColRc7c+/7d8+6ZiIyZJv7iFlpKC3SmMLgZGHyvZ7qF4tav3yMViAk879/jtYFnhvUhpUZwJ6+qEsBQuJVaTMkQK06ljKenscRMP07ChJ1Y1Dr67Q+/wYb/rkJeeYY95eXMTCOEEWljrBMvXJwt8Rg0LYBIahFWRZL9dVvanqy8/1ervabFerxZtNvdy8FpCHOApxgtBiODRMEW2T+64zadBn0aLAZfZ53yleKt6O+36Y9n2RlcOD84MyxRyLUbqrW71TX6BQE/vOJczcmXyrf/uDQb2nHvN9GR7GgaT///q5N/boMRxzKfx60s/5l2DMz1eQpsge/jyHqtQNJb4jjyQ2/EN1snwWnW/zhOjuuuhezx+kPlIL+vxNTO6ATWvYjC7fUerM+FTj4z285nhY6mKC/PChh58YJQzBkpxvMi7DeiVRZ7JrjD9QQnad5D5d7ZaXa30+/wJZr6X38QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "ab74869aeecae86a118ecba1a073d54a783f514a8bc55dd18421a51f1662ec5f"
+  }
+}

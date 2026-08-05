@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[pokemon pokopia dlc]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIANXccmoC/4WSUUsrMRCF/0rIs1u31Rbpm+iDgkhB366ypNmxOzbJhGRW6S3972bWLSLcq08LM1/Ozjkzex0TMVlyzRukjBT0UmlsITDyrrL9GqrppNYnX8UC7HXu169gWeBIW/AUVPlSRKNaZwU3PXeUBFh16NQNOpe/6k2fnPQ65piXp6exMJ0gE0tesEx9svBvxKAQNoFhaAWZ1bNFVV9U9fyxXizPL5bzs8lsWk+n5wLyLg5CnCC0GDYNlzltk3vvTdrpg2hR4OJutPZZLy8eO1AMyasnvRpdrkaX13dXT1phVrZPRZfdTh311Ttyh0FxeU3BYQC1MV4axZvvQ8nwRMWE5S9YnrUJ3yAMg8pcP0S6NnZb5La5MH/2+rcIEwz9cRGij+zg+0ZUVRwlfiGHJEn8oPqZ+ig6ruc/ope3Rfd2vBd1Ty3ow7Pk7IFNa9gMQb9Q8mY4oeHMjoc47JZ8TJCP97j5i1HKECxJwlJbmwyLYb+dyV1j3IZSyd1L7+HmcjZf6MPhA+pMJUXfAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "5d45ebf6056a9b6288ebbf7b2667597aa689cbcf2ec4ff32ac9493a6694ff0b8"
+  }
+}
