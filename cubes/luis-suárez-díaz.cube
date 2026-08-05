@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[luis su\u00e1rez d\u00edaz]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      9,
+      10,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIADotc2oC/4WST2/bMAzFv4qgc506bpNtuRXYoQWKokB72wZDlpmIq2Qa+hPACfLdJ6oO2gHdejPI33sWH3mUo6dImmy7Bx+QBrkREnsYIsap0qmDarmo5cVbMQNHGVL3G3Rk2CYMIqSfqa5h6eEg+vLZqwOrVIqGPHOPBq24RWvDW71N3nLPxDiGzeXlmBnDyEKTYyxQ8ho+RhQyoT2oCD0jTd2sq/prVa+el83marlZXS++NV/WzTWDcRqLUfQw9Djs2kgj6jYk55Sf5Im9aIh5yHnC13pW3POET+8m/H6eUOSGEjlCh0MWirO3KN4XuYPZBO0keo97GEQ3CZM1BnemyrItWhCO9pAF5Y0s+zzUTukXi8NLyOiPo/wsRA+lP6+Cf4PRwt87EZV4JB+3ZJE4i/+4vuY+m84L+ofpzV32vZsPRzxQD/L0i5N2EFWvoipRb8k7VW6p3Nv5Ist2yY0ewvkwdwccuQyDJs6Za50KsC4bNiqYVtkdeYzGce/p9qZZreXp9AfbJi+76AIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "b5f1f9da486c0a293aed4143b2432fe4787fc3bc88939feb8a1c0cb98e80c013"
+  }
+}
