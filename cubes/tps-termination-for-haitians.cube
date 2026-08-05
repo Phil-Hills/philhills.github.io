@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[tps termination for haitians]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAMyAc2oC/42STYvbQAyG/8owpy7UWW/YZLe57S17KYHkVopRxkqs3ZmRmZELach/78jr0JZ+gsFYevRaeqWz7RMLO/bNF0yZONqVsdRiFJJT5YY9Vnez2r7/HizA2eZh/4JOFJY+G8EUKIKUenPgZDogIYhZ62CQjpOSm468WZP3P8SbIXnNdVJ0Vre3fWE6RWaOg2KZh+Tw9wiQEi4hCLaKzOv5sqofq3qxu3tczfWZ1Yv7h4cPCsqpH4UkYWwpHhvhnlyThxAgnexFtThKGXOa8S1eKnYYek7lw2yKXWVwbM1WQIZs3u0225tfDFhPBpiEAai8wWQ6RjqQgygGYmuuXYydaSP/Y+Ye3Kun+JoL/Ols/2VewjE/rUB/ROLx512Yymw4yYE9sXrwF9U3vyfRaTF/EH16LrrP08mYj9yivXxWhwMKtCAwWlzGCzBe0Xhp11sct8qhT5ivJ3n8Sr2GMToeXVupGRmX9xrtIHcN+CMnki5obrt+mi+W9nL5BnvqkObiAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "a4bc59e24dcfefce62ef8199aa427d897da0316c4ad4e8a154193090ee9b3fdd"
+  }
+}

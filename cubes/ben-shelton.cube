@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[ben shelton]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAMeAc2oC/4WSQW/bMAyF/4qg85ymWZs2uWWn9jIU6G5FYdAyE2mRRUGiBnhB/ntFx0UxoNsAnR4/PYmPPOmYiMmQb39hyo6C3irtegzseGxM6bC5Xiz1lw+xAiedS/cTDQvcYVDZoud6t2JQ2FKSwpN1Xj047/OH3pbkpWaZY95eXcXKWEEWhgbBMpVk8HMEnBAmITD2gqyWq3WzvG+Wtz+u77erer4uNpu7zc1aQB7jZMQJQ+/CoWWKzrS5DAOkUZ/FiwLXruaWLnq98a229HxpSbmsQNWQBhcqqXYDJmcgiLTHLImBV9UkVDB6GDEpU1J9kv2o3p9WfUHFpGyFEkTXK8hG7CD0qqsNHdkmKgc7/Vu++UmyHZijd+GYa+3lpP+XZMKpPs9DfB17/HMwqlFPlHhP3pEE8g/XS/iz6Tylv5juHqvv47wu6jv1qM+vEveADD0wTHnvKQ0wbdC0Ze97OI2Yhpgu4Ur98NtFkTEYkjSnbCDj+kZUC9m24A+UHNtBas8Pu9XtWp/PbzeITuzeAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "b86886a57869cb4a070502c976eeaa101b9cf93a1d2d099c3126224ecf670cae"
+  }
+}

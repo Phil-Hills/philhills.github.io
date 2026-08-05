@@ -1,0 +1,33 @@
+{
+  "protocol_version": "identity-cube-1.0",
+  "identity": {
+    "subject": "mallorca vs psg",
+    "author": "Phil Hills",
+    "author_url": "https://philhills.com",
+    "source": "https://philhills.ai",
+    "created": "2026-08-05T18:28:20.356565",
+    "type": "trending_topic_summary"
+  },
+  "content": {
+    "summary": "The trending search \"Mallorca vs PSG\" primarily reflects recent football transfer activity and the significant contrast between",
+    "topic": "mallorca vs psg",
+    "backlinks": [
+      {
+        "url": "https://philhills.com",
+        "rel": "author",
+        "title": "Phil Hills - Portfolio"
+      },
+      {
+        "url": "https://philhills.ai",
+        "rel": "source",
+        "title": "Phil Hills AI - Identity Node"
+      }
+    ]
+  },
+  "metadata": {
+    "format": "cube-protocol",
+    "compression": "gzip",
+    "encoding": "base64",
+    "hash_algorithm": "SHA256"
+  }
+}

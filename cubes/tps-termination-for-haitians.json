@@ -1,0 +1,33 @@
+{
+  "protocol_version": "identity-cube-1.0",
+  "identity": {
+    "subject": "tps termination for haitians",
+    "author": "Phil Hills",
+    "author_url": "https://philhills.com",
+    "source": "https://philhills.ai",
+    "created": "2026-08-05T18:28:28.054779",
+    "type": "trending_topic_summary"
+  },
+  "content": {
+    "summary": "Temporary Protected Status (TPS) termination for Haitians remains a significant and trending",
+    "topic": "tps termination for haitians",
+    "backlinks": [
+      {
+        "url": "https://philhills.com",
+        "rel": "author",
+        "title": "Phil Hills - Portfolio"
+      },
+      {
+        "url": "https://philhills.ai",
+        "rel": "source",
+        "title": "Phil Hills AI - Identity Node"
+      }
+    ]
+  },
+  "metadata": {
+    "format": "cube-protocol",
+    "compression": "gzip",
+    "encoding": "base64",
+    "hash_algorithm": "SHA256"
+  }
+}

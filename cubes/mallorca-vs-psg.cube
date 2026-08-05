@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[mallorca vs psg]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      8,
+      10
+    ],
+    "encoding": "base64",
+    "data": "H4sIAMSAc2oC/4VSwW7bMAz9FUHnOXWzJShy62ntYUOA9rYOBi3TtlZZNCg6Qxbk3ye6DroB7Qb7YDw+PpPv8WRHJiFHoTogJ0/R7oz1DUbxcizcVGNxvSrth1cwE042TfUPdKLkAUIgdmAOyYypUypM0hNrcd/7YO58COkVryYOWutFxrS7uhozp1fKytGgtEQTO3ybAl4ZjhEEG6Wsy/W2KG+KcvN4fbNb57dcfdxs86NEOY6zkDDGxseuEhq9q9I0DMBHe1YtipI3W9Z6wXPHY4/m0mUSArvePNkvfyy7f/j8ZM3IPrf4cDSMbciepPzhsqBpiaTO/CwDMbXIBpz4Q7bQQGyM5B8k30XfegeZrnMwJDE1yk/EOI+v075jcg3uOfj4nHL928n+z1TGub5Eo9peAv6dkSnMnlhaCp7Um3+ovuSwiC6BvSN6e59175frMV+pQXv+rs4PKNCAwGx9SzzAfFDz0V3Ock6bhpExXa6z++VHhTE60nQUqyHh9pOiPaS+gtARe+kHrT3c3a43W3s+/wYGh6EH7QIAAA=="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "e54f12c655aab0a8cefdcf8d44473a85732bbc4f94d8a96f66d4257ad0b5a502"
+  }
+}
