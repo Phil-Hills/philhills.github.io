@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[nashville sc - le\u00f3n]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      8,
+      11,
+      6
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJDSc2oC/4WST0/DMAzFv0qUMx3ZGGPaDe0yJISQ4MZQlabeGkjjKnGQtmnfnbh0ICT+XO2fX/KefZBdQEKDrnyDEC16uRDS1uDJ0q4wqYJiPFLy7KuYgYOMqXoBQwx7HZs36xyIaEQhHKyTUpsLzzM6UYOBqfvGOrHKWPyqlyk47jVEXVycn3eZaRgZGWwZi5iCgZ8RbZkwATRBzchETWaFmhdq9qjUYny1mKjReD6dzi8YpF3XC1EAX1u/LQk7a8qY2laHnTyyFnrKFgd/H/U88diAqNJ+L2IKAVM/Ldby7tP2wzLbvj3ZXkthskoOU6AXWtRBt5qsyYTeJohimTqR/9p/iv/wX4aVNq/O+teYwaeD/C+zAH1/SJ4fseTg+wryE/cYaIPOIlv/Q/Uj5kF02Mcvotc3WfdmuBJxhzXI4zMH2wLpWpPuk91gyHnwaH9cp/Prl4ltFyCernC7tx2XwRvk0LlW6QizKVebHFmp3RaDpabl3sPqenI5k8fjO65aMZbVAgAA"
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "7502277c069132b6294266d7846111f60d0bb37e195a8a5b611bfef160faaced"
+  }
+}

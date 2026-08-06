@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[clayton kershaw]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      10,
+      11,
+      5
+    ],
+    "encoding": "base64",
+    "data": "H4sIAIzSc2oC/4WSTW/bMAyG/wrhc506xuYVuXW7tNgHCmy3YTBomY3UyKIh0du8IP99ouOgGLBuV/LRA/Elj8UYWdiwb79TTI5DsYPC9RTEyVyaqaNyu6mKq+diBo5FmronMqKw8TgLBzjk9xZ/KIqTWI7afLDOw53zPj3X2yl67VmRMe2ur8fMWEU2hgfFEk/R0N8RdEqYSCjUK1JXdVNWN2XVfKmq3fbNbttsmuqmqWsFZR4XkUQKvQv7Vnh0pk3TMGCci5O6OEiebB3rXM8v3q1jvT+PBZEGdCEBwkhZFhx6P8PFC4sXXICP+MQRPhDuJ4K3mKjL4BXQ0HE/K9mxWEhTkqyjHuinIe8pGAIM/fJnVb2QbIfm4F04pNz/eiz+l2Skpb/uQ91OPP25GCjhgaM8snesgfzDeg5/la5bekF6e5+99+vJwCfuqTh907gHEuxRcMn7keOA5yvSS7vc4rJiHsZI6XKS+19u1HIOijVwrXU53eaVVi0m26Lfc3RiB+19vrutXzfF6fQbLzz+CeICAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "2f0709cb8ac29e475ea998bcabfdf2b74f783944ef32051648dd5b197cb9ac54"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "protocol_version": "cube-1.0",
+  "descriptor": "IDENTITY_CUBE|TREND[sparks vs sky]|PUBLISHED",
+  "cube": {
+    "dimensions": [
+      7,
+      7,
+      11
+    ],
+    "encoding": "base64",
+    "data": "H4sIAJTSc2oC/4WSQW/bMAyF/wqh85y6QZIVuWWn9lIUSIEd1sFQZCbWLJsCRRfwgvz3ia6zYkC3Xd97+iA+8mwik5CjUL0iJ0+92YLxNfbiZSzccMDidlGaT+9iDpxNGg4/0ImGU7TcJnhNkNpRg3aQhlitp8YHuPchpHe9Gjio14jEtL25iTnTaGThqNNYooEdfhyxXhOO0QrWGlmWy01R3hXl5rkst7eft8vVoizX69WdBmWME0gY+9r3p0ooeleloessj+aiLOolzzUP9abnF88NwvUV1D65IWk5YJmGvoYXs/899b4dXwxE9vmtDyMwHnOTIASSIV7xCeFIGQGZ8PXxyw5OtsOpk+lDH7Z4sK4Nvm9Tdr+dzf9aY5z8uXslewn45xKggCdiOVLwpMP/g/pW9AydN/IX6O4hcx/m44BHqtFcvmu1HYqtrdip2yNxZ6d7mW7qenXTOqmLjOl6fKefPqqMvSOtX7WDTbhZqdrY1FQ2nIi9NJ16+/vdcr0xl8svjHekc8wCAAA="
+  },
+  "hash": {
+    "algorithm": "SHA256",
+    "value": "be82e40546d7886249c0293eac21794a1b27e0c983c5a7fc7cd2d81fa2ff042a"
+  }
+}
